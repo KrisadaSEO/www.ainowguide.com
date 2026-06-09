@@ -2993,7 +2993,7 @@ function site_resolve_sidebar_profile(array $record, string $routeType): array
         return $profile;
     }
 
-    return $app['sidebars_by_slug']['authority-standard'];
+    return $app['sidebars_by_slug']['authority-standard'] ?? ['blocks' => []];
 }
 
 function site_sidebar_blocks(array $profile, array $resolved): array
