@@ -1,6 +1,4 @@
-﻿Options -Indexes
-AddDefaultCharset UTF-8
-RewriteEngine On
+﻿RewriteEngine On
 
 # Force HTTPS
 RewriteCond %{HTTPS} !=on
