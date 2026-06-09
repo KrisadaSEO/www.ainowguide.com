@@ -2,27 +2,24 @@
 AddDefaultCharset UTF-8
 RewriteEngine On
 
+# Force HTTPS
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://www.ainowguide.com%{REQUEST_URI} [R=301,L]
 
-
-# Canonical domain: force HTTPS + www
-# Redirect non-www to www (HTTP or HTTPS)
+# Force www
 RewriteCond %{HTTP_HOST} !^www\. [NC]
 RewriteRule ^ https://www.ainowguide.com%{REQUEST_URI} [R=301,L]
 
-# Redirect www HTTP to www HTTPS
-RewriteCond %{HTTP_HOST} ^www\.krisada\.com$ [NC]
-RewriteCond %{HTTPS} off
-RewriteRule ^ https://www.ainowguide.com%{REQUEST_URI} [R=301,L]
-
-
-# /feeds/* -> public/feeds/*
-RewriteRule ^feeds/(.*)$ public/feeds/$1 [L,NC]
-
-# AI / federation endpoints
-# /ai/* are real files -> serve them directly, no rewrite needed.
-
 # Block dotfiles (except .htaccess itself)
 RewriteRule (^|/)\.(?!htaccess) - [F,L]
+
+# Block direct access to /data/ files
+RewriteRule ^data/ - [F,L]
+
+# Front controller
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php [QSA,L]
 
 # php -- BEGIN cPanel-generated handler, do not edit
 # Set the “ea-php84” package as the default “PHP” programming language.
