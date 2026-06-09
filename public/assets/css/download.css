@@ -1,0 +1,104 @@
+.download-page {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.download-gate {
+    padding: 1.5rem;
+    border: 1px solid var(--color-border, #d7c6af);
+    border-radius: var(--radius-medium, 16px);
+    background: var(--color-surface, #fffaf4);
+    box-shadow: var(--shadow-card, 0 14px 32px rgba(36, 29, 23, 0.08));
+}
+
+.download-gate__header h2 {
+    margin-bottom: 0.45rem;
+}
+
+.download-gate__header p {
+    margin-bottom: 0;
+    color: var(--color-text-muted, #6d5d50);
+}
+
+.download-gate__alert {
+    margin-top: 1rem;
+    padding: 1rem 1.1rem;
+    border-radius: var(--radius-small, 10px);
+    border: 1px solid transparent;
+}
+
+.download-gate__alert p:last-child {
+    margin-bottom: 0;
+}
+
+.download-gate__alert--success {
+    background: rgba(48, 122, 74, 0.1);
+    border-color: rgba(48, 122, 74, 0.25);
+}
+
+.download-gate__alert--error {
+    background: rgba(166, 49, 49, 0.08);
+    border-color: rgba(166, 49, 49, 0.22);
+    color: #8d2b2b;
+}
+
+.download-gate__form {
+    margin-top: 1.25rem;
+}
+
+.download-gate__label {
+    display: block;
+    margin-bottom: 0.55rem;
+    font-size: 0.82rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--color-text-muted, #6d5d50);
+}
+
+.download-gate__row {
+    display: flex;
+    gap: 0.75rem;
+    align-items: stretch;
+}
+
+.download-gate__input {
+    flex: 1;
+    min-width: 0;
+    padding: 0.9rem 1rem;
+    border: 1px solid var(--color-border, #d7c6af);
+    border-radius: var(--radius-small, 10px);
+    background: #fff;
+    color: var(--color-text, #241d17);
+    font: inherit;
+}
+
+.download-gate__input:focus {
+    outline: 2px solid rgba(180, 108, 48, 0.18);
+    border-color: var(--color-accent, #b46c30);
+}
+
+.download-gate__button {
+    white-space: nowrap;
+}
+
+.download-gate__note {
+    margin: 0.85rem 0 0;
+    color: var(--color-text-muted, #6d5d50);
+    font-size: 0.92rem;
+}
+
+@media (max-width: 700px) {
+    .download-gate {
+        padding: 1.1rem;
+    }
+
+    .download-gate__row {
+        flex-direction: column;
+    }
+
+    .download-gate__button {
+        width: 100%;
+    }
+}

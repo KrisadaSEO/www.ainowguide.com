@@ -4030,7 +4030,7 @@ function site_process_contact_form(): never
     }
 
     $siteName      = (string) (site_app()['site']['name'] ?? 'Krisada.com');
-    $toEmail       = (string) ($delivery['to_email'] ?? 'hello@krisada.com');
+    $toEmail       = (string) ($delivery['to_email'] ?? 'hello@ainowguide.com');
     $fromEmail     = (string) ($delivery['from_email'] ?? $toEmail);
     $fromName      = (string) ($delivery['from_name'] ?? $siteName . ' Contact');
 
@@ -4096,7 +4096,7 @@ function site_process_contact_form(): never
     site_flash_set('contact.old', $values);
     site_flash_set('contact.status', [
         'type'    => 'error',
-        'message' => (string) ($copy['fallback_note'] ?? 'The form could not be sent. Please email hello@krisada.com directly.'),
+        'message' => (string) ($copy['fallback_note'] ?? 'The form could not be sent. Please email hello@ainowguide.com directly.'),
     ]);
     header('Location: ' . $redirectUrl, true, 303);
     exit;
@@ -4341,7 +4341,7 @@ function site_send_assessment_results_email(string $email, array $assessment): b
 {
     $site       = site_app()['site'];
     $siteName   = (string) ($site['name'] ?? 'Krisada.com');
-    $fromEmail  = (string) ($site['contact']['email'] ?? 'hello@krisada.com');
+    $fromEmail  = (string) ($site['contact']['email'] ?? 'hello@ainowguide.com');
     $summary    = is_array($assessment['summary'] ?? null) ? $assessment['summary'] : ['summary' => '', 'detail' => ''];
     $focusAreas = is_array($assessment['focus_areas'] ?? null) ? $assessment['focus_areas'] : [];
     $answers    = is_array($assessment['answers'] ?? null) ? $assessment['answers'] : [];
@@ -4408,7 +4408,7 @@ function site_send_subscribe_notification(string $email, bool $isNew, string $so
 {
     $site     = site_app()['site'];
     $siteName = (string) ($site['name'] ?? 'Krisada.com');
-    $toEmail  = (string) ($site['contact']['email'] ?? 'hello@krisada.com');
+    $toEmail  = (string) ($site['contact']['email'] ?? 'hello@ainowguide.com');
 
     $subject = '=?UTF-8?B?' . base64_encode('[' . $siteName . '] Subscriber: ' . $email) . '?=';
     $bodyLines = [
@@ -4664,7 +4664,7 @@ function site_send_download_access_email(string $email, array $download, string 
 {
     $site = site_app()['site'];
     $siteName = (string) ($site['name'] ?? 'Krisada.com');
-    $fromEmail = (string) ($site['contact']['email'] ?? 'hello@krisada.com');
+    $fromEmail = (string) ($site['contact']['email'] ?? 'hello@ainowguide.com');
     $subjectText = trim((string) ($download['email_subject'] ?? ''));
 
     if ($subjectText === '') {
@@ -5633,7 +5633,7 @@ function admin_git_push_all(string $commit_msg): array
         return ['status' => 'error', 'output' => implode("\n", array_filter($lines))];
     }
 
-    [$out, $pushCode] = $run("git -C " . escapeshellarg($repo) . " push git@github.com:KrisadaSEO/www.krisada.com main");
+    [$out, $pushCode] = $run("git -C " . escapeshellarg($repo) . " push git@github.com:KrisadaSEO/www.ainowguide.com main");
     $lines[]          = $out;
 
     $status = ($pushCode === 0) ? 'success' : 'error';
@@ -5654,7 +5654,7 @@ function admin_git_commit_and_push(string $abs_path, string $commit_msg): void
         return;
     }
 
-    $remote = 'https://' . rawurlencode($token) . '@github.com/KrisadaSEO/www.krisada.com.git';
+    $remote = 'https://' . rawurlencode($token) . '@github.com/KrisadaSEO/www.ainowguide.com.git';
 
     $cmd = '('
         . 'cd ' . escapeshellarg($root)

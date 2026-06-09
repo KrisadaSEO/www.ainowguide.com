@@ -8,9 +8,9 @@
 declare(strict_types=1);
 
 define('SITE_URL',       'https://www.ainowguide.com');
-define('DATA_PATH',      __DIR__ . '/../data/');
-define('CHANNELS_PATH',  DATA_PATH . 'channels/');
-define('SESSIONS_PATH',  DATA_PATH . 'sessions/');
+define('CONTENT_PATH',   __DIR__ . '/../content/');
+define('CHANNELS_PATH',  CONTENT_PATH . 'channels/');
+define('SESSIONS_PATH',  CONTENT_PATH . 'sessions/');
 
 function sm_load_json(string $path): array {
     if (!file_exists($path)) { return []; }
@@ -36,11 +36,10 @@ $urls[] = sm_url('/about/',    '', 'monthly', '0.5');
 $channel_files = glob(CHANNELS_PATH . '*.json') ?: [];
 foreach ($channel_files as $file) {
     $data = sm_load_json($file);
-    if (empty($data['meta']['published'])) { continue; }
-    $slug    = $data['core']['slug'] ?? '';
-    $updated = $data['meta']['updated'] ?? ($data['meta']['created'] ?? '');
+    if (($data['status'] ?? '') !== 'published') { continue; }
+    $slug = $data['slug'] ?? '';
     if ($slug) {
-        $urls[] = sm_url('/channels/' . $slug . '/', $updated, 'weekly', '0.8');
+        $urls[] = sm_url('/channels/' . $slug . '/', '', 'weekly', '0.8');
     }
 }
 
@@ -48,10 +47,10 @@ foreach ($channel_files as $file) {
 $session_files = glob(SESSIONS_PATH . '*.json') ?: [];
 foreach ($session_files as $file) {
     $data = sm_load_json($file);
-    if (empty($data['meta']['published'])) { continue; }
-    if (($data['core']['visibility'] ?? 'public') !== 'public') { continue; }
-    $slug    = $data['core']['slug'] ?? '';
-    $updated = $data['core']['date'] ?? ($data['meta']['updated'] ?? '');
+    if (($data['status'] ?? '') !== 'published') { continue; }
+    if (($data['visibility'] ?? 'public') !== 'public') { continue; }
+    $slug    = $data['slug'] ?? '';
+    $updated = $data['date'] ?? '';
     if ($slug) {
         $urls[] = sm_url('/sessions/' . $slug . '/', $updated, 'weekly', '0.7');
     }

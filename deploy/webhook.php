@@ -8,6 +8,6 @@ if (!hash_equals($hash, $signature)) {
     echo "Invalid signature";
     exit;
 }
-exec('/home/webserver005/public_html/krisada.com/deploy.sh');
+exec('/home/webserver005/public_html/ainowguide.com/deploy.sh');
 echo "Deploy triggered";
 ?>

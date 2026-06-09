@@ -1,0 +1,588 @@
+/* ============================================================
+   glossary.css - Krisada.com Glossary System
+   Tokens: warm cream bg, amber accent, Manrope + Fraunces.
+   Applies to: glossary index, sub-glossary index, term pages.
+   ============================================================ */
+
+
+/* ── Page header ─────────────────────────────────────────────────────────── */
+
+.glossary-header {
+    margin-bottom: var(--space-8, 2rem);
+    padding-bottom: var(--space-6, 1.5rem);
+    border-bottom: 1px solid var(--color-border, #d7c6af);
+}
+
+.glossary-header__eyebrow {
+    font-size: 0.78rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--color-accent, #b46c30);
+    margin-bottom: 0.5rem;
+}
+
+.glossary-header__eyebrow a {
+    color: var(--color-accent, #b46c30);
+    text-decoration: none;
+}
+.glossary-header__eyebrow a:hover {
+    text-decoration: underline;
+}
+
+.glossary-header__title {
+    font-family: var(--font-display, 'Fraunces', Georgia, serif);
+    font-size: clamp(2rem, 4vw, 3rem);
+    font-weight: 700;
+    color: var(--color-text, #241d17);
+    line-height: 1.15;
+    margin-bottom: 0.75rem;
+}
+
+.glossary-header__lead {
+    font-size: 1.05rem;
+    color: var(--color-text-muted, #6d5d50);
+    line-height: 1.65;
+    max-width: 640px;
+    margin-bottom: 1rem;
+}
+
+.glossary-header__meta {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.glossary-chip {
+    display: inline-block;
+    font-size: 0.78rem;
+    font-weight: 600;
+    background: var(--color-panel, #efe5d4);
+    color: var(--color-text-muted, #6d5d50);
+    padding: 0.2em 0.7em;
+    border-radius: 20px;
+}
+
+
+/* ── Sub-glossary collection cards ──────────────────────────────────────── */
+
+.glossary-collections {
+    margin-bottom: 2.5rem;
+}
+
+.glossary-collections__heading {
+    font-size: 0.78rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--color-text-muted, #6d5d50);
+    margin-bottom: 0.75rem;
+}
+
+.glossary-collections__list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 0.75rem;
+}
+
+.glossary-collection-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    padding: 1rem 1.1rem;
+    background: var(--color-surface, #fffaf4);
+    border: 1px solid var(--color-border, #d7c6af);
+    border-radius: var(--radius-small, 10px);
+    text-decoration: none;
+    transition: border-color 0.15s, box-shadow 0.15s;
+}
+
+.glossary-collection-card:hover {
+    border-color: var(--color-accent, #b46c30);
+    box-shadow: 0 4px 12px rgba(180, 108, 48, 0.1);
+    text-decoration: none;
+}
+
+.glossary-collection-card__title {
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: var(--color-text, #241d17);
+}
+
+.glossary-collection-card__desc {
+    font-size: 0.82rem;
+    color: var(--color-text-muted, #6d5d50);
+    line-height: 1.45;
+}
+
+.glossary-collection-card__count {
+    font-size: 0.75rem;
+    color: var(--color-accent, #b46c30);
+    font-weight: 600;
+    margin-top: auto;
+    padding-top: 0.35rem;
+}
+
+
+/* ── TOC (collapsible all-terms list) ────────────────────────────────────── */
+
+.glossary-toc {
+    margin-bottom: 2.5rem;
+    border: 1px solid var(--color-border, #d7c6af);
+    border-radius: var(--radius-small, 10px);
+    background: var(--color-surface, #fffaf4);
+    overflow: hidden;
+}
+
+.glossary-toc__toggle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.85rem 1.1rem;
+    cursor: pointer;
+    list-style: none;
+    user-select: none;
+}
+
+.glossary-toc__toggle::-webkit-details-marker { display: none; }
+
+.glossary-toc__toggle:hover {
+    background: var(--color-panel-soft, #fbf5eb);
+}
+
+.glossary-toc__heading {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.glossary-toc__label {
+    font-size: 0.82rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--color-text-muted, #6d5d50);
+}
+
+.glossary-toc__count {
+    font-size: 0.75rem;
+    font-weight: 600;
+    background: var(--color-panel, #efe5d4);
+    color: var(--color-text-muted, #6d5d50);
+    padding: 0.1em 0.55em;
+    border-radius: 20px;
+}
+
+.glossary-toc__chevron {
+    color: var(--color-text-muted, #6d5d50);
+    transition: transform 0.2s ease;
+    flex-shrink: 0;
+}
+
+details.glossary-toc[open] .glossary-toc__chevron {
+    transform: rotate(180deg);
+}
+
+.glossary-toc__list {
+    list-style: none;
+    padding: 0 1.1rem 1rem;
+    margin: 0;
+    columns: 3;
+    column-gap: 1.5rem;
+    border-top: 1px solid var(--color-border, #d7c6af);
+    padding-top: 0.85rem;
+}
+
+.glossary-toc__item {
+    break-inside: avoid;
+    margin-bottom: 0.25rem;
+}
+
+.glossary-toc__link {
+    font-size: 0.88rem;
+    color: var(--color-text-muted, #6d5d50);
+    text-decoration: none;
+    line-height: 1.55;
+}
+
+.glossary-toc__link:hover {
+    color: var(--color-accent, #b46c30);
+    text-decoration: underline;
+}
+
+
+/* ── A-Z jump nav ────────────────────────────────────────────────────────── */
+
+.glossary-alpha {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.2rem;
+    margin-bottom: 2.5rem;
+    padding: 0.75rem 0;
+    border-top: 1px solid var(--color-border, #d7c6af);
+    border-bottom: 1px solid var(--color-border, #d7c6af);
+}
+
+.glossary-alpha__letter {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    font-size: 0.88rem;
+    font-weight: 600;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background 0.15s, color 0.15s;
+}
+
+.glossary-alpha__letter--active {
+    color: var(--color-accent, #b46c30);
+    background: var(--color-panel-soft, #fbf5eb);
+}
+
+.glossary-alpha__letter--active:hover {
+    background: var(--color-panel, #efe5d4);
+    color: var(--color-accent-strong, #8f5021);
+    text-decoration: none;
+}
+
+.glossary-alpha__letter--dim {
+    color: var(--color-border, #d7c6af);
+    cursor: default;
+}
+
+
+/* ── Letter section ──────────────────────────────────────────────────────── */
+
+.glossary-section {
+    margin-bottom: 3rem;
+    scroll-margin-top: 80px;
+}
+
+.glossary-section__letter {
+    font-family: var(--font-display, 'Fraunces', Georgia, serif);
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--color-accent, #b46c30);
+    line-height: 1;
+    margin-bottom: 1rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 2px solid var(--color-panel, #efe5d4);
+}
+
+
+/* ── Glossary entry card (index list) ────────────────────────────────────── */
+
+.glossary-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    border: 1px solid var(--color-border, #d7c6af);
+    border-radius: var(--radius-small, 10px);
+    overflow: hidden;
+}
+
+.glossary-entry {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1rem 1.15rem;
+    background: var(--color-surface, #fffaf4);
+    border-bottom: 1px solid var(--color-panel, #efe5d4);
+    text-decoration: none;
+    transition: background 0.14s;
+}
+
+.glossary-entry:last-child {
+    border-bottom: none;
+}
+
+.glossary-entry:hover {
+    background: var(--color-panel-soft, #fbf5eb);
+    text-decoration: none;
+}
+
+.glossary-entry__main {
+    min-width: 0;
+    flex: 1;
+}
+
+.glossary-entry__term {
+    font-family: var(--font-display, 'Fraunces', Georgia, serif);
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--color-accent, #b46c30);
+    margin-bottom: 0.2rem;
+    line-height: 1.25;
+}
+
+.glossary-entry__def {
+    font-size: 0.88rem;
+    color: var(--color-text-muted, #6d5d50);
+    line-height: 1.5;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.glossary-entry__aka {
+    font-size: 0.78rem;
+    color: var(--color-text-muted, #6d5d50);
+    margin-top: 0.2rem;
+    font-style: italic;
+}
+
+.glossary-entry__arrow {
+    font-size: 1.1rem;
+    color: var(--color-border, #d7c6af);
+    flex-shrink: 0;
+    transition: color 0.14s, transform 0.14s;
+}
+
+.glossary-entry:hover .glossary-entry__arrow {
+    color: var(--color-accent, #b46c30);
+    transform: translateX(3px);
+}
+
+
+/* ── Empty state ─────────────────────────────────────────────────────────── */
+
+.glossary-empty {
+    padding: 3rem 1rem;
+    text-align: center;
+    color: var(--color-text-muted, #6d5d50);
+    font-size: 0.95rem;
+}
+
+
+/* ── Term page: header ───────────────────────────────────────────────────── */
+
+.glossary-term-header {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid var(--color-border, #d7c6af);
+}
+
+.glossary-term-header__eyebrow {
+    font-size: 0.78rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--color-accent, #b46c30);
+    margin-bottom: 0.4rem;
+}
+
+.glossary-term-header__eyebrow a {
+    color: var(--color-accent, #b46c30);
+    text-decoration: none;
+}
+.glossary-term-header__eyebrow a:hover {
+    text-decoration: underline;
+}
+
+.glossary-term-header__term {
+    font-family: var(--font-display, 'Fraunces', Georgia, serif);
+    font-size: clamp(2rem, 4.5vw, 3.25rem);
+    font-weight: 700;
+    color: var(--color-text, #241d17);
+    line-height: 1.1;
+    margin-bottom: 0.4rem;
+}
+
+.glossary-term-header__aka {
+    font-size: 0.88rem;
+    color: var(--color-text-muted, #6d5d50);
+    font-style: italic;
+    margin: 0;
+}
+
+
+/* ── Term page: short definition callout ────────────────────────────────── */
+
+.glossary-callout {
+    font-family: var(--font-display, 'Fraunces', Georgia, serif);
+    font-size: 1.22rem;
+    font-style: italic;
+    font-weight: 400;
+    color: var(--color-text, #241d17);
+    line-height: 1.6;
+    max-width: 680px;
+    margin-bottom: 2rem;
+    border-left: 3px solid var(--color-accent, #b46c30);
+    padding: 0.9rem 1.25rem;
+    background: var(--color-panel-soft, #fbf5eb);
+    border-radius: 0 var(--radius-small, 10px) var(--radius-small, 10px) 0;
+}
+
+.glossary-callout p {
+    margin: 0;
+}
+
+
+/* ── Term page: body sections ────────────────────────────────────────────── */
+
+.glossary-body-section {
+    margin-bottom: 2rem;
+}
+
+.glossary-body-section__label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.44rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--color-accent, #b46c30);
+    margin-bottom: 0.75rem;
+}
+
+.glossary-body-section__label::before {
+    content: '\27A4';
+    color: #c9a84c;
+    font-size: 1rem;
+    flex-shrink: 0;
+    line-height: 1;
+}
+
+.glossary-body-section__label--accent {
+    color: var(--color-accent, #b46c30);
+}
+
+.glossary-body-section__label--accent::before {
+    color: #c9a84c;
+}
+
+.glossary-body-section__body p {
+    font-size: 1rem;
+    color: var(--color-text, #241d17);
+    line-height: 1.75;
+    max-width: 720px;
+    margin-bottom: 1rem;
+}
+
+.glossary-body-section__body p:last-child {
+    margin-bottom: 0;
+}
+
+.glossary-body-section__body--nuance {
+    font-size: 1.575rem;
+    color: var(--color-text-muted, #6d5d50);
+    line-height: 1.65;
+    background: #fff;
+    border: 1px solid var(--color-border, #d7c6af);
+    border-left: 6px solid var(--color-accent, #b46c30);
+    border-radius: var(--radius-medium, 16px);
+    padding: 1.75rem;
+    box-shadow: 0 1px 4px 0 rgba(180,108,48,0.04);
+    max-width: 650px;
+    font-style: italic;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 100;
+}
+
+.glossary-body-section__body--nuance p {
+    font-size: inherit;
+    font-style: inherit;
+    font-family: inherit;
+    color: inherit;
+    line-height: inherit;
+    max-width: none;
+}
+
+
+/* ── Term page: related terms list ──────────────────────────────────────── */
+
+.glossary-related-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    max-width: 600px;
+}
+
+.glossary-related-list li {
+    border-left: 2px solid var(--color-panel, #efe5d4);
+    padding-left: 0.85rem;
+}
+
+.glossary-related-link {
+    display: block;
+    text-decoration: none;
+}
+
+.glossary-related-link:hover .glossary-related-link__name {
+    color: var(--color-accent, #b46c30);
+}
+
+.glossary-related-link__name {
+    display: block;
+    font-weight: 600;
+    font-size: 0.92rem;
+    color: var(--color-text, #241d17);
+    transition: color 0.14s;
+}
+
+.glossary-related-link__def {
+    display: block;
+    font-size: 0.82rem;
+    color: var(--color-text-muted, #6d5d50);
+    line-height: 1.45;
+    margin-top: 0.1rem;
+}
+
+
+/* ── Term page: back link ────────────────────────────────────────────────── */
+
+.glossary-term-back {
+    margin-top: 2.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--color-border, #d7c6af);
+}
+
+.glossary-back-link {
+    font-size: 0.88rem;
+    font-weight: 600;
+    color: var(--color-text-muted, #6d5d50);
+    text-decoration: none;
+    transition: color 0.14s;
+}
+
+.glossary-back-link:hover {
+    color: var(--color-accent, #b46c30);
+    text-decoration: none;
+}
+
+
+/* ── Responsive ──────────────────────────────────────────────────────────── */
+
+@media (max-width: 700px) {
+    .glossary-toc__list {
+        columns: 2;
+    }
+
+    .glossary-section__letter {
+        font-size: 2.25rem;
+    }
+
+    .glossary-collections__list {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .glossary-toc__list {
+        columns: 1;
+    }
+
+    .glossary-alpha__letter {
+        width: 1.7rem;
+        height: 1.7rem;
+        font-size: 0.78rem;
+    }
+}

@@ -38,7 +38,7 @@ function block_editor_git_push($abs_path, $repo_root, $commit_msg) {
         return;
     }
     $rel    = str_replace('\\', '/', substr($abs_path, strlen($repo_root) + 1));
-    $remote = 'https://' . rawurlencode($token) . '@github.com/KrisadaSEO/www.krisada.com.git';
+    $remote = 'https://' . rawurlencode($token) . '@github.com/KrisadaSEO/www.ainowguide.com.git';
     $cmd = '('
         . 'cd ' . escapeshellarg($repo_root)
         . ' && git add ' . escapeshellarg($rel)

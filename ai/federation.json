@@ -1,23 +1,23 @@
 {
     "_generated": "Do not edit manually. Run: php scripts/build-federation.php",
     "version": "7.0",
-    "node_role": "human-facing authority and teaching node",
-    "site_name": "Krisada.com",
-    "canonical_domain": "https://www.krisada.com",
-    "machine_summary": "Krisada.com teaches online digital life through owned websites, structured content systems, AI-ready publishing, and digital independence.",
+    "node_role": "build-in-public video library and session archive",
+    "site_name": "AINowGuide.com",
+    "canonical_domain": "https://www.ainowguide.com",
+    "machine_summary": "AINowGuide.com documents a real AI-first digital asset portfolio being built from scratch. Channels cover PHP architecture, AI search, website rebuilds, federation strategy, and more.",
     "supported_content_types": [
-        "page",
-        "article",
-        "category",
-        "offer"
+        "channel",
+        "session",
+        "page"
     ],
     "related_properties": [
-        "CMS.krisada.com",
-        "www.digitalkarmaweb.com"
+        "www.krisada.com",
+        "www.realseolife.com",
+        "www.digitalartistlife.com"
     ],
     "compatibility_notes": [
         "Aligned to the broader Federation v7.x spec maintained outside this repo.",
         "Machine-readable artifacts are generated into /ai/ from shared config and content metadata."
     ],
-    "generated_at": "2026-06-07T23:24:17+00:00"
+    "generated_at": "2026-06-09T00:00:00+00:00"
 }

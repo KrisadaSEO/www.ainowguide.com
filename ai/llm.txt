@@ -1,22 +1,22 @@
-# Krisada.com
-Role: human-facing authority and teaching node
-Domain: https://www.krisada.com
-Summary: Krisada.com teaches online digital life through owned websites, structured content systems, AI-ready publishing, and digital independence.
+# AINowGuide.com
+Role: build-in-public video library and session archive
+Domain: https://www.ainowguide.com
+Summary: AINowGuide.com documents a real AI-first digital asset portfolio being built from scratch. Channels cover PHP architecture, AI search, website rebuilds, federation strategy, and more.
 
 ## Content types
+- channel
+- session
 - page
-- article
-- category
-- offer
 
 ## Related properties
-- CMS.krisada.com
-- www.digitalkarmaweb.com
+- www.krisada.com
+- www.realseolife.com
+- www.digitalartistlife.com
 
 ## AI machine-readable endpoints
-- https://www.krisada.com/ai/llm.json      Structured site identity and content stats
-- https://www.krisada.com/ai/catalog.json  Index of all published content
-- https://www.krisada.com/ai/manifest.json Directory of all /ai/ endpoints
-- https://www.krisada.com/ai/federation.json Federation v7.0 node declaration
+- https://www.ainowguide.com/ai/llm.json       Structured site identity and content stats
+- https://www.ainowguide.com/ai/catalog.json   Index of all published content
+- https://www.ainowguide.com/ai/manifest.json  Directory of all /ai/ endpoints
+- https://www.ainowguide.com/ai/federation.json Federation v7.0 node declaration
 
-Generated: 2026-06-07T23:24:17+00:00
+Generated: 2026-06-09T00:00:00+00:00
