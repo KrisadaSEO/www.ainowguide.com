@@ -5,13 +5,18 @@
 </IfModule>
 # php -- END cPanel-generated handler, do not edit
 
-# Non-www redirect
-RewriteCond %{HTTP_HOST} ^ainowguide\.com$ [NC]
-RewriteRule ^(.*)$ https://www.ainowguide.com/$1 [R=301,L]
-
 <IfModule mod_rewrite.c>
   RewriteEngine On
   RewriteBase /
+
+  # Non-www redirect
+  RewriteCond %{HTTP_HOST} ^ainowguide\.com$ [NC]
+  RewriteRule ^(.*)$ https://www.ainowguide.com/$1 [R=301,L]
+
+  # Block direct access to /data/ files
+  RewriteRule ^data/ - [F,L]
+
+  # Front controller
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-d
   RewriteRule ^(.*)$ index.php [QSA,L]
@@ -22,12 +27,6 @@ RewriteRule ^(.*)$ https://www.ainowguide.com/$1 [R=301,L]
   Header always set X-Frame-Options "SAMEORIGIN"
   Header always set Referrer-Policy "strict-origin-when-cross-origin"
 </IfModule>
-
-<FilesMatch "\.(json|md)$">
-  <If "%{REQUEST_URI} =~ m|^/data/|">
-    Require all denied
-  </If>
-</FilesMatch>
 
 <IfModule mod_expires.c>
   ExpiresActive On
