@@ -6,9 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <?php $head_meta_desc = ($preserve_meta_desc ?? false)
       ? ($meta_desc ?? SITE_META_DESC)
-      : (mb_strlen($meta_desc ?? SITE_META_DESC) > 160
-          ? mb_substr($meta_desc ?? SITE_META_DESC, 0, 160) . '...'
-          : ($meta_desc ?? SITE_META_DESC)); ?>
+      : truncate($meta_desc ?? SITE_META_DESC, 160); ?>
 
   <title><?= e($page_title ?? SITE_NAME) ?></title>
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">

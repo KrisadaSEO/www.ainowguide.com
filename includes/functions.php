@@ -36,10 +36,30 @@ function e(string $str): string
     return htmlspecialchars($str, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8');
 }
 
+function str_length_safe(string $str): int
+{
+    return function_exists('mb_strlen')
+        ? mb_strlen($str, 'UTF-8')
+        : strlen($str);
+}
+
+function str_substr_safe(string $str, int $start, ?int $length = null): string
+{
+    if (function_exists('mb_substr')) {
+        return $length === null
+            ? mb_substr($str, $start, null, 'UTF-8')
+            : mb_substr($str, $start, $length, 'UTF-8');
+    }
+
+    return $length === null
+        ? substr($str, $start)
+        : substr($str, $start, $length);
+}
+
 function truncate(string $str, int $length = 160): string
 {
-    if (mb_strlen($str) <= $length) return $str;
-    return mb_substr($str, 0, $length) . '...';
+    if (str_length_safe($str) <= $length) return $str;
+    return str_substr_safe($str, 0, $length) . '...';
 }
 
 function render_inline(string $str): string
@@ -779,16 +799,27 @@ function admin_update_password(string $username, string $currentPassword, string
 
 function admin_git_run(string $command): array
 {
-    $descriptors = [0 => ['pipe', 'r'], 1 => ['pipe', 'w'], 2 => ['pipe', 'w']];
-    $env  = ['HOME' => '/home/webserver005', 'PATH' => '/usr/local/bin:/usr/bin:/bin'];
-    $proc = proc_open($command, $descriptors, $pipes, null, $env);
-    if (!is_resource($proc)) return ['could not start process', 1];
-    fclose($pipes[0]);
-    $out  = stream_get_contents($pipes[1]);
-    $out .= stream_get_contents($pipes[2]);
-    fclose($pipes[1]);
-    fclose($pipes[2]);
-    return [trim((string) $out), proc_close($proc)];
+    if (function_exists('proc_open')) {
+        $descriptors = [0 => ['pipe', 'r'], 1 => ['pipe', 'w'], 2 => ['pipe', 'w']];
+        $env  = ['HOME' => '/home/webserver005', 'PATH' => '/usr/local/bin:/usr/bin:/bin'];
+        $proc = proc_open($command, $descriptors, $pipes, null, $env);
+        if (!is_resource($proc)) return ['could not start process', 1];
+        fclose($pipes[0]);
+        $out  = stream_get_contents($pipes[1]);
+        $out .= stream_get_contents($pipes[2]);
+        fclose($pipes[1]);
+        fclose($pipes[2]);
+        return [trim((string) $out), proc_close($proc)];
+    }
+
+    if (function_exists('exec')) {
+        $output = [];
+        $code   = 0;
+        exec($command . ' 2>&1', $output, $code);
+        return [trim(implode("\n", $output)), $code];
+    }
+
+    return ['Process execution is unavailable on this server.', 127];
 }
 
 function admin_git_push(string $message): array
