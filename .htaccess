@@ -2,17 +2,11 @@
 
 # Force HTTPS
 RewriteCond %{HTTPS} !=on
-RewriteRule ^ https://www.ainowguide.com%{REQUEST_URI} [R=301,L]
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
 
 # Force www
-RewriteCond %{HTTP_HOST} !^www\. [NC]
-RewriteRule ^ https://www.ainowguide.com%{REQUEST_URI} [R=301,L]
-
-# Block dotfiles (except .htaccess itself)
-RewriteRule (^|/)\.(?!htaccess) - [F,L]
-
-# Block direct access to /data/ files
-RewriteRule ^data/ - [F,L]
+RewriteCond %{HTTP_HOST} ^ainowguide\.com$ [NC]
+RewriteRule ^(.*)$ https://www.ainowguide.com/$1 [R=301,L]
 
 # Front controller
 RewriteCond %{REQUEST_FILENAME} !-f
