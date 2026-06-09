@@ -1,84 +1,56 @@
 <?php
-$page_type = 'channel';
-require PARTIALS_PATH . 'head.php';
-require PARTIALS_PATH . 'header.php';
-
-$channel_slug = $data['core']['slug'] ?? '';
-$channel_icon = $data['core']['icon'] ?? '';
+declare(strict_types=1);
+$sessions = $view['sessions'] ?? [];
+$icons = [
+    'terminal' => '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="4 17 10 11 4 5"/><line x1="12" y1="19" x2="20" y2="19"/></svg>',
+    'search'   => '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>',
+    'refresh'  => '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 4 23 10 17 10"/><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"/></svg>',
+    'network'  => '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="5" r="3"/><circle cx="4" cy="19" r="3"/><circle cx="20" cy="19" r="3"/><line x1="12" y1="8" x2="4" y2="16"/><line x1="12" y1="8" x2="20" y2="16"/></svg>',
+    'briefcase'=> '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>',
+    'heart'    => '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>',
+    'image'    => '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>',
+    'settings' => '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>',
+];
+$icon = (string) ($record['icon'] ?? 'terminal');
 ?>
-<main class="site-main">
-  <div class="page-layout">
-    <?php require PARTIALS_PATH . 'breadcrumbs.php'; ?>
-
-    <!-- Channel hero (krisada.com directory-hero pattern) -->
-    <header class="directory-hero">
-      <div class="directory-hero__eyebrow">
-        <span class="directory-hero__icon"><?= $channel_icon ?></span>
-        Session Channel
-      </div>
-      <h1><?= e($data['core']['title'] ?? '') ?></h1>
-      <?php if (!empty($data['core']['description'])): ?>
-      <p class="directory-hero__intro"><?= e($data['core']['description']) ?></p>
-      <?php endif; ?>
-    </header>
-
-    <?php if (!empty($data['content']['about'])): ?>
-    <div class="channel-about">
-      <p><?= e($data['content']['about']) ?></p>
-    </div>
+<div class="channel-hero">
+    <div class="channel-hero__icon"><?= $icons[$icon] ?? $icons['terminal'] ?></div>
+    <h1 class="channel-hero__title"><?= site_e((string) ($record['title'] ?? '')) ?></h1>
+    <p class="channel-hero__desc"><?= site_e((string) ($record['description'] ?? '')) ?></p>
+    <?php if (!empty($record['about'])): ?>
+    <p class="channel-hero__about"><?= site_e((string) $record['about']) ?></p>
     <?php endif; ?>
+</div>
 
-    <!-- Sessions in this channel (krisada.com directory-listing-row pattern) -->
+<div class="channel-sessions">
+    <h2 class="channel-sessions__heading">Sessions in this Channel</h2>
     <?php if (!empty($sessions)): ?>
-    <div class="directory-section">
-      <h2 class="directory-section__heading">Sessions in This Channel</h2>
-      <div class="directory-listing-list">
-        <?php foreach ($sessions as $session): ?>
-        <div class="directory-listing-row">
-          <div class="directory-listing-row__meta">
-            <span class="directory-listing-row__date"><?= e($session['core']['date'] ?? '') ?></span>
-            <?php if (!empty($session['core']['duration'])): ?>
-            <span class="directory-listing-row__duration"><?= e($session['core']['duration']) ?></span>
-            <?php endif; ?>
-            <?php
-            $vis = $session['core']['visibility'] ?? 'public';
-            if ($vis !== 'public'):
-            ?>
-            <span class="chip chip--amber"><?= e(ucfirst($vis)) ?></span>
-            <?php endif; ?>
-          </div>
-          <div class="directory-listing-row__body">
-            <h3 class="directory-listing-row__title">
-              <a href="/sessions/<?= e($session['core']['slug'] ?? '') ?>"><?= e($session['core']['title'] ?? '') ?></a>
-            </h3>
-            <?php if (!empty($session['content']['summary'])): ?>
-            <p class="directory-listing-row__excerpt"><?= e(truncate($session['content']['summary'], 160)) ?></p>
-            <?php endif; ?>
-            <?php if (!empty($session['meta']['tags'])): ?>
-            <div class="directory-listing-row__tags">
-              <?php foreach (array_slice($session['meta']['tags'], 0, 4) as $tag): ?>
-              <span class="chip chip--default"><?= e($tag) ?></span>
-              <?php endforeach; ?>
+    <div class="session-list">
+        <?php foreach ($sessions as $sess):
+            $sessUrl = (string) ($sess['canonical_url'] ?? '/sessions/' . $sess['slug'] . '/');
+        ?>
+        <a href="<?= site_e($sessUrl) ?>" class="session-row">
+            <div class="session-row__meta">
+                <?php if (!empty($sess['date'])): ?>
+                <span class="session-row__date"><?= site_e((string) $sess['date']) ?></span>
+                <?php endif; ?>
+                <?php if (($sess['visibility'] ?? 'public') === 'public'): ?>
+                <span class="session-row__vis session-row__vis--public">Public</span>
+                <?php elseif (($sess['visibility'] ?? '') === 'members'): ?>
+                <span class="session-row__vis session-row__vis--members">Members</span>
+                <?php endif; ?>
+                <?php if (!empty($sess['duration'])): ?>
+                <span class="session-row__duration"><?= site_e((string) $sess['duration']) ?></span>
+                <?php endif; ?>
             </div>
+            <h3 class="session-row__title"><?= site_e((string) ($sess['title'] ?? '')) ?></h3>
+            <?php if (!empty($sess['summary'])): ?>
+            <p class="session-row__summary"><?= site_e((string) $sess['summary']) ?></p>
             <?php endif; ?>
-          </div>
-        </div>
+        </a>
         <?php endforeach; ?>
-      </div>
     </div>
     <?php else: ?>
-    <p class="text-faint" style="font-style:italic;margin:var(--space-8) 0;">No sessions in this channel yet. Check back soon.</p>
+    <p class="text-muted">No sessions in this channel yet. Check back soon.</p>
     <?php endif; ?>
-
-    <div class="cta-block">
-      <div class="cta-block__eyebrow">More to watch</div>
-      <h2 class="cta-block__heading">Explore other channels.</h2>
-      <div class="cta-block__actions">
-        <a href="/channels" class="btn btn--secondary">All Channels</a>
-        <a href="/sessions" class="btn btn--secondary">All Sessions</a>
-      </div>
-    </div>
-
-  </div>
-</main>
-<?php require PARTIALS_PATH . 'footer.php'; ?>
+</div>

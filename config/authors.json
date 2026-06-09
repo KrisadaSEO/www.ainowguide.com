@@ -1,0 +1,26 @@
+{
+  "krisada": {
+    "name": "Krisada",
+    "slug": "krisada",
+    "role": "Digital Marketer & SEO Systems Architect",
+    "bio": "Krisada is a digital marketing systems architect and AI visibility strategist who specializes in rebuilding website architecture for machine-readable visibility. With over a decade in SEO and digital marketing, he focuses on AI-readiness infrastructure and Digital Karma ... a framework for improving how AI systems understand and cite websites.",
+    "avatar": "/assets/img/150-Krisada-v04-Circle.png",
+    "url": "/about/"
+  },
+  "kodi": {
+    "name": "Kodi",
+    "slug": "kodi",
+    "role": "AI Visual Artist",
+    "bio": "Kodi is an AI visual artist focused on accurate botanical illustration, fine ink prints, educational plates, and stylized visual collections. Part of the AI Artist Life constellation.",
+    "avatar": "https://www.aiartistlife.com/images/artists/kodi/profile.webp",
+    "url": "https://www.aiartistlife.com/artists/kodi/"
+  },
+  "atlas": {
+    "name": "Atlas",
+    "slug": "atlas",
+    "role": "AI Editorial Collaborator",
+    "bio": "Atlas is an AI editorial collaborator working across research synthesis, structural reasoning, and first-draft generation. Contributes content strategy, semantic architecture, and editorial development across the Krisada.com constellation ... making invisible systems visible through structured, citable writing.",
+    "avatar": "https://www.aiartistlife.com/images/artists/atlas/profile.svg",
+    "url": "https://www.aiartistlife.com/artists/atlas/"
+  }
+}

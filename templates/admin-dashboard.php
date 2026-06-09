@@ -1,102 +1,153 @@
-<?php require PARTIALS_PATH . 'admin-nav.php'; ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard - Krisada.com Admin</title>
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/admin.css">
+</head>
+<body class="admin-body">
+
+<?php require site_root_path('templates/partials/admin-nav.php'); ?>
 
 <main class="admin-main">
   <div class="admin-container">
 
+    <?php $current_user = admin_current_user(); ?>
     <div class="admin-page-header">
       <h1 class="admin-page-title">Dashboard</h1>
-      <p class="admin-page-desc">AI Now Guide &mdash; Content &amp; Site Management</p>
+      <p class="admin-page-desc">
+        Signed in as <strong><?= e($current_user['displayName'] ?? $current_user['username'] ?? 'Admin') ?></strong>
+        - Content overview and recent activity.
+      </p>
     </div>
-
-    <?php
-    $channels_count = count(get_all_channels(false));
-    $sessions_count = count(get_all_sessions(false));
-    $pub_sessions   = count(get_all_sessions(true));
-    ?>
 
     <div class="admin-stats-grid">
-      <div class="admin-stat-card">
-        <div class="admin-stat-card__num"><?= $channels_count ?></div>
-        <div class="admin-stat-card__label">Channels</div>
-      </div>
-      <div class="admin-stat-card">
-        <div class="admin-stat-card__num"><?= $pub_sessions ?></div>
-        <div class="admin-stat-card__label">Published Sessions</div>
-      </div>
-      <div class="admin-stat-card">
-        <div class="admin-stat-card__num"><?= $sessions_count - $pub_sessions ?></div>
-        <div class="admin-stat-card__label">Draft Sessions</div>
-      </div>
-      <div class="admin-stat-card">
-        <div class="admin-stat-card__num"><?= cms_db_backend_label() ?></div>
-        <div class="admin-stat-card__label">Storage Backend</div>
-      </div>
-    </div>
+      <a href="/admin/content?type=article" class="admin-stat-card">
+        <div class="admin-stat-card__label">Articles</div>
+        <div class="admin-stat-card__num"><?= (int) $dash_counts['articles'] ?></div>
+        <div class="admin-stat-card__link">Edit content -></div>
+      </a>
 
-    <div class="admin-quick-links">
-      <h2 class="admin-section-heading">Quick Actions</h2>
-      <div class="admin-quick-grid">
-        <a href="/admin/content?type=session" class="admin-quick-card">
-          <div class="admin-quick-card__title">Manage Sessions</div>
-          <div class="admin-quick-card__desc">Edit session titles, summaries, dates, and publish status.</div>
-        </a>
-        <a href="/admin/content?type=channel" class="admin-quick-card">
-          <div class="admin-quick-card__title">Manage Channels</div>
-          <div class="admin-quick-card__desc">Update channel descriptions, icons, and sort order.</div>
-        </a>
-        <a href="/admin/content?type=page" class="admin-quick-card">
-          <div class="admin-quick-card__title">Edit Pages</div>
-          <div class="admin-quick-card__desc">Update homepage hero, about page copy, and meta tags.</div>
-        </a>
-        <a href="/admin/settings" class="admin-quick-card">
-          <div class="admin-quick-card__title">Site Settings</div>
-          <div class="admin-quick-card__desc">Site name, tagline, navigation, and contact info.</div>
-        </a>
-        <a href="/admin/redirects" class="admin-quick-card">
-          <div class="admin-quick-card__title">Redirects &amp; 404s</div>
-          <div class="admin-quick-card__desc">Manage URL redirects and review 404 log.</div>
+      <a href="/admin/content?type=page" class="admin-stat-card">
+        <div class="admin-stat-card__label">Pages</div>
+        <div class="admin-stat-card__num"><?= (int) $dash_counts['pages'] ?></div>
+        <div class="admin-stat-card__link">Edit content -></div>
+      </a>
+
+      <a href="/admin/content?type=dir_listing" class="admin-stat-card">
+        <div class="admin-stat-card__label">Directory Listings</div>
+        <div class="admin-stat-card__num"><?= (int) $dash_counts['dir_listings'] ?></div>
+        <div class="admin-stat-card__link">Edit listings -></div>
+      </a>
+
+      <a href="/admin/downloads" class="admin-stat-card">
+        <div class="admin-stat-card__label">Downloads</div>
+        <div class="admin-stat-card__num"><?= (int) $dash_counts['downloads'] ?></div>
+        <div class="admin-stat-card__link">Manage protected files -></div>
+      </a>
+
+      <a href="/admin/redirects" class="admin-stat-card<?= count($log_entries) > 0 ? ' admin-stat-card--alert' : '' ?>">
+        <div class="admin-stat-card__label">Active Redirects</div>
+        <div class="admin-stat-card__num"><?= (int) $dash_counts['redirects'] ?></div>
+        <div class="admin-stat-card__link">Manage -></div>
+      </a>
+
+      <div class="admin-stat-card<?= count($log_entries) > 0 ? ' admin-stat-card--alert' : '' ?>">
+        <div class="admin-stat-card__label">404 Errors</div>
+        <div class="admin-stat-card__num admin-stat-card__num--red"><?= count($log_entries) ?></div>
+        <a href="/admin/redirects" class="admin-stat-card__link">
+          <?= count($log_entries) > 0 ? 'Review errors ->' : 'All clear' ?>
         </a>
       </div>
     </div>
 
-    <?php if (!empty($log_404)): ?>
-    <div class="admin-section">
-      <h2 class="admin-section-heading">Recent 404s</h2>
-      <div class="admin-table-wrap">
-        <table class="admin-table">
-          <thead>
-            <tr><th>URL</th><th>Hits</th><th>Last hit</th></tr>
-          </thead>
-          <tbody>
-            <?php foreach (array_slice($log_404, 0, 10) as $row): ?>
-            <tr>
-              <td><code><?= e($row['url'] ?? '') ?></code></td>
-              <td><?= (int) ($row['hits'] ?? 0) ?></td>
-              <td><?= e($row['last_hit'] ?? '') ?></td>
-            </tr>
-            <?php endforeach; ?>
-          </tbody>
-        </table>
-      </div>
-      <a href="/admin/redirects" class="btn btn--ghost btn--sm">Manage Redirects &rarr;</a>
-    </div>
-    <?php endif; ?>
+    <section class="admin-panel">
+      <h2 class="admin-panel__heading">
+        Recent 404 Errors
+        <?php if (!empty($log_entries)): ?>
+          <span class="admin-badge admin-badge--red"><?= count($log_entries) ?></span>
+        <?php endif; ?>
+      </h2>
+      <p class="admin-panel__desc">URLs visitors tried but did not find. Create a redirect from the Redirect Manager.</p>
 
-    <!-- Git push from VPS -->
-    <div class="admin-section">
-      <h2 class="admin-section-heading">Push to GitHub</h2>
-      <form method="POST" action="/admin/dashboard" id="git-push-form">
-        <input type="hidden" name="_csrf" value="<?= e(admin_csrf_token()) ?>">
-        <input type="hidden" name="action" value="git_push">
-        <div class="admin-form-inline">
-          <input type="text" name="commit_message" class="admin-input" placeholder="Commit message (optional)">
-          <button type="submit" class="btn btn--secondary btn--sm">Push</button>
+      <?php if (empty($log_entries)): ?>
+        <p class="admin-empty">No 404 errors logged. Clean slate.</p>
+      <?php else: ?>
+        <div class="admin-table-wrap">
+          <table class="admin-table">
+            <thead>
+              <tr>
+                <th>URL</th>
+                <th>Hits</th>
+                <th class="admin-hide-mobile">Last Hit</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <?php foreach ($log_entries as $entry): ?>
+                <tr>
+                  <td class="admin-table__mono admin-table__url"><?= e($entry['url'] ?? '') ?></td>
+                  <td>
+                    <span class="admin-chip admin-chip--<?= ($entry['hits'] ?? 0) >= 10 ? 'danger' : (($entry['hits'] ?? 0) >= 3 ? 'amber' : 'muted') ?>">
+                      <?= (int) ($entry['hits'] ?? 0) ?>
+                    </span>
+                  </td>
+                  <td class="admin-table__muted admin-hide-mobile"><?= e($entry['last_hit'] ?? '') ?></td>
+                  <td>
+                    <a href="/admin/redirects" class="btn btn--ghost btn--xs">Fix -></a>
+                  </td>
+                </tr>
+              <?php endforeach; ?>
+            </tbody>
+          </table>
         </div>
-      </form>
-    </div>
+        <div class="admin-panel__footer">
+          <a href="/admin/redirects" class="admin-panel__footer-link">View all errors and manage redirects -></a>
+        </div>
+      <?php endif; ?>
+    </section>
+
+    <section class="admin-panel">
+      <h2 class="admin-panel__heading">Quick Actions</h2>
+      <div class="admin-quick-actions">
+        <a href="/admin/content" class="admin-quick-btn">
+          <span class="admin-quick-btn__icon">E</span>
+          <span class="admin-quick-btn__label">Edit Content</span>
+          <span class="admin-quick-btn__desc">Edit articles, pages, and SEO metadata</span>
+        </a>
+        <a href="/admin/content?type=dir_listing" class="admin-quick-btn">
+          <span class="admin-quick-btn__icon">D</span>
+          <span class="admin-quick-btn__label">Directory Listings</span>
+          <span class="admin-quick-btn__desc">Edit portfolio entries and directory fields</span>
+        </a>
+        <a href="/admin/downloads" class="admin-quick-btn">
+          <span class="admin-quick-btn__icon">D</span>
+          <span class="admin-quick-btn__label">Manage Downloads</span>
+          <span class="admin-quick-btn__desc">Protect files, bundles, and gated delivery links</span>
+        </a>
+        <a href="/admin/redirects" class="admin-quick-btn">
+          <span class="admin-quick-btn__icon">R</span>
+          <span class="admin-quick-btn__label">Manage Redirects</span>
+          <span class="admin-quick-btn__desc">Add redirect rules and dismiss 404 errors</span>
+        </a>
+        <a href="/articles" target="_blank" rel="noopener" class="admin-quick-btn">
+          <span class="admin-quick-btn__icon">V</span>
+          <span class="admin-quick-btn__label">View Articles</span>
+          <span class="admin-quick-btn__desc">Browse published articles on-site</span>
+        </a>
+        <a href="/admin/profile" class="admin-quick-btn">
+          <span class="admin-quick-btn__icon">P</span>
+          <span class="admin-quick-btn__label">Profile</span>
+          <span class="admin-quick-btn__desc">Change password and account settings</span>
+        </a>
+      </div>
+    </section>
 
   </div>
 </main>
-</div>
+
 </body>
 </html>

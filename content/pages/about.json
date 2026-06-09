@@ -1,0 +1,14 @@
+{
+  "slug": "about",
+  "title": "About AI Now Guide",
+  "status": "published",
+  "template": "page",
+  "canonical_url": "/about/",
+  "sort_order": 2,
+  "description": "AI Now Guide is a build-in-public video library documenting a real digital asset federation being built with AI-first systems.",
+  "body": "AI Now Guide is the public-facing operating window into Krisada's digital asset portfolio. Every channel documents real work -- no scripts, no polished presentations. Just a 25-year SEO practitioner building AI-first websites, content systems, and federation architecture on camera.",
+  "seo": {
+    "title": "About | AI Now Guide",
+    "description": "About AI Now Guide -- a build-in-public video library documenting a real digital asset federation built with AI-first systems."
+  }
+}

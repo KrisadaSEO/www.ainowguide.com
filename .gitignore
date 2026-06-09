@@ -12,3 +12,13 @@ tmp/
 cache/
 
 *.zip
+
+# Generated at deploy time
+sitemap.xml
+
+# Runtime storage
+storage/views/
+storage/logs/
+
+# Machine-specific config
+config/install.json

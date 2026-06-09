@@ -1,0 +1,16 @@
+{
+  "pages": {
+    "home": "/",
+    "channels": "/channels/",
+    "sessions": "/sessions/",
+    "about": "/about/"
+  },
+  "template_defaults": {
+    "page": "page",
+    "channel_list": "channels",
+    "channel": "channel",
+    "session_list": "sessions",
+    "session": "session",
+    "error": "error"
+  }
+}

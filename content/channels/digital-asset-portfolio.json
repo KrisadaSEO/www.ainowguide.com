@@ -1,0 +1,16 @@
+{
+  "slug": "digital-asset-portfolio",
+  "title": "Digital Asset Portfolio",
+  "status": "published",
+  "template": "channel",
+  "canonical_url": "/channels/digital-asset-portfolio/",
+  "sort_order": 5,
+  "icon": "briefcase",
+  "color": "#00c9a7",
+  "description": "Portfolio-level strategy: acquiring domains, assigning niches, valuing properties, and making the case for a sustainable digital asset model.",
+  "about": "Not every site is worth keeping. This channel covers the portfolio decisions -- what to buy, what to build, what to sunset, and how to measure digital asset value in the AI era.",
+  "seo": {
+    "title": "Digital Asset Portfolio | AI Now Guide",
+    "description": "Portfolio-level strategy: domains, niches, property valuation, and sustainable digital asset models."
+  }
+}

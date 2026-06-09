@@ -1,0 +1,16 @@
+{
+  "slug": "federation-architecture",
+  "title": "Federation Architecture",
+  "status": "published",
+  "template": "channel",
+  "canonical_url": "/channels/federation-architecture/",
+  "sort_order": 4,
+  "icon": "network",
+  "color": "#00c9a7",
+  "description": "How to build a portfolio of interconnected websites that signal authority and share structured data. The federation model explained in practice.",
+  "about": "Federation is how small site owners create scale without a team. This channel documents how properties in the portfolio link, signal, and share data -- and how that structure pays off in AI-era search.",
+  "seo": {
+    "title": "Federation Architecture | AI Now Guide",
+    "description": "How to build a portfolio of interconnected websites that signal authority and share structured data. The federation model in practice."
+  }
+}

@@ -1,0 +1,31 @@
+{
+    "_generated": "Do not edit manually. Run: php scripts/build-federation.php",
+    "manifest": [
+        {
+            "file": "llm.txt",
+            "type": "text",
+            "description": "Plain text site identity for LLMs"
+        },
+        {
+            "file": "llm.json",
+            "type": "json",
+            "description": "Structured site identity and content stats"
+        },
+        {
+            "file": "catalog.json",
+            "type": "json",
+            "description": "Index of all published content"
+        },
+        {
+            "file": "manifest.json",
+            "type": "json",
+            "description": "Directory of /ai/ endpoints (this file)"
+        },
+        {
+            "file": "federation.json",
+            "type": "json",
+            "description": "Federation v7.0 node declaration"
+        }
+    ],
+    "generated_at": "2026-06-07T23:24:17+00:00"
+}

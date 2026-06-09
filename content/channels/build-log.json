@@ -1,0 +1,16 @@
+{
+  "slug": "build-log",
+  "title": "Build Log",
+  "status": "published",
+  "template": "channel",
+  "canonical_url": "/channels/build-log/",
+  "sort_order": 1,
+  "icon": "terminal",
+  "color": "#00c9a7",
+  "description": "Raw sessions documenting the actual build process. PHP, JSON, site architecture, deployment decisions, and real-time problem solving.",
+  "about": "The Build Log is the closest thing to pair programming with an AI-first developer. Watch actual work happen: debugging, refactoring, deploying, and decision-making in real time. Unedited Zoom screencasts of active development work. Files get created, broken, and fixed on camera.",
+  "seo": {
+    "title": "Build Log | AI Now Guide",
+    "description": "Raw build sessions documenting PHP, JSON architecture, site builds, and deployment decisions in real time."
+  }
+}

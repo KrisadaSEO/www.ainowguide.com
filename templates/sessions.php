@@ -1,56 +1,45 @@
 <?php
-$page_type = 'sessions';
-require PARTIALS_PATH . 'head.php';
-require PARTIALS_PATH . 'header.php';
-$sessions = $data['sessions'] ?? [];
+declare(strict_types=1);
+$sessions = $view['sessions'] ?? [];
+$channelsBySlug = $view['channels_by_slug'] ?? site_app()['channels_by_slug'] ?? [];
 ?>
-<main class="site-main">
-  <div class="page-layout">
-    <?php require PARTIALS_PATH . 'breadcrumbs.php'; ?>
+<div class="page-hero">
+    <h1 class="page-hero__title">Sessions</h1>
+    <p class="page-hero__desc">All build-in-public recording sessions. Filter by channel or browse everything below.</p>
+</div>
 
-    <header class="page-header">
-      <span class="page-header__eyebrow">Session Archive</span>
-      <h1 class="page-header__title">All Sessions</h1>
-      <p class="page-header__lead">Raw working sessions from the portfolio build. Unedited. Chronological. Real process.</p>
-    </header>
-
-    <?php if (!empty($sessions)): ?>
-    <div class="directory-listing-list">
-      <?php foreach ($sessions as $session): ?>
-      <?php $channel_data = !empty($session['core']['channel']) ? get_channel($session['core']['channel']) : null; ?>
-      <div class="directory-listing-row">
-        <div class="directory-listing-row__meta">
-          <span class="directory-listing-row__date"><?= e($session['core']['date'] ?? '') ?></span>
-          <?php if ($channel_data): ?>
-          <a href="/channels/<?= e($channel_data['core']['slug'] ?? '') ?>" class="directory-listing-row__channel">
-            <?= $channel_data['core']['icon'] ?? '' ?> <?= e($channel_data['core']['title'] ?? '') ?>
-          </a>
-          <?php endif; ?>
-          <?php if (!empty($session['core']['duration'])): ?>
-          <span class="directory-listing-row__duration"><?= e($session['core']['duration']) ?></span>
-          <?php endif; ?>
-          <?php
-          $vis = $session['core']['visibility'] ?? 'public';
-          if ($vis !== 'public'):
-          ?>
-          <span class="chip chip--amber"><?= e(ucfirst($vis)) ?></span>
-          <?php endif; ?>
+<div class="session-list session-list--full">
+    <?php foreach ($sessions as $sess):
+        $sessUrl  = (string) ($sess['canonical_url'] ?? '/sessions/' . $sess['slug'] . '/');
+        $chSlug   = (string) ($sess['channel_slug'] ?? '');
+        $chRecord = $channelsBySlug[$chSlug] ?? null;
+        $chTitle  = $chRecord !== null ? (string) ($chRecord['title'] ?? '') : '';
+        $chUrl    = $chRecord !== null ? (string) ($chRecord['canonical_url'] ?? '/channels/' . $chSlug . '/') : '';
+    ?>
+    <a href="<?= site_e($sessUrl) ?>" class="session-row">
+        <div class="session-row__meta">
+            <?php if ($chTitle !== ''): ?>
+            <span class="session-row__channel"><?= site_e($chTitle) ?></span>
+            <?php endif; ?>
+            <?php if (!empty($sess['date'])): ?>
+            <span class="session-row__date"><?= site_e((string) $sess['date']) ?></span>
+            <?php endif; ?>
+            <?php if (($sess['visibility'] ?? 'public') === 'public'): ?>
+            <span class="session-row__vis session-row__vis--public">Public</span>
+            <?php elseif (($sess['visibility'] ?? '') === 'members'): ?>
+            <span class="session-row__vis session-row__vis--members">Members</span>
+            <?php endif; ?>
+            <?php if (!empty($sess['duration'])): ?>
+            <span class="session-row__duration"><?= site_e((string) $sess['duration']) ?></span>
+            <?php endif; ?>
         </div>
-        <div class="directory-listing-row__body">
-          <h2 class="directory-listing-row__title">
-            <a href="/sessions/<?= e($session['core']['slug'] ?? '') ?>"><?= e($session['core']['title'] ?? '') ?></a>
-          </h2>
-          <?php if (!empty($session['content']['summary'])): ?>
-          <p class="directory-listing-row__excerpt"><?= e(truncate($session['content']['summary'], 160)) ?></p>
-          <?php endif; ?>
-        </div>
-      </div>
-      <?php endforeach; ?>
-    </div>
-    <?php else: ?>
-    <p class="text-faint" style="font-style:italic;">Sessions are being added. Check back soon.</p>
+        <h2 class="session-row__title"><?= site_e((string) ($sess['title'] ?? '')) ?></h2>
+        <?php if (!empty($sess['summary'])): ?>
+        <p class="session-row__summary"><?= site_e((string) $sess['summary']) ?></p>
+        <?php endif; ?>
+    </a>
+    <?php endforeach; ?>
+    <?php if (empty($sessions)): ?>
+    <p class="text-muted">No sessions yet. Check back soon.</p>
     <?php endif; ?>
-
-  </div>
-</main>
-<?php require PARTIALS_PATH . 'footer.php'; ?>
+</div>

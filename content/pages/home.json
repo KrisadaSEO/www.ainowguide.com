@@ -1,0 +1,14 @@
+{
+  "slug": "home",
+  "title": "AI Now Guide",
+  "status": "published",
+  "template": "home",
+  "canonical_url": "/",
+  "sort_order": 1,
+  "description": "Watch a real digital asset portfolio get built from scratch. AI tools, SEO systems, PHP flat-file architecture, and federation strategy -- all on camera.",
+  "tagline": "Build in Public. Build for Real.",
+  "seo": {
+    "title": "AI Now Guide | Build in Public",
+    "description": "Watch a real digital asset portfolio get built from scratch. AI tools, SEO systems, PHP flat-file architecture, and federation strategy -- all on camera."
+  }
+}

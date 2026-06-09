@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# AI/LLM discoverability
+Allow: /llm.txt
+Allow: /ai/
+
+Sitemap: https://www.ainowguide.com/sitemap.xml

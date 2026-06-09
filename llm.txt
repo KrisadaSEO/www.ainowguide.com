@@ -1,0 +1,17 @@
+# AINowGuide.com
+Role: build-in-public video library and session archive
+Domain: https://www.ainowguide.com
+Summary: AI Now Guide documents a real AI-first digital asset portfolio being built from scratch. Channels cover PHP architecture, AI search, website rebuilds, federation, and more.
+
+## Content types
+- channel
+- session
+- page
+
+## Related properties
+- https://www.krisada.com
+- https://www.realseolife.com
+- https://www.digitalartistlife.com
+
+## Machine-readable endpoints
+- https://www.ainowguide.com/ai/llm.json      Structured site identity

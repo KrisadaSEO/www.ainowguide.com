@@ -1,0 +1,15 @@
+{
+    "_generated": "Do not edit manually. Run: php scripts/build-federation.php",
+    "site": "Krisada.com",
+    "canonical_url": "https://www.krisada.com",
+    "status": "ok",
+    "updated_at": "2026-04-17T00:00:00+00:00",
+    "metrics": {
+        "pages": 100,
+        "articles": 50,
+        "categories": 10,
+        "offers": 2
+    },
+    "last_rebuild": "2026-04-14T17:41:17+00:00",
+    "notes": "All endpoints healthy. Content and federation artifacts refreshed weekly."
+}
