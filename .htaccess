@@ -1,4 +1,13 @@
-﻿
+﻿RewriteEngine On
+
+# Force www
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteRule ^ https://www.ainowguide.com%{REQUEST_URI} [R=301,L]
+
+# Force HTTPS
+RewriteCond %{HTTPS} off
+RewriteRule ^ https://www.ainowguide.com%{REQUEST_URI} [R=301,L]
+
 # php -- BEGIN cPanel-generated handler, do not edit
 <IfModule mime_module>
   AddHandler application/x-httpd-ea-php84 .php .php8 .phtml
@@ -9,9 +18,7 @@
   RewriteEngine On
   RewriteBase /
 
-  # Non-www redirect
-  RewriteCond %{HTTP_HOST} ^ainowguide\.com$ [NC]
-  RewriteRule ^(.*)$ https://www.ainowguide.com/$1 [R=301,L]
+ 
 
   # Block direct access to /data/ files
   RewriteRule ^data/ - [F,L]
