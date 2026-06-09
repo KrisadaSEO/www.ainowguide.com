@@ -48,6 +48,8 @@
   <?= json_encode($json_ld, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) ?>
   </script>
   <?php endif; ?>
+
+  <script src="https://analytics.ahrefs.com/analytics.js" data-key="sLGd8gpvjonCx1Ojx8gpmw" async></script>
 </head>
 <body class="page--<?= e($page_type ?? 'default') ?>">
 <div class="site-wrapper">
