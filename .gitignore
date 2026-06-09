@@ -1,0 +1,14 @@
+node_modules/
+vendor/
+.cache/
+.DS_Store
+Thumbs.db
+
+*.log
+.env
+.env.*
+
+tmp/
+cache/
+
+*.zip

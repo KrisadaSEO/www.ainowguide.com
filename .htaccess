@@ -1,0 +1,89 @@
+# ============================================================
+# Security baseline — static JSON PHP build
+# Domain-agnostic: drop into any addon domain root
+# Works when folder is empty and when site is deployed
+# ============================================================
+
+# ------------------------------------------------------------
+# Core options
+# ------------------------------------------------------------
+Options +FollowSymlinks
+Options -Indexes
+Options -Includes
+Options -ExecCGI
+
+# ------------------------------------------------------------
+# Security headers
+# ------------------------------------------------------------
+<IfModule mod_headers.c>
+    Header always set X-Content-Type-Options "nosniff"
+    Header always set X-Frame-Options "SAMEORIGIN"
+    Header always set Referrer-Policy "strict-origin-when-cross-origin"
+    Header always set Permissions-Policy "geolocation=(), microphone=(), camera=()"
+</IfModule>
+
+# Disable inline scripts in SVG files
+<FilesMatch "\.svg$">
+    <IfModule mod_headers.c>
+        Header always set Content-Security-Policy "script-src 'none'"
+    </IfModule>
+</FilesMatch>
+
+# ------------------------------------------------------------
+# Block dangerous / sensitive file types
+# ------------------------------------------------------------
+
+# .shtml injection defence — deny serving entirely
+<FilesMatch "\.(shtml|shtm|stm)$">
+    Require all denied
+</FilesMatch>
+
+# Sensitive config and dev files
+<FilesMatch "(^\.env.*|\.htpasswd|composer\.(json|lock)|package(-lock)?\.json|yarn\.lock|\.(bak|old|orig|tmp|swp|sql|log))$">
+    Require all denied
+</FilesMatch>
+
+# Source control
+<DirectoryMatch "\.git">
+    Require all denied
+</DirectoryMatch>
+
+# Common CMS probe targets — block regardless (scanners assume these exist)
+<FilesMatch "^(xmlrpc\.php|wp-login\.php|wp-cron\.php|wp-config\.php|install\.php|setup\.php|admin\.php|configuration\.php)$">
+    Require all denied
+</FilesMatch>
+
+# ------------------------------------------------------------
+# Rewrite rules
+# ------------------------------------------------------------
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Allow Let's Encrypt / AutoSSL challenges through before anything else
+    RewriteRule ^\.well-known/ - [L]
+
+    # Force HTTPS (domain-agnostic)
+    RewriteCond %{HTTPS} off
+    RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+    # Front controller — route all requests without a real file/dir to index.php
+    # Remove if your build serves files directly without a PHP entry point
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^ index.php [L]
+
+</IfModule>
+
+# ------------------------------------------------------------
+# MIME types
+# ------------------------------------------------------------
+<IfModule mod_mime.c>
+    AddType application/json .json
+</IfModule>
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php84” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php84 .php .php8 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit
