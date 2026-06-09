@@ -1,0 +1,38 @@
+{
+  "hero": {
+    "headline": "Watch a Digital Asset Federation Get Built in Public.",
+    "headline_accent": "Raw. Unfiltered. Daily.",
+    "subheadline": "AI Now Guide follows the real-time build process behind an 80+ property AI-first digital asset portfolio. Watch raw working sessions, website builds, AI workflows, SEO experiments, schema architecture, and portfolio decisions as they happen.",
+    "cta_primary_label": "Watch Latest Session",
+    "cta_primary_url": "/sessions",
+    "cta_secondary_label": "Explore Channels",
+    "cta_secondary_url": "/channels"
+  },
+  "workstation": {
+    "heading": "Not a Course Studio. The Actual Build Desk.",
+    "body": "This is not polished content. It is the real workstation: laptop, mic, coffee, window, and daily portfolio work.",
+    "bullets": [
+      "Raw Zoom screencasts",
+      "Real builds",
+      "Real decisions",
+      "Real mistakes",
+      "Real AI workflows",
+      "Real digital properties"
+    ]
+  },
+  "why": {
+    "heading": "Why This Exists",
+    "body": "Most creators stop working to create content. AI Now Guide documents the work while it happens. The goal is not polished content. The goal is preserved process."
+  },
+  "federation_cta": {
+    "eyebrow": "Portfolio Network",
+    "heading": "Want to watch this build happen?",
+    "body": "AI Now Guide is the public operating window into a real AI-first digital asset portfolio being built in real time.",
+    "cta_label": "Watch Latest Session",
+    "cta_url": "/sessions"
+  },
+  "seo": {
+    "meta_title": "AI Now Guide | Watch a Digital Asset Federation Get Built in Public",
+    "meta_description": "Watch raw AI workflow sessions, website builds, SEO experiments, and portfolio decisions in real time. Build in public. No editing. No fluff. Just process."
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "site": {
+    "name": "AI Now Guide",
+    "tagline": "Build in Public",
+    "email": "ibmidland@gmail.com",
+    "description": "Watch a digital asset federation get built in public."
+  },
+  "navigation": {
+    "primary": [
+      { "label": "Channels", "url": "/channels" },
+      { "label": "Sessions", "url": "/sessions" },
+      { "label": "Membership", "url": "/#membership" },
+      { "label": "About", "url": "/about" }
+    ],
+    "cta": {
+      "label": "Watch Now",
+      "url": "/sessions"
+    }
+  },
+  "footer": {
+    "tagline": "The public operating window into a real AI-first digital asset portfolio.",
+    "columns": [
+      {
+        "heading": "Channels",
+        "links": [
+          { "label": "Build Log", "url": "/channels/build-log" },
+          { "label": "AI Search Lab", "url": "/channels/ai-search-lab" },
+          { "label": "Website Rebuilds", "url": "/channels/website-rebuilds" },
+          { "label": "Federation Architecture", "url": "/channels/federation-architecture" }
+        ]
+      },
+      {
+        "heading": "More Channels",
+        "links": [
+          { "label": "Digital Asset Portfolio", "url": "/channels/digital-asset-portfolio" },
+          { "label": "Medical Marketing", "url": "/channels/medical-marketing" },
+          { "label": "AI Art & Creator Sites", "url": "/channels/ai-art-creator-sites" },
+          { "label": "Tools & Workflows", "url": "/channels/tools-workflows" }
+        ]
+      },
+      {
+        "heading": "Site",
+        "links": [
+          { "label": "Sessions", "url": "/sessions" },
+          { "label": "About", "url": "/about" }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "core": {
+    "slug": "federation-architecture",
+    "title": "Federation Architecture",
+    "icon": "🕸️",
+    "color": "#a78bfa",
+    "description": "The schema, JSON-LD, and entity relationship system that connects 80+ properties into a federated authority network. AI-to-AI communication architecture.",
+    "sort_order": 7
+  },
+  "content": {
+    "about": "Federation is the infrastructure layer that connects the portfolio into something larger than individual sites. This channel documents the schema design, entity relationships, and sameAs/isPartOf structures that make the network visible to AI systems.",
+    "what_to_expect": "JSON-LD design sessions, entity mapping, cross-domain schema relationships, and the thinking behind building an AI-readable authority network."
+  },
+  "seo": {
+    "meta_title": "Federation Architecture | AI Now Guide",
+    "meta_description": "Schema, JSON-LD, and entity relationship systems connecting 80+ digital properties into a federated AI-readable authority network.",
+    "canonical_url": "/channels/federation-architecture"
+  },
+  "meta": {
+    "published": true,
+    "created_at": "2026-06-09",
+    "updated_at": "2026-06-09"
+  }
+}

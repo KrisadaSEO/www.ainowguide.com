@@ -1,0 +1,24 @@
+{
+  "core": {
+    "slug": "ai-search-lab",
+    "title": "AI Search Lab",
+    "icon": "🔍",
+    "color": "#22d3ee",
+    "description": "SEO experiments in the age of AI search. LLM visibility testing, schema optimization, AI Overviews, entity relationships, and what actually works in 2026.",
+    "sort_order": 2
+  },
+  "content": {
+    "about": "This channel documents real SEO experiments run across the portfolio. Not theory. Not case studies. Live tests on live properties with real traffic.",
+    "what_to_expect": "Keyword research sessions, schema implementation reviews, AI Overview tracking, and ranking experiments. Results shared without the usual sales layer."
+  },
+  "seo": {
+    "meta_title": "AI Search Lab | AI Now Guide",
+    "meta_description": "Real SEO and AI search experiments. LLM visibility, schema optimization, AI Overviews, and what actually moves rankings in 2026.",
+    "canonical_url": "/channels/ai-search-lab"
+  },
+  "meta": {
+    "published": true,
+    "created_at": "2026-06-09",
+    "updated_at": "2026-06-09"
+  }
+}

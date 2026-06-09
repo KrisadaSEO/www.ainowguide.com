@@ -1,0 +1,31 @@
+{
+  "core": {
+    "slug": "s003-joomla-to-php-json-conversion",
+    "title": "Joomla to PHP/JSON: Live Site Conversion",
+    "date": "2026-05-28",
+    "channel": "website-rebuilds",
+    "visibility": "public",
+    "duration": "",
+    "video_url": "",
+    "thumbnail": ""
+  },
+  "content": {
+    "summary": "Step-by-step Joomla to PHP/JSON flat-file conversion. Content export, URL mapping, schema migration, and the first deploy.",
+    "description": "Walking through the complete process of pulling a Joomla site apart and rebuilding it as a PHP/JSON flat-file property. The session covers content export and schema design, URL structure decisions, .htaccess routing, JSON data modeling, and the GitHub Actions deployment pipeline.",
+    "build_notes": "",
+    "transcript_url": ""
+  },
+  "meta": {
+    "related_property": "",
+    "related_repo": "",
+    "tags": ["Joomla", "PHP", "JSON", "migration", "flat-file", "build"],
+    "published": true,
+    "created_at": "2026-05-28",
+    "updated_at": "2026-05-28"
+  },
+  "seo": {
+    "meta_title": "Joomla to PHP/JSON: Live Site Conversion | Website Rebuilds | AI Now Guide",
+    "meta_description": "Step-by-step live session: Joomla to PHP/JSON flat-file conversion covering content export, URL mapping, schema migration, and deployment.",
+    "canonical_url": "/sessions/s003-joomla-to-php-json-conversion"
+  }
+}

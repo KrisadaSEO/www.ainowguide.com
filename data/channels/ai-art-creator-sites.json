@@ -1,0 +1,24 @@
+{
+  "core": {
+    "slug": "ai-art-creator-sites",
+    "title": "AI Art & Creator Sites",
+    "icon": "🎨",
+    "color": "#f472b6",
+    "description": "Building digital asset platforms for AI artists and creators. Storefronts, licensing systems, community architecture, and monetization beyond the social feed.",
+    "sort_order": 6
+  },
+  "content": {
+    "about": "The AI art space is young and fast-moving. This channel documents the build process for creator-focused digital properties: from AI Artist Life to new platforms in the portfolio.",
+    "what_to_expect": "Site architecture for creator brands, licensing and digital product systems, SEO for AI art, and community building outside walled gardens."
+  },
+  "seo": {
+    "meta_title": "AI Art & Creator Sites | AI Now Guide",
+    "meta_description": "Building digital asset platforms for AI artists. Storefronts, licensing systems, and creator site architecture documented in real time.",
+    "canonical_url": "/channels/ai-art-creator-sites"
+  },
+  "meta": {
+    "published": true,
+    "created_at": "2026-06-09",
+    "updated_at": "2026-06-09"
+  }
+}

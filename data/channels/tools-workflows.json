@@ -1,0 +1,24 @@
+{
+  "core": {
+    "slug": "tools-workflows",
+    "title": "Tools & Workflows",
+    "icon": "⚙️",
+    "color": "#94a3b8",
+    "description": "The AI tools, automation workflows, and systems used to manage, build, and scale the portfolio. Prompts, pipelines, and productivity architecture.",
+    "sort_order": 8
+  },
+  "content": {
+    "about": "This channel documents the operational layer: how AI tools get wired together, what prompt structures actually work for production use, and how the day-to-day workflow runs across 80+ properties.",
+    "what_to_expect": "Tool walkthroughs, prompt engineering sessions, workflow automation builds, and the honest answer to what saves time versus what looks good in a LinkedIn post."
+  },
+  "seo": {
+    "meta_title": "Tools & Workflows | AI Now Guide",
+    "meta_description": "AI tools, automation workflows, and productivity systems for managing an 80+ property digital asset portfolio.",
+    "canonical_url": "/channels/tools-workflows"
+  },
+  "meta": {
+    "published": true,
+    "created_at": "2026-06-09",
+    "updated_at": "2026-06-09"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "core": {
+    "slug": "s002-ai-search-seo-deep-dive",
+    "title": "AI Search & SEO: What Actually Moves the Needle in 2026",
+    "date": "2026-06-01",
+    "channel": "ai-search-lab",
+    "visibility": "public",
+    "duration": "",
+    "video_url": "",
+    "thumbnail": ""
+  },
+  "content": {
+    "summary": "Live analysis of AI Overviews, LLM citation patterns, and schema optimization for AI-first search. Real data from the portfolio.",
+    "description": "A working session reviewing which properties in the portfolio are showing up in AI Overviews, what schema structures seem to drive citations, and what the data shows about optimizing for LLM visibility versus traditional search ranking.",
+    "build_notes": "",
+    "transcript_url": ""
+  },
+  "meta": {
+    "related_property": "realseolife.com",
+    "related_repo": "",
+    "tags": ["SEO", "AI search", "schema", "AI Overviews", "LLM"],
+    "published": true,
+    "created_at": "2026-06-01",
+    "updated_at": "2026-06-01"
+  },
+  "seo": {
+    "meta_title": "AI Search & SEO: What Actually Moves the Needle | AI Search Lab | AI Now Guide",
+    "meta_description": "Live analysis of AI Overviews, LLM citation patterns, and schema optimization. Real data from an 80+ property portfolio.",
+    "canonical_url": "/sessions/s002-ai-search-seo-deep-dive"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "tiers": [
+    {
+      "slug": "free",
+      "title": "Free",
+      "price_label": "Free",
+      "color": "default",
+      "description": "Selected public sessions, build notes, and announcements.",
+      "features": [
+        "Selected public sessions",
+        "Build notes (selected)",
+        "Announcements"
+      ],
+      "cta_label": "Start Watching",
+      "cta_url": "/sessions",
+      "highlighted": false
+    },
+    {
+      "slug": "builder",
+      "title": "Builder",
+      "price_label": "$29/mo",
+      "color": "teal",
+      "description": "Full session archive, channel subscriptions, session summaries, and build files when available.",
+      "features": [
+        "Full session archive",
+        "All channels",
+        "Session summaries",
+        "Build files when available"
+      ],
+      "cta_label": "Join Builder",
+      "cta_url": "/#join",
+      "highlighted": true
+    },
+    {
+      "slug": "workshop",
+      "title": "Workshop",
+      "price_label": "$99/mo",
+      "color": "bright",
+      "description": "Group sessions, topic requests, site review queue, and monthly live discussion.",
+      "features": [
+        "Everything in Builder",
+        "Group sessions",
+        "Topic requests",
+        "Site review queue",
+        "Monthly live discussion"
+      ],
+      "cta_label": "Join Workshop",
+      "cta_url": "/#join",
+      "highlighted": false
+    },
+    {
+      "slug": "private",
+      "title": "Private / Platinum",
+      "price_label": "By request",
+      "color": "ghost",
+      "description": "Private property work, architecture planning, or implementation support. Available only by request and priced to protect the build schedule.",
+      "features": [
+        "Private 1:1 access",
+        "Architecture review",
+        "Implementation support",
+        "Portfolio strategy"
+      ],
+      "cta_label": "Request Access",
+      "cta_url": "/about",
+      "highlighted": false
+    }
+  ]
+}
