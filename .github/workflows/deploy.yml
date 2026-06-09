@@ -1,0 +1,27 @@
+name: Deploy Static Site
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v5
+
+      - name: Deploy via rsync
+        uses: burnett01/rsync-deployments@8.0.4
+        with:
+          switches: -avzr --delete
+          path: ./
+          remote_path: /home/webserver005/public_html/ainowguide.com
+          remote_host: 15.204.210.138
+          remote_user: webserver005
+          remote_port: 1966
+          remote_key: ${{ secrets.SSH_PRIVATE_KEY }}
