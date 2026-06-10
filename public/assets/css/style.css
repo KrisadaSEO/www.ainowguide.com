@@ -2698,6 +2698,16 @@ h6 {
     padding-block: clamp(5rem, 10vw, 9rem);
 }
 
+@media (min-width: 901px) {
+    .ang-hero {
+        align-items: start;
+    }
+
+    .ang-hero__content {
+        padding-block: clamp(2.75rem, 5.5vh, 4.75rem);
+    }
+}
+
 .ang-eyebrow {
     margin: 0 0 1rem;
     color: var(--color-accent);
