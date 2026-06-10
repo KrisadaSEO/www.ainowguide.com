@@ -38,6 +38,46 @@ foreach ($channels as $channel) {
         <p class="ang-hero__caption">The actual build desk. Laptop, mic, coffee, window, and daily portfolio work.</p>
     </section>
 
+    <section class="ang-section ang-section--sessions" id="latest-sessions">
+        <div class="ang-shell">
+            <div class="ang-section__header">
+                <div>
+                    <p class="ang-eyebrow">Featured session archive</p>
+                    <h2>Latest working sessions.</h2>
+                </div>
+                <p>The archive is the asset. Every session adds context to the build history.</p>
+            </div>
+            <div class="ang-session-grid">
+                <?php foreach ($sessions as $session): ?>
+                <article class="ang-session-card">
+                    <a class="ang-session-card__media" href="<?= site_e($session['video_url'] ?: '/contact/?intent=session-alerts') ?>" tabindex="-1" aria-hidden="true">
+                        <?php if (!empty($session['thumbnail'])): ?>
+                        <img src="<?= site_e($session['thumbnail']) ?>" alt="">
+                        <?php else: ?>
+                        <span class="ang-session-card__placeholder">Session recording</span>
+                        <?php endif; ?>
+                        <span class="ang-session-card__play">Play</span>
+                    </a>
+                    <div class="ang-session-card__body">
+                        <div class="ang-session-card__meta">
+                            <span><?= site_e(site_format_date((string) ($session['date'] ?? ''))) ?></span>
+                            <span><?= site_e($channelNames[(string) ($session['channel'] ?? '')] ?? '') ?></span>
+                            <span><?= site_e($session['visibility'] ?? 'public') ?></span>
+                        </div>
+                        <h3><a href="<?= site_e($session['video_url'] ?: '/contact/?intent=session-alerts') ?>"><?= site_e($session['title'] ?? '') ?></a></h3>
+                        <p><?= site_e($session['summary'] ?? '') ?></p>
+                        <div class="ang-tags">
+                            <?php foreach (($session['tags'] ?? []) as $tag): ?>
+                            <span><?= site_e($tag) ?></span>
+                            <?php endforeach; ?>
+                        </div>
+                    </div>
+                </article>
+                <?php endforeach; ?>
+            </div>
+        </div>
+    </section>
+
     <section class="ang-section ang-section--sidebar-system">
         <div class="ang-shell ang-home-sidebar-layout">
             <div class="ang-home-sidebar-layout__main">
@@ -85,46 +125,6 @@ foreach ($channels as $channel) {
                     <h3><?= site_e($channel['title'] ?? '') ?></h3>
                     <p><?= site_e($channel['description'] ?? '') ?></p>
                     <span class="ang-visibility"><?= site_e($channel['membership_visibility'] ?? 'public') ?></span>
-                </article>
-                <?php endforeach; ?>
-            </div>
-        </div>
-    </section>
-
-    <section class="ang-section ang-section--sessions" id="latest-sessions">
-        <div class="ang-shell">
-            <div class="ang-section__header">
-                <div>
-                    <p class="ang-eyebrow">Featured session archive</p>
-                    <h2>Latest working sessions.</h2>
-                </div>
-                <p>The archive is the asset. Every session adds context to the build history.</p>
-            </div>
-            <div class="ang-session-grid">
-                <?php foreach ($sessions as $session): ?>
-                <article class="ang-session-card">
-                    <a class="ang-session-card__media" href="<?= site_e($session['video_url'] ?: '/contact/?intent=session-alerts') ?>" tabindex="-1" aria-hidden="true">
-                        <?php if (!empty($session['thumbnail'])): ?>
-                        <img src="<?= site_e($session['thumbnail']) ?>" alt="">
-                        <?php else: ?>
-                        <span class="ang-session-card__placeholder">Session recording</span>
-                        <?php endif; ?>
-                        <span class="ang-session-card__play">Play</span>
-                    </a>
-                    <div class="ang-session-card__body">
-                        <div class="ang-session-card__meta">
-                            <span><?= site_e(site_format_date((string) ($session['date'] ?? ''))) ?></span>
-                            <span><?= site_e($channelNames[(string) ($session['channel'] ?? '')] ?? '') ?></span>
-                            <span><?= site_e($session['visibility'] ?? 'public') ?></span>
-                        </div>
-                        <h3><a href="<?= site_e($session['video_url'] ?: '/contact/?intent=session-alerts') ?>"><?= site_e($session['title'] ?? '') ?></a></h3>
-                        <p><?= site_e($session['summary'] ?? '') ?></p>
-                        <div class="ang-tags">
-                            <?php foreach (($session['tags'] ?? []) as $tag): ?>
-                            <span><?= site_e($tag) ?></span>
-                            <?php endforeach; ?>
-                        </div>
-                    </div>
                 </article>
                 <?php endforeach; ?>
             </div>
