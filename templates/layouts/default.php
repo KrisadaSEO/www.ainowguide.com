@@ -66,6 +66,7 @@ $hideSidebar   = (bool) ($view['hide_sidebar'] ?? false);
     <?php if (!empty($view['extra_js'])): ?>
     <script src="/assets/js/<?= site_e((string) $view['extra_js']) ?>.js" defer></script>
     <?php endif; ?>
+    <script src="https://analytics.ahrefs.com/analytics.js" data-key="sLGd8gpvjonCx1Ojx8gpmw" async></script>
 
 </head>
 <body class="page-type-<?= site_e($type) ?>">
