@@ -768,7 +768,7 @@ img { max-width: 100%; display: block; }
     font-size: 1.575rem;
     color: var(--color-text-muted, #6d5d50);
     line-height: 1.65;
-    background: #fff;
+    background: var(--color-surface-strong, #03080d);
     border: 1px solid var(--color-border, #d7c6af);
     border-left: 6px solid var(--color-accent, #b46c30);
     border-radius: var(--radius-medium, 16px);
