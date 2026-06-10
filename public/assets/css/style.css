@@ -706,7 +706,7 @@ img { max-width: 100%; display: block; }
     font-size: 0.95rem;
     color: var(--color-text-muted, #6d5d50);
     line-height: 1.6;
-    background: #fff;
+    background: var(--color-surface-strong, #03080d);
     border: 1px solid var(--color-border, #d7c6af);
     border-radius: var(--radius-medium, 16px);
     padding: 1.5rem;
