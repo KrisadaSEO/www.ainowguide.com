@@ -12,6 +12,7 @@ $channels = is_array($channelsData['items'] ?? null) ? $channelsData['items'] : 
 $sessions = is_array($sessionsData['items'] ?? null) ? $sessionsData['items'] : [];
 $memberships = is_array($membershipData['items'] ?? null) ? $membershipData['items'] : [];
 $timelineYears = is_array($timelineData['years'] ?? null) ? $timelineData['years'] : [];
+$heroHeadlineLines = is_array($record['hero_headline_lines'] ?? null) ? $record['hero_headline_lines'] : [];
 $channelNames = [];
 
 foreach ($channels as $channel) {
@@ -22,7 +23,15 @@ foreach ($channels as $channel) {
     <section class="ang-hero">
         <div class="ang-shell ang-hero__content">
             <p class="ang-eyebrow"><?= site_e($record['hero_eyebrow'] ?? '') ?></p>
-            <h1><?= site_e($record['hero_headline'] ?? '') ?></h1>
+            <h1>
+                <?php if ($heroHeadlineLines !== []): ?>
+                    <?php foreach ($heroHeadlineLines as $line): ?>
+                    <span class="ang-hero__headline-line"><?= site_e((string) $line) ?></span>
+                    <?php endforeach; ?>
+                <?php else: ?>
+                    <?= site_e($record['hero_headline'] ?? '') ?>
+                <?php endif; ?>
+            </h1>
             <p class="ang-hero__intro"><?= site_e($record['hero_subtext'] ?? '') ?></p>
             <ul class="ang-proof-list">
                 <li>80+ digital properties</li>

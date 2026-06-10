@@ -12,6 +12,11 @@
   },
   "hero_eyebrow": "Build in public. Learn in real time.",
   "hero_headline": "Watch a Digital Asset Constellation Get Built",
+  "hero_headline_lines": [
+    "Watch a Digital Asset",
+    "Constellation",
+    "Get Built"
+  ],
   "hero_subtext": "Follow the real-time build process behind an 80+ property AI-first digital asset portfolio. Watch raw working sessions, website builds, AI workflows, SEO experiments, schema architecture, content systems, and portfolio decisions as they happen.",
   "hero_cta_1_label": "Watch Latest Session",
   "hero_cta_1_url": "/#latest-sessions",

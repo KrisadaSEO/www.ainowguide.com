@@ -2726,6 +2726,10 @@ h6 {
     line-height: 0.98;
 }
 
+.ang-hero__headline-line {
+    display: block;
+}
+
 .ang-hero__intro {
     max-width: 700px;
     margin: 0 0 1.5rem;
@@ -3341,6 +3345,14 @@ h6 {
         max-width: 100%;
         font-size: clamp(2.2rem, 10.5vw, 3.2rem);
         overflow-wrap: anywhere;
+    }
+
+    .ang-hero__headline-line {
+        display: inline;
+    }
+
+    .ang-hero__headline-line:not(:last-child)::after {
+        content: ' ';
     }
 
     .ang-proof-list,
