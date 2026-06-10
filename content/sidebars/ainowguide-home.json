@@ -1,0 +1,34 @@
+{
+  "title": "AI Now Guide Homepage Sidebar",
+  "slug": "ainowguide-home",
+  "blocks": [
+    {
+      "type": "mini-bio",
+      "style": "strategic-highlight",
+      "title": "Krisada",
+      "body": "SEO Specialist and digital asset builder documenting an 80+ property AI-first portfolio in public.",
+      "photo_url": "/assets/img/150-Krisada-v04-Circle.png",
+      "cta_label": "About Krisada",
+      "cta_url": "/about/"
+    },
+    {
+      "type": "nav-links",
+      "style": "practical-highlight",
+      "title": "Session Navigator",
+      "links": [
+        { "label": "Latest Sessions", "url": "/#latest-sessions" },
+        { "label": "Session Channels", "url": "/#channels" },
+        { "label": "Build History", "url": "/#why" },
+        { "label": "Membership", "url": "/#membership" }
+      ]
+    },
+    {
+      "type": "featured-link",
+      "style": "strategic-highlight",
+      "title": "The Entire Portfolio",
+      "body": "The complete portfolio directory remains the structural backbone of AI Now Guide, including every property and the LeverageBuilder.com sample entry.",
+      "cta_label": "Explore 80+ Properties",
+      "cta_url": "/directory/portfolio/"
+    }
+  ]
+}

@@ -1,24 +1,28 @@
 {
     "_generated": "Do not edit manually. Run: php scripts/build-federation.php",
-    "site": "Krisada.com",
-    "role": "human-facing authority and teaching node",
-    "domain": "https://www.krisada.com",
+    "site": "AI Now Guide",
+    "role": "public session archive and build-in-public media node",
+    "domain": "https://www.ainowguide.com",
     "version": "7.0",
-    "summary": "Krisada.com teaches online digital life through owned websites, structured content systems, AI-ready publishing, and digital independence.",
+    "summary": "AI Now Guide documents the real-time construction of an AI-first digital asset portfolio through sessions, build logs, channels, guides, and experiments.",
     "content_types": [
         "page",
         "article",
         "category",
-        "offer"
+        "offer",
+        "session",
+        "channel",
+        "directory"
     ],
     "related_properties": [
-        "CMS.krisada.com",
-        "www.digitalkarmaweb.com"
+        "www.krisada.com",
+        "www.realseolife.com",
+        "www.leveragebuilder.com"
     ],
     "content_stats": {
         "published_articles": 59,
         "published_categories": 28,
         "published_pages": 15
     },
-    "generated_at": "2026-06-07T23:24:17+00:00"
+    "generated_at": "2026-06-10T14:29:06+00:00"
 }

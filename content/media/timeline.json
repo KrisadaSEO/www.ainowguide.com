@@ -1,0 +1,24 @@
+{
+  "type": "timeline",
+  "title": "Build History",
+  "updated_at": "2026-06-10",
+  "years": [
+    {
+      "year": "2026",
+      "events": [
+        { "title": "AI Now Guide launch", "status": "active" },
+        { "title": "Homepage foundation", "status": "active" },
+        { "title": "Session archive", "status": "building" },
+        { "title": "First paid member", "status": "planned" }
+      ]
+    },
+    {
+      "year": "2027",
+      "events": [
+        { "title": "Federation expansion", "status": "planned" },
+        { "title": "1,000 sessions", "status": "planned" },
+        { "title": "First documented property sale", "status": "planned" }
+      ]
+    }
+  ]
+}

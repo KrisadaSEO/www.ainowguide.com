@@ -1058,7 +1058,7 @@ function site_json_ld_schema_config(array $record): array
 
 function site_json_ld_breadcrumb_node(array $breadcrumbs, string $canonicalUrl): ?array
 {
-    if (count($breadcrumbs) < 2) {
+    if ($breadcrumbs === []) {
         return null;
     }
 
@@ -1086,6 +1086,7 @@ function site_json_ld_base_graph(): array
     $federation = site_app()['federation'];
     $websiteId = site_json_ld_node_id('/', 'website');
     $personId = site_json_ld_node_id('/', 'person');
+    $organizationId = site_json_ld_node_id('/', 'organization');
     $federationId = site_json_ld_node_id('/', 'federation-network');
     $dataCatalogId = site_json_ld_node_id('/', 'data-catalog');
     $datasetId = site_json_ld_node_id('/', 'content-dataset');
@@ -1151,13 +1152,21 @@ function site_json_ld_base_graph(): array
     $graph = [
         ...$contributorNodes,
         site_json_ld_clean([
+            '@id' => $organizationId,
+            '@type' => 'Organization',
+            'name' => (string) ($site['name'] ?? 'AI Now Guide'),
+            'url' => site_absolute_url('/'),
+            'description' => (string) ($site['description'] ?? ''),
+            'founder' => ['@id' => $personId],
+        ]),
+        site_json_ld_clean([
             '@id' => $websiteId,
             '@type' => 'WebSite',
             'url' => site_absolute_url('/'),
             'name' => (string) ($site['name'] ?? 'Krisada.com'),
             'description' => (string) ($site['description'] ?? ''),
             'inLanguage' => (string) ($site['locale'] ?? 'en'),
-            'publisher' => ['@id' => $personId],
+            'publisher' => ['@id' => $organizationId],
             'isPartOf' => ['@id' => $federationId],
             'subjectOf' => ['@id' => $dataCatalogId],
             'hasPart' => site_json_ld_unique_refs([
@@ -1177,7 +1186,7 @@ function site_json_ld_base_graph(): array
             '@id' => $dataCatalogId,
             '@type' => 'DataCatalog',
             'name' => ((string) ($site['name'] ?? 'Krisada.com')) . ' AI Content Catalog',
-            'description' => 'Machine-readable content index and AI foundation layer for ' . ((string) ($site['name'] ?? 'Krisada.com')) . '. Covers AI website systems, digital independence, content systems, and search visibility.',
+            'description' => 'Machine-readable content index and AI foundation layer for ' . ((string) ($site['name'] ?? 'AI Now Guide')) . '.',
             'url' => site_absolute_url('/ai/catalog.json'),
             'publisher' => ['@id' => $personId],
             'dataset' => [['@id' => $datasetId]],
@@ -1191,7 +1200,7 @@ function site_json_ld_base_graph(): array
             'creator' => ['@id' => $personId],
             'publisher' => ['@id' => $personId],
             'inLanguage' => (string) ($site['locale'] ?? 'en'),
-            'keywords' => 'SEO, AI website systems, digital independence, content systems, structured data, machine-readable content, digital asset thinking',
+            'keywords' => implode(', ', array_map('strval', (array) ($site['author']['knows_about'] ?? []))),
             'includedInDataCatalog' => ['@id' => $dataCatalogId],
             'isPartOf' => ['@id' => $websiteId],
             'distribution' => [
@@ -1673,6 +1682,64 @@ function site_build_json_ld(array $resolved, array $view): array
         if (($record['slug'] ?? '') === 'home') {
             $pageNode['mainEntity'] = ['@id' => $websiteId];
             $pageNode['about'] = site_json_ld_unique_entities(array_merge([['@id' => $personId]], $about));
+
+            $sessionsFile = (string) ($record['media_files']['sessions'] ?? '');
+            if ($sessionsFile !== '' && is_file(site_root_path($sessionsFile))) {
+                $sessionsData = site_load_json_file($sessionsFile);
+                $sessionItems = is_array($sessionsData['items'] ?? null) ? $sessionsData['items'] : [];
+                $itemListElements = [];
+
+                foreach ($sessionItems as $index => $session) {
+                    if (!is_array($session)) {
+                        continue;
+                    }
+
+                    $sessionSlug = preg_replace('/[^a-z0-9\-]/', '', strtolower(trim((string) ($session['slug'] ?? ''))));
+                    if ($sessionSlug === '') {
+                        continue;
+                    }
+
+                    $sessionId = site_json_ld_node_id('/#latest-sessions', 'session-' . $sessionSlug);
+                    $itemListElements[] = [
+                        '@type' => 'ListItem',
+                        'position' => $index + 1,
+                        'item' => ['@id' => $sessionId],
+                    ];
+
+                    $sessionNode = [
+                        '@id' => $sessionId,
+                        '@type' => trim((string) ($session['video_url'] ?? '')) !== '' ? 'VideoObject' : 'CreativeWork',
+                        'name' => (string) ($session['title'] ?? ''),
+                        'description' => (string) ($session['summary'] ?? ''),
+                        'datePublished' => (string) ($session['date'] ?? ''),
+                        'keywords' => implode(', ', array_map('strval', (array) ($session['tags'] ?? []))),
+                        'isPartOf' => ['@id' => $pageId],
+                        'creator' => ['@id' => $personId],
+                    ];
+
+                    if (trim((string) ($session['video_url'] ?? '')) !== '') {
+                        $sessionNode['contentUrl'] = (string) $session['video_url'];
+                    }
+
+                    if (trim((string) ($session['thumbnail'] ?? '')) !== '') {
+                        $sessionNode['thumbnailUrl'] = site_absolute_raw_url((string) $session['thumbnail']);
+                    }
+
+                    $graph[] = site_json_ld_clean($sessionNode);
+                }
+
+                if ($itemListElements !== []) {
+                    $sessionListId = site_json_ld_node_id('/#latest-sessions', 'session-list');
+                    $pageNode['hasPart'][] = ['@id' => $sessionListId];
+                    $graph[] = site_json_ld_clean([
+                        '@id' => $sessionListId,
+                        '@type' => 'ItemList',
+                        'name' => 'Latest AI Now Guide Sessions',
+                        'numberOfItems' => count($itemListElements),
+                        'itemListElement' => $itemListElements,
+                    ]);
+                }
+            }
 
             $audioTranscript = (string) ($record['audio_transcript'] ?? '');
             if ($audioTranscript !== '') {

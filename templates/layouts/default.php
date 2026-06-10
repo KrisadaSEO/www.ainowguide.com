@@ -48,7 +48,7 @@ $hideSidebar   = (bool) ($view['hide_sidebar'] ?? false);
     <?php endif; ?>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,700;1,400&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <link rel="stylesheet" href="/assets/css/style.css">
     <?php if (!empty($view['extra_css'])): ?>
@@ -67,9 +67,6 @@ $hideSidebar   = (bool) ($view['hide_sidebar'] ?? false);
     <script src="/assets/js/<?= site_e((string) $view['extra_js']) ?>.js" defer></script>
     <?php endif; ?>
 
-        <!-- Ahrefs Analytics -->
-        <script src="https://analytics.ahrefs.com/analytics.js" data-key="wVJqgTCI9vSClA4HSH2ANA" async></script>
-        <!-- End Ahrefs Analytics -->
 </head>
 <body class="page-type-<?= site_e($type) ?>">
 
@@ -186,9 +183,13 @@ $hideSidebar   = (bool) ($view['hide_sidebar'] ?? false);
             <div class="site-footer__top">
                 <div>
                     <div class="site-footer__brand-name"><?= site_e($site['name'] ?? 'Krisada.com') ?></div>
-                    <p class="site-footer__tagline"><?= site_e($site['tagline'] ?? '') ?></p><br/><br/>
-                    <p class="site-footer__phone">(407) 375-9915 <span class="site-footer__phone-note">Text Only</span></p><br/>
-                    <p class="site-footer__address">4554 Sunderland Rd.<br>Jacksonville, FL 32210</p>
+                    <p class="site-footer__tagline"><?= site_e($site['tagline'] ?? '') ?></p>
+                    <?php if (!empty($site['contact']['email'])): ?>
+                    <p class="site-footer__phone"><a href="mailto:<?= site_e($site['contact']['email']) ?>"><?= site_e($site['contact']['email']) ?></a></p>
+                    <?php endif; ?>
+                    <?php if (!empty($site['author']['location'])): ?>
+                    <p class="site-footer__address"><?= site_e($site['author']['location']) ?></p>
+                    <?php endif; ?>
 
                     <div class="site-footer__social">
                         <a href="https://www.facebook.com/RealSEOLife/" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="site-footer__social-link">
@@ -221,30 +222,12 @@ $hideSidebar   = (bool) ($view['hide_sidebar'] ?? false);
                 </div>
                 <?php endif; ?>
                 <div>
-                    <div class="site-footer__col-heading">Florida SEO</div>
-                    <ul class="site-footer__links site-footer__locations">
-                        <li><a href="https://www.realseolife.com/best-seo/in-florida-near-me" target="_blank" rel="noopener noreferrer">Local Florida SEO Near Me</a></li>
-                        <li><a href="https://www.realseolife.com/best-seo/in-florida-near-me/jacksonville" target="_blank" rel="noopener noreferrer">Jacksonville</a></li>
-                        <li><a href="https://www.realseolife.com/best-seo/in-florida-near-me/orlando" target="_blank" rel="noopener noreferrer">Orlando</a></li>
-                        <li><a href="https://www.realseolife.com/best-seo/in-florida-near-me/jacksonville/st-augustine-beach" target="_blank" rel="noopener noreferrer">St. Augustine Beach</a></li>
-                        <li><a href="https://www.realseolife.com/best-seo/in-florida-near-me/pensacola" target="_blank" rel="noopener noreferrer">Pensacola</a></li>
-                        <li><a href="https://www.realseolife.com/best-seo/in-florida-near-me/tampa" target="_blank" rel="noopener noreferrer">Tampa</a></li>
-                        <li><a href="https://www.realseolife.com/best-seo/in-florida-near-me/tampa/st-petersburg" target="_blank" rel="noopener noreferrer">St. Pete</a></li>
-                        <li><a href="https://www.realseolife.com/best-seo/in-florida-near-me/miami/pompano-beach" target="_blank" rel="noopener noreferrer">Pompano Beach</a></li>
-                        <li><a href="https://www.realseolife.com/best-seo/in-florida-near-me/miami/fort-lauderdale" target="_blank" rel="noopener noreferrer">Ft. Lauderdale</a></li>
-                        <li><a href="https://www.realseolife.com/best-seo/in-florida-near-me/miami" target="_blank" rel="noopener noreferrer">Miami</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <div class="site-footer__col-heading">Hawaii</div>
-                    <ul class="site-footer__links site-footer__locations">
-                        <li>Honolulu</li>
-                        <li>Waikiki</li>
-                        <li>Ala Moana</li>
-                        <li>Kailua</li>
-                        <li>Hilo</li>
-                        <li>Mountain View</li>
-                        <li>Kailua-Kona</li>
+                    <div class="site-footer__col-heading">The Federation</div>
+                    <ul class="site-footer__links">
+                        <li><a href="/directory/portfolio/">80+ Digital Properties</a></li>
+                        <li><a href="/directory/portfolio/digital-asset-investing/leveragebuilder-com/">LeverageBuilder.com</a></li>
+                        <li><a href="https://www.krisada.com/" target="_blank" rel="noopener noreferrer">Krisada.com</a></li>
+                        <li><a href="https://www.realseolife.com/" target="_blank" rel="noopener noreferrer">RealSEOLife.com</a></li>
                     </ul>
                 </div>
             </div>
@@ -265,23 +248,6 @@ $hideSidebar   = (bool) ($view['hide_sidebar'] ?? false);
     <?= json_encode($view['json_ld'], JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE) ?>
     </script>
     <?php endif; ?>
-
-        <!-- Default Statcounter code for ! - Krisada.com
-        https://www.krisada.com -->
-        <script type="text/javascript">
-        var sc_project=703654; 
-        var sc_invisible=1; 
-        var sc_security="102abce9"; 
-        var sc_remove_link=1; 
-        </script>
-        <script type="text/javascript"
-        src="https://www.statcounter.com/counter/counter.js"
-        async></script>
-        <noscript><div class="statcounter"><img class="statcounter"
-        src="https://c.statcounter.com/703654/0/102abce9/1/"
-        alt="Web Analytics"
-        referrerPolicy="no-referrer-when-downgrade"></div></noscript>
-        <!-- End of Statcounter Code -->
 
 </body>
 </html>

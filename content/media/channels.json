@@ -1,0 +1,79 @@
+{
+  "type": "channel_collection",
+  "title": "Session Channels",
+  "updated_at": "2026-06-10",
+  "items": [
+    {
+      "title": "Build Log",
+      "slug": "build-log",
+      "description": "Daily progress across websites, systems, content, and the portfolio.",
+      "icon": "build",
+      "accent": "#19b9b1",
+      "featured_sessions": ["ainowguide-homepage-foundation"],
+      "membership_visibility": "public"
+    },
+    {
+      "title": "AI Search Lab",
+      "slug": "ai-search-lab",
+      "description": "Search visibility, AI citations, SEO tests, and machine-readable publishing.",
+      "icon": "search",
+      "accent": "#36c5d7",
+      "featured_sessions": ["schema-architecture-audit"],
+      "membership_visibility": "public"
+    },
+    {
+      "title": "Website Rebuilds",
+      "slug": "website-rebuilds",
+      "description": "Acquisitions, migrations, PHP and JSON conversions, and live rebuild decisions.",
+      "icon": "rebuild",
+      "accent": "#5bd3ba",
+      "featured_sessions": ["joomla-to-php-json-planning"],
+      "membership_visibility": "member"
+    },
+    {
+      "title": "Digital Asset Portfolio",
+      "slug": "digital-asset-portfolio",
+      "description": "Property strategy, valuation, monetization, acquisitions, and exits.",
+      "icon": "portfolio",
+      "accent": "#23a8c5",
+      "featured_sessions": [],
+      "membership_visibility": "public"
+    },
+    {
+      "title": "Medical Marketing",
+      "slug": "medical-marketing",
+      "description": "The medical, healthcare AI, longevity, and local marketing cluster.",
+      "icon": "medical",
+      "accent": "#4ad0c8",
+      "featured_sessions": [],
+      "membership_visibility": "member"
+    },
+    {
+      "title": "AI Art and Creator Sites",
+      "slug": "ai-art-creator-sites",
+      "description": "Creator properties, AI art workflows, and human-first publishing systems.",
+      "icon": "creator",
+      "accent": "#67c7e4",
+      "featured_sessions": [],
+      "membership_visibility": "public"
+    },
+    {
+      "title": "Federation Architecture",
+      "slug": "federation-architecture",
+      "description": "Schema, entity graphs, AI-to-AI architecture, and cross-property relationships.",
+      "icon": "federation",
+      "accent": "#2bd6c4",
+      "featured_sessions": ["schema-architecture-audit"],
+      "membership_visibility": "member"
+    },
+    {
+      "title": "Tools and Workflows",
+      "slug": "tools-workflows",
+      "description": "The practical AI, coding, recording, and publishing workflows behind the builds.",
+      "icon": "tools",
+      "accent": "#58b8d8",
+      "featured_sessions": [],
+      "membership_visibility": "public"
+    }
+  ]
+}

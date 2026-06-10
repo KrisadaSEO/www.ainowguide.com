@@ -57,6 +57,11 @@ function validate_block($block, $index, $file) {
                 $errors[] = "Block #$index (embed) missing 'url'";
             }
             break;
+        case 'html':
+            if (!array_key_exists('content', $block)) {
+                $errors[] = "Block #$index (html) missing 'content'";
+            }
+            break;
         default:
             $errors[] = "Block #$index has unknown type '$type'";
             break;

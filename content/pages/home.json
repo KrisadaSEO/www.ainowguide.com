@@ -1,61 +1,46 @@
 {
-    "title": "Krisada.com",
-    "slug": "home",
-    "canonical_url": "/",
-    "status": "published",
-    "template": "page",
-    "sidebar_profile": "authority-standard",
-    "seo": {
-        "title": "Digital trade skills for today's AI World.",
-        "description": "Our systems allow you to leverage AI instead of fearing it. This is my version of digital marketing for Quiet People."
-    },
-    "hero_headline": "Digital trade skills\n for today's AI World.",
-    "hero_subtext": "Our systems allow you to leverage AI instead of fearing it. This is my version of digital marketing for Quiet People.",
-    "hero_cta_1_label": "Explore the Library",
-    "hero_cta_1_url": "/library/",
-    "hero_cta_2_label": "Start Here",
-    "hero_cta_2_url": "/article/you-cant-do-this-on-wall-street/",
-    "featured_categories": [
-        "start-here",
-        "website-faqs",
-        "digital-life",
-        "visibility-search",
-        "content-systems",
-        "ai-website-systems",
-        "digital-independence",
-        "quiet-marketer"
+  "title": "AI Now Guide",
+  "slug": "home",
+  "canonical_url": "/",
+  "status": "published",
+  "template": "ainow-home",
+  "sidebar_profile": "ainowguide-home",
+  "seo": {
+    "title": "AI Now Guide ... Watch a Digital Asset Federation Get Built",
+    "description": "Raw working sessions, AI-first website builds, SEO experiments, schema architecture, and portfolio decisions from a real 80+ property digital asset federation.",
+    "image": "/assets/img/ainowguide-workstation-hero.png"
+  },
+  "hero_eyebrow": "Build in public. Learn in real time.",
+  "hero_headline": "Watch a Digital Asset Federation Get Built in Public",
+  "hero_subtext": "Follow the real-time build process behind an 80+ property AI-first digital asset portfolio. Watch raw working sessions, website builds, AI workflows, SEO experiments, schema architecture, content systems, and portfolio decisions as they happen.",
+  "hero_cta_1_label": "Watch Latest Session",
+  "hero_cta_1_url": "/#latest-sessions",
+  "hero_cta_2_label": "Explore Channels",
+  "hero_cta_2_url": "/#channels",
+  "media_files": {
+    "channels": "content/media/channels.json",
+    "sessions": "content/media/sessions.json",
+    "membership": "content/media/membership.json",
+    "timeline": "content/media/timeline.json"
+  },
+  "schema": {
+    "about": [
+      "build in public",
+      "AI-first websites",
+      "digital asset federation",
+      "SEO experiments",
+      "structured data",
+      "website acquisitions"
     ],
-    "featured_articles": [
-        "how-to-turn-one-good-idea-into-a-content-system",
-        "you-cant-do-this-on-wall-street",
-        "why-content-library-beats-blog-archive",
-        "seo-is-becoming-ai-to-ai"
+    "mentions": [
+      "/library/",
+      "/directory/"
     ],
-    "schema": {
-        "about": [
-            "online digital life",
-            "owned websites",
-            "content systems",
-            "AI-ready publishing",
-            "digital independence"
-        ],
-        "mentions": [
-            "/library/",
-            "/directory/",
-            "/library/start-here/",
-            "/article/you-cant-do-this-on-wall-street/",
-            "/article/why-content-library-beats-blog-archive/",
-            "/article/seo-is-becoming-ai-to-ai/"
-        ],
-        "has_part": [
-            "/library/",
-            "/directory/",
-            "/thai/"
-        ]
-    },
-    "audio_summary_url": "/assets/audio/homepage.mp3",
-    "audio_transcript": "... This AI playback is powered by Chrome. Why are we hearing so much about digital trade skills lately? I mean, isn't AI supposed to be doing all that work for us now?\n\nActually, Krisada argues it's the exact opposite. They suggest that while the old Internet rewarded quick hacks, this new AI driven landscape is all about systems.\nIt's not about fighting the machine, but learning how to give it the structured content it needs.\n\nSo it's more about the architecture behind the scenes, but many people just use Wix or social media for their reach. Isn't that enough? The team at Cresta calls that rented reach. You don't truly own your investment there.\nThey advocate for digital independence, which means building on platforms you genuinely own so your authority compounds over time rather than disappearing when an algorithm changes. That makes sense.\n\nAnd what about SEO? Is the goal still just to rank on the first page of Google? It's evolving into AI to AI communication.\nMachine readable context is the new ranking signal. Instead of a dated blog archive, they suggest building a structured content library. It's a way for quiet people to build real digital assets without needing to be an influencer.\n\nIf you wanna own your digital future, exploring their library is a great first step.\n\nReframing it as a trade skill really changes the perspective.\nThanks for breaking that down.",
-    "show_featured_articles": true,
-    "updated_at": "2026-06-01",
-    "include_in_sitemap": true
+    "has_part": [
+      "/library/",
+      "/directory/"
+    ]
+  },
+  "updated_at": "2026-06-10",
+  "include_in_sitemap": true
 }

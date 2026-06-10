@@ -1,0 +1,48 @@
+{
+  "type": "membership_collection",
+  "title": "Membership Levels",
+  "updated_at": "2026-06-10",
+  "items": [
+    {
+      "name": "Free",
+      "price": "$0",
+      "period": "month",
+      "description": "A clear window into the public build.",
+      "features": ["Selected public sessions", "Build notes", "Announcements"],
+      "cta_label": "Start Watching",
+      "cta_url": "/#latest-sessions",
+      "featured": false
+    },
+    {
+      "name": "Builder",
+      "price": "$29",
+      "period": "month",
+      "description": "The full working archive and supporting material.",
+      "features": ["Full session archive", "Channel subscriptions", "Session summaries", "Build files when available"],
+      "cta_label": "Builder Access Coming",
+      "cta_url": "/contact/?intent=builder",
+      "featured": true
+    },
+    {
+      "name": "Workshop",
+      "price": "$79",
+      "period": "month",
+      "description": "Participation in the work, not just access to it.",
+      "features": ["Group sessions", "Topic requests", "Site review queue", "Monthly live discussion"],
+      "cta_label": "Workshop Interest",
+      "cta_url": "/contact/?intent=workshop",
+      "featured": false
+    },
+    {
+      "name": "Private",
+      "price": "By request",
+      "period": "",
+      "description": "Intentionally limited and priced to protect the build schedule.",
+      "features": ["Private property work", "Architecture planning", "Implementation support"],
+      "cta_label": "Request Private Work",
+      "cta_url": "/contact/?intent=private",
+      "featured": false,
+      "private": true
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "type": "session_collection",
+  "title": "Latest Sessions",
+  "updated_at": "2026-06-10",
+  "items": [
+    {
+      "title": "Building the AI Now Guide Homepage Foundation",
+      "slug": "ainowguide-homepage-foundation",
+      "date": "2026-06-10",
+      "channel": "build-log",
+      "summary": "Preserving the Krisada.com content engine and complete portfolio directory while rebuilding the public face as a video-first media platform.",
+      "video_url": "",
+      "thumbnail": "/assets/img/ainowguide-workstation-hero.png",
+      "visibility": "public",
+      "related_property": "AINowGuide.com",
+      "related_repo": "www.ainowguide.com",
+      "tags": ["homepage", "php-json", "build-in-public"],
+      "transcript_url": "",
+      "build_notes_url": ""
+    },
+    {
+      "title": "Auditing the Federation Schema Architecture",
+      "slug": "schema-architecture-audit",
+      "date": "2026-06-09",
+      "channel": "federation-architecture",
+      "summary": "A working review of the shared JSON-LD graph, directory WebSite entities, machine-readable catalogs, and cross-property relationships.",
+      "video_url": "",
+      "thumbnail": "",
+      "visibility": "member",
+      "related_property": "Krisada.com",
+      "related_repo": "www.krisada.com",
+      "tags": ["json-ld", "schema", "federation"],
+      "transcript_url": "",
+      "build_notes_url": ""
+    },
+    {
+      "title": "Planning a Joomla to PHP and JSON Rebuild",
+      "slug": "joomla-to-php-json-planning",
+      "date": "2026-06-08",
+      "channel": "website-rebuilds",
+      "summary": "How a legacy site is inventoried, mapped, and prepared for a flat-file rebuild without losing routes, content relationships, or search equity.",
+      "video_url": "",
+      "thumbnail": "",
+      "visibility": "member",
+      "related_property": "Portfolio Property",
+      "related_repo": "",
+      "tags": ["joomla", "migration", "php-json"],
+      "transcript_url": "",
+      "build_notes_url": ""
+    }
+  ]
+}
