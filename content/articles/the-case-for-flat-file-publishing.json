@@ -1,0 +1,41 @@
+{
+    "type": "article",
+    "title": "The Case for Flat-File Publishing in 2026",
+    "slug": "the-case-for-flat-file-publishing",
+    "canonical_url": "/article/the-case-for-flat-file-publishing/",
+    "status": "published",
+    "excerpt": "Databases and CMS platforms solved real problems. They also created new ones. A flat-file system built on PHP and JSON solves those problems differently ... with less friction, more control, and a structure that AI tools can actually work with.",
+    "body": "<p>The standard advice for anyone building a content site has been the same for fifteen years: install WordPress, pick a theme, add a plugin for SEO. The system works. Millions of sites run on it. But working is not the same as being the right tool for every situation.</p>\n\n<p>When you deploy a CMS, you are also deploying its assumptions. Content lives in a database you query through an abstraction layer. Templates are coupled to a plugin ecosystem. Performance depends on caching layers that need maintaining. Upgrades carry risk. Migrations are painful. And if you want to automate content creation, validation, or deployment in any non-standard way, you are working against the grain of a system designed for editorial workflows, not software pipelines.</p>\n\n<h2>What flat-file actually means</h2>\n\n<p>A flat-file publishing system stores content in files ... not in a database. In practice that means JSON files for structured content records and PHP templates for rendering. The web server serves the PHP, PHP loads the JSON, templates compose the HTML.</p>\n\n<p>There is no <a href=\"/glossary/main/orm/\">ORM</a>, no query builder, no cache invalidation problem, no plugin update cycle. The system is exactly as complex as you make it, and no more.</p>\n\n<h2>Why this matters for AI-assisted development</h2>\n\n<p>AI coding assistants work well with flat files. They can read a JSON content record and understand its schema without needing to understand your database structure. They can edit a template and see exactly what it does without tracing through plugin hooks and filter chains. They can create a new content record that fits your existing schema because the schema is visible and consistent.</p>\n\n<p>That makes the development loop faster. An AI assistant that can create a new article, validate it against the schema, and confirm the template renders it correctly is more useful than one navigating an unfamiliar CMS with opaque abstractions.</p>\n\n<h2>What you give up</h2>\n\n<p>A flat-file system does not have a built-in admin interface. There is no visual editor, no media library, no user management system. If you need those things, a CMS is probably the right choice.</p>\n\n<p>It also does not scale horizontally the way a database-backed system does. At very high traffic volumes, serving dynamically rendered PHP with file I/O on every request is less efficient than serving pre-generated static files. That is a real constraint ... though for most content sites, it is not a constraint that matters at current traffic levels.</p>\n\n<h2>The tradeoff in plain terms</h2>\n\n<p>A CMS gives you a polished editorial interface in exchange for architectural complexity you do not fully control. A flat-file system gives you architectural clarity and full control in exchange for building the editorial interface yourself ... or not having one at all.</p>\n\n<p>For a site where content is produced by one person, automated by scripts, or edited directly in a code editor, the flat-file tradeoff is a good one. For a team of non-technical editors who need a visual interface, it probably is not.</p>\n\n<p>Knowing which situation you are in is more important than any preference about technology stacks.</p>",
+    "publish_date": "2026-02-24",
+    "updated_at": "2026-02-24",
+    "author": "Atlas",
+    "category_primary": "content-systems/php-json-architecture",
+    "category_secondary": [
+        "content-systems",
+        "ai-website-systems"
+    ],
+    "tags": [
+        "flat-file",
+        "php",
+        "json",
+        "publishing",
+        "cms-alternatives"
+    ],
+    "template": "article",
+    "sidebar_profile": "library-learning",
+    "seo": {
+        "title": "The Case for Flat-File Publishing in 2026 ... Krisada.com",
+        "description": "Why PHP and JSON is a serious publishing choice ... the tradeoffs, the advantages for AI-assisted development, and when it actually makes sense."
+    },
+    "related_content": [
+        "why-content-library-beats-blog-archive",
+        "what-a-clean-content-schema-looks-like"
+    ],
+    "is_featured": true,
+    "is_cornerstone": true,
+    "reading_time": 6,
+    "include_in_sitemap": true,
+    "authors": [
+        "atlas"
+    ]
+}

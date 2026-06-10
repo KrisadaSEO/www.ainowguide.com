@@ -1,0 +1,20 @@
+{
+    "type": "dir_listing",
+    "slug": "pharmdigitalmarketing-com",
+    "path": "portfolio/professional-growth-markets/pharmdigitalmarketing-com",
+    "category_path": "portfolio/professional-growth-markets",
+    "title": "pharmdigitalmarketing.com",
+    "canonical_url": "/directory/portfolio/professional-growth-markets/pharmdigitalmarketing-com/",
+    "directory_type": "portfolio",
+    "status": "published",
+    "template": "directory-listing",
+    "sidebar_profile": "authority-standard",
+    "fields": {
+        "status": "domain-only",
+        "tier": "authority",
+        "priority": "2",
+        "update": "Crossover: also serves c5 Healthcare AI",
+        "crossover": "Healthcare AI & Longevity"
+    },
+    "updated_at": "2026-05-31"
+}

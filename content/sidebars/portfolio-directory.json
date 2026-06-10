@@ -1,0 +1,23 @@
+{
+  "profile": "portfolio-directory",
+  "blocks": [
+    {
+      "type": "featured-link",
+      "style": "strategic-highlight",
+      "title": "The Thinking Behind This Portfolio",
+      "body": "These domains are not random registrations. Each one is a digital asset with a position, a purpose, and a place in a larger system. The library covers the strategy.",
+      "cta_label": "Read Digital Property Assets",
+      "cta_url": "/library/digital-property-assets/"
+    },
+    {
+      "type": "nav-links",
+      "style": "practical-highlight",
+      "title": "Explore by Topic",
+      "links": [
+        { "label": "Domain Portfolio Strategy", "url": "/library/digital-property-assets/domain-portfolio/" },
+        { "label": "Website Valuation", "url": "/library/digital-property-assets/website-valuation/" },
+        { "label": "Digital Asset Investing", "url": "/library/digital-property-assets/digital-asset-investing/" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+    "type": "dir_listing",
+    "slug": "krisadaeaton-com",
+    "path": "portfolio/satellites/krisadaeaton-com",
+    "category_path": "portfolio/satellites",
+    "title": "krisadaeaton.com",
+    "canonical_url": "/directory/portfolio/satellites/krisadaeaton-com/",
+    "directory_type": "portfolio",
+    "status": "published",
+    "template": "directory-listing",
+    "sidebar_profile": "authority-standard",
+    "fields": {
+        "status": "domain-only",
+        "priority": "5"
+    },
+    "updated_at": "2026-05-31"
+}

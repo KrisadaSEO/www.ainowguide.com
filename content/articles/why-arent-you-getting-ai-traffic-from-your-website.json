@@ -1,0 +1,62 @@
+{
+    "type": "article",
+    "title": "Why Aren't You Getting AI Traffic From Your Website?",
+    "slug": "why-arent-you-getting-ai-traffic-from-your-website",
+    "canonical_url": "/article/why-arent-you-getting-ai-traffic-from-your-website/",
+    "redirect_from": [],
+    "status": "published",
+    "excerpt": "Search rankings and AI visibility overlap, but they are not the same system. A page can rank and still fail to become a source AI systems want to pull from.",
+    "body": "<p>A lot of site owners assume AI traffic is just another name for SEO traffic.</p>\n\n<p>It is related, but it is not identical.</p>\n\n<p>AI systems care about whether your material is clear enough, specific enough, and structured enough to be reused as source material. Ranking alone does not guarantee that.</p>\n\n<h2 class=\"faq-answer-heading\">Short answer</h2>\n\n<p>You need pages that can rank and a library that can be cited. That means writing for questions, structuring for extraction, and making the important parts of your site AI machine-readable.</p>\n\n<h2 class=\"faq-answer-heading\">What most people get wrong</h2>\n\n<p>They optimize for the click but ignore the source layer. AI often reaches for concise explanations, explicit claims, named concepts, and pages that look like reliable reference material.</p>\n\n<h2 class=\"faq-answer-heading\">Download solution</h2>\n\n<div class=\"faq-download-callout\"><p><strong>Search Everywhere Optimization Pack</strong> is included in the <a href=\"/download/2026-website-problems-bundle/\">2026 Website Solutions Bundle</a>.</p><p>Use it when you want a practical framework for building visibility across classic search, AI retrieval, and topic-level authority instead of chasing one ranking report.</p></div>\n\n<h2 class=\"faq-answer-heading\">What the bundle gives you</h2>\n\n<ul><li>A clearer distinction between rankable pages and citable sources</li><li>Frameworks for topic coverage, structure, and AI machine-readable clarity</li><li>A better path for building source material AI can actually reference</li></ul>\n\n<blockquote class=\"article-simple-idea\"><p><strong>Simple way to think about it:</strong> Ranking gets you found. Source-quality content gets you reused.</p></blockquote>\n\n<p>For the surrounding system, read <a href=\"/article/2026-top-10-website-problems-solved/\">the full Top 10 article</a>. If this is the bottleneck, <a href=\"/download/2026-website-problems-bundle/\">the bundle gives you the matching solution</a>.</p>",
+    "publish_date": "2026-04-28",
+    "updated_at": "2026-04-28",
+    "author": "Atlas",
+    "category_primary": "website-faqs",
+    "category_secondary": [],
+    "tags": [
+        "website FAQs",
+        "AI traffic",
+        "search visibility",
+        "AI discovery"
+    ],
+    "template": "article",
+    "extra_css": "website-problems",
+    "sidebar_profile": "authority-standard",
+    "seo": {
+        "title": "Why Aren't You Getting AI Traffic From Your Website? | Krisada.com",
+        "description": "Why a page can rank in search and still fail to become a source AI systems want to cite or pull from."
+    },
+    "related_content": [
+        "2026-top-10-website-problems-solved",
+        "how-ai-discovers-your-content",
+        "being-citable-vs-being-rankable"
+    ],
+    "schema": {
+        "about": [
+            "AI traffic",
+            "AI discovery",
+            "citable source material"
+        ],
+        "mentions": [
+            "/library/website-faqs/",
+            "/library/visibility-search/",
+            "/article/2026-top-10-website-problems-solved/",
+            "/download/2026-website-problems-bundle/"
+        ],
+        "is_based_on": [
+            "/article/2026-top-10-website-problems-solved/"
+        ],
+        "faq": [
+            {
+                "question": "Why aren't you getting AI traffic from your website?",
+                "answer": "Because ranking in search is not the same as becoming a source AI systems reuse. You need pages that can rank and a library that can be cited."
+            }
+        ]
+    },
+    "is_featured": false,
+    "is_cornerstone": false,
+    "reading_time": 4,
+    "include_in_sitemap": true,
+    "authors": [
+        "atlas"
+    ]
+}

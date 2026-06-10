@@ -1,0 +1,18 @@
+{
+    "type": "dir_listing",
+    "slug": "beforeyoubuyx-com",
+    "path": "portfolio/satellites/beforeyoubuyx-com",
+    "category_path": "portfolio/satellites",
+    "title": "beforeyoubuyx.com",
+    "canonical_url": "/directory/portfolio/satellites/beforeyoubuyx-com/",
+    "directory_type": "portfolio",
+    "status": "published",
+    "template": "directory-listing",
+    "sidebar_profile": "authority-standard",
+    "fields": {
+        "status": "domain-only",
+        "tier": "passive",
+        "priority": "5"
+    },
+    "updated_at": "2026-05-31"
+}

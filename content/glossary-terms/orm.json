@@ -1,0 +1,20 @@
+{
+  "type": "glossary-term",
+  "glossary": "main",
+  "term": "ORM",
+  "slug": "orm",
+  "canonical_url": "/glossary/main/orm/",
+  "short_def": "Object-Relational Mapper ... a code layer that translates between a relational database and the objects your application works with. Standard in database-driven stacks like WordPress and Laravel. Absent by design in flat-file systems.",
+  "definition": "An ORM (Object-Relational Mapper) sits between your application code and a relational database. Instead of writing raw SQL queries, you interact with database rows as if they were native objects in your programming language ... calling methods like <code>Post::find(1)</code> instead of <code>SELECT * FROM posts WHERE id = 1</code>.\n\nThe abstraction solves a real problem: relational databases think in tables and rows, while application code thinks in objects and properties. The ORM maps one to the other so developers can work in a consistent mental model without switching between two query languages.\n\nThe tradeoff is complexity. ORMs introduce their own layer of behavior ... lazy loading, eager loading, query batching, cache invalidation, migration files, schema versioning, connection pooling. Each of those is a surface area where something can go wrong, perform poorly, or require debugging that has nothing to do with your actual content problem.",
+  "example": "A WordPress site uses MySQL as its database and accesses it through a combination of raw <code>$wpdb</code> queries and ORM-style abstractions in plugins. When something goes wrong ... a slow page, a cache miss, a failed query ... the debugging path runs through the database layer, the ORM layer, the plugin layer, and the application layer simultaneously.\n\nA flat-file PHP site has none of this. Content lives in JSON files. PHP reads the file, passes the data to a template, outputs HTML. The stack has three moving parts and no database connection. There is nothing to cache-invalidate because there is no cache. There is no ORM because there is no relational database to abstract away.",
+  "nuance": "ORMs are not bad tools ... they are the right tool for genuinely relational data: user records, transactions, inventory, anything with complex joins and write operations. The problem is that most content publishing workloads are not genuinely relational. Posts, categories, and tags are simple hierarchies that JSON handles natively. Using a database-backed ORM stack for content that could live in flat files adds infrastructure complexity without adding capability ... and that complexity compounds over time through version mismatches, migration debt, and cache behavior that becomes harder to reason about as the site grows.",
+  "related_terms": ["site-architecture"],
+  "status": "published",
+  "created_at": "2026-06-06",
+  "updated_at": "2026-06-06",
+  "seo": {
+    "title": "ORM (Object-Relational Mapper) ... Glossary | Krisada.com",
+    "description": "What an ORM is, the complexity it adds to a stack, and why flat-file PHP publishing doesn't need one.",
+    "robots": "index, follow"
+  }
+}

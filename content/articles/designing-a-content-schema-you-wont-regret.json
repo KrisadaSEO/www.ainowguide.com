@@ -1,0 +1,41 @@
+{
+    "type": "article",
+    "title": "Designing a Content Schema You Won't Regret in Six Months",
+    "slug": "designing-a-content-schema-you-wont-regret",
+    "canonical_url": "/article/designing-a-content-schema-you-wont-regret/",
+    "status": "published",
+    "excerpt": "A content schema made up on the fly produces technical debt fast. Here is how to design one deliberately ... and what to get right before you have a hundred files that all need updating.",
+    "body": "<p>A content schema is the structure every record of a given type shares. For articles, it might include title, slug, excerpt, body, publish date, category, tags, and SEO fields. For categories, a different set. The schema is the contract between your content and your templates.</p>\n\n<p>Most people design their schema by adding fields as they need them. This works until it does not ... until you have a hundred article files that are inconsistent with each other, templates that handle optional fields with special cases, and AI tools that produce unpredictable output because the pattern is not clear.</p>\n\n<p>A schema designed deliberately avoids most of these problems.</p>\n\n<h2>Start with what every record needs, not what some records need</h2>\n\n<p>The first principle of schema design is distinguishing required fields from optional ones ... and being honest about which is which.</p>\n\n<p>A required field should be present in every record of that type, always. If you are tempted to make a field required but know there will be exceptions, it is not actually required ... it is optional with a strong default. Model it that way.</p>\n\n<p>Optional fields should have a clear purpose for the records that use them. An optional field that you are not sure you will ever actually use is clutter. Add it when you need it, not speculatively.</p>\n\n<h2>Name fields for what they contain, not how they render</h2>\n\n<p>Field names should describe the data, not the presentation. <code>excerpt</code> is better than <code>card_description</code> because the data is the excerpt ... how it renders is the template's concern. <code>sidebar_profile</code> is better than <code>right_sidebar</code> because the value is a profile slug, not a layout instruction.</p>\n\n<p>This matters when your templates change. If you name fields for how they render, every template change potentially requires schema changes. If you name fields for what they contain, templates change without touching the schema.</p>\n\n<h2>Be consistent about arrays vs strings</h2>\n\n<p>One of the most common sources of schema drift is inconsistency between arrays and strings for fields that sometimes have one value and sometimes have many. Tags are a common example ... sometimes an article has one tag, sometimes it has several.</p>\n\n<p>Pick one representation and use it everywhere. If tags are sometimes one value and sometimes many, always use an array ... even for single values. <code>[\"single-tag\"]</code> is more consistent than toggling between a string and an array based on count. Templates are simpler, validation is simpler, and AI tools produce consistent output.</p>\n\n<h2>Include a canonical example in your docs</h2>\n\n<p>The most useful piece of schema documentation is a canonical example ... a complete, correctly structured record that represents the standard case. Not a spec document, not a list of fields and types. An actual example file that shows exactly what a correct record looks like.</p>\n\n<p>When you or an AI assistant creates a new record, the canonical example is the pattern to match. It is faster to reference than a spec and harder to misinterpret.</p>\n\n<h2>Plan for what you know is coming</h2>\n\n<p>A schema should not try to anticipate every possible future requirement. But it should include the fields you know you will need based on where the site is going. If you know you will eventually add featured images, add a <code>featured_image</code> field now ... empty string is fine ... rather than retrofitting it across a hundred files later.</p>\n\n<p>The test is: am I adding this because I know I will use it, or because I might use it someday? Add the former. Skip the latter until you actually need it.</p>",
+    "publish_date": "2026-04-10",
+    "updated_at": "2026-04-10",
+    "author": "Atlas",
+    "category_primary": "content-systems/content-schemas",
+    "category_secondary": [
+        "content-systems",
+        "ai-website-systems"
+    ],
+    "tags": [
+        "content-schema",
+        "json-schema",
+        "content-architecture",
+        "data-design"
+    ],
+    "template": "article",
+    "sidebar_profile": "library-learning",
+    "seo": {
+        "title": "Designing a Content Schema You Won't Regret in Six Months ... Krisada.com",
+        "description": "How to design a content schema deliberately ... required vs optional fields, naming conventions, and what to get right before you have a hundred files to update."
+    },
+    "related_content": [
+        "what-a-clean-content-schema-looks-like",
+        "the-case-for-flat-file-publishing",
+        "setting-up-php-json-for-ai-development"
+    ],
+    "is_featured": false,
+    "is_cornerstone": false,
+    "reading_time": 5,
+    "include_in_sitemap": true,
+    "authors": [
+        "atlas"
+    ]
+}

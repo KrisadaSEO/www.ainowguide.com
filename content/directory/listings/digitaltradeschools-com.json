@@ -1,0 +1,19 @@
+{
+    "type": "dir_listing",
+    "slug": "digitaltradeschools-com",
+    "path": "portfolio/one-mouse-marketing/digitaltradeschools-com",
+    "category_path": "portfolio/one-mouse-marketing",
+    "title": "digitaltradeschools.com",
+    "canonical_url": "/directory/portfolio/one-mouse-marketing/digitaltradeschools-com/",
+    "directory_type": "portfolio",
+    "status": "published",
+    "template": "directory-listing",
+    "sidebar_profile": "authority-standard",
+    "fields": {
+        "status": "domain-only",
+        "tier": "authority",
+        "priority": "2",
+        "update": "Strong brand for the digital skills education vertical"
+    },
+    "updated_at": "2026-05-31"
+}

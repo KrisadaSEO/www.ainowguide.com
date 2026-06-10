@@ -1,0 +1,15 @@
+{
+    "type": "dir_category",
+    "slug": "professional-growth-markets",
+    "path": "portfolio/professional-growth-markets",
+    "parent_path": "portfolio",
+    "title": "Professional Growth Markets",
+    "canonical_url": "/directory/portfolio/professional-growth-markets/",
+    "description": "Niche professional verticals - medical marketing, spa business, local SEO, and specialty B2B.",
+    "directory_type": "portfolio",
+    "status": "published",
+    "template": "directory-category",
+    "sidebar_profile": "authority-standard",
+    "constellation_id": "c7",
+    "updated_at": "2026-05-31"
+}

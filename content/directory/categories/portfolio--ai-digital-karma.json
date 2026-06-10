@@ -1,0 +1,15 @@
+{
+    "type": "dir_category",
+    "slug": "ai-digital-karma",
+    "path": "portfolio/ai-digital-karma",
+    "parent_path": "portfolio",
+    "title": "AI Digital Karma",
+    "canonical_url": "/directory/portfolio/ai-digital-karma/",
+    "description": "AI data, semantic AI, and machine-readable web - the infrastructure layer of the AI Digital Karma brand.",
+    "directory_type": "portfolio",
+    "status": "published",
+    "template": "directory-category",
+    "sidebar_profile": "authority-standard",
+    "constellation_id": "c1",
+    "updated_at": "2026-05-31"
+}

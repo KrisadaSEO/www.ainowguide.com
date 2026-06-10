@@ -1,0 +1,18 @@
+{
+  "constellation": "AI Digital Karma",
+  "constellation_id": "c1",
+  "internal_relationships": [
+    { "from": "aidigitalkarma.com", "to": "ainowguide.com", "type": "parent_to_guide", "description": "Framework brand → practical entry guide" },
+    { "from": "aidigitalkarma.com", "to": "aisymantics.com", "type": "parent_to_brand", "description": "Framework brand → semantic AI sub-brand" },
+    { "from": "aidigitalkarma.com", "to": "datasetseo.com", "type": "concept_to_application", "description": "AI readability framework → dataset production as SEO asset" },
+    { "from": "aisymantics.com", "to": "aisymantix.com", "type": "primary_to_variant", "description": "Primary brand → spelling variant" },
+    { "from": "aisymantics.com", "to": "symatixai.com", "type": "primary_to_variant", "description": "Primary brand → domain variant" },
+    { "from": "datasetsbuilder.com", "to": "datasetsmaker.com", "type": "brand_variant", "description": "Same service, variant naming" }
+  ],
+  "external_relationships": [
+    { "from": "datasetseo.com", "to": "c3", "type": "crossover_bridge", "description": "Datasets as investable assets → Digital Asset Investing constellation" },
+    { "from": "aitoaiweb.com", "to": "c2", "type": "crossover_bridge", "description": "AI web infrastructure → AI Website Systems constellation" },
+    { "from": "aitoaiwebsites.com", "to": "c2", "type": "crossover_bridge", "description": "AI web infrastructure → AI Website Systems constellation" },
+    { "from": "aidigitalkarma.com", "to": "krisada.com", "type": "feeds_hub", "description": "Flagship concept → personal hub / AI Director narrative" }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "type": "category",
+  "title": "Content Schemas",
+  "slug": "content-schemas",
+  "path": "content-systems/content-schemas",
+  "parent_slug": "content-systems",
+  "canonical_url": "/library/content-systems/content-schemas/",
+  "description": "Designing JSON schemas for articles, categories, offers, and pages that machines and humans can both navigate.",
+  "intro": "A content schema is a contract between your content and the systems that render it. When the schema is consistent, AI tools can edit content safely, templates stay thin, and automation works without special-casing. This section covers how to design schemas that hold up as your content library grows.",
+  "status": "published",
+  "sort_order": 2,
+  "template": "category",
+  "sidebar_profile": "library-learning",
+  "seo": {
+    "title": "Content Schemas ... Content Systems ... Krisada.com",
+    "description": "How to design JSON schemas for articles, categories, and pages that scale cleanly and support automation."
+  },
+  "relationships": {
+    "related_categories": ["php-json-architecture", "ai-assisted-publishing"]
+  },
+  "updated_at": "2026-01-09"
+}

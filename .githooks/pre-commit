@@ -1,0 +1,46 @@
+#!/bin/sh
+# Auto-converts em dashes (U+2014) to ellipses, strips UTF-8 BOM, blocks "Operator" keyword.
+
+STAGED=$(git diff --cached --name-only --diff-filter=d | grep -E '\.(md|html|php|json|txt|css|js)$')
+
+if [ -z "$STAGED" ]; then
+    exit 0
+fi
+
+# --- UTF-8 BOM strip ---
+BOM_MATCHES=$(printf '%s\n' $STAGED | xargs grep -rlP '^\xef\xbb\xbf' 2>/dev/null)
+
+if [ -n "$BOM_MATCHES" ]; then
+    echo "Pre-commit: stripping UTF-8 BOM..."
+    for FILE in $BOM_MATCHES; do
+        php -r '$f=$argv[1];$b=file_get_contents($f);if(substr($b,0,3)==="\xEF\xBB\xBF"){file_put_contents($f,substr($b,3));}' -- "$FILE"
+        git add "$FILE"
+        echo "  Fixed BOM: $FILE"
+    done
+fi
+
+# --- Em dash -> ellipsis ---
+EM_MATCHES=$(printf '%s\n' $STAGED | xargs grep -l $'\xe2\x80\x94' 2>/dev/null)
+
+if [ -n "$EM_MATCHES" ]; then
+    echo "Pre-commit: converting em dashes to ellipses..."
+    for FILE in $EM_MATCHES; do
+        php -r '$f=$argv[1];$c=file_get_contents($f);$n=str_replace(chr(0xE2).chr(0x80).chr(0x94),"...",$c);if($c!==$n){file_put_contents($f,$n);}' -- "$FILE"
+        git add "$FILE"
+        echo "  Fixed: $FILE"
+    done
+fi
+
+# --- Banned word: Operator -> Specialist ---
+OPERATOR_MATCHES=$(printf '%s\n' $STAGED | xargs grep -lw 'Operator' 2>/dev/null)
+
+if [ -n "$OPERATOR_MATCHES" ]; then
+    echo "Pre-commit: replacing banned word 'Operator' with 'Specialist'..."
+    for FILE in $OPERATOR_MATCHES; do
+        php -r '$f=$argv[1];$c=file_get_contents($f);$n=preg_replace("/\bOperators\b/","Specialists",$c);$n=preg_replace("/\bOperator\b/","Specialist",$n);if($c!==$n){file_put_contents($f,$n);}' -- "$FILE"
+        git add "$FILE"
+        echo "  Fixed: $FILE"
+    done
+fi
+
+exit 0

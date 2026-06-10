@@ -1,0 +1,23 @@
+{
+  "type": "category",
+  "title": "Digital Property",
+  "slug": "digital-property",
+  "path": "digital-independence/digital-property",
+  "parent_slug": "digital-independence",
+  "canonical_url": "/library/digital-independence/digital-property/",
+  "redirect_from": ["/library/digital-independence/owned-infrastructure/"],
+  "description": "Domains, hosting, email, and the infrastructure you actually own ... the digital property layer that keeps your business running no matter what changes around it.",
+  "intro": "Digital property is the foundation everything else rests on. A domain you control, a hosting environment you can move, an email list you can export ... these are not technical details. They are the difference between a business that survives platform changes and one that does not. Start here before you build anything else.",
+  "status": "published",
+  "sort_order": 1,
+  "template": "category",
+  "sidebar_profile": "library-learning",
+  "seo": {
+    "title": "Digital Property ... Digital Independence ... Krisada.com",
+    "description": "Domains, hosting, and the digital property layer of your online business ... what to own, how to own it, and why it matters."
+  },
+  "relationships": {
+    "related_categories": ["digital-life/website-ownership", "digital-independence/platform-exit-strategy"]
+  },
+  "updated_at": "2026-05-31"
+}

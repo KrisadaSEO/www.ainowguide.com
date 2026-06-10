@@ -1,0 +1,20 @@
+{
+  "type": "glossary-term",
+  "glossary": "krisada-isms",
+  "term": "Zombie List",
+  "slug": "zombie-list",
+  "canonical_url": "/glossary/krisada-isms/zombie-list/",
+  "short_def": "A list pretending to be prose.",
+  "definition": "Named after the Sixth Sense test. The kid tells Bruce Willis \"I see dead people\" ... and you realize Willis has been dead the whole time. Same thing happens when you read a zombie list. Once you see it, you can't unsee it.\n\n\"Add the media layer. Add the community layer. Add the intellectual property layer.\" That's not three sentences. That's a bulleted list wearing a trench coat.",
+  "example": "How to spot one: Same opener repeating across consecutive sentences ... Add the / Start with / You can / This means. Three or more sentences that could each be a bullet without losing anything. A paragraph that reads like someone set a list on fire and called it copy.",
+  "nuance": "The fix: pull the items out, give them bullets, let the prose breathe around them.\n\nWhy it matters: on mobile, zombie lists are conversion killers. A reader hits the wall of parallel sentences, loses the rhythm, and keeps scrolling. The same information as a clean list takes three seconds to absorb instead of thirty.",
+  "related_terms": [],
+  "status": "published",
+  "created_at": "2026-06-07",
+  "updated_at": "2026-06-07",
+  "seo": {
+    "title": "Zombie List ... Krisada-isms Glossary | Krisada.com",
+    "description": "What a zombie list is: a list pretending to be prose. How to spot one, fix it, and why it kills conversions on mobile.",
+    "robots": "index, follow"
+  }
+}

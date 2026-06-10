@@ -1,0 +1,22 @@
+{
+  "type": "category",
+  "title": "Machine-Readable Content",
+  "slug": "machine-readable-content",
+  "path": "ai-website-systems/machine-readable-content",
+  "parent_slug": "ai-website-systems",
+  "canonical_url": "/library/ai-website-systems/machine-readable-content/",
+  "description": "Designing content that both humans and AI systems can navigate, trust, and cite ... structure, metadata, and federation endpoints.",
+  "intro": "Machine-readable content is not a separate deliverable from your human-facing site ... it is the same content, structured deliberately. When your articles carry explicit metadata, when your categories have clear relationships, and when your site exposes structured endpoints for AI systems, you become easier to surface, cite, and recommend. This section covers the practical decisions that make content legible to machines.",
+  "status": "published",
+  "sort_order": 2,
+  "template": "category",
+  "sidebar_profile": "library-learning",
+  "seo": {
+    "title": "Machine-Readable Content ... AI and Website Systems ... Krisada.com",
+    "description": "Designing content that both humans and AI systems can navigate ... structure, metadata, and federation endpoints."
+  },
+  "relationships": {
+    "related_categories": ["php-json-publishing", "ai-prompt-systems"]
+  },
+  "updated_at": "2026-03-03"
+}

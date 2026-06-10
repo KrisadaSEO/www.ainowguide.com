@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "description": "Satellite domains \u2014 don't fit cleanly into any constellation. Each has a disposition recommendation.",
+  "satellites": [
+    {
+      "domain": "nofucksbar.com",
+      "disposition": "keep-isolated",
+      "recommendation": "Private clubhouse / rebel brand. Members-only unfiltered content layer across all constellations. Keep intentionally isolated.",
+      "potential_constellation": null
+    },
+    {
+      "domain": "krisadaeaton.com",
+      "disposition": "keep-personal",
+      "recommendation": "Personal identity asset. Root domain for the human behind the system. Not a content play.",
+      "potential_constellation": null
+    },
+    {
+      "domain": "personalbrandspro.com",
+      "disposition": "decide",
+      "recommendation": "Fork: fold into c4 as a personal brand education sub-series, or exit portfolio.",
+      "potential_constellation": "c4"
+    },
+    {
+      "domain": "propersonalbrands.com",
+      "disposition": "decide",
+      "recommendation": "Variant of personalbrandspro.com \u2014 redirect to whichever is chosen as primary, or exit both.",
+      "potential_constellation": "c4"
+    },
+    {
+      "domain": "steakingout.com",
+      "disposition": "passive-or-exit",
+      "recommendation": "Consumer lifestyle play without a constellation home. Park with affiliate or sell.",
+      "potential_constellation": null
+    },
+    {
+      "domain": "beforeyoubuyx.com",
+      "disposition": "passive-or-exit",
+      "recommendation": "Consumer comparison play. Park with affiliate or sell.",
+      "potential_constellation": null
+    }
+  ]
+}

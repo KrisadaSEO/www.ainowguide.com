@@ -1,0 +1,22 @@
+{
+  "type": "category",
+  "title": "Platform Exit Strategy",
+  "slug": "platform-exit-strategy",
+  "path": "digital-independence/platform-exit-strategy",
+  "parent_slug": "digital-independence",
+  "canonical_url": "/library/digital-independence/platform-exit-strategy/",
+  "description": "How to reduce platform dependency over time ... practical steps for moving audience, content, and revenue to infrastructure you control.",
+  "intro": "Leaving a platform is not an event ... it is a process. The goal is not to delete accounts and walk away. It is to gradually shift the weight of your operation onto digital property until any single platform becomes optional. That shift takes time, but it starts with one move: own the relationship before you own the reach.",
+  "status": "published",
+  "sort_order": 2,
+  "template": "category",
+  "sidebar_profile": "library-learning",
+  "seo": {
+    "title": "Platform Exit Strategy ... Digital Independence ... Krisada.com",
+    "description": "Practical steps for reducing platform dependency and moving your audience, content, and revenue to infrastructure you control."
+  },
+  "relationships": {
+    "related_categories": ["digital-independence/digital-property", "digital-life/platform-independence"]
+  },
+  "updated_at": "2026-03-16"
+}

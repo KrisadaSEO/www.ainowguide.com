@@ -1,0 +1,14 @@
+{
+  "type": "glossary",
+  "slug": "krisada-isms",
+  "title": "Krisada-isms",
+  "description": "The terms, phrases, and frameworks I use that do not map cleanly to standard SEO or marketing vocabulary ... things I have named because nothing else fit.",
+  "canonical_url": "/glossary/krisada-isms/",
+  "status": "published",
+  "sidebar_profile": "authority-standard",
+  "seo": {
+    "title": "Krisada-isms Glossary | Krisada.com",
+    "description": "Krisada's own terms and frameworks ... defined in his own words because standard SEO vocabulary did not cover them.",
+    "robots": "index, follow"
+  }
+}

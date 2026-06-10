@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0",
+  "portfolio_name": "Krisada Constellation System",
+  "portfolio_owner": "Krisada Eaton",
+  "parent_entity": "Krisada Constellation",
+  "tagline": "Digital trade skills for the AI age",
+  "identity": "AI Director",
+  "generated": "2026-05-31",
+  "constellations": [
+    {
+      "id": "c1",
+      "slug": "ai-digital-karma",
+      "name": "AI Digital Karma",
+      "position": "Building the AI-readable web",
+      "domain_count": 16,
+      "flagship": "aidigitalkarma.com"
+    },
+    {
+      "id": "c2",
+      "slug": "ai-website-systems",
+      "name": "AI Website Systems",
+      "position": "Websites built for AI discovery, automation and ownership",
+      "domain_count": 6,
+      "flagship": "aiwebsitesystems.com"
+    },
+    {
+      "id": "c3",
+      "slug": "digital-asset-investing",
+      "name": "Digital Asset Investing",
+      "position": "Digital assets as an investment class",
+      "domain_count": 8,
+      "flagship": "smartdigitalinvesting.com"
+    },
+    {
+      "id": "c4",
+      "slug": "one-mouse-marketing",
+      "name": "One Mouse Marketing",
+      "position": "Digital trade skills for the AI age",
+      "domain_count": 6,
+      "flagship": "krisada.com"
+    },
+    {
+      "id": "c5",
+      "slug": "healthcare-ai-longevity",
+      "name": "Healthcare AI & Longevity",
+      "position": "Human longevity enhanced by AI, science and natural medicine",
+      "domain_count": 15,
+      "flagship": "aihealthcarenow.com"
+    },
+    {
+      "id": "c6",
+      "slug": "art-human-creativity",
+      "name": "Art & Human Creativity",
+      "position": "Human art, AI art and collectible digital creativity",
+      "domain_count": 14,
+      "flagship": "krisadaart.com"
+    },
+    {
+      "id": "c7",
+      "slug": "professional-growth-markets",
+      "name": "Professional Growth Markets",
+      "position": "Industry-specific marketing ecosystems",
+      "domain_count": 12,
+      "flagship": "medmarketingdr.com"
+    }
+  ],
+  "satellites": [
+    "lymespecialists.com",
+    "nofucksbar.com",
+    "krisadaeaton.com",
+    "personalbrandspro.com",
+    "propersonalbrands.com",
+    "steakingout.com",
+    "beforeyoubuyx.com"
+  ],
+  "total_domains": 86
+}

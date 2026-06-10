@@ -1,0 +1,20 @@
+{
+    "type": "dir_listing",
+    "slug": "healthywebai-com",
+    "path": "portfolio/ai-website-systems/healthywebai-com",
+    "category_path": "portfolio/ai-website-systems",
+    "title": "healthywebai.com",
+    "canonical_url": "/directory/portfolio/ai-website-systems/healthywebai-com/",
+    "directory_type": "portfolio",
+    "status": "published",
+    "template": "directory-listing",
+    "sidebar_profile": "authority-standard",
+    "fields": {
+        "status": "domain-only",
+        "tier": "supporting",
+        "priority": "3",
+        "update": "Crossover: also serves c5 Healthcare AI",
+        "crossover": "Healthcare AI & Longevity"
+    },
+    "updated_at": "2026-05-31"
+}

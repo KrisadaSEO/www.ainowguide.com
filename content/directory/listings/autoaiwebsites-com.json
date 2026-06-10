@@ -1,0 +1,18 @@
+{
+    "type": "dir_listing",
+    "slug": "autoaiwebsites-com",
+    "path": "portfolio/ai-website-systems/autoaiwebsites-com",
+    "category_path": "portfolio/ai-website-systems",
+    "title": "autoaiwebsites.com",
+    "canonical_url": "/directory/portfolio/ai-website-systems/autoaiwebsites-com/",
+    "directory_type": "portfolio",
+    "status": "published",
+    "template": "directory-listing",
+    "sidebar_profile": "authority-standard",
+    "fields": {
+        "status": "domain-only",
+        "tier": "supporting",
+        "priority": "2"
+    },
+    "updated_at": "2026-05-31"
+}

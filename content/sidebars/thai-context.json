@@ -1,0 +1,29 @@
+{
+  "title": "Thai Context Sidebar",
+  "slug": "thai-context",
+  "blocks": [
+    {
+      "type": "thai-links",
+      "style": "thai-links",
+      "title": "Context Links"
+    },
+    {
+      "type": "legal-note",
+      "style": "legal-note",
+      "title": "What This Page Is",
+      "body": "A personal clarification page about background, identity, and the assumptions people make when they see the name Krisada."
+    },
+    {
+      "type": "mini-bio",
+      "style": "personal-highlight",
+      "title": "Krisada",
+      "body": "Born in Thailand, raised in Upstate New York, and shaped far more by environment and independent thinking than by cultural assumptions tied to the name.",
+      "photo_url": ""
+    },
+    {
+      "type": "related-articles",
+      "style": "practical-highlight",
+      "title": "Related Reading"
+    }
+  ]
+}

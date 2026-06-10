@@ -1,0 +1,40 @@
+{
+    "type": "article",
+    "title": "The AI-Assisted Publishing Workflow That Keeps You in Control",
+    "slug": "ai-assisted-publishing-workflow",
+    "canonical_url": "/article/ai-assisted-publishing-workflow/",
+    "status": "published",
+    "excerpt": "AI can accelerate your publishing without replacing your judgment ... if you set up the workflow correctly. The difference is in where you put the human decision points.",
+    "body": "<p>Most people use AI for content in one of two ways: they either treat it as a ghostwriter and publish whatever it produces, or they distrust it entirely and do everything manually. Both approaches miss the point.</p>\n\n<p>The better model is a workflow where AI handles the parts of publishing that are mechanical and repetitive, and you handle the parts that require judgment and voice. Drawing that line correctly is the whole game.</p>\n\n<h2>What AI is actually good at in publishing</h2>\n\n<p>AI is good at structure. Given a topic and a schema, it can produce a well-formed draft that hits the expected sections, maintains consistent heading levels, and stays on topic. It does not get tired, does not forget to include the meta description, and does not need to be reminded of the JSON schema every time.</p>\n\n<p>AI is also good at the mechanical parts of SEO: generating title variants, writing meta descriptions, suggesting related articles, identifying which tags apply to a piece. These are rules-based tasks that have clear right answers. Let AI do them.</p>\n\n<p>What AI is not good at: your specific perspective, your earned opinions, the examples that come from your actual experience, and the voice that makes a reader feel like they are learning from a person rather than reading a content brief.</p>\n\n<h2>The three-stage model</h2>\n\n<p>A practical AI-assisted publishing workflow has three stages with a clear handoff between each.</p>\n\n<p><strong>Stage one: structure.</strong> You define the article brief ... the topic, the category, the angle, the key point the reader should leave with. AI produces a structured draft using your schema. You review the structure, not the prose. Is the argument coherent? Are the sections in the right order? Does it cover what it needs to cover?</p>\n\n<p><strong>Stage two: voice.</strong> You rewrite the draft in your own voice. This is not light editing ... it is a genuine pass where you put your perspective into the piece. Cut what is generic. Add what is specific to your experience. Change any sentence that sounds like it came from a content brief rather than a person.</p>\n\n<p><strong>Stage three: metadata.</strong> AI generates the supporting data: SEO title, meta description, tags, related content slugs. You review and approve. These are mechanical outputs with clear quality criteria ... short enough, accurate enough, not duplicated from another article.</p>\n\n<h2>Why the schema matters</h2>\n\n<p>The workflow only works if AI has a consistent schema to work against. If your content records have unpredictable shapes ... sometimes there is an excerpt field, sometimes not; sometimes tags are strings, sometimes objects ... AI will produce inconsistent drafts and you will spend your review time fixing structure instead of improving content.</p>\n\n<p>A clean, consistent JSON schema means AI can produce a draft that drops directly into your content directory with minimal manual correction. The time you save on structure is time you can spend on voice.</p>\n\n<h2>The practical test</h2>\n\n<p>Read a finished article and ask: could this have been written by anyone? If yes, the voice stage did not go far enough. The goal is an article that could only have been written by you ... because you added the specific examples, the honest caveats, the take that only comes from doing the work yourself.</p>\n\n<p>AI accelerates the parts that do not require you. It should not replace the parts that do.</p>",
+    "publish_date": "2026-02-10",
+    "updated_at": "2026-02-10",
+    "author": "Atlas",
+    "category_primary": "content-systems/ai-assisted-publishing",
+    "category_secondary": [
+        "content-systems",
+        "ai-website-systems"
+    ],
+    "tags": [
+        "ai-publishing",
+        "content-workflow",
+        "ai-assisted",
+        "content-systems"
+    ],
+    "template": "article",
+    "sidebar_profile": "library-learning",
+    "seo": {
+        "title": "The AI-Assisted Publishing Workflow That Keeps You in Control ... Krisada.com",
+        "description": "How to use AI to publish faster without losing your voice ... the three-stage workflow with clear human decision points."
+    },
+    "related_content": [
+        "what-a-clean-content-schema-looks-like",
+        "the-case-for-flat-file-publishing"
+    ],
+    "is_featured": false,
+    "is_cornerstone": true,
+    "reading_time": 5,
+    "include_in_sitemap": true,
+    "authors": [
+        "atlas"
+    ]
+}

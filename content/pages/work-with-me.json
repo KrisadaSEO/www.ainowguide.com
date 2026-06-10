@@ -1,0 +1,29 @@
+{
+  "title": "Work With Me",
+  "slug": "work-with-me",
+  "canonical_url": "/work-with-me/",
+  "status": "published",
+  "template": "work-with-me",
+  "hide_sidebar": true,
+  "updated_at": "2026-04-21",
+  "seo": {
+    "title": "Work With Me | Krisada.com",
+    "description": "A single, scoped site audit. I review your digital system and tell you exactly what's broken, what's working, and what to fix first. $497. One deliverable. No retainer."
+  },
+  "schema": {
+    "main_entity": {
+      "@type": "Service",
+      "name": "Site Audit",
+      "description": "A written audit reviewing content architecture, AI visibility gaps, search signal analysis, internal linking, and prioritised next steps for your digital presence.",
+      "provider": { "@id": "https://www.krisada.com/#person" },
+      "offers": {
+        "@type": "Offer",
+        "price": "497",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock"
+      },
+      "serviceType": "Digital Audit",
+      "areaServed": "Worldwide"
+    }
+  }
+}

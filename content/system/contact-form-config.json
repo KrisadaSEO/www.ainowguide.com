@@ -1,0 +1,139 @@
+{
+  "_schema": "contact-form-config/v1",
+  "_type": "contact-form",
+  "delivery": {
+    "to_email": "hello@krisada.com",
+    "from_email": "hello@krisada.com",
+    "from_name": "Krisada.com Contact"
+  },
+  "spam_protection": {
+    "honeypot_field": "company",
+    "minimum_seconds": 3
+  },
+  "intent_map": {
+    "site-audit": {
+      "prefill": {
+        "inquiry_type": "site-audit",
+        "stage": "stuck",
+        "goal": "I want a site audit for [site or project URL]. The main outcome I want is [outcome]. The biggest issue I need help diagnosing is [issue]."
+      },
+      "hero": {
+        "eyebrow": "Site Audit",
+        "title": "Start the audit request.",
+        "subheadline": "Send the site, the problem, and the outcome you want. If the fit is real, I will tell you quickly.",
+        "intro": "This route is for the scoped site audit. Clear context makes it easy to judge fit, urgency, and whether your site is the right kind of problem for this offer."
+      },
+      "form": {
+        "section_title": "Request the audit",
+        "transition": "Send the site, the main problem, and what you want fixed first.",
+        "intro": "A few specifics is enough. I do not need a polished brief. I need the real situation.",
+        "submit_label": "Request the Audit",
+        "submit_note": "If the fit is real, I will reply with next steps and current availability.",
+        "success_message": "Audit request received. If the fit is real, you will hear back at the email you provided."
+      }
+    },
+    "guild-waitlist": {
+      "prefill": {
+        "inquiry_type": "guild-waitlist",
+        "goal": "I want to hear when the guild opens. The skills or projects I care most about are [skills, niches, or kinds of builds]."
+      },
+      "hero": {
+        "eyebrow": "Waitlist",
+        "title": "Join the early-interest list.",
+        "subheadline": "If the guild or monthly membership sounds relevant, send a short note here.",
+        "intro": "This is not a hard sell funnel. It is just a clean way to raise your hand so I know what people actually want when the next offer opens."
+      },
+      "form": {
+        "section_title": "Raise your hand",
+        "transition": "Tell me what kind of build, skills, or support you would want from the guild.",
+        "intro": "A short note is enough. Specific beats polished.",
+        "submit_label": "Join the Waitlist",
+        "submit_note": "This just records interest and context. I will reach out when there is something real to show.",
+        "success_message": "Waitlist request received. I will reach out when there is something real to show."
+      }
+    }
+  },
+  "inquiry_types": [
+    { "value": "site-audit", "label": "Site audit request" },
+    { "value": "guild-waitlist", "label": "Guild or membership waitlist" },
+    { "value": "learning", "label": "Learning about digital systems or AI visibility" },
+    { "value": "building", "label": "Building a website, content system, or digital property" },
+    { "value": "partnership", "label": "Partnership or collaboration" },
+    { "value": "media-speaking", "label": "Media, podcast, or speaking request" },
+    { "value": "other", "label": "Other serious inquiry" }
+  ],
+  "stages": [
+    { "value": "exploring", "label": "Still exploring the options" },
+    { "value": "actively-building", "label": "Actively building right now" },
+    { "value": "stuck", "label": "Stuck and need a second opinion" },
+    { "value": "urgent", "label": "There is a live issue that needs attention" }
+  ],
+  "fields": [
+    {
+      "name": "name",
+      "type": "text",
+      "label": "Name",
+      "placeholder": "Your name",
+      "help": "",
+      "required": true,
+      "autocomplete": "name",
+      "max_length": 120
+    },
+    {
+      "name": "email",
+      "type": "email",
+      "label": "Email",
+      "placeholder": "you@example.com",
+      "help": "Use the address where a real reply should go.",
+      "required": true,
+      "autocomplete": "email",
+      "max_length": 160
+    },
+    {
+      "name": "website",
+      "type": "url",
+      "label": "Website or project URL",
+      "placeholder": "https://example.com",
+      "help": "If there is something live, send it. If not, leave this blank.",
+      "required": false,
+      "autocomplete": "url",
+      "max_length": 255
+    },
+    {
+      "name": "inquiry_type",
+      "type": "select",
+      "label": "What best describes your inquiry?",
+      "placeholder": "Choose one",
+      "help": "This helps route the conversation fast.",
+      "required": true
+    },
+    {
+      "name": "goal",
+      "type": "textarea",
+      "label": "What are you actually trying to accomplish?",
+      "placeholder": "Be specific. What are you building, where are you stuck, and what would a good outcome look like?",
+      "help": "A few concrete details beats a long intro every time.",
+      "required": true,
+      "rows": 6,
+      "max_length": 4000
+    },
+    {
+      "name": "stage",
+      "type": "select",
+      "label": "Where are you in the process?",
+      "placeholder": "Select the current stage",
+      "help": "Optional, but it helps gauge urgency and fit.",
+      "required": false
+    },
+    {
+      "name": "message",
+      "type": "textarea",
+      "label": "Anything else worth knowing?",
+      "placeholder": "Timeline, context, links, or anything that makes this easier to evaluate.",
+      "help": "Optional. Use this for extra context, not filler.",
+      "required": false,
+      "rows": 4,
+      "max_length": 3000
+    }
+  ]
+}

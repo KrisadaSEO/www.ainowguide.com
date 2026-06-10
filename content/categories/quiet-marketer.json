@@ -1,0 +1,40 @@
+{
+  "type": "category",
+  "title": "The Quiet Marketer",
+  "slug": "quiet-marketer",
+  "path": "quiet-marketer",
+  "parent_slug": "",
+  "canonical_url": "/library/quiet-marketer/",
+  "description": "For people who want to build real digital income ... without a personal brand, without social media, without showing their face. Trade skills, not influencer tactics.",
+  "intro": "Most advice about making money online assumes you want to be seen. The Quiet Marketer is for the people it leaves out ... skilled, motivated people who want income, not influence. This series covers the trade skills behind quietly profitable websites: SEO, site architecture, content systems, and monetization strategy, built for people who want results without the spotlight.",
+  "status": "published",
+  "sort_order": 6,
+  "featured_image": "",
+  "template": "category",
+  "sidebar_profile": "library-learning",
+  "seo": {
+    "title": "The Quiet Marketer ... Digital Income Without a Personal Brand | Krisada.com",
+    "description": "Build real digital income without an audience, a personal brand, or social media. The Quiet Marketer covers the trade skills behind quietly profitable websites."
+  },
+  "schema": {
+    "about": [
+      "quiet marketing",
+      "digital income without personal brand",
+      "faceless website businesses",
+      "trade skills for online income"
+    ],
+    "mentions": [
+      "/quiet-marketer/",
+      "/quiet-marketer/build-digital-income-without-personal-brand/",
+      "/quiet-marketer/choose-your-first-website-business-model/",
+      "/quiet-marketer/what-digital-skills-wont-ai-replace/"
+    ],
+    "is_part_of": [
+      "/library/"
+    ]
+  },
+  "relationships": {
+    "related_categories": ["digital-independence", "visibility-search", "digital-life"]
+  },
+  "updated_at": "2026-04-25"
+}

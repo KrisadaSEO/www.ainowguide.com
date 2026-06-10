@@ -1,0 +1,19 @@
+{
+    "type": "dir_listing",
+    "slug": "as400ibmsystem-com",
+    "path": "portfolio/professional-growth-markets/as400ibmsystem-com",
+    "category_path": "portfolio/professional-growth-markets",
+    "title": "as400ibmsystem.com",
+    "canonical_url": "/directory/portfolio/professional-growth-markets/as400ibmsystem-com/",
+    "directory_type": "portfolio",
+    "status": "published",
+    "template": "directory-listing",
+    "sidebar_profile": "authority-standard",
+    "fields": {
+        "status": "domain-only",
+        "tier": "authority",
+        "priority": "2",
+        "update": "Legacy IBM AS/400 \u2014 low competition, high intent"
+    },
+    "updated_at": "2026-05-31"
+}

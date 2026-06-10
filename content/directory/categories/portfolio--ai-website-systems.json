@@ -1,0 +1,15 @@
+{
+    "type": "dir_category",
+    "slug": "ai-website-systems",
+    "path": "portfolio/ai-website-systems",
+    "parent_path": "portfolio",
+    "title": "AI Website Systems",
+    "canonical_url": "/directory/portfolio/ai-website-systems/",
+    "description": "AI-built websites, automated publishing systems, and the business of AI web infrastructure.",
+    "directory_type": "portfolio",
+    "status": "published",
+    "template": "directory-category",
+    "sidebar_profile": "authority-standard",
+    "constellation_id": "c2",
+    "updated_at": "2026-05-31"
+}

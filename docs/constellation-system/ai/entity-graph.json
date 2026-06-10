@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "description": "Entity graph for the Krisada Constellation System. Defines how entities relate to each other  -  portfolio, constellations, domains, people, concepts.",
+  "entities": {
+    "portfolio": {
+      "@type": "Organization",
+      "name": "Krisada Constellation System",
+      "url": "https://krisada.com",
+      "founder": "Krisada Eaton",
+      "description": "A portfolio of seven interconnected digital constellations focused on AI infrastructure, digital assets, healthcare, marketing, art, and industry-specific publishing.",
+      "tagline": "Digital trade skills for the AI age"
+    },
+    "people": [
+      {
+        "@type": "Person",
+        "name": "Krisada Eaton",
+        "role": "AI Director",
+        "url": "https://krisadaeaton.com",
+        "description": "Human architect who directs AI tools toward strategic outcomes. Vision and strategic judgment as the durable skills in the AI age.",
+        "member_of": "Krisada Constellation System"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "ai-director",
+        "name": "AI Director",
+        "definition": "A human architect who directs AI tools toward strategic outcomes rather than executing technical tasks directly. Vision and strategic judgment are the durable skills; technical execution is delegated to AI.",
+        "origin": "Krisada Constellation / krisada.com"
+      },
+      {
+        "id": "digital-karma",
+        "name": "AI Digital Karma",
+        "definition": "The framework for building AI-readable, AI-trustworthy web infrastructure. How a site earns visibility and authority in AI-driven search and discovery systems.",
+        "origin": "aidigitalkarma.com"
+      },
+      {
+        "id": "constellation",
+        "name": "Constellation",
+        "definition": "A named cluster of related domains and web properties organized around a shared theme, audience, and monetization logic. The organizational unit of the Krisada portfolio.",
+        "origin": "Krisada Constellation System"
+      },
+      {
+        "id": "digital-trade-skills",
+        "name": "Digital Trade Skills",
+        "definition": "Practical, learnable skills for building digital income  -  SEO, AI-directed content, website ownership, and digital asset investing. Positioned as the blue-collar trades of the internet age.",
+        "origin": "krisada.com / digitaltradeschools.com"
+      },
+      {
+        "id": "weaponize-the-sheep",
+        "name": "Weaponize the Sheep",
+        "definition": "Coined concept within the AI Director framework. Directing AI tools (the sheep) with strategic intent rather than treating them as autonomous agents.",
+        "origin": "krisada.com"
+      }
+    ]
+  }
+}

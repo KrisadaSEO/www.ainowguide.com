@@ -1,0 +1,10 @@
+{
+  "_instructions": "Copy this file to config/install.json and fill in values for this machine. install.json is gitignored and must never be committed.",
+  "site_name": "",
+  "domain": "",
+  "deploy_path": "",
+  "environment": "production",
+  "admin_token": "",
+  "redirect_404_log_file": "",
+  "github_token": ""
+}

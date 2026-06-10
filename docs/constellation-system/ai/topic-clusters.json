@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "description": "Topic clusters mapped to constellations. Used to signal topical authority to AI systems and search infrastructure.",
+  "clusters": [
+    {
+      "topic": "AI infrastructure and machine-readable web",
+      "subtopics": ["AI datasets", "agent-to-agent networks", "AI data exchange", "AI trust", "AI readiness", "semantic AI", "AI discoverability"],
+      "primary_constellation": "c1",
+      "anchor_domain": "aidigitalkarma.com"
+    },
+    {
+      "topic": "AI-powered websites and automation",
+      "subtopics": ["automated website creation", "AI website ownership", "AI marketing", "quick rank AI", "website automation"],
+      "primary_constellation": "c2",
+      "anchor_domain": "aiwebsitesystems.com"
+    },
+    {
+      "topic": "Digital asset investing and website acquisitions",
+      "subtopics": ["buying SEO websites", "digital property valuation", "internet investing", "website portfolio", "leverage and digital assets"],
+      "primary_constellation": "c3",
+      "anchor_domain": "smartdigitalinvesting.com"
+    },
+    {
+      "topic": "Digital marketing education and SEO trade skills",
+      "subtopics": ["SEO education", "digital trade skills", "AI age marketing", "one mouse marketing", "digital ownership"],
+      "primary_constellation": "c4",
+      "anchor_domain": "krisada.com"
+    },
+    {
+      "topic": "Healthcare AI and human longevity",
+      "subtopics": ["AI medicine", "longevity science", "aging well", "natural health", "naturopathic", "health insurance", "Lyme disease", "supplements"],
+      "primary_constellation": "c5",
+      "anchor_domain": "aihealthcarenow.com"
+    },
+    {
+      "topic": "Art, human creativity, and digital collectibles",
+      "subtopics": ["digital art", "AI art", "fine art prints", "e-ink art", "art galleries", "art marketplace", "artist education"],
+      "primary_constellation": "c6",
+      "anchor_domain": "krisadaart.com"
+    },
+    {
+      "topic": "Industry-specific digital marketing",
+      "subtopics": ["medical marketing", "pharmaceutical digital marketing", "spa marketing", "local SEO", "real estate digital", "B2B tech resale", "AS400 IBM"],
+      "primary_constellation": "c7",
+      "anchor_domain": "medmarketingdr.com"
+    }
+  ]
+}

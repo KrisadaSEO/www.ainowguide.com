@@ -1,0 +1,19 @@
+{
+    "type": "dir_listing",
+    "slug": "smartinternetinvesting-com",
+    "path": "portfolio/digital-asset-investing/smartinternetinvesting-com",
+    "category_path": "portfolio/digital-asset-investing",
+    "title": "smartinternetinvesting.com",
+    "canonical_url": "/directory/portfolio/digital-asset-investing/smartinternetinvesting-com/",
+    "directory_type": "portfolio",
+    "status": "published",
+    "template": "directory-listing",
+    "sidebar_profile": "authority-standard",
+    "fields": {
+        "status": "domain-only",
+        "tier": "supporting",
+        "priority": "2",
+        "update": "Variant of flagship"
+    },
+    "updated_at": "2026-05-31"
+}

@@ -1,0 +1,41 @@
+{
+  "type": "category",
+  "title": "Digital Independence",
+  "slug": "digital-independence",
+  "path": "digital-independence",
+  "parent_slug": "",
+  "canonical_url": "/library/digital-independence/",
+  "description": "Why owning your digital infrastructure matters ... and what platform dependency actually costs you.",
+  "intro": "Platform dependency is an invisible tax on your time, reach, and long-term position. Every algorithm change, policy shift, or account suspension is a reminder that rented reach is not ownership. Digital independence is not about rejecting platforms ... it is about not depending on any single one.",
+  "status": "published",
+  "sort_order": 5,
+  "featured_image": "",
+  "template": "category",
+  "sidebar_profile": "library-learning",
+  "seo": {
+    "title": "Digital Independence ... Krisada.com",
+    "description": "Why owning your digital infrastructure matters and what platform dependency actually costs."
+  },
+  "schema": {
+    "about": [
+      "digital independence",
+      "digital property",
+      "platform exit strategy",
+      "revenue diversification"
+    ],
+    "mentions": [
+      "/library/digital-independence/digital-property/",
+      "/library/digital-independence/platform-exit-strategy/",
+      "/library/digital-independence/revenue-diversification/",
+      "/article/how-to-reduce-platform-dependency/",
+      "/article/your-domain-is-the-asset/"
+    ],
+    "is_part_of": [
+      "/library/"
+    ]
+  },
+  "relationships": {
+    "related_categories": ["digital-life", "content-systems"]
+  },
+  "updated_at": "2026-04-25"
+}

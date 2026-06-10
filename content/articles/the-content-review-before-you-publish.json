@@ -1,0 +1,41 @@
+{
+    "type": "article",
+    "title": "The Content Review You Should Do Before Every Publish",
+    "slug": "the-content-review-before-you-publish",
+    "canonical_url": "/article/the-content-review-before-you-publish/",
+    "status": "published",
+    "excerpt": "AI can draft the article. The review before publishing is where your judgment matters most. Here is what to check ... and what you are actually checking for.",
+    "body": "<p>An AI-assisted publishing workflow speeds up the drafting process significantly. The review process is where you earn back the quality that speed costs. Done well, it takes less time than you think and produces a meaningfully better result than publishing the draft as-is.</p>\n\n<p>Here is the review in the order it should happen.</p>\n\n<h2>First pass: structure</h2>\n\n<p>Before reading for content, check the structure. Does the article have a clear opening that states what it covers? Do the headings tell a coherent story if you read only them? Does each section deliver what its heading promises? Does it close with something actionable or conclusive rather than trailing off?</p>\n\n<p>Structure problems are easier to fix before you have read the piece closely and formed an attachment to the prose. Fix the architecture first, then read for content.</p>\n\n<h2>Second pass: voice</h2>\n\n<p>Read the article aloud in your head ... or actually aloud if you have the privacy for it. Mark any sentence that sounds like it came from a content brief rather than a person. Mark any paragraph that could have been written by anyone. Mark any claim that is too vague to be useful.</p>\n\n<p>Those marks are your rewrite list. The goal is not to rewrite every sentence ... it is to replace the generic with the specific. Substitute a real example for a hypothetical one. Add the caveat that only someone who has done this work would know. Change the passive construction to the direct one.</p>\n\n<p>When you are done, the article should sound like you wrote it. Not like you edited something someone else wrote.</p>\n\n<h2>Third pass: accuracy</h2>\n\n<p>Check every factual claim, every named tool or platform, every statistic. AI drafts can contain plausible-sounding errors ... numbers that are off, features that do not exist as described, references to things that changed. You are the expert on your topic. Read it as a skeptic.</p>\n\n<p>This pass is also where you check the technical content: is the JSON schema example actually valid? Is the code snippet syntactically correct? Does the step-by-step process reflect how the thing actually works?</p>\n\n<h2>Fourth pass: metadata</h2>\n\n<p>Check the fields that do not show up in the body but matter for the rest of the system. Is the <code>excerpt</code> accurate and compelling? Is the <code>category_primary</code> path correct ... does it match an existing category exactly? Are the <code>related_content</code> slugs real articles that exist? Is the <code>reading_time</code> roughly accurate? Is the SEO description under 160 characters and does it actually describe the article?</p>\n\n<p>These are easy to get wrong in a generated draft and easy to fix in a review. They affect how the article appears in category listings, how it connects to related content, and how it renders in search results. Worth the two minutes.</p>\n\n<h2>The publish decision</h2>\n\n<p>After the review, ask one question: would I be comfortable if the most critical person in my audience read this today? Not a perfect reader who forgives rough edges ... a critical one who is looking for a reason to dismiss it.</p>\n\n<p>If the answer is yes, publish. If not, you know what to fix. The bar does not have to be perfection. It has to be good enough to represent you accurately and deliver real value to the person who reads it.</p>",
+    "publish_date": "2026-04-01",
+    "updated_at": "2026-04-01",
+    "author": "Atlas",
+    "category_primary": "content-systems/ai-assisted-publishing",
+    "category_secondary": [
+        "content-systems",
+        "ai-website-systems/ai-prompt-systems"
+    ],
+    "tags": [
+        "content-review",
+        "publishing-workflow",
+        "ai-assisted",
+        "quality-control"
+    ],
+    "template": "article",
+    "sidebar_profile": "library-learning",
+    "seo": {
+        "title": "The Content Review You Should Do Before Every Publish ... Krisada.com",
+        "description": "The four-pass review that turns an AI draft into a publishable article ... structure, voice, accuracy, metadata."
+    },
+    "related_content": [
+        "ai-assisted-publishing-workflow",
+        "building-reusable-ai-prompt-systems",
+        "what-a-clean-content-schema-looks-like"
+    ],
+    "is_featured": false,
+    "is_cornerstone": false,
+    "reading_time": 5,
+    "include_in_sitemap": true,
+    "authors": [
+        "atlas"
+    ]
+}

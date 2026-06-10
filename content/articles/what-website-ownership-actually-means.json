@@ -1,0 +1,40 @@
+{
+    "type": "article",
+    "title": "What Website Ownership Actually Means (And Why Most People Don't Have It)",
+    "slug": "what-website-ownership-actually-means",
+    "canonical_url": "/article/what-website-ownership-actually-means/",
+    "status": "published",
+    "excerpt": "Having a website and owning your web presence are not the same thing. Most people have one without the other. Here is the difference ... and why it matters more now than it ever did.",
+    "body": "<p>You have a website. You pay for hosting. You post content. You have a domain name registered in your name. Does that mean you own your web presence?</p>\n\n<p>Not necessarily. Ownership is not just about who holds the domain registration. It is about what you control, what you can move, and what survives if a platform, a host, or an algorithm changes the rules.</p>\n\n<h2>The three things you actually need to own</h2>\n\n<p><strong>Your content.</strong> If your content lives in a platform's database and you cannot export it in a portable format, you do not own it ... you are leasing storage. Real ownership means your content is in files you control: text files, JSON records, Markdown, HTML. Files you can pick up and move without asking anyone's permission.</p>\n\n<p><strong>Your audience relationship.</strong> A social media following is not an audience you own. The platform mediates every interaction, sets the distribution rules, and can change them at any time. An email list you hold in a file you control is owned. A community that has agreed to hear from you through a channel you operate is owned. Everything else is rented reach.</p>\n\n<p><strong>Your domain.</strong> This is the one most people get right, but there are still ways to get it wrong. Registering a domain through a third-party reseller who holds the actual account is not ownership. Registering through your web host and losing access to it when you leave that host is not ownership. You own the domain when it is registered directly in your name, on an account only you control, with the registrar contact pointing to you.</p>\n\n<h2>Platform dependency looks like ownership</h2>\n\n<p>This is the trap. A well-designed platform makes you feel like you own something. You have a URL. You have analytics. You have a custom domain in some cases. It looks like ownership from the outside.</p>\n\n<p>But the content is in their database. The algorithm controls who sees it. The terms of service can change. The platform can be acquired, shut down, or decide your content violates a policy you did not know existed. At that point you discover what you actually owned: nothing except the time you spent building there.</p>\n\n<p>This is not hypothetical. It has happened to publishers, creators, and businesses at scale. The ones who survived had digital property to fall back on. The ones who did not had to start over.</p>\n\n<h2>What to do about it</h2>\n\n<p>Start with what you can control. Register your primary domain directly. Move your most important content to a self-hosted system where you have the files. Build an email list through a provider that lets you export subscribers freely.</p>\n\n<p>You do not have to abandon platforms. Use them to reach new audiences. But own the relationship once it starts. Every meaningful interaction should move people toward something you own ... your site, your list, your community.</p>\n\n<p>The goal is that if any platform shut down tomorrow, your business or publishing operation would still be intact. That is the test of ownership. Run it against what you have now.</p>",
+    "publish_date": "2026-01-28",
+    "updated_at": "2026-01-28",
+    "author": "Atlas",
+    "category_primary": "digital-life/website-ownership",
+    "category_secondary": [
+        "digital-life",
+        "digital-independence"
+    ],
+    "tags": [
+        "website-ownership",
+        "digital-independence",
+        "owned-platforms",
+        "platform-risk"
+    ],
+    "template": "article",
+    "sidebar_profile": "library-learning",
+    "seo": {
+        "title": "What Website Ownership Actually Means ... Krisada.com",
+        "description": "Having a website and owning your web presence are not the same thing. Here is the real definition ... content, audience, and domain ... and how to test what you actually own."
+    },
+    "related_content": [
+        "the-true-cost-of-platform-dependency",
+        "why-your-website-is-an-asset-not-an-expense"
+    ],
+    "is_featured": false,
+    "is_cornerstone": true,
+    "reading_time": 5,
+    "include_in_sitemap": true,
+    "authors": [
+        "atlas"
+    ]
+}

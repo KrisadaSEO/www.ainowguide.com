@@ -1,0 +1,56 @@
+{
+    "type": "article",
+    "title": "Structured Data Is Not Optional Anymore",
+    "slug": "structured-data-is-not-optional-anymore",
+    "canonical_url": "/article/structured-data-is-not-optional-anymore/",
+    "status": "published",
+    "excerpt": "For years, structured data was treated as a bonus ... something to add when you had time. That calculation has changed. In an AI-assisted search environment, structured data is one of the primary signals that machines use to understand, trust, and cite your content.",
+    "body": "<p>Structured data has been part of the SEO toolkit for over a decade. It showed up in conference talks as an optional enhancement ... worth doing if you could spare the development time, but not mission-critical. Rich snippets were nice to have. <a href=\"/glossary/ai-digital-karma/json-ld/\">JSON-LD</a> was a recommendation, not a requirement.</p>\n\n<p>That framing is now outdated.</p>\n\n<h2>What changed</h2>\n\n<p>The change is not in the structured data formats themselves. Schema.org has been the standard for years. JSON-LD works the same way it always did. What changed is who is reading it and what they are doing with it.</p>\n\n<p>AI systems that synthesise search results ... the ones that give you a summarised answer before you see any links ... are not just looking at your page text. They are reading your markup. They are evaluating your authorship signals. They are checking whether your content claims match your metadata. They are assessing whether your content is trustworthy enough to cite.</p>\n\n<p>A page with no structured data is a page that forces an AI system to guess at its context. A page with clean, accurate JSON-LD is a page that declares its context explicitly. In a competitive content environment, that difference matters.</p>\n\n<h2>What to implement first</h2>\n\n<p>Start with the basics and do them correctly before adding complexity.</p>\n\n<p><strong>Article schema.</strong> For every article, implement <code>Article</code> or <code>BlogPosting</code> with at minimum: <code>headline</code>, <code>description</code>, <code>datePublished</code>, <code>dateModified</code>, <code>author</code>, and <code>mainEntityOfPage</code>. Author should be a <code>Person</code> entity with a name, not a plain string.</p>\n\n<p><strong>WebPage or CollectionPage schema.</strong> For category landing pages and standard pages, implement <code>CollectionPage</code> or <code>WebPage</code> with <code>name</code>, <code>description</code>, and <code>url</code>.</p>\n\n<p><strong>BreadcrumbList.</strong> Implement breadcrumb markup on all inner pages. It signals hierarchy to machines and improves how your content appears in search results.</p>\n\n<p><strong>Organisation or Person schema.</strong> On the homepage or About page, declare who runs the site. This is one of the most underimplemented and highest-value signals for establishing trustworthiness with AI systems.</p>\n\n<h2>Common mistakes</h2>\n\n<p>The most common mistake is treating structured data as decoration rather than a data contract. If your JSON-LD says an article was written by one person but your byline says another, you have created a conflict that machines will notice and humans will not.</p>\n\n<p>The second most common mistake is adding schema markup that does not match the visible content on the page. If your <code>datePublished</code> is 2019 but the article has been substantially updated and the visible date says 2024, the signal is confusing. Keep metadata and visible content in sync.</p>\n\n<h2>The practical path forward</h2>\n\n<p>If you are running a PHP-based content system with JSON content records, the right approach is to generate JSON-LD from your content metadata at render time. The data is already in your records ... publish dates, authors, titles, categories. All that is needed is a systematic output.</p>\n\n<p>That is a one-time implementation with compounding returns. Every piece of content you publish going forward gets AI machine-readable context automatically.</p>",
+    "publish_date": "2026-02-28",
+    "updated_at": "2026-04-25",
+    "author": "Atlas",
+    "category_primary": "visibility-search/structured-data",
+    "category_secondary": [
+        "visibility-search",
+        "ai-website-systems"
+    ],
+    "tags": [
+        "structured data",
+        "json-ld",
+        "schema.org",
+        "ai seo",
+        "AI machine-readable"
+    ],
+    "template": "article",
+    "sidebar_profile": "library-learning",
+    "seo": {
+        "title": "Structured Data Is Not Optional Anymore ... Krisada.com",
+        "description": "In an AI-assisted search environment, structured data is one of the primary signals machines use to understand, trust, and cite your content."
+    },
+    "related_content": [
+        "seo-is-becoming-ai-to-ai",
+        "what-google-actually-rewards-now"
+    ],
+    "schema": {
+        "about": [
+            "structured data",
+            "JSON-LD",
+            "schema.org",
+            "AI machine-readable trust signals"
+        ],
+        "mentions": [
+            "/library/visibility-search/structured-data/",
+            "/article/json-ld-practical-guide/",
+            "/article/seo-is-becoming-ai-to-ai/",
+            "/article/how-ai-discovers-your-content/",
+            "/article/writing-content-machines-can-read/"
+        ]
+    },
+    "is_featured": true,
+    "is_cornerstone": true,
+    "reading_time": 6,
+    "include_in_sitemap": true,
+    "authors": [
+        "atlas"
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "type": "article",
+    "title": "How to Value a Website Like an Asset (Not a Cost Centre)",
+    "slug": "how-to-value-a-website-like-an-asset",
+    "canonical_url": "/article/how-to-value-a-website-like-an-asset/",
+    "status": "published",
+    "excerpt": "Most people treat their website as a monthly expense. The ones who build something valuable treat it as an asset with a measurable return. The difference is in how you think about it before you build.",
+    "body": "<p>A website is either a cost centre or an asset. The difference is not in the technology or the design ... it is in how you think about what you are building and how you measure whether it is working.</p>\n\n<p>Most people treat their website as a cost centre. They pay for hosting and a domain, they update it occasionally, and they measure success by whether it looks professional enough to not embarrass them. The site exists as a digital business card ... present, but not productive.</p>\n\n<p>The people who build something valuable treat the site as an asset: something that produces returns, compounds over time, and can be valued like other business assets.</p>\n\n<h2>What makes a website an asset</h2>\n\n<p>An asset produces value independent of the daily effort you put into it. A website becomes an asset when it has accumulated traffic, audience relationships, content depth, and domain authority that continue to produce results even when you are not actively working on it.</p>\n\n<p>The inputs are time and content. The output is a property that ranks for relevant queries, that visitors return to, that other sites link to, and that AI systems recognise as authoritative on its topic. That combination of traffic, authority, and audience has a measurable value ... one that compounds over time rather than depreciating.</p>\n\n<h2>The valuation model</h2>\n\n<p>Websites with established traffic and revenue are bought and sold regularly, usually at multiples of monthly revenue. A site generating $1,000 per month in net income might sell for $30,000 to $50,000 ... a 30 to 50 times monthly multiple, or roughly 2.5 to 4 years of earnings.</p>\n\n<p>That multiple is not guaranteed. It reflects quality: consistent traffic, diversified income, clean technical setup, and content that holds value over time. A site with those characteristics commands a higher multiple. A site dependent on a single traffic source or a single income stream commands a lower one.</p>\n\n<p>You do not need to plan to sell your site for this framework to be useful. The same factors that make a site valuable to a buyer make it productive for you: stable traffic, owned audience, diversified income, durable content.</p>\n\n<h2>The inputs that build asset value</h2>\n\n<p><strong>Content depth.</strong> A library of well-structured, interconnected articles on a coherent topic builds topical authority over time. Each piece adds to the asset rather than expiring at the end of a news cycle.</p>\n\n<p><strong>Owned audience.</strong> An email list, a community, or a direct subscriber relationship has a value that is independent of any single traffic source. It represents access to an audience that you have earned and can reach directly.</p>\n\n<p><strong>Technical quality.</strong> Fast, clean, well-structured sites retain value. Sites with technical debt, broken links, and inconsistent markup lose value and are expensive to repair.</p>\n\n<p><strong>Income diversification.</strong> A site with income from multiple independent streams is more valuable than one with the same total income from a single source. The diversification reduces the risk a buyer ... or you ... is taking on.</p>\n\n<h2>The mental shift</h2>\n\n<p>Treating a website as an asset changes how you make decisions about it. You stop asking whether a piece of content will drive traffic this month and start asking whether it will hold value for the next three years. You stop tolerating technical debt because fixing it is inconvenient and start maintaining the asset the way you would maintain a rental property.</p>\n\n<p>Most importantly, you start measuring. Not vanity metrics ... traffic trends, income by source, email list growth, domain authority over time. The numbers that tell you whether the asset is appreciating or depreciating.</p>",
+    "publish_date": "2026-01-10",
+    "updated_at": "2026-01-10",
+    "author": "Atlas",
+    "category_primary": "digital-life/digital-asset-thinking",
+    "category_secondary": [
+        "digital-life",
+        "digital-independence"
+    ],
+    "tags": [
+        "website-valuation",
+        "digital-assets",
+        "asset-thinking",
+        "website-as-business"
+    ],
+    "template": "article",
+    "sidebar_profile": "library-learning",
+    "seo": {
+        "title": "How to Value a Website Like an Asset (Not a Cost Centre) ... Krisada.com",
+        "description": "The framework for thinking about your website as an asset with measurable value ... what builds it, how it compounds, and how to measure whether it is appreciating."
+    },
+    "related_content": [
+        "why-your-website-is-an-asset-not-an-expense",
+        "the-true-cost-of-platform-dependency",
+        "building-income-that-doesnt-depend-on-one-platform"
+    ],
+    "is_featured": false,
+    "is_cornerstone": false,
+    "reading_time": 5,
+    "include_in_sitemap": true,
+    "authors": [
+        "atlas"
+    ]
+}

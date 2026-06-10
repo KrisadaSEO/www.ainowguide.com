@@ -1,0 +1,15 @@
+{
+    "type": "dir_category",
+    "slug": "digital-asset-investing",
+    "path": "portfolio/digital-asset-investing",
+    "parent_path": "portfolio",
+    "title": "Digital Asset Investing",
+    "canonical_url": "/directory/portfolio/digital-asset-investing/",
+    "description": "Digital properties as investable assets - buying, ranking, and monetizing web real estate.",
+    "directory_type": "portfolio",
+    "status": "published",
+    "template": "directory-category",
+    "sidebar_profile": "authority-standard",
+    "constellation_id": "c3",
+    "updated_at": "2026-05-31"
+}

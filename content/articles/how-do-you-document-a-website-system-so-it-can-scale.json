@@ -1,0 +1,62 @@
+{
+    "type": "article",
+    "title": "How Do You Document a Website System So It Can Scale?",
+    "slug": "how-do-you-document-a-website-system-so-it-can-scale",
+    "canonical_url": "/article/how-do-you-document-a-website-system-so-it-can-scale/",
+    "redirect_from": [],
+    "status": "published",
+    "excerpt": "A process that only lives in your head works at tiny scale and breaks the moment you try to repeat it, delegate it, or improve it systematically.",
+    "body": "<p>A lot of operators know more than they have written down.</p>\n\n<p>That is normal at first. It becomes a bottleneck later.</p>\n\n<p>If the method only exists in memory, it gets harder to repeat, harder to delegate, and harder to refine over time.</p>\n\n<h2 class=\"faq-answer-heading\">Short answer</h2>\n\n<p>Turn the process into a reusable framework: steps, templates, decisions, examples, and the reasoning behind them. Documentation is what makes the system durable outside your head.</p>\n\n<h2 class=\"faq-answer-heading\">What most people get wrong</h2>\n\n<p>They assume documentation is busywork done after the real work. In reality, documentation is what makes the real work transferable, improvable, and scalable.</p>\n\n<h2 class=\"faq-answer-heading\">Download solution</h2>\n\n<div class=\"faq-download-callout\"><p><strong>Real SEO Life Case Study Pack</strong> is included in the <a href=\"/download/2026-website-problems-bundle/\">2026 Website Solutions Bundle</a>.</p><p>Use it when you need a more repeatable way to turn lived experience into a framework, case-study asset, or operating guide that can be reused.</p></div>\n\n<h2 class=\"faq-answer-heading\">What the bundle gives you</h2>\n\n<ul><li>A better model for turning experience into reusable process</li><li>Examples that help move from instinct to documented system</li><li>A stronger base for delegation, iteration, and case-study packaging</li></ul>\n\n<blockquote class=\"article-simple-idea\"><p><strong>Simple way to think about it:</strong> If the process cannot leave your head, the system cannot really scale.</p></blockquote>\n\n<p>Read <a href=\"/article/2026-top-10-website-problems-solved/\">the full Top 10 breakdown</a> for the whole sequence, then <a href=\"/download/2026-website-problems-bundle/\">unlock the bundle</a> if you want the documentation-focused materials.</p>",
+    "publish_date": "2026-04-28",
+    "updated_at": "2026-04-28",
+    "author": "Atlas",
+    "category_primary": "website-faqs",
+    "category_secondary": [],
+    "tags": [
+        "website FAQs",
+        "documentation",
+        "website systems",
+        "case studies"
+    ],
+    "template": "article",
+    "extra_css": "website-problems",
+    "sidebar_profile": "authority-standard",
+    "seo": {
+        "title": "How Do You Document a Website System So It Can Scale? | Krisada.com",
+        "description": "Why documentation is what turns hard-won website experience into a repeatable framework that can scale."
+    },
+    "related_content": [
+        "2026-top-10-website-problems-solved",
+        "i-didnt-start-out-building-an-ecosystem",
+        "fourteen-domains-one-machine"
+    ],
+    "schema": {
+        "about": [
+            "documentation systems",
+            "repeatable website frameworks",
+            "case-study packaging"
+        ],
+        "mentions": [
+            "/library/website-faqs/",
+            "/library/content-systems/",
+            "/article/2026-top-10-website-problems-solved/",
+            "/download/2026-website-problems-bundle/"
+        ],
+        "is_based_on": [
+            "/article/2026-top-10-website-problems-solved/"
+        ],
+        "faq": [
+            {
+                "question": "How do you document a website system so it can scale?",
+                "answer": "Turn the process into a reusable framework with steps, templates, examples, and reasoning so it can be repeated, delegated, and improved."
+            }
+        ]
+    },
+    "is_featured": false,
+    "is_cornerstone": false,
+    "reading_time": 4,
+    "include_in_sitemap": true,
+    "authors": [
+        "atlas"
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "type": "article",
+    "title": "How AI Discovers Your Content (And What You Need to Do Differently)",
+    "slug": "how-ai-discovers-your-content",
+    "canonical_url": "/article/how-ai-discovers-your-content/",
+    "status": "published",
+    "excerpt": "Search engines crawled links and counted keywords. AI systems read meaning and context. The same content strategy does not work for both. Here is what actually changes.",
+    "body": "<p>For twenty years, the model for getting found online was built around search engines: crawl links, index text, rank by signals. Build content around keywords, earn backlinks, get ranked. The entire industry of SEO grew up around understanding and gaming that system.</p>\n\n<p>AI-driven discovery works differently. When a language model is asked a question, it does not consult an index. It generates an answer based on patterns learned from everything it was trained on, and increasingly from live retrieval of current sources. The question is not whether your page ranks for a keyword ... it is whether your content becomes the authoritative source a model cites or synthesises when the topic comes up.</p>\n\n<h2>What AI systems actually look for</h2>\n\n<p>Language models favour content that is clear, structured, and authoritative. Clear means the argument is easy to follow ... no padding, no circular logic, no hedging that makes the actual point impossible to extract. Structured means the content is organized in a way that a machine can parse ... headings that describe what follows, sentences that make one claim at a time. Authoritative means the content demonstrates real knowledge, not synthesis of other people's synthesis.</p>\n\n<p>Structured data accelerates this. When your content includes AI machine-readable markup ... schema.org types, <a href=\"/glossary/ai-digital-karma/json-ld/\">JSON-LD</a>, clean semantic HTML ... AI systems and search engines can classify and cite it more reliably. It is not a trick. It is just making your content easier to work with.</p>\n\n<h2>The shift from keywords to concepts</h2>\n\n<p>Keyword optimisation was about matching the exact words a searcher typed. Concept coverage is about thoroughly addressing a topic ... including the questions people have around it, the related ideas, the caveats, the practical implications. A piece that genuinely covers a topic well will match more queries, more naturally, than a piece engineered to rank for one phrase.</p>\n\n<p>This is not a rejection of keyword research. It is a reframing. Keywords tell you what people want to know. They are an input to topic coverage, not the output of your content strategy.</p>\n\n<h2>What actually changes in practice</h2>\n\n<p>Write for the question, not the keyword. When someone asks an AI assistant about your topic, what do they actually want to understand? Write the answer to that question directly, clearly, and completely.</p>\n\n<p>Make your content AI machine-readable. Use structured data. Keep your JSON content records clean and consistent. Publish an llm.txt or similar AI machine-readable identity file so AI systems can understand who you are and what your site covers.</p>\n\n<p>Build depth, not breadth. A small number of authoritative pieces on a well-defined topic area is more useful to AI systems ... and to readers ... than a large volume of thin content covering every adjacent keyword. Depth of coverage is a signal of genuine expertise.</p>\n\n<h2>The longer game</h2>\n\n<p>Search engine optimisation was always about being findable. AI discovery is about being citable ... being the source that gets referenced when the topic comes up. That requires genuine depth, clear structure, and consistent publishing over time.</p>\n\n<p>The fundamentals have not changed. What counts as a signal of quality has.</p>",
+    "publish_date": "2026-01-21",
+    "updated_at": "2026-04-25",
+    "author": "Atlas",
+    "category_primary": "visibility-search/ai-discovery",
+    "category_secondary": [
+        "visibility-search",
+        "ai-website-systems"
+    ],
+    "tags": [
+        "ai-discovery",
+        "llm-seo",
+        "content-strategy",
+        "AI machine-readable"
+    ],
+    "template": "article",
+    "sidebar_profile": "library-learning",
+    "seo": {
+        "title": "How AI Discovers Your Content (And What You Need to Do Differently) ... Krisada.com",
+        "description": "AI systems find content differently than search engines. Here is what shifts in practice ... and what you should actually do about it."
+    },
+    "related_content": [
+        "seo-is-becoming-ai-to-ai",
+        "structured-data-is-not-optional-anymore",
+        "what-google-actually-rewards-now"
+    ],
+    "schema": {
+        "about": [
+            "AI discovery",
+            "concept coverage",
+            "AI machine-readable content",
+            "AI retrieval"
+        ],
+        "mentions": [
+            "/library/visibility-search/ai-discovery/",
+            "/article/seo-is-becoming-ai-to-ai/",
+            "/article/structured-data-is-not-optional-anymore/",
+            "/article/being-citable-vs-being-rankable/",
+            "/article/writing-content-machines-can-read/"
+        ]
+    },
+    "is_featured": true,
+    "is_cornerstone": true,
+    "reading_time": 5,
+    "include_in_sitemap": true,
+    "authors": [
+        "atlas"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "type": "dir_listing",
+    "slug": "longevityforward-com",
+    "path": "portfolio/healthcare-ai-longevity/longevityforward-com",
+    "category_path": "portfolio/healthcare-ai-longevity",
+    "title": "longevityforward.com",
+    "canonical_url": "/directory/portfolio/healthcare-ai-longevity/longevityforward-com/",
+    "directory_type": "portfolio",
+    "status": "published",
+    "template": "directory-listing",
+    "sidebar_profile": "authority-standard",
+    "fields": {
+        "status": "domain-only",
+        "tier": "authority",
+        "priority": "2"
+    },
+    "updated_at": "2026-05-31"
+}

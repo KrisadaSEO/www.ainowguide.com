@@ -1,0 +1,42 @@
+{
+    "type": "article",
+    "title": "The Structured Data Audit: What Your Site Is Actually Telling Machines",
+    "slug": "structured-data-audit",
+    "canonical_url": "/article/structured-data-audit/",
+    "status": "published",
+    "excerpt": "Most sites with structured data have it inconsistently applied, partially broken, or covering only the obvious pages. Here is how to audit what you actually have and what to fix first.",
+    "body": "<p>Adding structured data is easy. Having structured data that is accurate, consistent, and complete across your site is harder. Most sites that have schema markup have it in some places and not others, implemented correctly on some pages and incorrectly on others.</p>\n\n<p>An audit tells you what you actually have. That is more useful than adding more markup on top of inconsistent existing markup.</p>\n\n<h2>What to check first: the obvious pages</h2>\n\n<p>Start with the pages that matter most for machine readability: the homepage, a representative article, a representative category page, and the site's identity documents if they exist.</p>\n\n<p><strong>Homepage:</strong> Should have <code>WebSite</code> markup with the site name, URL, and description. If you support site search, add a <code>SearchAction</code>. Check that the <code>url</code> field matches your canonical domain exactly ... including or excluding <code>www</code>, consistently.</p>\n\n<p><strong>Articles:</strong> Should have <code>Article</code> or <code>BlogPosting</code> markup with <code>headline</code>, <code>author</code>, <code>datePublished</code>, <code>dateModified</code>, and <code>description</code>. The <code>author</code> should be a <code>Person</code> with a <code>name</code> field, not just a string.</p>\n\n<p><strong>Category pages:</strong> Should have <code>BreadcrumbList</code> markup that correctly represents the navigation hierarchy. Check that the breadcrumb positions are sequential integers starting from 1, not 0.</p>\n\n<h2>The consistency check</h2>\n\n<p>Structured data errors are often consistency failures rather than technical failures. The markup is present but wrong in a specific way: the author name is spelled differently across articles, the canonical URL in the markup does not match the actual URL, the <code>datePublished</code> is missing from some articles but not others.</p>\n\n<p>If your content is in JSON files, the fix for consistency is upstream ... correct the content record, not just the rendered markup. A JSON content record with a consistent <code>author</code> field and a consistent <code>canonical_url</code> field will produce consistent markup every time the template renders it.</p>\n\n<h2>The coverage check</h2>\n\n<p>Coverage failures are the most common audit finding. Markup is present on the homepage but missing from articles. Articles have markup but category pages do not. The main content pages are covered but the directory or resource pages are not.</p>\n\n<p>Work through your content types systematically. For each type, confirm that the template generates the right markup for every page of that type ... not just the ones you manually checked.</p>\n\n<h2>The identity layer</h2>\n\n<p>Beyond per-page markup, AI machine-readable site identity documents give AI systems and aggregators a site-level understanding that individual page markup cannot provide. An <code>llm.txt</code> file, a <code>catalog.json</code> of published content, and a <code>manifest.json</code> listing AI machine-readable endpoints are increasingly read by systems looking for authoritative sources.</p>\n\n<p>If these do not exist, generate them. If they exist, check that they are accurate and up to date ... a catalog that lists articles that no longer exist, or a manifest that points to broken endpoints, is worse than no catalog at all.</p>\n\n<h2>Priority order for fixes</h2>\n\n<p>Fix in this order: accuracy first (wrong information in existing markup), consistency second (the same information marked up differently in different places), coverage third (pages that are missing markup entirely), completeness fourth (present markup that is missing optional but useful fields).</p>\n\n<p>Accurate, consistent markup on the most important pages is worth more than comprehensive but partially incorrect markup across all pages.</p>",
+    "publish_date": "2026-03-12",
+    "updated_at": "2026-03-12",
+    "author": "Atlas",
+    "category_primary": "ai-website-systems/machine-readable-content",
+    "category_secondary": [
+        "visibility-search/structured-data",
+        "ai-website-systems"
+    ],
+    "tags": [
+        "structured-data",
+        "schema-audit",
+        "json-ld",
+        "AI machine-readable",
+        "seo-technical"
+    ],
+    "template": "article",
+    "sidebar_profile": "library-learning",
+    "seo": {
+        "title": "The Structured Data Audit: What Your Site Is Actually Telling Machines ... Krisada.com",
+        "description": "How to audit your structured data for accuracy, consistency, and coverage ... and what to fix first."
+    },
+    "related_content": [
+        "writing-content-machines-can-read",
+        "structured-data-is-not-optional-anymore",
+        "what-a-clean-content-schema-looks-like"
+    ],
+    "is_featured": false,
+    "is_cornerstone": false,
+    "reading_time": 5,
+    "include_in_sitemap": true,
+    "authors": [
+        "atlas"
+    ]
+}

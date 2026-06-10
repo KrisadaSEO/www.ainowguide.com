@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.0",
+  "description": "Crossover bridges  -  domains that serve more than one constellation simultaneously. These are structural features, not conflicts.",
+  "bridges": [
+    {
+      "domain": "krisada.com",
+      "primary_constellation": "c4",
+      "secondary_constellations": ["c1"],
+      "bridge_reason": "Hub for AI Director positioning (c1) and personal education ecosystem (c4)"
+    },
+    {
+      "domain": "datasetseo.com",
+      "primary_constellation": "c1",
+      "secondary_constellations": ["c3"],
+      "bridge_reason": "SEO datasets as AI infrastructure (c1) and as investable digital asset (c3)"
+    },
+    {
+      "domain": "aitoaiweb.com",
+      "primary_constellation": "c1",
+      "secondary_constellations": ["c2"],
+      "bridge_reason": "AI-to-AI web infrastructure (c1) and automated website production (c2)"
+    },
+    {
+      "domain": "aitoaiwebsites.com",
+      "primary_constellation": "c1",
+      "secondary_constellations": ["c2"],
+      "bridge_reason": "AI-to-AI web infrastructure (c1) and automated website production (c2)"
+    },
+    {
+      "domain": "quickrankai.com",
+      "primary_constellation": "c2",
+      "secondary_constellations": ["c3"],
+      "bridge_reason": "AI ranking tool (c2) and SEO sites as investable assets (c3)"
+    },
+    {
+      "domain": "healthywebai.com",
+      "primary_constellation": "c2",
+      "secondary_constellations": ["c5"],
+      "bridge_reason": "AI website systems (c2) and healthcare AI web properties (c5)"
+    },
+    {
+      "domain": "addaimarketing.com",
+      "primary_constellation": "c2",
+      "secondary_constellations": ["c4"],
+      "bridge_reason": "AI-assisted website production (c2) and marketing education (c4)"
+    },
+    {
+      "domain": "realseolife.com",
+      "primary_constellation": "c4",
+      "secondary_constellations": ["c3"],
+      "bridge_reason": "SEO as a learnable trade skill (c4) and SEO sites as investable assets (c3)"
+    },
+    {
+      "domain": "medmarketingdr.com",
+      "primary_constellation": "c7",
+      "secondary_constellations": ["c5"],
+      "bridge_reason": "Medical practice marketing (c7) and healthcare AI ecosystem (c5)"
+    },
+    {
+      "domain": "pharmdigitalmarketing.com",
+      "primary_constellation": "c7",
+      "secondary_constellations": ["c5"],
+      "bridge_reason": "Pharma digital marketing (c7) and healthcare AI ecosystem (c5)"
+    },
+    {
+      "domain": "lymeorg.com",
+      "primary_constellation": "c5",
+      "secondary_constellations": [],
+      "bridge_reason": "Folded into c5 from satellite  -  specialist health authority anchor"
+    }
+  ]
+}

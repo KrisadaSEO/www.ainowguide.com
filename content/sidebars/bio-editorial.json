@@ -1,0 +1,19 @@
+{
+  "title": "Bio Editorial Sidebar",
+  "slug": "bio-editorial",
+  "blocks": [
+    {
+      "type": "related-articles",
+      "style": "practical-highlight",
+      "title": "More from the library"
+    },
+    {
+      "type": "featured-link",
+      "style": "strategic-highlight",
+      "title": "Digital Leverage",
+      "body": "Structure compounds. Systems outlast tactics. Start building websites you actually own.",
+      "cta_label": "Start Here",
+      "cta_url": "/"
+    }
+  ]
+}

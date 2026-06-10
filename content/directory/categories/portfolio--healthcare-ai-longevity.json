@@ -1,0 +1,15 @@
+{
+    "type": "dir_category",
+    "slug": "healthcare-ai-longevity",
+    "path": "portfolio/healthcare-ai-longevity",
+    "parent_path": "portfolio",
+    "title": "Healthcare AI & Longevity",
+    "canonical_url": "/directory/portfolio/healthcare-ai-longevity/",
+    "description": "Healthcare AI, longevity, natural health, and the aging well vertical.",
+    "directory_type": "portfolio",
+    "status": "published",
+    "template": "directory-category",
+    "sidebar_profile": "authority-standard",
+    "constellation_id": "c5",
+    "updated_at": "2026-05-31"
+}

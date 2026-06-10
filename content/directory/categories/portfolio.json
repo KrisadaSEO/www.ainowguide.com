@@ -1,0 +1,14 @@
+{
+    "type": "dir_category",
+    "slug": "portfolio",
+    "path": "portfolio",
+    "parent_path": "",
+    "title": "Website Assets Portfolio",
+    "canonical_url": "/directory/portfolio/",
+    "description": "The full Krisada domain portfolio organized by constellation - related-niche clusters (we call Constellations) of website assets built to own search territory.",
+    "directory_type": "portfolio",
+    "status": "published",
+    "template": "directory-category",
+    "sidebar_profile": "portfolio-directory",
+    "updated_at": "2026-05-31"
+}

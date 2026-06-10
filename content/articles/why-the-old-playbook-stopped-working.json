@@ -1,0 +1,56 @@
+{
+    "type": "article",
+    "title": "Why the Old SEO Marketing Playbook Stopped Working",
+    "slug": "why-the-old-playbook-stopped-working",
+    "canonical_url": "/article/why-the-old-playbook-stopped-working/",
+    "status": "published",
+    "excerpt": "The SEO and content marketing playbook that worked from 2010 to 2022 is not just less effective ... it is being actively retired. Here is what changed and why the replacement is not a tweak.",
+    "body": "<p>For about a decade, the playbook was clear. Build a website. Publish content around keywords. Earn backlinks. Rank in Google. Capture traffic. Monetise.</p>\n\n<p>It worked. A generation of niche sites, affiliate blogs, and content businesses was built on that model. The strategy was not a secret ... it was documented, taught, replicated, and scaled. For a while, execution was enough.</p>\n\n<p>That era is ending. Not because Google got smarter about thin content, though it did. Not because AI-generated articles flooded the index, though they have. It is ending because the underlying model ... rank individual pages for individual searches ... is being replaced by something structurally different.</p>\n\n<h2>What actually changed</h2>\n\n<p>Three things shifted at roughly the same time, and the combination is what makes this a genuine break rather than a cycle.</p>\n\n<p><strong>Search is generating answers, not just listing pages.</strong> When a user asks a question and gets a direct AI-generated answer at the top of the results, the click that used to go to your ranked page never happens. The traffic model that funded content businesses is being compressed at the top of the funnel.</p>\n\n<p><strong>Platform reach is being monetised away.</strong> Social platforms that once delivered organic reach have spent the last five years converting that reach into an ad product. Organic reach on most platforms is a fraction of what it was. The audience you built there does not belong to you and does not behave as if it does.</p>\n\n<p><strong>AI is reshaping what counts as authority.</strong> Language models are trained on existing content. They cite, summarise, and synthesise. Being a source that AI systems recognise and reference is becoming more important than ranking for a specific phrase. That requires structural coherence and AI machine-readable content ... not just keyword density.</p>\n\n<h2>Why a tweak does not fix it</h2>\n\n<p>The instinct is to adapt tactically: write longer articles, add more schema markup, publish more consistently. Some of that helps at the margins. But tactical adjustment to a broken underlying model produces diminishing returns.</p>\n\n<p>The old model was built on rented distribution ... search traffic you do not own, social reach you do not control, platform audiences that sit in someone else's database. Optimising for rented distribution in an environment where the rental terms are changing is not a strategy. It is a holding pattern.</p>\n\n<p>The shift required is not a better tactic. It is a different model: digital property, owned audience, AI machine-readable authority, durable content that compounds over time.</p>\n\n<h2>What this means practically</h2>\n\n<p>It means building a site on infrastructure you control, not a platform someone else owns. It means publishing structured content that AI systems can parse, not just text that humans can skim. It means treating your domain as an asset that accumulates value, not a traffic acquisition tool that needs constant feeding.</p>\n\n<p>The operators who will be in a strong position in five years are not the ones who found a better keyword tool. They are the ones who understood that the game changed and built accordingly.</p>",
+    "publish_date": "2026-02-12",
+    "updated_at": "2026-05-07",
+    "author": "Atlas",
+    "category_primary": "start-here",
+    "category_secondary": [
+        "visibility-search",
+        "digital-independence"
+    ],
+    "tags": [
+        "seo-shift",
+        "old-playbook",
+        "digital-strategy",
+        "start-here"
+    ],
+    "template": "article",
+    "sidebar_profile": "authority-standard",
+    "seo": {
+        "title": "Why the Old SEO Marketing Playbook Stopped Working ➤ Krisada.com",
+        "description": "The SEO and content marketing model that worked for a decade is being retired. Here is what changed ... and why the fix is not a tweak."
+    },
+    "related_content": [
+        "you-cant-do-this-on-wall-street",
+        "seo-is-becoming-ai-to-ai",
+        "what-website-ownership-actually-means"
+    ],
+    "schema": {
+        "about": [
+            "SEO transition",
+            "AI-mediated discovery",
+            "platform dependency",
+            "digital property"
+        ],
+        "mentions": [
+            "/library/visibility-search/",
+            "/library/digital-independence/",
+            "/article/seo-is-becoming-ai-to-ai/",
+            "/article/what-website-ownership-actually-means/",
+            "/article/the-model-that-replaces-it/"
+        ]
+    },
+    "is_featured": true,
+    "is_cornerstone": true,
+    "reading_time": 5,
+    "include_in_sitemap": true,
+    "authors": [
+        "atlas"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Library Learning Sidebar",
+  "slug": "library-learning",
+  "blocks": [
+    {
+      "type": "library-browse",
+      "title": "Browse by Topic"
+    },
+    {
+      "type": "related-articles",
+      "style": "practical-highlight",
+      "title": "Related reading"
+    },
+    {
+      "type": "featured-link",
+      "style": "strategic-highlight",
+      "title": "Systems Over Hacks",
+      "body": "The library is the real moat. Organized content compounds faster than isolated output.",
+      "cta_label": "Browse all topics",
+      "cta_url": "/library/"
+    }
+  ]
+}

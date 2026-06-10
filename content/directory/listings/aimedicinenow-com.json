@@ -1,0 +1,18 @@
+{
+    "type": "dir_listing",
+    "slug": "aimedicinenow-com",
+    "path": "portfolio/healthcare-ai-longevity/aimedicinenow-com",
+    "category_path": "portfolio/healthcare-ai-longevity",
+    "title": "aimedicinenow.com",
+    "canonical_url": "/directory/portfolio/healthcare-ai-longevity/aimedicinenow-com/",
+    "directory_type": "portfolio",
+    "status": "published",
+    "template": "directory-listing",
+    "sidebar_profile": "authority-standard",
+    "fields": {
+        "status": "domain-only",
+        "tier": "authority",
+        "priority": "2"
+    },
+    "updated_at": "2026-05-31"
+}

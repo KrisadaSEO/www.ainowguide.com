@@ -1,0 +1,19 @@
+{
+    "type": "dir_listing",
+    "slug": "digitalkarmaweb-com",
+    "path": "portfolio/ai-digital-karma/digitalkarmaweb-com",
+    "category_path": "portfolio/ai-digital-karma",
+    "title": "digitalkarmaweb.com",
+    "canonical_url": "/directory/portfolio/ai-digital-karma/digitalkarmaweb-com/",
+    "directory_type": "portfolio",
+    "status": "published",
+    "template": "directory-listing",
+    "sidebar_profile": "authority-standard",
+    "fields": {
+        "status": "domain-only",
+        "tier": "supporting",
+        "priority": "2",
+        "update": "Supporting brand variant"
+    },
+    "updated_at": "2026-05-31"
+}

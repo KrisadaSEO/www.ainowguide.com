@@ -1,0 +1,14 @@
+{
+  "type": "glossary",
+  "slug": "main",
+  "title": "Krisada.com Glossary",
+  "description": "Definitions for the terms, frameworks, and concepts used across this site ... from SEO mechanics to content strategy and site architecture.",
+  "canonical_url": "/glossary/",
+  "status": "published",
+  "sidebar_profile": "authority-standard",
+  "seo": {
+    "title": "SEO Glossary | Krisada.com",
+    "description": "Plain-language definitions for SEO, content strategy, and site architecture terms used across Krisada.com.",
+    "robots": "index, follow"
+  }
+}

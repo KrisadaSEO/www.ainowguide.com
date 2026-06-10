@@ -1,0 +1,19 @@
+{
+    "type": "dir_listing",
+    "slug": "krisadaart-com",
+    "path": "portfolio/art-human-creativity/krisadaart-com",
+    "category_path": "portfolio/art-human-creativity",
+    "title": "krisadaart.com",
+    "canonical_url": "/directory/portfolio/art-human-creativity/krisadaart-com/",
+    "directory_type": "portfolio",
+    "status": "published",
+    "template": "directory-listing",
+    "sidebar_profile": "authority-standard",
+    "fields": {
+        "status": "domain-only",
+        "tier": "flagship",
+        "priority": "1",
+        "update": "Personal art brand \u2014 Krisada as artist"
+    },
+    "updated_at": "2026-05-31"
+}

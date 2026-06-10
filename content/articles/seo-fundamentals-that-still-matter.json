@@ -1,0 +1,40 @@
+{
+    "type": "article",
+    "title": "The SEO Fundamentals That Still Matter (And the Ones That Don't)",
+    "slug": "seo-fundamentals-that-still-matter",
+    "canonical_url": "/article/seo-fundamentals-that-still-matter/",
+    "status": "published",
+    "excerpt": "Not everything about SEO changed when AI entered the picture. Some fundamentals held. Knowing which is which saves time and keeps you from optimising for the wrong things.",
+    "body": "<p>The SEO discourse tends toward extremes. Either everything changed and traditional SEO is dead, or nothing really changed and the fundamentals still apply. Neither is accurate.</p>\n\n<p>Some things held. Some things shifted. Knowing which is which lets you stop doing work that no longer pays and double down on the things that matter more than ever.</p>\n\n<h2>What still matters: technical quality</h2>\n\n<p>Fast, crawlable, well-structured pages still matter ... more than they used to, not less. A site that loads slowly, blocks crawlers, or renders content in a way that search engines and AI systems cannot parse is at a disadvantage regardless of how good the content is.</p>\n\n<p>Clean HTML with semantic structure. Correct canonical tags. No duplicate content from parameter variations or trailing slashes. A sitemap that accurately reflects published content. These are table stakes that have not changed.</p>\n\n<h2>What still matters: earning genuine links</h2>\n\n<p>Inbound links from relevant, authoritative sites are still a signal. Not because the PageRank algorithm is unchanged ... it has been through many iterations ... but because genuine links reflect something real: another publisher thought your content was worth pointing to. That signal is hard to fake at scale and AI training data reflects it.</p>\n\n<p>What has not mattered for years and still does not: link schemes, reciprocal link exchanges, directory submissions, manufactured anchor text patterns. These signals have been devalued to the point of irrelevance and in some cases actively harm rankings.</p>\n\n<h2>What still matters: matching intent</h2>\n\n<p>Understanding what someone actually wants when they search for something ... and delivering it directly ... has always been the core of good SEO. That has not changed. What changed is the surface area: the intent you need to match now includes conversational queries, AI-generated summaries, and the kinds of questions people ask assistants rather than search boxes.</p>\n\n<p>Matching intent well means writing for the question, not the keyword. It means understanding the context someone is in when they look for what you cover, and giving them something that genuinely addresses it.</p>\n\n<h2>What matters less: keyword density</h2>\n\n<p>Optimising keyword density ... the ratio of a target phrase to total words ... has not been a meaningful signal for years. Modern ranking systems understand topic coverage, not phrase repetition. Writing that uses a keyword phrase naturally and covers the topic thoroughly will outperform writing engineered to hit a specific keyword ratio.</p>\n\n<h2>What matters less: exact-match domains and titles</h2>\n\n<p>Having the keyword in your domain name or as the exact title of the page used to be a meaningful advantage. It is now a minor signal at best. Content authority and relevance are far more important than whether the keyword appears verbatim in those positions.</p>\n\n<h2>What matters more than before: topical authority</h2>\n\n<p>A site with deep, structured coverage of a defined topic area performs better than a site with the same number of pages scattered across unrelated topics. This was always true to some extent ... now it is a dominant factor.</p>\n\n<p>Build the library. Cover the topic area completely. Let each piece connect to the others. That structure signals expertise in a way that isolated pages, however well-optimised individually, cannot replicate.</p>",
+    "publish_date": "2026-01-23",
+    "updated_at": "2026-01-23",
+    "author": "Atlas",
+    "category_primary": "visibility-search/seo-fundamentals-evolved",
+    "category_secondary": [
+        "visibility-search"
+    ],
+    "tags": [
+        "seo-fundamentals",
+        "technical-seo",
+        "topical-authority",
+        "search-evolved"
+    ],
+    "template": "article",
+    "sidebar_profile": "library-learning",
+    "seo": {
+        "title": "The SEO Fundamentals That Still Matter (And the Ones That Don't) ... Krisada.com",
+        "description": "Not everything about SEO changed when AI entered search. Here is what held, what shifted, and what matters more than ever."
+    },
+    "related_content": [
+        "what-google-actually-rewards-now",
+        "seo-is-becoming-ai-to-ai",
+        "how-ai-discovers-your-content"
+    ],
+    "is_featured": false,
+    "is_cornerstone": false,
+    "reading_time": 5,
+    "include_in_sitemap": true,
+    "authors": [
+        "atlas"
+    ]
+}

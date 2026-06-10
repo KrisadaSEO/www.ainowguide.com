@@ -1,0 +1,22 @@
+{
+  "type": "category",
+  "title": "AI-Assisted Publishing",
+  "slug": "ai-assisted-publishing",
+  "path": "content-systems/ai-assisted-publishing",
+  "parent_slug": "content-systems",
+  "canonical_url": "/library/content-systems/ai-assisted-publishing/",
+  "description": "Using AI as a production layer within a real content system ... prompts, workflows, and quality controls.",
+  "intro": "AI makes content production faster. It does not make it strategic. The distinction matters because a faster bad system just fills your library with shallow content sooner. This section covers how to use AI as a production layer ... with the right prompts, schema-awareness, and editorial controls ... inside a real content architecture.",
+  "status": "published",
+  "sort_order": 3,
+  "template": "category",
+  "sidebar_profile": "library-learning",
+  "seo": {
+    "title": "AI-Assisted Publishing ... Content Systems ... Krisada.com",
+    "description": "How to use AI as a production layer within a structured content system ... prompts, workflows, and editorial controls."
+  },
+  "relationships": {
+    "related_categories": ["content-schemas", "php-json-architecture"]
+  },
+  "updated_at": "2026-04-12"
+}

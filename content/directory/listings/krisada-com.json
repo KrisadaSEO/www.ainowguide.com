@@ -1,0 +1,21 @@
+{
+    "type": "dir_listing",
+    "slug": "krisada-com",
+    "path": "portfolio/one-mouse-marketing/krisada-com",
+    "category_path": "portfolio/one-mouse-marketing",
+    "title": "krisada.com",
+    "canonical_url": "/directory/portfolio/one-mouse-marketing/krisada-com/",
+    "directory_type": "portfolio",
+    "status": "published",
+    "template": "directory-listing",
+    "sidebar_profile": "authority-standard",
+    "fields": {
+        "website": "https://krisada.com",
+        "status": "website",
+        "tier": "flagship",
+        "priority": "1",
+        "update": "Personal hub and AI Director brand. Crossover: also anchors c1 AI Digital Karma narrative",
+        "crossover": "AI Digital Karma"
+    },
+    "updated_at": "2026-05-31"
+}

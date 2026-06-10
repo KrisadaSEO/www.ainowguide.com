@@ -1,0 +1,62 @@
+{
+    "type": "article",
+    "title": "How Do You Turn Web Pages Into Digital Assets?",
+    "slug": "how-do-you-turn-web-pages-into-digital-assets",
+    "canonical_url": "/article/how-do-you-turn-web-pages-into-digital-assets/",
+    "redirect_from": [],
+    "status": "published",
+    "excerpt": "A page is just a page until it fits into a system that compounds. Asset thinking starts when you build for clusters, value, and long-term positioning instead of isolated output.",
+    "body": "<p>Publishing a page can create activity without creating much value.</p>\n\n<p>That is the trap. Output feels productive, but output alone does not necessarily compound.</p>\n\n<p>A website starts behaving like an asset when its parts reinforce one another and become more valuable together than they are alone.</p>\n\n<h2 class=\"faq-answer-heading\">Short answer</h2>\n\n<p>Think in clusters, properties, and durable topic positions. Build pages that belong to something bigger, not one-off pieces that fade as soon as attention moves on.</p>\n\n<h2 class=\"faq-answer-heading\">What most people get wrong</h2>\n\n<p>They treat every article like a standalone event. That keeps the site in publishing mode instead of portfolio mode. Assets come from systems, structure, and repeated reinforcement over time.</p>\n\n<h2 class=\"faq-answer-heading\">Download solution</h2>\n\n<div class=\"faq-download-callout\"><p><strong>50-Site Portfolio Blueprint</strong> is included in the <a href=\"/download/2026-website-problems-bundle/\">2026 Website Solutions Bundle</a>.</p><p>Use it when you want a clearer way to think about website clusters, strategic roles, and long-term asset-building instead of one-page-at-a-time production.</p></div>\n\n<h2 class=\"faq-answer-heading\">What the bundle gives you</h2>\n\n<ul><li>A portfolio mindset instead of a post-by-post mindset</li><li>Examples of how properties can support each other</li><li>A more useful frame for deciding what to build next</li></ul>\n\n<blockquote class=\"article-simple-idea\"><p><strong>Simple way to think about it:</strong> A single page can help. A connected property can compound.</p></blockquote>\n\n<p>To see how this fits into the bigger repair sequence, read <a href=\"/article/2026-top-10-website-problems-solved/\">the full Top 10 article</a>. Then <a href=\"/download/2026-website-problems-bundle/\">unlock the bundle</a> if you want the actual asset-building materials.</p>",
+    "publish_date": "2026-04-28",
+    "updated_at": "2026-04-28",
+    "author": "Atlas",
+    "category_primary": "website-faqs",
+    "category_secondary": [],
+    "tags": [
+        "website FAQs",
+        "digital assets",
+        "website clusters",
+        "portfolio thinking"
+    ],
+    "template": "article",
+    "extra_css": "website-problems",
+    "sidebar_profile": "authority-standard",
+    "seo": {
+        "title": "How Do You Turn Web Pages Into Digital Assets? | Krisada.com",
+        "description": "Why asset thinking starts with clusters, systems, and long-term positioning instead of isolated pages."
+    },
+    "related_content": [
+        "2026-top-10-website-problems-solved",
+        "why-your-website-is-an-asset-not-an-expense",
+        "why-your-content-library-is-your-moat"
+    ],
+    "schema": {
+        "about": [
+            "digital assets",
+            "website clusters",
+            "portfolio thinking"
+        ],
+        "mentions": [
+            "/library/website-faqs/",
+            "/library/digital-life/",
+            "/article/2026-top-10-website-problems-solved/",
+            "/download/2026-website-problems-bundle/"
+        ],
+        "is_based_on": [
+            "/article/2026-top-10-website-problems-solved/"
+        ],
+        "faq": [
+            {
+                "question": "How do you turn web pages into digital assets?",
+                "answer": "Build them as parts of a larger cluster or property so they reinforce each other over time instead of functioning as isolated one-off pieces."
+            }
+        ]
+    },
+    "is_featured": false,
+    "is_cornerstone": false,
+    "reading_time": 4,
+    "include_in_sitemap": true,
+    "authors": [
+        "atlas"
+    ]
+}

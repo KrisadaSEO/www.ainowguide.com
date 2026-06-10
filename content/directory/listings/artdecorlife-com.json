@@ -1,0 +1,18 @@
+{
+    "type": "dir_listing",
+    "slug": "artdecorlife-com",
+    "path": "portfolio/art-human-creativity/artdecorlife-com",
+    "category_path": "portfolio/art-human-creativity",
+    "title": "artdecorlife.com",
+    "canonical_url": "/directory/portfolio/art-human-creativity/artdecorlife-com/",
+    "directory_type": "portfolio",
+    "status": "published",
+    "template": "directory-listing",
+    "sidebar_profile": "authority-standard",
+    "fields": {
+        "status": "domain-only",
+        "tier": "supporting",
+        "priority": "3"
+    },
+    "updated_at": "2026-05-31"
+}

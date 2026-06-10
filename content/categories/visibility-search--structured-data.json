@@ -1,0 +1,22 @@
+{
+  "type": "category",
+  "title": "Structured Data",
+  "slug": "structured-data",
+  "path": "visibility-search/structured-data",
+  "parent_slug": "visibility-search",
+  "canonical_url": "/library/visibility-search/structured-data/",
+  "description": "Schema.org, JSON-LD, and AI machine-readable metadata ... the layer that turns a web page into a data point machines can trust.",
+  "intro": "Structured data is the translation layer between your content and the machines that read it. When implemented cleanly, it tells search engines, AI systems, and aggregators what a page is about, who wrote it, what it belongs to, and how it relates to the rest of your site. This section covers the practical side of implementing structured data on a PHP-based content system.",
+  "status": "published",
+  "sort_order": 2,
+  "template": "category",
+  "sidebar_profile": "library-learning",
+  "seo": {
+    "title": "Structured Data ... Visibility and Search ... Krisada.com",
+    "description": "Schema.org, JSON-LD, and AI machine-readable metadata ... making your content legible to the machines that interpret it."
+  },
+  "relationships": {
+    "related_categories": ["ai-discovery", "seo-fundamentals-evolved"]
+  },
+  "updated_at": "2026-02-23"
+}

@@ -1,0 +1,24 @@
+{
+  "type": "portfolio",
+  "label": "Portfolio",
+  "schema_type": "WebSite",
+  "fields": [
+    { "key": "website",              "label": "Website",              "type": "url",      "public": true  },
+    { "key": "elevator_pitch",       "label": "10-Second Pitch",      "type": "textarea", "public": false },
+    { "key": "status",               "label": "Status",               "type": "text",     "public": true  },
+    { "key": "sale_channel",         "label": "Marketplace",          "type": "text",     "public": true  },
+    { "key": "asking_price",         "label": "Asking Price",         "type": "text",     "public": true  },
+    { "key": "sale_url",             "label": "Sale Listing",         "type": "url",      "public": true  },
+    { "key": "tier",                 "label": "Tier",                 "type": "text",     "public": true  },
+    { "key": "priority",             "label": "Priority",             "type": "text",     "public": true  },
+    { "key": "update",               "label": "Update",               "type": "textarea", "public": true  },
+    { "key": "monetization_status",  "label": "Current Monetization", "type": "text",     "public": true  },
+    { "key": "monetization_strategy","label": "Monetization Strategy","type": "textarea", "public": true  },
+    { "key": "expiry_date",          "label": "Domain Expiry",        "type": "text",     "public": true  },
+    { "key": "registrar",            "label": "Registrar",            "type": "text",     "public": true  },
+    { "key": "crossover",            "label": "Crossover",            "type": "text",     "public": true  },
+    { "key": "acquisition_cost",     "label": "Acquisition Cost",     "type": "text",     "public": false },
+    { "key": "estimated_value",      "label": "Estimated Value",      "type": "text",     "public": false },
+    { "key": "revenue_monthly",      "label": "Monthly Revenue",      "type": "text",     "public": false }
+  ]
+}

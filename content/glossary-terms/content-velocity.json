@@ -1,0 +1,28 @@
+{
+    "type": "glossary-term",
+    "glossary": "main",
+    "term": "Content Velocity",
+    "slug": "content-velocity",
+    "canonical_url": "/glossary/content-velocity/",
+    "short_def": "The rate at which a site publishes new content ... and whether that rate is consistent enough to signal an active, maintained resource to search engines.",
+    "also_known_as": [
+        "publishing cadence",
+        "content cadence"
+    ],
+    "definition": "Content velocity describes how quickly and consistently a site adds new indexed content. Search engines use crawl patterns to form expectations about a site's update frequency. A site that publishes regularly reinforces those expectations; a site that goes quiet for months resets them.\n\nVelocity is not about flooding a site with thin posts. It is about maintaining a pace that keeps the site in active discovery ... and doing so with pieces that add genuine coverage rather than repeating what is already there.",
+    "example": "A site that publishes two thorough articles per week holds a different crawl priority than one that published thirty posts in January and nothing since. The consistent site gets visited more often and gets new pages indexed faster.\n\nVelocity also matters for topical authority: the faster you fill the gaps in your topic coverage, the sooner you cross the threshold where search engines treat you as a comprehensive source.",
+    "nuance": "Velocity has diminishing returns once crawl frequency is saturated. At that point, adding more pages does not accelerate indexing ... it just spreads crawl budget across a larger surface. The practical ceiling for most sites is a cadence they can maintain at quality without thinning the work.",
+    "related_terms": [
+        "topical-authority",
+        "crawl-budget",
+        "site-architecture"
+    ],
+    "status": "published",
+    "created_at": "2026-05-31",
+    "updated_at": "2026-06-05",
+    "seo": {
+        "title": "Website Content Velocity - SEO Glossary | Krisada.com",
+        "description": "What website content velocity means and why consistent publishing pace matters for crawl frequency and topical authority.",
+        "robots": "index, follow"
+    }
+}

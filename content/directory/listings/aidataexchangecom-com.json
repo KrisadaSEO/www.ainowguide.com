@@ -1,0 +1,18 @@
+{
+    "type": "dir_listing",
+    "slug": "aidataexchangecom-com",
+    "path": "portfolio/ai-digital-karma/aidataexchangecom-com",
+    "category_path": "portfolio/ai-digital-karma",
+    "title": "aidataexchangecom.com",
+    "canonical_url": "/directory/portfolio/ai-digital-karma/aidataexchangecom-com/",
+    "directory_type": "portfolio",
+    "status": "published",
+    "template": "directory-listing",
+    "sidebar_profile": "authority-standard",
+    "fields": {
+        "status": "domain-only",
+        "tier": "authority",
+        "priority": "2"
+    },
+    "updated_at": "2026-05-31"
+}

@@ -1,0 +1,41 @@
+{
+  "type": "category",
+  "title": "Visibility and Search",
+  "slug": "visibility-search",
+  "path": "visibility-search",
+  "parent_slug": "",
+  "canonical_url": "/library/visibility-search/",
+  "description": "How search actually works now ... and how to build visibility that holds up in an AI-assisted discovery environment.",
+  "intro": "Search is not what it was. AI systems are acting as interpreters, recommenders, and gatekeepers. Understanding how visibility works in this new environment is not optional ... it is the foundation. This section covers the shift from ranking pages to building AI machine-readable authority.",
+  "status": "published",
+  "sort_order": 2,
+  "featured_image": "",
+  "template": "category",
+  "sidebar_profile": "library-learning",
+  "seo": {
+    "title": "Visibility and Search ... Krisada.com",
+    "description": "Learn how search and visibility actually work in an AI-assisted discovery environment."
+  },
+  "schema": {
+    "about": [
+      "AI-first visibility",
+      "AI machine-readable authority",
+      "search strategy",
+      "structured data"
+    ],
+    "mentions": [
+      "/library/visibility-search/ai-discovery/",
+      "/library/visibility-search/structured-data/",
+      "/library/visibility-search/seo-fundamentals-evolved/",
+      "/article/seo-is-becoming-ai-to-ai/",
+      "/article/json-ld-practical-guide/"
+    ],
+    "is_part_of": [
+      "/library/"
+    ]
+  },
+  "relationships": {
+    "related_categories": ["digital-life", "ai-website-systems"]
+  },
+  "updated_at": "2026-04-25"
+}

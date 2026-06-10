@@ -1,0 +1,18 @@
+{
+    "type": "dir_listing",
+    "slug": "shopdigitalproperty-com",
+    "path": "portfolio/digital-asset-investing/shopdigitalproperty-com",
+    "category_path": "portfolio/digital-asset-investing",
+    "title": "shopdigitalproperty.com",
+    "canonical_url": "/directory/portfolio/digital-asset-investing/shopdigitalproperty-com/",
+    "directory_type": "portfolio",
+    "status": "published",
+    "template": "directory-listing",
+    "sidebar_profile": "authority-standard",
+    "fields": {
+        "status": "domain-only",
+        "tier": "supporting",
+        "priority": "3"
+    },
+    "updated_at": "2026-05-31"
+}

@@ -1,0 +1,25 @@
+{
+  "title": "Directory",
+  "slug": "directory-root",
+  "canonical_url": "/directory/",
+  "status": "published",
+  "template": "directory-root",
+  "sidebar_profile": "authority-standard",
+  "seo": {
+    "title": "Directory - Krisada.com",
+    "description": "Browse the Krisada.com directory - curated listings organized by category, topic, and location."
+  },
+  "description": "Curated listings organized by category. Real estate, local businesses, services, resources - each directory has its own field schema and drill-down navigation.",
+  "schema": {
+    "about": [
+      "directory",
+      "listings",
+      "curated resources"
+    ],
+    "main_entity": {
+      "@type": "Thing",
+      "name": "Krisada.com Directory"
+    }
+  },
+  "updated_at": "2026-05-31"
+}

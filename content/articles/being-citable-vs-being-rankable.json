@@ -1,0 +1,54 @@
+{
+    "type": "article",
+    "title": "Being Citable vs Being Rankable ... The New Visibility Standard",
+    "slug": "being-citable-vs-being-rankable",
+    "canonical_url": "/article/being-citable-vs-being-rankable/",
+    "status": "published",
+    "excerpt": "Ranking for a keyword and being cited by an AI system require different things. The overlap is real but the divergence matters ... and most content is optimised for the wrong one.",
+    "body": "<p>For two decades, visibility online meant ranking. Get your page into the top results for a target keyword and traffic follows. The whole discipline of SEO was built around understanding and influencing that ranking process.</p>\n\n<p>Being citable is different. When a language model generates a response, it is not consulting a ranking. It is synthesising from everything it knows and, increasingly, from live retrieval of sources it judges to be authoritative. The question it is asking about your content is not whether it ranks for a phrase ... it is whether it is the kind of source worth referencing when this topic comes up.</p>\n\n<p>These are related but not identical standards. Understanding the difference is worth the time.</p>\n\n<h2>What rankability optimises for</h2>\n\n<p>Traditional SEO optimises for relevance signals: keyword presence, topical coverage, inbound links, technical quality, page experience. These are signals that a search engine's ranking algorithm uses to assess whether a page is a good answer to a specific query.</p>\n\n<p>The game is matching ... matching the page to the query as closely as possible, as demonstrated by the signals the algorithm weights. A page optimised for rankability is tuned to those signals.</p>\n\n<h2>What citability optimises for</h2>\n\n<p>Citability is about being the authoritative source on a topic ... the one a knowledgeable person (or system) would reference when explaining something to someone else. The signals are different.</p>\n\n<p>Depth over breadth. A piece that thoroughly covers a topic ... including the nuances, the edge cases, the common misunderstandings ... is more citable than a piece that covers many topics shallowly. AI systems favour sources that demonstrate genuine expertise, not sources that check keyword boxes.</p>\n\n<p>Clarity of claim. Citable content makes specific, extractable claims. Vague observations are not citable. Named entities, concrete assertions, and specific recommendations are. A language model retrieving context to support an answer needs something it can actually use.</p>\n\n<p>Source coherence. A site with a clear, consistent focus on a defined topic area is more citable than a general site that publishes on everything. The former looks like an expert. The latter looks like an aggregator.</p>\n\n<h2>Where they overlap</h2>\n\n<p>The overlap is substantial. Well-written, deeply researched, clearly structured content tends to rank well and tends to be citable. The fundamentals of good content ... clarity, depth, accuracy, logical structure ... serve both standards.</p>\n\n<p>Structured data markup helps both. Consistent publishing helps both. Earning genuine inbound links helps both, because links are still a signal of authority that AI training data reflects.</p>\n\n<h2>Where they diverge</h2>\n\n<p>The divergence shows up at the margins. A page optimised purely for rankability might stuff keywords into headings, fragment content into thin listicles, or chase trending queries at the expense of topic coherence. These tactics help rankings in specific contexts and actively hurt citability.</p>\n\n<p>Conversely, a piece written for depth and citability might not target any specific keyword precisely ... it might be the definitive treatment of a topic that does not have clean keyword demand. That piece may rank for a long tail of queries and will be disproportionately valuable in AI retrieval contexts.</p>\n\n<h2>The practical implication</h2>\n\n<p>Write for the topic, not the keyword. Use the keyword as a signal of what people want to understand, then write the best possible treatment of that understanding. Aim to be the source someone would cite if they were explaining this topic to a colleague.</p>\n\n<p>That standard produces content that holds up in both environments ... and as the balance shifts further toward AI-mediated discovery, it becomes the more durable investment.</p>",
+    "publish_date": "2026-01-27",
+    "updated_at": "2026-04-25",
+    "author": "Atlas",
+    "category_primary": "visibility-search/ai-discovery",
+    "category_secondary": [
+        "visibility-search"
+    ],
+    "tags": [
+        "ai-discovery",
+        "citability",
+        "seo-vs-llm",
+        "content-authority"
+    ],
+    "template": "article",
+    "sidebar_profile": "library-learning",
+    "seo": {
+        "title": "Being Citable vs Being Rankable ... The New Visibility Standard ... Krisada.com",
+        "description": "Ranking and being cited by AI systems require different things. Here is where they overlap, where they diverge, and what to optimise for."
+    },
+    "related_content": [
+        "how-ai-discovers-your-content",
+        "seo-is-becoming-ai-to-ai",
+        "structured-data-is-not-optional-anymore"
+    ],
+    "schema": {
+        "about": [
+            "citability",
+            "rankability",
+            "authoritative sources",
+            "AI-era visibility standards"
+        ],
+        "mentions": [
+            "/library/visibility-search/ai-discovery/",
+            "/article/how-ai-discovers-your-content/",
+            "/article/seo-is-becoming-ai-to-ai/",
+            "/article/structured-data-is-not-optional-anymore/"
+        ]
+    },
+    "is_featured": false,
+    "is_cornerstone": true,
+    "reading_time": 6,
+    "include_in_sitemap": true,
+    "authors": [
+        "atlas"
+    ]
+}

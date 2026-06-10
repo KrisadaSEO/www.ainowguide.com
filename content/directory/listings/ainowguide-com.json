@@ -1,0 +1,19 @@
+{
+    "type": "dir_listing",
+    "slug": "ainowguide-com",
+    "path": "portfolio/ai-digital-karma/ainowguide-com",
+    "category_path": "portfolio/ai-digital-karma",
+    "title": "ainowguide.com",
+    "canonical_url": "/directory/portfolio/ai-digital-karma/ainowguide-com/",
+    "directory_type": "portfolio",
+    "status": "published",
+    "template": "directory-listing",
+    "sidebar_profile": "authority-standard",
+    "fields": {
+        "status": "domain-only",
+        "tier": "authority",
+        "priority": "2",
+        "update": "AI readiness guide \u2014 strong search entry point"
+    },
+    "updated_at": "2026-05-31"
+}

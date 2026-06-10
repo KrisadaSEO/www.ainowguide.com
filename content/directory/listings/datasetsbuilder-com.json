@@ -1,0 +1,18 @@
+{
+    "type": "dir_listing",
+    "slug": "datasetsbuilder-com",
+    "path": "portfolio/ai-digital-karma/datasetsbuilder-com",
+    "category_path": "portfolio/ai-digital-karma",
+    "title": "datasetsbuilder.com",
+    "canonical_url": "/directory/portfolio/ai-digital-karma/datasetsbuilder-com/",
+    "directory_type": "portfolio",
+    "status": "published",
+    "template": "directory-listing",
+    "sidebar_profile": "authority-standard",
+    "fields": {
+        "status": "domain-only",
+        "tier": "supporting",
+        "priority": "3"
+    },
+    "updated_at": "2026-05-31"
+}

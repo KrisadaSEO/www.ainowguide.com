@@ -1,0 +1,19 @@
+{
+    "type": "dir_listing",
+    "slug": "buyhumanart-com",
+    "path": "portfolio/art-human-creativity/buyhumanart-com",
+    "category_path": "portfolio/art-human-creativity",
+    "title": "buyhumanart.com",
+    "canonical_url": "/directory/portfolio/art-human-creativity/buyhumanart-com/",
+    "directory_type": "portfolio",
+    "status": "published",
+    "template": "directory-listing",
+    "sidebar_profile": "authority-standard",
+    "fields": {
+        "status": "domain-only",
+        "tier": "authority",
+        "priority": "2",
+        "update": "Strong positioning vs AI-generated art"
+    },
+    "updated_at": "2026-05-31"
+}

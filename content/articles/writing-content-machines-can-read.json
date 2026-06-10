@@ -1,0 +1,42 @@
+{
+    "type": "article",
+    "title": "Writing Content That Machines Can Actually Read",
+    "slug": "writing-content-machines-can-read",
+    "canonical_url": "/article/writing-content-machines-can-read/",
+    "status": "published",
+    "excerpt": "AI machine-readable content is not a technical layer you bolt on. It starts with how you structure your thinking before you write a word. Here is what that means in practice.",
+    "body": "<p>When people talk about AI machine-readable content they usually mean structured data markup ... <a href=\"/glossary/ai-digital-karma/json-ld/\">JSON-LD</a> schema blocks, semantic HTML, open graph tags. Those things matter. But they are the second step. The first step is writing content that has a clear, extractable meaning to begin with.</p>\n\n<p>A machine cannot extract a clear answer from content that does not contain a clear answer. Structured markup around vague prose is still vague prose. The technical layer amplifies what is already there ... it does not create it.</p>\n\n<h2>What makes content AI machine-readable at the prose level</h2>\n\n<p>Clear claims. Each section of an article should make a specific claim, not a general observation. \"Structured data improves how AI systems cite your content\" is extractable. \"There are many ways to think about how content and technology interact\" is not. Machines ... and readers ... need the former.</p>\n\n<p>Consistent structure. If you use a two-level heading hierarchy in most articles, use it in all of them. Heading levels should mean something. H2 is a major section. H3 is a sub-point within that section. An AI parsing your content relies on that structure to understand what each piece of text is about.</p>\n\n<p>Named entities. Refer to things by their actual names. \"The system\" is ambiguous. \"JSON-LD\" is not. \"The process\" is ambiguous. \"The three-step content review\" is not. Named entities give machines something to anchor references to.</p>\n\n<h2>The structured data layer</h2>\n\n<p>Once the prose is clear, structured data markup makes it explicit to machines that cannot infer context from surrounding text the way a reader can.</p>\n\n<p>For an article: mark it up as a schema.org Article with author, datePublished, and headline. For a category or resource page: use BreadcrumbList to express the navigational hierarchy. For the site itself: use WebSite with a siteLinks SearchAction if you support search.</p>\n\n<p>JSON-LD is the preferred format because it lives in the page head, separate from the visible content, and does not require restructuring your HTML. It is also easy to generate programmatically from the same JSON content records that drive your templates.</p>\n\n<h2>AI machine-readable identity files</h2>\n\n<p>Beyond individual pages, AI systems and aggregators benefit from site-level identity documents. An llm.txt file is a plain-text description of who you are, what you publish, and what your content is for. An llm.json version of the same thing adds structure. A catalog.json that lists published content with titles, URLs, and categories lets a machine index your site without crawling every page.</p>\n\n<p>These are not widely standardised yet, but they are low-cost to produce and increasingly read by AI systems looking to cite authoritative sources. Publishing them is a signal that your site is built for the current environment, not just the previous one.</p>\n\n<h2>The compound effect</h2>\n\n<p>AI machine-readable content at the prose level, combined with accurate structured data markup, combined with site-level identity files, creates a compounding effect. Each layer makes the next layer more useful. Clear prose makes structured data accurate. Accurate structured data makes catalog entries trustworthy. Trustworthy catalog entries make citations more likely.</p>\n\n<p>None of this requires a complex technical infrastructure. It requires deciding that your content will be clear, consistent, and designed to be understood ... by people and by machines.</p>",
+    "publish_date": "2026-04-18",
+    "updated_at": "2026-04-18",
+    "author": "Atlas",
+    "category_primary": "ai-website-systems/machine-readable-content",
+    "category_secondary": [
+        "ai-website-systems",
+        "visibility-search"
+    ],
+    "tags": [
+        "AI machine-readable",
+        "structured-data",
+        "json-ld",
+        "schema",
+        "content-clarity"
+    ],
+    "template": "article",
+    "sidebar_profile": "library-learning",
+    "seo": {
+        "title": "Writing Content That Machines Can Actually Read ... Krisada.com",
+        "description": "Machine-readability starts before the structured data markup. Here is what it means at the prose level ... and how the technical layer amplifies it."
+    },
+    "related_content": [
+        "structured-data-is-not-optional-anymore",
+        "how-ai-discovers-your-content",
+        "what-a-clean-content-schema-looks-like"
+    ],
+    "is_featured": false,
+    "is_cornerstone": true,
+    "reading_time": 5,
+    "include_in_sitemap": true,
+    "authors": [
+        "atlas"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "type": "dir_listing",
+    "slug": "naturopathicscience-com",
+    "path": "portfolio/healthcare-ai-longevity/naturopathicscience-com",
+    "category_path": "portfolio/healthcare-ai-longevity",
+    "title": "naturopathicscience.com",
+    "canonical_url": "/directory/portfolio/healthcare-ai-longevity/naturopathicscience-com/",
+    "directory_type": "portfolio",
+    "status": "published",
+    "template": "directory-listing",
+    "sidebar_profile": "authority-standard",
+    "fields": {
+        "status": "domain-only",
+        "tier": "authority",
+        "priority": "2"
+    },
+    "updated_at": "2026-05-31"
+}

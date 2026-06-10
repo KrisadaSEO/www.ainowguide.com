@@ -1,0 +1,22 @@
+# Ignore cache, logs, and local environment files
+storage/cache/
+storage/logs/
+storage/forms.db
+storage/forms.db-wal
+storage/forms.db-shm
+.env
+.idea/
+.vscode/
+.DS_Store
+node_modules/
+*.bak
+
+# Machine-specific install config — not committed, never deployed
+config/install.json
+
+# Generated at deploy time
+sitemap.xml
+storage/views/
+
+# Local video production tool - not part of the site
+krisada-motion/

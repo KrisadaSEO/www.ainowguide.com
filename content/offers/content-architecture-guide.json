@@ -1,0 +1,12 @@
+{
+  "type": "offer",
+  "slug": "content-architecture-guide",
+  "title": "The Content Architecture Starter Pack",
+  "summary": "A practical guide to structuring a content site that AI tools can work with, machines can read, and search engines can trust. JSON schemas, file maps, and a working example included.",
+  "format": "download",
+  "cta_label": "Get the starter pack",
+  "cta_url": "/library/content-systems/",
+  "status": "draft",
+  "tags": ["lead-magnet", "content-architecture", "free"],
+  "updated_at": "2026-04-07"
+}

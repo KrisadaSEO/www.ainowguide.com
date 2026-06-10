@@ -1,0 +1,18 @@
+{
+    "type": "dir_listing",
+    "slug": "digitalmarketingage-com",
+    "path": "portfolio/one-mouse-marketing/digitalmarketingage-com",
+    "category_path": "portfolio/one-mouse-marketing",
+    "title": "digitalmarketingage.com",
+    "canonical_url": "/directory/portfolio/one-mouse-marketing/digitalmarketingage-com/",
+    "directory_type": "portfolio",
+    "status": "published",
+    "template": "directory-listing",
+    "sidebar_profile": "authority-standard",
+    "fields": {
+        "status": "domain-only",
+        "tier": "supporting",
+        "priority": "3"
+    },
+    "updated_at": "2026-05-31"
+}

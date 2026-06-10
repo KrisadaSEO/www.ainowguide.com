@@ -1,0 +1,55 @@
+{
+  "type": "category",
+  "title": "Website FAQs",
+  "slug": "website-faqs",
+  "path": "website-faqs",
+  "parent_slug": "",
+  "canonical_url": "/library/website-faqs/",
+  "description": "Practical website questions answered plainly, with the matching download solution and the reason each fix matters.",
+  "intro": "This topic starts with the 2026 Top 10 Website Problems article and extends it into a broader question-first library. Each page answers one common website problem in plain English, shows the matching download solution inside the bundle, and explains when to use it.",
+  "status": "published",
+  "sort_order": 1,
+  "featured_image": "",
+  "template": "category",
+  "sidebar_profile": "library-learning",
+  "seo": {
+    "title": "Website FAQs | Krisada.com",
+    "description": "Explore practical website FAQs covering AI foundations, visibility, content systems, lead capture, monetization, and the matching download solutions."
+  },
+  "schema": {
+    "about": [
+      "website FAQs",
+      "website systems",
+      "download-led learning paths",
+      "AI-ready websites"
+    ],
+    "mentions": [
+      "/article/2026-top-10-website-problems-solved/",
+      "/download/2026-website-problems-bundle/",
+      "/library/start-here/",
+      "/library/visibility-search/",
+      "/library/content-systems/"
+    ],
+    "is_part_of": [
+      "/library/"
+    ]
+  },
+  "relationships": {
+    "related_categories": ["start-here", "visibility-search", "content-systems"]
+  },
+  "featured_articles": [
+    "how-do-you-start-with-ai-on-a-website",
+    "why-arent-you-getting-ai-traffic-from-your-website",
+    "why-does-your-website-feel-outdated-and-hard-to-manage",
+    "how-do-you-measure-what-your-website-is-actually-worth",
+    "how-do-you-turn-web-pages-into-digital-assets",
+    "how-do-you-create-content-consistently-without-starting-from-zero",
+    "how-do-you-build-a-real-lead-system-on-your-website",
+    "how-do-you-figure-out-what-your-website-should-sell",
+    "why-isnt-your-passive-income-website-making-money",
+    "how-do-you-document-a-website-system-so-it-can-scale",
+    "what-digital-skills-wont-ai-replace",
+    "when-your-business-doesnt-know-how-ai-fits-its-own-system"
+  ],
+  "updated_at": "2026-04-28"
+}

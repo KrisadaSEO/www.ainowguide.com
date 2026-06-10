@@ -1,0 +1,41 @@
+{
+    "type": "article",
+    "title": "Setting Up a PHP + JSON Site That AI Tools Can Actually Work With",
+    "slug": "setting-up-php-json-for-ai-development",
+    "canonical_url": "/article/setting-up-php-json-for-ai-development/",
+    "status": "published",
+    "excerpt": "The structural decisions you make when setting up a PHP + JSON site determine how useful AI coding tools will be. Here is what to get right from the start.",
+    "body": "<p>A PHP + JSON site can be set up in a way that makes AI-assisted development smooth and fast, or in a way that makes it frustrating and error-prone. The difference is mostly in the structural decisions made early ... decisions that are easy to get right if you know what to aim for.</p>\n\n<h2>One entry point, one router</h2>\n\n<p>Every request should flow through a single entry point ... typically <code>index.php</code> ... which hands off to a bootstrap file that handles routing, loads content, and resolves the template. There should be no competing routing systems, no alternative entry points for different content types, no special cases that bypass the main path.</p>\n\n<p>This matters for AI tools because the routing path is one of the first things they need to understand. A single, traceable path from URL to rendered page means an AI assistant can follow the logic in one pass and make changes confidently. A fragmented routing system ... multiple entry points, different logic for different content types ... forces the AI to hold more complexity in context and increases the chance of a change breaking something it did not trace.</p>\n\n<h2>Consistent content schemas</h2>\n\n<p>Every content record of the same type should have the same shape. All articles should have the same fields. All categories should have the same fields. Fields that are sometimes present and sometimes not ... or that sometimes contain strings and sometimes arrays ... create ambiguity that AI tools handle poorly.</p>\n\n<p>Define your schema explicitly. Write one canonical example of each content type. When an AI assistant is asked to create a new article or category, give it that canonical example as the pattern to match. The output will be consistently structured and will validate without manual correction.</p>\n\n<h2>Thin templates with named functions</h2>\n\n<p>Templates should render ... they should not compute. Logic belongs in named functions in the bootstrap file, not inlined into template PHP. A template that calls <code>site_resolve_sidebar_profile($view)</code> is readable and modifiable. A template with thirty lines of inline logic is a maintenance problem and an AI liability.</p>\n\n<p>Named functions are also self-documenting. An AI assistant reading a template that calls <code>site_find_related_articles($article)</code> understands what that call does without needing to trace through the implementation. An AI assistant reading inline logic has to parse it every time.</p>\n\n<h2>Validate everything, always</h2>\n\n<p>PHP lint and JSON validation should be part of every change cycle. Both are one-line commands. Running them after every file edit catches syntax errors immediately ... before they surface as mysterious rendering failures.</p>\n\n<p>AI tools can produce valid-looking PHP or JSON that contains subtle errors. A malformed JSON file fails silently in some configurations and loudly in others. Running <code>json_decode</code> with <code>JSON_THROW_ON_ERROR</code> catches the problem at the source.</p>\n\n<h2>The bootstrap as the single source of truth</h2>\n\n<p>All application functions, routing logic, content loading, and sidebar resolution should live in one file ... the bootstrap. Not split across a lib directory, not distributed into per-feature files, not duplicated in templates. One file.</p>\n\n<p>For a solo-operator site, this is not a compromise ... it is an advantage. An AI assistant that needs to understand how the application works can read one file. The entire application logic is visible in a single pass. That transparency is worth more than the organisational neatness of a multi-file architecture that an AI has to reconstruct from pieces.</p>",
+    "publish_date": "2026-03-19",
+    "updated_at": "2026-03-19",
+    "author": "Atlas",
+    "category_primary": "ai-website-systems/php-json-publishing",
+    "category_secondary": [
+        "ai-website-systems",
+        "content-systems/php-json-architecture"
+    ],
+    "tags": [
+        "php-json",
+        "ai-development",
+        "site-architecture",
+        "flat-file"
+    ],
+    "template": "article",
+    "sidebar_profile": "library-learning",
+    "seo": {
+        "title": "Setting Up a PHP + JSON Site That AI Tools Can Actually Work With ... Krisada.com",
+        "description": "The structural decisions that make a PHP + JSON site work smoothly with AI coding tools ... one entry point, consistent schemas, thin templates."
+    },
+    "related_content": [
+        "php-json-as-a-machine-ready-stack",
+        "the-case-for-flat-file-publishing",
+        "what-a-clean-content-schema-looks-like"
+    ],
+    "is_featured": false,
+    "is_cornerstone": false,
+    "reading_time": 5,
+    "include_in_sitemap": true,
+    "authors": [
+        "atlas"
+    ]
+}

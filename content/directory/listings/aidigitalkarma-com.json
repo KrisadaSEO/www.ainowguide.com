@@ -1,0 +1,19 @@
+{
+    "type": "dir_listing",
+    "slug": "aidigitalkarma-com",
+    "path": "portfolio/ai-digital-karma/aidigitalkarma-com",
+    "category_path": "portfolio/ai-digital-karma",
+    "title": "aidigitalkarma.com",
+    "canonical_url": "/directory/portfolio/ai-digital-karma/aidigitalkarma-com/",
+    "directory_type": "portfolio",
+    "status": "published",
+    "template": "directory-listing",
+    "sidebar_profile": "authority-standard",
+    "fields": {
+        "status": "domain-only",
+        "tier": "flagship",
+        "priority": "1",
+        "update": "Flagship brand anchor for the constellation"
+    },
+    "updated_at": "2026-05-31"
+}

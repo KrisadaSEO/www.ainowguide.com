@@ -1,0 +1,41 @@
+{
+    "type": "article",
+    "title": "Why PHP + JSON Is a Machine-Ready Publishing Stack",
+    "slug": "php-json-as-a-machine-ready-stack",
+    "canonical_url": "/article/php-json-as-a-machine-ready-stack/",
+    "status": "published",
+    "excerpt": "Most publishing stacks were designed for human editors. PHP and JSON together create something different ... a stack that AI tools can read, validate, and generate content for without friction.",
+    "body": "<p>When people hear \"PHP + JSON for publishing\" they often think it sounds old-fashioned or overly simple. That reaction is understandable. PHP has been around since the nineties, and JSON is just a data format. Neither is a sophisticated framework.</p>\n\n<p>But sophistication is not what you want in a publishing stack. Reliability, transparency, and portability are what you want. PHP and JSON, used well, deliver all three ... and they do something more important in the current environment: they make your content legible to machines.</p>\n\n<h2>The machine-readability problem</h2>\n\n<p>A typical CMS stores content in a relational database. The database schema is complex, the content is mixed with metadata in non-obvious ways, and accessing it requires a query interface that external tools do not have. AI coding assistants, build scripts, validation tools, and content automation all have to work around this opacity.</p>\n\n<p>JSON content records solve this directly. A JSON file is a self-describing document. Every field is named. The structure is visible without a schema document. An AI assistant can read a content record, understand what every field means, generate a new one that matches the pattern, and validate it against the existing structure ... all without any special database access or API integration.</p>\n\n<h2>What PHP adds</h2>\n\n<p>PHP is the rendering layer. It reads the JSON, resolves the template, and outputs HTML. Because there is no framework abstraction between the content and the output, the path from data to page is short and explicit. A developer ... or an AI assistant ... can trace exactly what happens to a content record from file to rendered HTML in a single pass through bootstrap.php and a template file.</p>\n\n<p>This transparency matters for AI-assisted development. When an AI tool can read the full rendering path without needing to understand a plugin system, a hook architecture, or an event bus, it can make reliable changes. It can add a new field to a content schema, update the template to render it, and validate the output without unexpected side effects.</p>\n\n<h2>The deployment advantage</h2>\n\n<p>PHP files and JSON files are static assets until the server interprets them. There is no build step, no compilation, no asset pipeline. A deployment is an rsync. A rollback is restoring the previous files. The entire site state is the contents of the repo at a given commit.</p>\n\n<p>That simplicity extends to automation. A GitHub Actions workflow that validates JSON, lints PHP, generates a sitemap, and deploys via rsync is twenty lines. The equivalent workflow for a CMS-based site involves database migrations, cache clearing, and a dozen other steps that can fail in non-obvious ways.</p>\n\n<h2>The right fit</h2>\n\n<p>PHP + JSON is not the right stack for a site where non-technical editors need a visual interface, or where the content model is truly relational and complex. For those cases, a CMS with a database backend is the appropriate choice.</p>\n\n<p>For a solo operator running a content-driven authority site ... where content is produced by one person or by AI-assisted workflows, where the priority is long-term control over short-term editorial convenience ... it is one of the most capable stacks available. The same characteristics that make it simple to understand make it easy to automate.</p>",
+    "publish_date": "2026-02-19",
+    "updated_at": "2026-02-19",
+    "author": "Atlas",
+    "category_primary": "ai-website-systems/php-json-publishing",
+    "category_secondary": [
+        "ai-website-systems",
+        "content-systems"
+    ],
+    "tags": [
+        "php",
+        "json",
+        "publishing-stack",
+        "AI machine-readable",
+        "ai-website-systems"
+    ],
+    "template": "article",
+    "sidebar_profile": "library-learning",
+    "seo": {
+        "title": "Why PHP + JSON Is a Machine-Ready Publishing Stack ... Krisada.com",
+        "description": "PHP and JSON are not glamorous. They are transparent, portable, and legible to AI tools ... which makes them one of the most practical publishing stacks for solo operators in 2026."
+    },
+    "related_content": [
+        "the-case-for-flat-file-publishing",
+        "what-a-clean-content-schema-looks-like"
+    ],
+    "is_featured": false,
+    "is_cornerstone": true,
+    "reading_time": 5,
+    "include_in_sitemap": true,
+    "authors": [
+        "atlas"
+    ]
+}

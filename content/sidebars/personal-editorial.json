@@ -1,0 +1,25 @@
+{
+  "title": "Personal Editorial Sidebar",
+  "slug": "personal-editorial",
+  "blocks": [
+    {
+      "type": "mini-bio",
+      "style": "personal-highlight",
+      "title": "Krisada",
+      "body": "Digital Marketer, teacher, and systems builder based in Jacksonville, Florida. Rebuilding the model for an AI-native internet."
+    },
+    {
+      "type": "related-articles",
+      "style": "practical-highlight",
+      "title": "More from the library"
+    },
+    {
+      "type": "featured-link",
+      "style": "strategic-highlight",
+      "title": "Digital Leverage",
+      "body": "Structure compounds. Systems outlast tactics. Start building what you own.",
+      "cta_label": "Start Here",
+      "cta_url": "/"
+    }
+  ]
+}

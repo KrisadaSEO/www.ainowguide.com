@@ -1,0 +1,22 @@
+{
+  "type": "category",
+  "title": "Digital Asset Thinking",
+  "slug": "digital-asset-thinking",
+  "path": "digital-life/digital-asset-thinking",
+  "parent_slug": "digital-life",
+  "canonical_url": "/library/digital-life/digital-asset-thinking/",
+  "description": "Treating websites, content libraries, and online systems as assets that compound ... not expenses that drain.",
+  "intro": "A website is not a cost center. Built and maintained correctly, it is a compounding asset ... one that earns attention, trust, and leverage over time without requiring proportional ongoing spend. This section covers how to think about digital properties the way an investor thinks about assets: with long time horizons, structural thinking, and an eye for what compounds.",
+  "status": "published",
+  "sort_order": 3,
+  "template": "category",
+  "sidebar_profile": "library-learning",
+  "seo": {
+    "title": "Digital Asset Thinking ... Online Digital Life ... Krisada.com",
+    "description": "Treating websites, content libraries, and online systems as assets that compound ... not expenses that drain."
+  },
+  "relationships": {
+    "related_categories": ["website-ownership", "platform-independence"]
+  },
+  "updated_at": "2026-03-14"
+}

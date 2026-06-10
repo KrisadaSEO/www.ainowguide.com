@@ -1,0 +1,23 @@
+{
+  "type": "category",
+  "title": "Website Valuation",
+  "slug": "website-valuation",
+  "path": "digital-property-assets/website-valuation",
+  "parent_slug": "digital-property-assets",
+  "canonical_url": "/library/digital-property-assets/website-valuation/",
+  "redirect_from": [],
+  "description": "What actually makes a web property valuable ... traffic, content depth, monetization, domain history, and what serious buyers actually look at.",
+  "intro": "Not all websites are worth the same. Some aged domains with thin content are worth almost nothing. Some young sites with a clear niche, compounding traffic, and a real monetization path are worth real money. Understanding how web properties are valued is how you build intentionally instead of accidentally ... and how you know whether what you own is actually worth something.",
+  "status": "published",
+  "sort_order": 2,
+  "template": "category",
+  "sidebar_profile": "library-learning",
+  "seo": {
+    "title": "Website Valuation ... Krisada.com",
+    "description": "What makes a website or domain valuable ... the signals buyers look at and how to build with valuation in mind."
+  },
+  "relationships": {
+    "related_categories": ["digital-property-assets", "digital-life"]
+  },
+  "updated_at": "2026-05-31"
+}

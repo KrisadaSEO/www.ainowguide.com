@@ -1,0 +1,20 @@
+{
+    "type": "dir_listing",
+    "slug": "realseolife-com",
+    "path": "portfolio/one-mouse-marketing/realseolife-com",
+    "category_path": "portfolio/one-mouse-marketing",
+    "title": "realseolife.com",
+    "canonical_url": "/directory/portfolio/one-mouse-marketing/realseolife-com/",
+    "directory_type": "portfolio",
+    "status": "published",
+    "template": "directory-listing",
+    "sidebar_profile": "authority-standard",
+    "fields": {
+        "status": "domain-only",
+        "tier": "authority",
+        "priority": "2",
+        "update": "Crossover: also serves c3 (SEO as investable skill/asset)",
+        "crossover": "Digital Asset Investing"
+    },
+    "updated_at": "2026-05-31"
+}

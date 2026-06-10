@@ -1,0 +1,45 @@
+{
+    "type": "article",
+    "title": "The Hosting Stack for Digital Property: What to Use and Why",
+    "slug": "the-hosting-stack-for-digital-property",
+    "canonical_url": "/article/the-hosting-stack-for-digital-property/",
+    "redirect_from": [
+        "/article/the-hosting-stack-for-owned-infrastructure/"
+    ],
+    "status": "published",
+    "excerpt": "Digital property means more than owning your domain. Here is what the full hosting stack looks like for an operator who wants genuine control ... without the complexity of running servers from scratch.",
+    "body": "<p>Owning your domain is the first layer of infrastructure ownership. But a domain registered in your name and hosted on a platform you do not fully control is still partial ownership. The hosting layer is where most operators leave more dependency than they intend.</p>\n\n<p>Here is what a genuinely digital property stack looks like ... practical, not idealistic.</p>\n\n<h2>Domain registration: direct, not through a reseller</h2>\n\n<p>Register domains directly with a registrar ... not through your web host, not through a website builder, not through a reseller. When you register through a hosting provider, the registrar account is often theirs. If you leave the host, access to the domain can become complicated.</p>\n\n<p>Recommended registrars: Cloudflare Registrar (at-cost pricing, no markup), Porkbun (competitive pricing, clean interface), Namecheap (reliable, long track record). All three allow full account control and easy transfers if you ever need to move.</p>\n\n<p>Verify that the WHOIS contact ... or the registrant information in the registration ... points to you, not to a privacy proxy you do not control.</p>\n\n<h2>DNS: separate from your host</h2>\n\n<p>Running your DNS through your web host ties your DNS uptime to your host's uptime and makes migrations harder. Moving DNS to a dedicated DNS provider decouples them.</p>\n\n<p>Cloudflare's free tier is the practical default for most operators. It adds a CDN layer, DDoS protection, and a clean interface for managing records. The free tier is genuinely useful, not a loss leader that forces upgrades.</p>\n\n<h2>Web hosting: shared, VPS, or managed?</h2>\n\n<p>For a PHP flat-file site serving moderate traffic, shared or reseller hosting is sufficient and significantly cheaper than a VPS. The tradeoffs are less control and shared resources ... neither matters much for a content site that does not do heavy computation.</p>\n\n<p>A VPS makes sense when you need custom server configuration, when you are running multiple sites that justify the overhead, or when traffic has outgrown shared hosting's limitations. The additional control comes with additional maintenance responsibility: server updates, security patches, monitoring.</p>\n\n<p>Managed WordPress hosting is not the right choice for a flat-file PHP site ... it is optimised for WordPress specifically and adds cost without benefit for a custom stack.</p>\n\n<h2>Email: on your own domain</h2>\n\n<p>hello@yourdomain.com is a professional signal and a practical requirement for anyone representing a content operation. More importantly, an email address on your domain is portable in a way that a Gmail or Outlook address is not.</p>\n\n<p>Options: Fastmail (clean, reliable, privacy-focused), Zoho Mail (free tier for custom domains), Google Workspace (familiar interface, higher cost). The specific provider matters less than having your email on your domain and not tied to a free-tier account that could be restricted.</p>\n\n<h2>Backup: off-host, automated</h2>\n\n<p>For a git-deployed site, the repository is the backup ... every file is in version control, every change is reversible. The risk is the server-side state that is not in the repo: any uploaded files, any server configuration, any data that gets written outside the deployment path.</p>\n\n<p>Keep the list of things that live only on the server as short as possible. What cannot be in the repo should be backed up off-host, automatically, on a schedule you have tested.</p>",
+    "publish_date": "2026-01-01",
+    "updated_at": "2026-01-01",
+    "author": "Atlas",
+    "category_primary": "digital-independence/digital-property",
+    "category_secondary": [
+        "digital-independence",
+        "digital-life/website-ownership"
+    ],
+    "tags": [
+        "hosting",
+        "domain-registration",
+        "dns",
+        "digital-property",
+        "web-hosting"
+    ],
+    "template": "article",
+    "sidebar_profile": "library-learning",
+    "seo": {
+        "title": "The Hosting Stack for Digital Property: What to Use and Why ... Krisada.com",
+        "description": "What genuine infrastructure ownership looks like ... domain registration, DNS, hosting, and email ... and the practical choices for each layer."
+    },
+    "related_content": [
+        "your-domain-is-the-asset",
+        "what-website-ownership-actually-means",
+        "the-quiet-cost-of-borrowed-ground"
+    ],
+    "is_featured": false,
+    "is_cornerstone": false,
+    "reading_time": 5,
+    "include_in_sitemap": true,
+    "authors": [
+        "atlas"
+    ]
+}

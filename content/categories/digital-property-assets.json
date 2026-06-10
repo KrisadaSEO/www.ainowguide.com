@@ -1,0 +1,23 @@
+{
+  "type": "category",
+  "title": "Digital Property Assets",
+  "slug": "digital-property-assets",
+  "path": "digital-property-assets",
+  "parent_slug": "",
+  "canonical_url": "/library/digital-property-assets/",
+  "redirect_from": [],
+  "description": "Websites and domains are real assets. This is the practice of building, buying, and managing a portfolio of digital properties that compound in value over time.",
+  "intro": "Most people treat their websites like a cost. Something to maintain, maybe grow, and mostly worry about. That is the wrong frame. A domain is a piece of internet real estate. A website with real traffic and real content is a revenue-generating asset. A portfolio of aligned properties is a compounding system. This section covers how to build, value, and manage digital properties the way a serious asset holder would.",
+  "status": "published",
+  "sort_order": 7,
+  "template": "category",
+  "sidebar_profile": "library-learning",
+  "seo": {
+    "title": "Digital Property Assets ... Krisada.com",
+    "description": "How to build, value, and manage a portfolio of websites and domains as compounding digital assets."
+  },
+  "relationships": {
+    "related_categories": ["digital-independence", "digital-life"]
+  },
+  "updated_at": "2026-05-31"
+}

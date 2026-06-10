@@ -1,0 +1,20 @@
+{
+    "type": "dir_listing",
+    "slug": "1mousemarketing-com",
+    "path": "portfolio/one-mouse-marketing/1mousemarketing-com",
+    "category_path": "portfolio/one-mouse-marketing",
+    "title": "1mousemarketing.com",
+    "canonical_url": "/directory/portfolio/one-mouse-marketing/1mousemarketing-com/",
+    "directory_type": "portfolio",
+    "status": "published",
+    "template": "directory-listing",
+    "sidebar_profile": "authority-standard",
+    "fields": {
+        "website": "https://1mousemarketing.com",
+        "status": "website",
+        "tier": "flagship",
+        "priority": "1",
+        "update": "Marketing guild hub \u2014 1Mouse Marketing Guild"
+    },
+    "updated_at": "2026-05-31"
+}

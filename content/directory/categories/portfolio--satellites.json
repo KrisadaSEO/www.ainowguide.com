@@ -1,0 +1,15 @@
+{
+    "type": "dir_category",
+    "slug": "satellites",
+    "path": "portfolio/satellites",
+    "parent_path": "portfolio",
+    "title": "Satellites",
+    "canonical_url": "/directory/portfolio/satellites/",
+    "description": "Standalone domains outside the main constellations - held for future development or passive play.",
+    "directory_type": "portfolio",
+    "status": "published",
+    "template": "directory-category",
+    "sidebar_profile": "authority-standard",
+    "constellation_id": "satellite",
+    "updated_at": "2026-05-31"
+}

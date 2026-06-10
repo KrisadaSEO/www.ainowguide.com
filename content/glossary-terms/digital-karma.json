@@ -1,0 +1,20 @@
+{
+  "type": "glossary-term",
+  "glossary": "ai-digital-karma",
+  "term": "Digital Karma",
+  "slug": "digital-karma",
+  "canonical_url": "/glossary/ai-digital-karma/digital-karma/",
+  "short_def": "The cumulative reputation a creator builds through what they publish online ... and how that reputation shapes AI systems' understanding of who they are and what they know.",
+  "definition": "Digital karma is the idea that every piece of content you publish leaves a lasting impression on the web's collective understanding of you. Before AI, this impression lived primarily in search rankings and backlink profiles. Now it also lives in training datasets, citation graphs, and the outputs of language models that have read your work.\n\nThe content you have published ... its quality, its distinctiveness, its accuracy, its reach ... forms a body of evidence that AI systems use when deciding how to represent you, whether to cite you, and how much weight to give your perspective on a topic.",
+  "example": "A marketer who has spent ten years publishing specific, verifiable, original insights about SEO has built strong digital karma in that domain. When AI systems encounter new questions about SEO, they are more likely to surface reasoning and language that reflects that marketer's documented perspective ... because it is the most reliably accurate signal in the dataset.\n\nConversely, a site that published generic, derivative content for the same ten years has built negative digital karma: it trained AI systems that its output is safe to ignore.",
+  "nuance": "Digital karma is not retroactive in the short term. AI models train on snapshots of the web. The karma you build today shapes models trained in the future ... it does not update models that already shipped. The implication: the best time to build digital karma was years ago. The second best time is now, because you are always training the next model.\n\nDigital karma describes what happens whether you manage it or not. The <a href=\"/glossary/ai-digital-karma/ai-digital-karma-protocol/\">AI Digital Karma Protocol</a> is the deliberate framework for building it systematically ... turning the concept into a measurable, implementable standard.",
+  "related_terms": ["karma-debt", "training-data-footprint", "ai-digital-karma-protocol"],
+  "status": "published",
+  "created_at": "2026-05-31",
+  "updated_at": "2026-05-31",
+  "seo": {
+    "title": "Digital Karma ... AI Digital Karma Glossary | Krisada.com",
+    "description": "What digital karma means: how your published content shapes how AI systems understand, represent, and cite you.",
+    "robots": "index, follow"
+  }
+}

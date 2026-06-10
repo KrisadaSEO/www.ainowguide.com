@@ -1,0 +1,33 @@
+{
+  "constellation": "AI Digital Karma",
+  "constellation_id": "c1",
+  "entities": [
+    {
+      "@type": "Brand",
+      "name": "AI Digital Karma",
+      "url": "https://aidigitalkarma.com",
+      "description": "Framework and brand for building AI-readable, AI-trustworthy web infrastructure",
+      "sameAs": ["https://digitalkarmaweb.com"]
+    },
+    {
+      "@type": "Brand",
+      "name": "Symantics AI",
+      "url": "https://aisymantics.com",
+      "description": "Semantic AI framework for structured entity relationships and machine-readable content",
+      "sameAs": ["https://aisymantix.com", "https://symatixai.com"]
+    },
+    {
+      "@type": "Service",
+      "name": "Dataset SEO",
+      "url": "https://datasetseo.com",
+      "description": "Building SEO datasets as investable digital assets",
+      "sameAs": ["https://datasetsbuilder.com", "https://datasetsmaker.com"]
+    },
+    {
+      "@type": "Concept",
+      "name": "AI-to-AI Network",
+      "description": "Infrastructure for agent-to-agent data exchange and connectivity",
+      "domains": ["aitoaiconnect.com", "aitoainetwork.com", "aitoaiexchange.com", "aitoaidatasets.com", "aidataexchangecom.com", "aitoaiweb.com", "aitoaiwebsites.com"]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+    "type": "dir_listing",
+    "slug": "fineinkprint-com",
+    "path": "portfolio/art-human-creativity/fineinkprint-com",
+    "category_path": "portfolio/art-human-creativity",
+    "title": "fineinkprint.com",
+    "canonical_url": "/directory/portfolio/art-human-creativity/fineinkprint-com/",
+    "directory_type": "portfolio",
+    "status": "published",
+    "template": "directory-listing",
+    "sidebar_profile": "authority-standard",
+    "fields": {
+        "status": "domain-only",
+        "tier": "authority",
+        "priority": "2"
+    },
+    "updated_at": "2026-05-31"
+}

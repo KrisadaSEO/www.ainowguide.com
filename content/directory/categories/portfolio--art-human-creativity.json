@@ -1,0 +1,15 @@
+{
+    "type": "dir_category",
+    "slug": "art-human-creativity",
+    "path": "portfolio/art-human-creativity",
+    "parent_path": "portfolio",
+    "title": "Art & Human Creativity",
+    "canonical_url": "/directory/portfolio/art-human-creativity/",
+    "description": "Original art, digital galleries, print marketplaces, and the human creativity space.",
+    "directory_type": "portfolio",
+    "status": "published",
+    "template": "directory-category",
+    "sidebar_profile": "authority-standard",
+    "constellation_id": "c6",
+    "updated_at": "2026-05-31"
+}

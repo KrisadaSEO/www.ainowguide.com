@@ -1,0 +1,39 @@
+{
+  "title": "The Quiet Marketer",
+  "slug": "quiet-marketer",
+  "canonical_url": "/quiet-marketer/",
+  "status": "published",
+  "template": "page",
+  "sidebar_profile": "library-learning",
+  "hero_headline": "The Quiet Marketer",
+  "hero_subtext": "Building digital income without the noise.",
+  "body": "<p>Most advice about making money online assumes you want to be seen.</p>\n\n<p>Build an audience. Post daily. Grow your following. Become a brand.</p>\n\n<p>That works for some people. But there is a large group it doesn't work for ... skilled, motivated people who simply don't want to perform online. They want income, not influence. They want systems, not followers.</p>\n\n<p>That's what this series is about.</p>\n\n<p>The Quiet Marketer covers the trade skills behind digital income ... SEO, site architecture, content systems, monetisation strategy ... built for people who want the results without the spotlight.</p>\n\n<h2>What you'll find here</h2>\n\n<ul>\n<li>How to build income from websites without building a personal brand</li>\n<li>Which digital skills hold value as AI changes the landscape</li>\n<li>How to structure sites that earn while you're not watching them</li>\n<li>Practical systems used across a live portfolio of 50+ sites</li>\n</ul>",
+  "featured_articles": ["build-digital-income-without-personal-brand", "choose-your-first-website-business-model", "what-digital-skills-wont-ai-replace"],
+  "seo": {
+    "title": "The Quiet Marketer ... Digital Income Without the noise | Krisada.com",
+    "description": "Build real digital income without an audience, a personal brand, or a large social following. The Quiet Marketer covers the trade skills behind quietly profitable websites."
+  },
+  "schema": {
+    "about": [
+      "digital income without the noise",
+      "quiet marketing",
+      "SEO trade skills",
+      "faceless website monetisation",
+      "niche sites"
+    ],
+    "mentions": [
+      "/quiet-marketer/build-digital-income-without-personal-brand/",
+      "/quiet-marketer/choose-your-first-website-business-model/",
+      "/quiet-marketer/what-digital-skills-wont-ai-replace/",
+      "/library/quiet-marketer/",
+      "/guild/"
+    ],
+    "has_part": [
+      "/quiet-marketer/build-digital-income-without-personal-brand/",
+      "/quiet-marketer/choose-your-first-website-business-model/",
+      "/quiet-marketer/what-digital-skills-wont-ai-replace/"
+    ]
+  },
+  "updated_at": "2026-04-24",
+  "include_in_sitemap": true
+}

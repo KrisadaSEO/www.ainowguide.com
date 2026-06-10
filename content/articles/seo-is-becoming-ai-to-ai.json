@@ -1,0 +1,56 @@
+{
+    "type": "article",
+    "title": "SEO Is Becoming AI-to-AI Communication",
+    "slug": "seo-is-becoming-ai-to-ai",
+    "canonical_url": "/article/seo-is-becoming-ai-to-ai/",
+    "status": "published",
+    "excerpt": "For most of SEO's history, the goal was to communicate with Google's algorithm. That game is evolving. The systems on the other side are more capable now ... and they expect more structure in return.",
+    "body": "<p>There is a shift happening in how content gets found and interpreted on the internet. Most people have not fully absorbed what it means yet, but it will affect every website that relies on search traffic.</p>\n\n<p>For most of SEO's history, the optimisation target was a search algorithm that matched keywords against pages. The systems were capable but simple enough that you could mostly think of them as keyword-matching machines with some extra complexity layered on top.</p>\n\n<p>That is no longer an accurate description of what you are optimising for.</p>\n\n<h2>The interpreter layer</h2>\n\n<p>AI systems are now acting as interpreters between human queries and the web. A person asks a question, and instead of being presented with a list of links to evaluate, they receive a synthesised answer ... with sources cited, context provided, and follow-up questions suggested.</p>\n\n<p>The implications for content visibility are significant. Being indexed is no longer sufficient. Being cited requires that your content be interpretable, attributable, and structurally coherent enough for an AI system to trust as a source.</p>\n\n<p>In other words, you are no longer just writing for humans who find you via search. You are writing for AI systems that decide whether to surface you at all.</p>\n\n<h2>What changes and what doesn't</h2>\n\n<p>The fundamentals of good content still matter: clarity, depth, accuracy, relevance. What changes is the role that structure plays. AI machine-readable metadata, explicit relationships between content, consistent authorship signals, and structured schemas all become more important ... not less.</p>\n\n<p>A website that treats content as a stack of independent pages is harder for AI systems to interpret as an authoritative source. A site with a coherent information architecture, explicit topic signals, and structured metadata is much easier to cite, summarise, and recommend.</p>\n\n<h2>What this means practically</h2>\n\n<p>It means the content library model becomes more valuable, not less. Structured content with clear categories, explicit relationships, and AI machine-readable context is better positioned for AI-era discovery than a blog archive optimised for keyword density.</p>\n\n<p>It also means that structured data, federation metadata, and AI-specific endpoints ... the kinds of infrastructure that most content producers ignore ... are becoming competitive advantages rather than technical curiosities.</p>\n\n<p>This is not a trend to watch. It is a shift to build around now, before the gap between structured and unstructured content producers becomes too wide to close.</p>",
+    "publish_date": "2026-03-24",
+    "updated_at": "2026-04-25",
+    "author": "Atlas",
+    "category_primary": "visibility-search",
+    "category_secondary": [
+        "ai-website-systems",
+        "digital-life"
+    ],
+    "tags": [
+        "ai seo",
+        "search visibility",
+        "AI machine-readable",
+        "ai-era",
+        "structured content"
+    ],
+    "template": "article",
+    "sidebar_profile": "library-learning",
+    "seo": {
+        "title": "SEO Is Becoming AI-to-AI Communication ... Krisada.com",
+        "description": "The optimisation target has changed. AI systems now interpret your content ... and they expect structured, AI machine-readable authority."
+    },
+    "related_content": [
+        "why-content-library-beats-blog-archive",
+        "you-cant-do-this-on-wall-street"
+    ],
+    "schema": {
+        "about": [
+            "AI-mediated search visibility",
+            "AI machine-readable authority",
+            "AI-to-AI communication",
+            "structured publishing"
+        ],
+        "mentions": [
+            "/library/visibility-search/",
+            "/library/ai-website-systems/",
+            "/article/how-ai-discovers-your-content/",
+            "/article/structured-data-is-not-optional-anymore/",
+            "/article/why-content-library-beats-blog-archive/"
+        ]
+    },
+    "is_featured": true,
+    "is_cornerstone": true,
+    "reading_time": 6,
+    "include_in_sitemap": true,
+    "authors": [
+        "atlas"
+    ]
+}

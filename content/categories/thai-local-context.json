@@ -1,0 +1,41 @@
+{
+  "type": "category",
+  "title": "Krisada in Context to Thailand",
+  "slug": "thai-local-context",
+  "path": "thai-local-context",
+  "parent_slug": "",
+  "canonical_url": "/library/thai-local-context/",
+  "description": "Krisada in Context to Thailand ... personal, cultural, and local background behind the work, the name, and the perspective.",
+  "intro": "This section covers the relationship Krisada.com has to Thailand.",
+  "status": "published",
+  "sort_order": 9,
+  "template": "category",
+  "sidebar_profile": "thai-context",
+  "seo": {
+    "title": "Krisada in Context to Thailand ... Krisada.com",
+    "description": "The Thai background behind the work ... name origin, cultural context, and the personal layer behind Krisada.com."
+  },
+  "schema": {
+    "about": [
+      "Thai identity context",
+      "Krisada name origin",
+      "cultural background",
+      "Thailand"
+    ],
+    "mentions": [
+      "/thai/",
+      "/article/the-name-krisada-origin-and-history/",
+      "/library/start-here/"
+    ],
+    "related_domains": [
+      "https://www.krisada.com"
+    ],
+    "is_part_of": [
+      "/library/"
+    ]
+  },
+  "relationships": {
+    "related_categories": ["digital-life", "start-here"]
+  },
+  "updated_at": "2026-04-25"
+}

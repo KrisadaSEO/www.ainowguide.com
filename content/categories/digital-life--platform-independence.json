@@ -1,0 +1,22 @@
+{
+  "type": "category",
+  "title": "Platform Independence",
+  "slug": "platform-independence",
+  "path": "digital-life/platform-independence",
+  "parent_slug": "digital-life",
+  "canonical_url": "/library/digital-life/platform-independence/",
+  "description": "Why building on platforms you don't control is a liability ... and what a more resilient digital structure looks like.",
+  "intro": "Platform dependency is a tax most people do not notice until they get the bill. Algorithm changes, policy shifts, account restrictions, fee increases ... each one is a reminder that rented reach is not owned reach. This section covers what it looks like to build a digital presence that does not collapse when a single platform changes its terms.",
+  "status": "published",
+  "sort_order": 2,
+  "template": "category",
+  "sidebar_profile": "library-learning",
+  "seo": {
+    "title": "Platform Independence ... Online Digital Life ... Krisada.com",
+    "description": "Why building on platforms you don't control is a liability ... and what a more resilient digital structure looks like."
+  },
+  "relationships": {
+    "related_categories": ["website-ownership", "digital-asset-thinking"]
+  },
+  "updated_at": "2026-03-26"
+}

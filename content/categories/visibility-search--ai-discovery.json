@@ -1,0 +1,22 @@
+{
+  "type": "category",
+  "title": "AI Discovery",
+  "slug": "ai-discovery",
+  "path": "visibility-search/ai-discovery",
+  "parent_slug": "visibility-search",
+  "canonical_url": "/library/visibility-search/ai-discovery/",
+  "description": "How AI systems find, interpret, and cite content ... and what that means for how you build and structure your site.",
+  "intro": "Search engines used to rank pages. AI systems now interpret them. That is a different problem. Being indexed is no longer the goal ... being understood, trusted, and cited is. This section covers how AI discovery actually works and what structural decisions make a site more likely to be surfaced by AI-assisted search.",
+  "status": "published",
+  "sort_order": 1,
+  "template": "category",
+  "sidebar_profile": "library-learning",
+  "seo": {
+    "title": "AI Discovery ... Visibility and Search ... Krisada.com",
+    "description": "How AI systems interpret and cite content ... and what it means for how you structure your site."
+  },
+  "relationships": {
+    "related_categories": ["structured-data", "seo-fundamentals-evolved"]
+  },
+  "updated_at": "2026-01-05"
+}

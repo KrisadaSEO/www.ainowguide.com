@@ -1,0 +1,62 @@
+{
+    "type": "article",
+    "title": "Why Does Your Website Feel Outdated and Hard to Manage?",
+    "slug": "why-does-your-website-feel-outdated-and-hard-to-manage",
+    "canonical_url": "/article/why-does-your-website-feel-outdated-and-hard-to-manage/",
+    "redirect_from": [],
+    "status": "published",
+    "excerpt": "When a website feels slow to update, fragile to change, or expensive to maintain, the issue is usually not branding. It is the production system underneath it.",
+    "body": "<p>People often describe this problem as the site feeling old.</p>\n\n<p>What they usually mean is that every change is heavier than it should be.</p>\n\n<p>Publishing feels awkward. Design changes feel risky. New ideas feel expensive. That is an operations problem more than a styling problem.</p>\n\n<h2 class=\"faq-answer-heading\">Short answer</h2>\n\n<p>Your production stack may be doing too much. A leaner system reduces friction, shortens change cycles, and makes it easier to keep the site current without constantly rebuilding it.</p>\n\n<h2 class=\"faq-answer-heading\">What most people get wrong</h2>\n\n<p>They assume a redesign will solve the drag. But if the stack is bloated, the workflow is still bloated after the redesign. The visuals change. The maintenance burden stays.</p>\n\n<h2 class=\"faq-answer-heading\">Download solution</h2>\n\n<div class=\"faq-download-callout\"><p><strong>AI Website Production System</strong> is included in the <a href=\"/download/2026-website-problems-bundle/\">2026 Website Solutions Bundle</a>.</p><p>Use it when you want a cleaner publishing stack, clearer file structure, and a workflow that is easier to maintain with AI-assisted development.</p></div>\n\n<h2 class=\"faq-answer-heading\">What the bundle gives you</h2>\n\n<ul><li>A simpler production model built for clarity and maintainability</li><li>Structure that is easier to understand, edit, and extend</li><li>A better handoff path between content work and implementation work</li></ul>\n\n<blockquote class=\"article-simple-idea\"><p><strong>Simple way to think about it:</strong> A fresh coat of paint does not help much if the workshop is still a mess.</p></blockquote>\n\n<p>See how this fits into the bigger sequence in <a href=\"/article/2026-top-10-website-problems-solved/\">the full Top 10 breakdown</a>, then <a href=\"/download/2026-website-problems-bundle/\">unlock the bundle</a> if you need the implementation pieces.</p>",
+    "publish_date": "2026-04-28",
+    "updated_at": "2026-04-28",
+    "author": "Atlas",
+    "category_primary": "website-faqs",
+    "category_secondary": [],
+    "tags": [
+        "website FAQs",
+        "website production system",
+        "site architecture",
+        "AI-assisted development"
+    ],
+    "template": "article",
+    "extra_css": "website-problems",
+    "sidebar_profile": "authority-standard",
+    "seo": {
+        "title": "Why Does Your Website Feel Outdated and Hard to Manage? | Krisada.com",
+        "description": "Why the real problem behind an outdated-feeling website is often the production system, not the visual design."
+    },
+    "related_content": [
+        "2026-top-10-website-problems-solved",
+        "the-case-for-flat-file-publishing",
+        "php-json-as-a-machine-ready-stack"
+    ],
+    "schema": {
+        "about": [
+            "website production systems",
+            "lean site architecture",
+            "maintainable publishing stacks"
+        ],
+        "mentions": [
+            "/library/website-faqs/",
+            "/library/content-systems/",
+            "/article/2026-top-10-website-problems-solved/",
+            "/download/2026-website-problems-bundle/"
+        ],
+        "is_based_on": [
+            "/article/2026-top-10-website-problems-solved/"
+        ],
+        "faq": [
+            {
+                "question": "Why does your website feel outdated and hard to manage?",
+                "answer": "Because the production system underneath it is creating drag. A redesign does not fix that if the workflow and stack are still bloated."
+            }
+        ]
+    },
+    "is_featured": false,
+    "is_cornerstone": false,
+    "reading_time": 4,
+    "include_in_sitemap": true,
+    "authors": [
+        "atlas"
+    ]
+}

@@ -1,0 +1,38 @@
+{
+  "title": "Krisada is the Thai in Me",
+  "slug": "thai-name-krisada",
+  "canonical_url": "/thai/",
+  "status": "published",
+  "template": "page",
+  "sidebar_profile": "thai-context",
+  "seo": {
+    "title": "Krisada is the Thai in Me | Krisada - my connection to Thailand",
+    "description": "The name Krisada has Thai origins, but my identity and thinking were shaped in the United States, not by Thai culture."
+  },
+  "hero_headline": "Krisada is the Thai in Me",
+  "hero_subtext": "Krisada - my connection to Thailand",
+  "body": "<h2>The Name</h2>\n<p>Krisada is a Thai name. It generally carries connotations of strength or authority - and yes, I was born in Thailand.<br>But I moved to the United States when I was around four years old. I grew up in Upstate New York, in a town that was about as demographically homogeneous as it gets. My formative years had very little to do with Thai culture.<br>So the name traveled with me. The culture largely didn't.</p>\n\n<h2>Growing Up Different</h2>\n<p>I knew I looked different from most of the people around me. They reminded me of that regularly - usually with a Bruce Lee comparison, which I eventually learned was meant as a compliment.<br>Over time I stopped trying to reconcile how others saw me with how I saw myself, and just built an identity on my own terms.</p>\n\n<h2>My Relationship with Thai Culture</h2>\n<p>Honest answer: it's not a strong one. I wasn't raised immersed in it, and it doesn't shape how I think or work. If anything, my natural inclination toward structured, analytical thinking has occasionally bumped up against the more fluid, indirect communication styles I've encountered from that side of my background.<br>No judgment in that - just an observation.</p>\n\n<h2>What the Name Actually Means</h2>\n<p>Thailand is where I was born. The name reflects that.<br>But the thinking, the frameworks, the way I approach problems - that was built in America, through experience, contrast, and a lot of independent figuring-out.<br>If that contrast gave me anything useful, it's this: I don't default to inherited assumptions. I question things and build systems that actually make sense to me.<br>The name is Thai. The rest is something else.</p>",
+  "featured_categories": ["thai-local-context"],
+  "featured_articles": ["the-name-krisada-origin-and-history"],
+  "schema": {
+    "about": [
+      "Thai name",
+      "identity",
+      "Thai culture",
+      "Upstate New York"
+    ],
+    "mentions": [
+      "/library/thai-local-context/",
+      "/article/the-name-krisada-origin-and-history/"
+    ],
+    "related_domains": [
+      "https://www.krisada.com/"
+    ],
+    "main_entity": {
+      "@type": "Thing",
+      "name": "Krisada and Thai identity context"
+    }
+  },
+  "updated_at": "2026-01-14",
+  "include_in_sitemap": true
+}

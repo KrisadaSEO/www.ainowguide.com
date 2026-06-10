@@ -1,0 +1,20 @@
+{
+    "type": "dir_listing",
+    "slug": "quickrankai-com",
+    "path": "portfolio/ai-website-systems/quickrankai-com",
+    "category_path": "portfolio/ai-website-systems",
+    "title": "quickrankai.com",
+    "canonical_url": "/directory/portfolio/ai-website-systems/quickrankai-com/",
+    "directory_type": "portfolio",
+    "status": "published",
+    "template": "directory-listing",
+    "sidebar_profile": "authority-standard",
+    "fields": {
+        "status": "domain-only",
+        "tier": "authority",
+        "priority": "2",
+        "update": "Crossover: also serves c3 Digital Asset Investing",
+        "crossover": "Digital Asset Investing"
+    },
+    "updated_at": "2026-05-31"
+}

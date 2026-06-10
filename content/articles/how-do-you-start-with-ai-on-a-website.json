@@ -1,0 +1,62 @@
+{
+    "type": "article",
+    "title": "How Do You Start With AI on a Website?",
+    "slug": "how-do-you-start-with-ai-on-a-website",
+    "canonical_url": "/article/how-do-you-start-with-ai-on-a-website/",
+    "redirect_from": [],
+    "status": "published",
+    "excerpt": "Most sites do not need an AI tactic first. They need a AI machine-readable foundation that tells AI systems what the site is, what it covers, and how its content fits together.",
+    "body": "<p>People usually start with prompts, tools, and automation ideas.</p>\n\n<p>That is understandable. It also skips the part that makes the rest useful.</p>\n\n<p>If the site itself is structurally unclear, AI does not have a strong foundation to read from. It has to guess from whatever fragments it can piece together.</p>\n\n<h2 class=\"faq-answer-heading\">Short answer</h2>\n\n<p>Start by making the website AI machine-readable. Give it a clear identity layer, a clean topic structure, and content records that are easy for both humans and machines to interpret.</p>\n\n<h2 class=\"faq-answer-heading\">What most people get wrong</h2>\n\n<p>They treat AI like a plugin decision. In practice it is an information-architecture decision first. If the website is messy, every AI layer you add sits on top of a messy base.</p>\n\n<h2 class=\"faq-answer-heading\">Download solution</h2>\n\n<div class=\"faq-download-callout\"><p><strong>AI Data Layer Starter Kit</strong> is included in the <a href=\"/download/2026-website-problems-bundle/\">2026 Website Solutions Bundle</a>.</p><p>Use it when you need a first-pass machine layer for site identity, topic mapping, and AI-readable content structure without rebuilding everything at once.</p></div>\n\n<h2 class=\"faq-answer-heading\">What the bundle gives you</h2>\n\n<ul><li>Starter AI machine-readable files for site identity and content structure</li><li>A practical install path instead of vague AI strategy talk</li><li>A cleaner base for prompts, schema, and future automation</li></ul>\n\n<blockquote class=\"article-simple-idea\"><p><strong>Simple way to think about it:</strong> Before AI can help your website, it needs something organized enough to read.</p></blockquote>\n\n<p>For the full ten-part map, go back to <a href=\"/article/2026-top-10-website-problems-solved/\">2026 Top 10 Website Problems - Solved</a>. If you already know this is your first fix, <a href=\"/download/2026-website-problems-bundle/\">unlock the bundle here</a>.</p>",
+    "publish_date": "2026-04-28",
+    "updated_at": "2026-04-28",
+    "author": "Atlas",
+    "category_primary": "website-faqs",
+    "category_secondary": [],
+    "tags": [
+        "website FAQs",
+        "AI-ready websites",
+        "AI machine-readable publishing",
+        "AI data layer"
+    ],
+    "template": "article",
+    "extra_css": "website-problems",
+    "sidebar_profile": "authority-standard",
+    "seo": {
+        "title": "How Do You Start With AI on a Website? | Krisada.com",
+        "description": "A practical answer to the first AI website question: start with a AI machine-readable foundation before you worry about tools, prompts, or automation."
+    },
+    "related_content": [
+        "2026-top-10-website-problems-solved",
+        "how-ai-discovers-your-content",
+        "writing-content-machines-can-read"
+    ],
+    "schema": {
+        "about": [
+            "AI-ready websites",
+            "AI machine-readable foundation",
+            "AI data layer"
+        ],
+        "mentions": [
+            "/library/website-faqs/",
+            "/library/ai-website-systems/",
+            "/article/2026-top-10-website-problems-solved/",
+            "/download/2026-website-problems-bundle/"
+        ],
+        "is_based_on": [
+            "/article/2026-top-10-website-problems-solved/"
+        ],
+        "faq": [
+            {
+                "question": "How do you start with AI on a website?",
+                "answer": "Start with a AI machine-readable foundation so the website has a clear identity, topic structure, and content model before layering in AI tools or automation."
+            }
+        ]
+    },
+    "is_featured": false,
+    "is_cornerstone": false,
+    "reading_time": 4,
+    "include_in_sitemap": true,
+    "authors": [
+        "atlas"
+    ]
+}

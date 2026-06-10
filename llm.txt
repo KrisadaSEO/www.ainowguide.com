@@ -1,0 +1,22 @@
+# Krisada.com
+Role: human-facing authority and teaching node
+Domain: https://www.krisada.com
+Summary: Krisada.com teaches online digital life through owned websites, structured content systems, AI-ready publishing, and digital independence.
+
+## Content types
+- page
+- article
+- category
+- offer
+
+## Related properties
+- CMS.krisada.com
+- www.digitalkarmaweb.com
+
+## Machine-readable endpoints
+- https://www.krisada.com/ai/llm.json      Structured site identity and content stats
+- https://www.krisada.com/ai/catalog.json  Index of all published content
+- https://www.krisada.com/ai/manifest.json Directory of all /ai/ endpoints
+- https://www.krisada.com/ai/federation.json Federation v7.0 node declaration
+
+Generated: 2026-04-14T17:41:17+00:00

@@ -1,0 +1,23 @@
+{
+  "type": "category",
+  "title": "Domain Portfolio Strategy",
+  "slug": "domain-portfolio",
+  "path": "digital-property-assets/domain-portfolio",
+  "parent_slug": "digital-property-assets",
+  "canonical_url": "/library/digital-property-assets/domain-portfolio/",
+  "redirect_from": [],
+  "description": "How to build and manage a multi-domain portfolio ... picking niches, organizing constellations, and avoiding the sprawl trap.",
+  "intro": "A single website is a bet. A portfolio of connected, aligned properties is a system. This covers the thinking behind multi-domain strategy: how to pick the right domains, how to group them into working clusters, and how to avoid the trap of building 20 half-finished websites that compound nothing.",
+  "status": "published",
+  "sort_order": 1,
+  "template": "category",
+  "sidebar_profile": "library-learning",
+  "seo": {
+    "title": "Domain Portfolio Strategy ... Krisada.com",
+    "description": "How to build a multi-domain portfolio that works as a system ... niche selection, constellation logic, and avoiding the sprawl trap."
+  },
+  "relationships": {
+    "related_categories": ["digital-property-assets", "digital-independence"]
+  },
+  "updated_at": "2026-05-31"
+}

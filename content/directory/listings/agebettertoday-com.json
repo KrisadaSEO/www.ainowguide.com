@@ -1,0 +1,19 @@
+{
+    "type": "dir_listing",
+    "slug": "agebettertoday-com",
+    "path": "portfolio/healthcare-ai-longevity/agebettertoday-com",
+    "category_path": "portfolio/healthcare-ai-longevity",
+    "title": "agebettertoday.com",
+    "canonical_url": "/directory/portfolio/healthcare-ai-longevity/agebettertoday-com/",
+    "directory_type": "portfolio",
+    "status": "published",
+    "template": "directory-listing",
+    "sidebar_profile": "authority-standard",
+    "fields": {
+        "status": "domain-only",
+        "tier": "authority",
+        "priority": "2",
+        "update": "Strong consumer search intent"
+    },
+    "updated_at": "2026-05-31"
+}

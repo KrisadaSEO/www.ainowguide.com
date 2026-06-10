@@ -1,0 +1,51 @@
+{
+  "title": "The Library",
+  "slug": "library",
+  "canonical_url": "/library/",
+  "status": "published",
+  "template": "library",
+  "sidebar_profile": "library-learning",
+  "seo": {
+    "title": "Library - Krisada.com",
+    "description": "The master content library for online digital life, visibility, content systems, AI leverage, and digital independence."
+  },
+  "featured_categories": ["start-here", "website-faqs", "digital-life", "visibility-search", "content-systems", "ai-website-systems", "digital-independence", "quiet-marketer"],
+  "featured_articles": [],
+  "schema": {
+    "about": [
+      "content library",
+      "learning paths",
+      "AI machine-readable publishing",
+      "online digital life"
+    ],
+    "mentions": [
+      "/directory/",
+      "/library/start-here/",
+      "/library/digital-life/",
+      "/library/visibility-search/",
+      "/library/content-systems/",
+      "/library/ai-website-systems/",
+      "/library/digital-independence/",
+      "/article/why-content-library-beats-blog-archive/"
+    ],
+    "has_part": [
+      "/library/start-here/",
+      "/library/digital-life/",
+      "/library/visibility-search/",
+      "/library/content-systems/",
+      "/library/ai-website-systems/",
+      "/library/digital-independence/"
+    ],
+    "main_entity": {
+      "@type": "Thing",
+      "name": "The Krisada.com knowledge library"
+    }
+  },
+  "hero_article": "what-is-a-website-actually-worth-now",
+  "hide_sidebar": true,
+  "show_featured_articles": true,
+  "body": "",
+  "hero_headline": "The SEO Knowledge Library",
+  "hero_subtext": "Durable content organized by theme. Not a blog archive - a structured system.",
+  "updated_at": "2026-04-24"
+}

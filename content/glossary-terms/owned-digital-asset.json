@@ -1,0 +1,20 @@
+{
+  "type": "glossary-term",
+  "glossary": "digital-property-asset-leverage",
+  "term": "Owned Digital Asset",
+  "slug": "owned-digital-asset",
+  "canonical_url": "/glossary/digital-property-asset-leverage/owned-digital-asset/",
+  "short_def": "A digital property no third party can take down, restrict, demonetize, shadow ban, or prevent you from selling ... because you control the infrastructure it runs on.",
+  "definition": "Most digital content lives on borrowed infrastructure. Social media profiles, YouTube channels, newsletter platforms, podcast hosts, marketplace storefronts ... any platform that retains the right to terminate your access, restrict your reach, or block a sale of your business is infrastructure you rent, not own.\n\nA genuine owned digital asset requires control at the infrastructure level: a domain registered in your name with direct registrar access, content hosted on a server you control, code and data you can export and migrate without asking permission, and monetization paths that do not require any third party's ongoing approval.\n\nThe test is not revenue. A YouTube channel generating $10,000 a month is not an owned asset. A self-hosted content site generating $500 a month is. What matters is whether you could sell it tomorrow, move it to a different host tonight, or keep it running if the platform it depends on disappeared. <a href=\"/article/what-website-ownership-actually-means/\">What website ownership actually means</a> ... and the practical difference between owning versus renting ... is covered in depth in the library.",
+  "example": "A content site operating for four years ... self-hosted, domain registered directly with a registrar, generating affiliate commissions ... is an owned digital asset. The owner can sell it on a marketplace, migrate it to a different host, and run it independently of any platform's goodwill.\n\nA 200,000-subscriber YouTube channel earning the same revenue through AdSense is not. YouTube retains termination authority. The channel cannot be sold as infrastructure. Move to a different platform and the subscribers do not follow. The <a href=\"/article/the-quiet-cost-of-borrowed-ground/\">quiet cost of borrowed ground</a> is invisible until the platform decides to collect.",
+  "nuance": "Exit control is the real metric ... not revenue, not audience size, not engagement. An email list provides more ownership than a social following because subscribers can be exported, but the email provider still retains suspension authority. The clearest owned assets minimize infrastructure dependencies, ensure data portability, and require no third-party approval for migration or sale.\n\nBuilding owned digital assets requires more upfront work than building on rented platforms. But owned assets compound. Rented reach resets whenever the platform changes the rules. See also: <a href=\"/article/why-your-website-is-an-asset-not-an-expense/\">why your website is an asset, not an expense</a> and <a href=\"/article/how-to-value-a-website-like-an-asset/\">how to value a website like an asset</a>.",
+  "related_terms": [],
+  "status": "published",
+  "created_at": "2026-06-07",
+  "updated_at": "2026-06-07",
+  "seo": {
+    "title": "Owned Digital Asset ... Digital Property Glossary | Krisada.com",
+    "description": "What makes a digital asset truly owned: infrastructure control, data portability, and the ability to sell or migrate without any platform's permission.",
+    "robots": "index, follow"
+  }
+}

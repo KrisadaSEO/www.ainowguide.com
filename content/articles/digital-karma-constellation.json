@@ -1,0 +1,63 @@
+{
+    "type": "article",
+    "title": "We Accidentally Built the First Digital Karma Constellation",
+    "slug": "digital-karma-constellation",
+    "canonical_url": "/article/digital-karma-constellation/",
+    "redirect_from": [],
+    "status": "published",
+    "excerpt": "For a while now I've been rambling about something I call Digital Karma. This week we accidentally built the first working version of it ... a small network of sites with machine-readable roles, declared relationships, and verified connections. Here's what happened.",
+    "body": "<p>For a while now I've been rambling about something I call <a href=\"/glossary/ai-digital-karma/digital-karma/\">Digital Karma</a> ...</p>\n\n<p>The basic idea: not all websites are equal. Not all links are equal. And in a world where AI systems are doing more of the \"reading\" than humans are, trust might eventually get measured differently than it does today.</p>\n\n<p>Traditional SEO treats every site like a solo competitor fighting for attention. I've been wondering what happens when sites start acting more like a network. A federation even.</p>\n\n<p>This week we kind of accidentally built the first working version of it.</p>\n\n<h2>It Started With a Signal That Wasn't Doing Anything</h2>\n\n<p>One of our sites already had a <code>karma.json</code> file. Inside that file, a scoring system. Part of the score measured something called federation presence.</p>\n\n<p>The signal existed. The concept existed. But honestly ... it wasn't doing much yet. More future planning than present reality.</p>\n\n<p>Then while working through some AI infrastructure stuff, something clicked.</p>\n\n<p>The federation signal wasn't supposed to measure links. It was supposed to measure <em>relationships</em>.</p>\n\n<p>That's a completely different thing.</p>\n\n<h2>Roles Instead of Links</h2>\n\n<p>Most websites link to other websites. That doesn't mean much on its own.</p>\n\n<p>The constellation idea takes a different approach ... each site declares a role.</p>\n\n<ul>\n<li>Supplement Apothecary owns supplement protocols and product knowledge.</li>\n<li>Age Better Today owns educational content and aging science.</li>\n<li>Natural Herb Library will eventually own reference data and ingredient documentation.</li>\n</ul>\n\n<p>Instead of every property trying to cover everything, each one is responsible for a specific layer of knowledge. And those relationships are machine-readable ... not just visible to humans. That's the part that matters.</p>\n\n<p>We connected Supplement Apothecary and Age Better Today this week using federation files. Each site now declares its role, its peers, its relationship to the constellation, and verifies those relationships exist on the other end.</p>\n\n<p>Small network. But a <em>connected</em> one. That's not the same as a collection of sites that happen to be owned by the same person.</p>\n\n<h2>Does Anyone Care?</h2>\n\n<p>Does Google care about this? No idea.</p>\n\n<p>Does ChatGPT? No idea.</p>\n\n<p>Will any AI system eventually use signals like this? Genuinely don't know.</p>\n\n<p>But 25 years of doing this has taught me one thing ... the real opportunities don't have a name yet when they show up. A network with clearly defined responsibilities is easier for both humans and machines to understand. Understanding creates trust. That part I'm confident about.</p>\n\n<p>Whether it ever becomes a ranking signal is almost beside the point. The architecture makes sense on its own.</p>\n\n<h2>What's Next</h2>\n\n<p>Right now the files are maintained manually, which works fine as a proof of concept.</p>\n\n<p>Eventually I want a portfolio scanner that:</p>\n\n<ul>\n<li>Verifies constellation relationships</li>\n<li>Validates schema</li>\n<li>Calculates karma scores</li>\n<li>Flags broken federation links</li>\n<li>Monitors AI endpoint health</li>\n</ul>\n\n<p>At that point <a href=\"/glossary/ai-digital-karma/digital-karma/\">Digital Karma</a> stops being a thought experiment. It becomes a measurable system ... which is exactly what the <a href=\"/glossary/ai-digital-karma/ai-digital-karma-protocol/\">AI Digital Karma Protocol</a> is being built to deliver.</p>\n\n<p>For now ... one small step. We'll see where it goes.</p>",
+    "publish_date": "2026-06-07",
+    "updated_at": "2026-06-07",
+    "author": "Atlas",
+    "category_primary": "ai-website-systems/machine-readable-content",
+    "category_secondary": [
+        "visibility-search/ai-discovery",
+        "digital-property-assets"
+    ],
+    "tags": [
+        "digital karma",
+        "federation",
+        "machine-readable",
+        "website network",
+        "seo philosophy",
+        "knowledge constellation"
+    ],
+    "template": "article",
+    "sidebar_profile": "personal-editorial",
+    "seo": {
+        "title": "We Accidentally Built the First Digital Karma Constellation ... Krisada.com",
+        "description": "What happens when websites act like a federation instead of solo competitors. Building the first Digital Karma Constellation ... connected sites with machine-readable roles and verified relationships."
+    },
+    "related_content": [
+        "seo-is-becoming-ai-to-ai",
+        "writing-content-machines-can-read",
+        "php-json-as-a-machine-ready-stack"
+    ],
+    "pin_targets": [],
+    "schema": {
+        "about": [
+            "Digital Karma",
+            "website federation",
+            "machine-readable relationships",
+            "knowledge constellation",
+            "connected digital assets"
+        ],
+        "mentions": [
+            "/library/ai-website-systems/machine-readable-content/",
+            "/library/visibility-search/ai-discovery/",
+            "/article/seo-is-becoming-ai-to-ai/",
+            "/article/writing-content-machines-can-read/",
+            "/article/php-json-as-a-machine-ready-stack/"
+        ]
+    },
+    "audio_summary_url": "/assets/audio/First-Constellation.mp3",
+    "audio_transcript": "Could the way we think about website trust be totally flipped if we stop treating sites like lone competitors? That's exactly what Krisada is exploring. He's been working on this idea called digital karma, where websites act more like a federation than isolated rivals. A federation. So they actually talk to each other in a structured way? Right. He actually built a working version using something called a karma.json file. It allows sites to declare specific roles and verified relationships that machines can actually read. What do you mean by roles? Like, one site handles the science and another handles the products. Exactly. He connected two of his sites, Supplement Apothecary and Age Better Today. One owns the product knowledge, and the other handles the aging science. So instead of both sites trying to cover everything, they just point to the expert in their network? Yes. And because it's machine readable, it helps AI systems like ChatGPT understand which source to trust for specific layers of info. It's about building a measurable architecture of trust. It sounds like a smart way to prepare for an internet where AI does most of the reading.",
+    "is_featured": true,
+    "is_cornerstone": false,
+    "reading_time": 4,
+    "include_in_sitemap": true,
+    "authors": [
+        "atlas"
+    ]
+}

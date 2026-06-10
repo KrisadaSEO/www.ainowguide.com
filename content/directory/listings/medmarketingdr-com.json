@@ -1,0 +1,20 @@
+{
+    "type": "dir_listing",
+    "slug": "medmarketingdr-com",
+    "path": "portfolio/professional-growth-markets/medmarketingdr-com",
+    "category_path": "portfolio/professional-growth-markets",
+    "title": "medmarketingdr.com",
+    "canonical_url": "/directory/portfolio/professional-growth-markets/medmarketingdr-com/",
+    "directory_type": "portfolio",
+    "status": "published",
+    "template": "directory-listing",
+    "sidebar_profile": "authority-standard",
+    "fields": {
+        "status": "domain-only",
+        "tier": "flagship",
+        "priority": "1",
+        "update": "Crossover: also serves c5 Healthcare AI",
+        "crossover": "Healthcare AI & Longevity"
+    },
+    "updated_at": "2026-05-31"
+}

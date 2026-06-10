@@ -1,0 +1,20 @@
+{
+  "type": "glossary-term",
+  "glossary": "main",
+  "term": "Site Architecture",
+  "slug": "site-architecture",
+  "canonical_url": "/glossary/site-architecture/",
+  "short_def": "The way pages on a site are organized, linked, and nested ... which shapes both how users navigate and how search engines understand what the site is about.",
+  "definition": "Site architecture is the structural design of a website: how pages are grouped into categories, how those categories relate to each other, and how internal links connect them. It determines what is easy to find, what gets crawled most often, and how authority flows through the site.\n\nA well-designed architecture reflects the site's topical structure. Pages about closely related subjects live near each other, share internal links, and roll up into clearly defined topic areas. Scattered or flat structures waste both crawl budget and the topical signals those links carry.",
+  "example": "A flat blog archive with 300 posts and no category structure forces search engines to treat every post as equally isolated. Reorganizing those same posts into five focused topic areas ... with category pages and internal cross-links ... concentrates authority and makes the site's subject matter legible at a glance.\n\nThis is the core argument for running a content library rather than a blog archive.",
+  "nuance": "Architecture decisions are hard to undo. Restructuring URLs mid-stream requires redirect chains and typically costs ranking in the short term. The best time to design structure is before the content exists ... the second best time is before the content accumulates too much external link equity.\n\nDepth matters too: a three-level hierarchy (home, category, article) is usually ideal. Beyond four levels, pages get too far from the crawl entry points.",
+  "related_terms": ["topical-authority", "crawl-budget", "internal-linking"],
+  "status": "published",
+  "created_at": "2026-05-31",
+  "updated_at": "2026-05-31",
+  "seo": {
+    "title": "Site Architecture ... SEO Glossary | Krisada.com",
+    "description": "What site architecture means in SEO: how page structure and internal linking shape crawl behavior and topical authority.",
+    "robots": "index, follow"
+  }
+}

@@ -1,0 +1,56 @@
+{
+    "type": "article",
+    "title": "Fourteen Domains. One Machine.",
+    "slug": "fourteen-domains-one-machine",
+    "canonical_url": "/article/fourteen-domains-one-machine/",
+    "status": "published",
+    "excerpt": "Why I'm not building one great art website. The full architecture of the Art cluster ... five layers, one hub, and what each domain is actually supposed to do.",
+    "body": "<p>I get asked sometimes why I don't just build one really good art website.</p>\n\n<p>Fair question.</p>\n\n<p>Short answer: one site has one shot. One audience. One algorithm. One revenue stream. One point of failure. I'm not interested in that bet.</p>\n\n<p>What I'm building instead is a cluster. A group of sites that each do one specific job ... and do it better because the others exist around them.</p>\n\n<p>Think of it less like a portfolio of websites. Think of it like a factory with departments. Each department has a role. Raw materials come in one end. Finished, monetized assets come out the other. Everything in between is intentional.</p>\n\n<p>That's the Art cluster. Fourteen domains. Five layers. One machine.</p>\n\n<h2>The Hub</h2>\n\n<p><strong>AIArtistLife.com</strong> ... The library and routing intelligence. This one sits at the center of everything and touches all of it.</p>\n\n<p>Every piece of art created across the cluster gets a structured record here. Style. Mood. Use case. Commercial intent. The system then decides which sites it goes to and why.</p>\n\n<p>It's not a gallery. It's not a store. It's the brain.</p>\n\n<p>We're going to spend an entire article on this one. It earns it.</p>\n\n<h2>Layer 1 ... Supply</h2>\n\n<p><strong>DigitalArtistLife.com</strong> ... The human art narrative engine. Personal experience. Process documentation. The differentiator in a world drowning in AI-generated everything. This is where the story gets told ... and where that story quietly becomes product.</p>\n\n<p><strong>KrisadaArt.com</strong> ... The personal art portfolio and creation layer. Currently a Joomla theme demo that needs a full rebuild. What it becomes: the source of original work that feeds the whole supply chain.</p>\n\n<p><strong>DigitalTradeSchools.com</strong> ... The education and process layer. Placeholder static site right now with a rebuild repo already staged. The angle here is documented craft ... how art gets made, printed, packaged, sold. That knowledge becomes content. Content becomes authority. Authority becomes traffic.</p>\n\n<p>Nothing in this layer is &ldquo;just content.&rdquo; Every article, every guide, every gallery image is future inventory.</p>\n\n<h2>Layer 2 ... Collections</h2>\n\n<p><strong>EArtCollections.com</strong> ... Curated themed collections. No site yet. The role is clear: this is where individual pieces stop being files and start being editions. Grouped by theme, mood, era, aesthetic. Perceived value jumps here.</p>\n\n<p><strong>EInkCollections.com</strong> ... Same packaging logic applied specifically to ink-based work. Digital and traditional. No site yet. On the build list.</p>\n\n<p><strong>EInkGallery.com</strong> ... The display and browsing layer for ink collections. No site yet. Think curated gallery experience, not store.</p>\n\n<p><strong>FineInkPrint.com</strong> ... Live Joomla site. Needs a rebuild. The education angle on fine ink printing ... what it is, how it works, why it matters. Already well-positioned for AI search. The &ldquo;btw ... this is what pretentious art circles call giclée&rdquo; energy on the current site is exactly right. That voice stays.</p>\n\n<p><strong>FineInkPrints.com</strong> ... Sister site to FineInkPrint. Slightly different purpose ... more product and collection focused where FineInkPrint is educational. Also Joomla. Also needs a rebuild.</p>\n\n<h2>Layer 3 ... Marketplaces</h2>\n\n<p><strong>ArtPrintsNPosters.com</strong> ... The furthest along in the whole cluster. Live Shopify store. Real design. Real products. Test inventory that isn&rsquo;t priced yet. This is the SEO-driven volume play ... broad commercial appeal, print-on-demand ready, built for discovery. First full build doc in this series will be this one.</p>\n\n<p><strong>ArtDecorMarket.com</strong> ... The home d&eacute;cor angle. Broader commercial positioning. Bundles, upsells, interior design adjacency. No site yet.</p>\n\n<p><strong>BuyHumanArt.com</strong> ... The premium human-first play. Live Joomla site that needs a rebuild. The premise is sharp: AI made images abundant. Human intent made art rare. Authenticity is the new luxury. That positioning is worth protecting and building properly.</p>\n\n<p><strong>NewArtEGallery.com</strong> ... The experimental rotating gallery. AI-native display. No site yet. Some interesting possibilities around dynamic curation that we&rsquo;ll get into when we build it.</p>\n\n<h2>Layer 4 ... The Exit</h2>\n\n<p><strong>BuyArtWeb.com</strong> ... Live Joomla site. Slated for a full PHP JSON rebuild. This is the asset flip and lease layer. Build niche art sites. Let them age and rank. Package them as income-producing digital properties. Sell or lease them.</p>\n\n<p>This is the layer most people don&rsquo;t see coming when they look at an &ldquo;art website portfolio.&rdquo;</p>\n\n<h2>Layer 5 ... Discovery</h2>\n\n<p><strong>ArtDecorLife.com</strong> ... Just rebuilt. This one slipped my initial inventory count ... which is exactly the kind of thing that happens when you&rsquo;re managing fourteen domains across multiple build stages.</p>\n\n<p>Live now. The design is right. Beautiful spaces. Smarter d&eacute;cor decisions. Browse by aesthetic. Find your style, then build your room around it. The concept is clean and the positioning is strong.</p>\n\n<p>What it needs: real affiliate partner products connected to the room aesthetics, and image inventory worthy of the design. AI-generated room photography or live affiliate product feeds ... probably both.</p>\n\n<p>This is the top-of-funnel discovery engine that routes buyers into the marketplace layer. When it&rsquo;s working properly, someone lands here looking for &ldquo;dark academia living room&rdquo; and leaves having clicked through to ArtPrintsNPosters or ArtDecorMarket. That&rsquo;s the job. The site exists. Now it needs to do the job.</p>\n\n<p>Fourteen domains. I miscounted. Documenting this in public already paid off.</p>\n\n<h2>The Whole Board</h2>\n\n<p>Some of it live. Some of it mid-rebuild. Some of it still just a domain name and a strategy doc.</p>\n\n<p>Nothing like a little digital nudity for transparency.</p>\n\n<p>That&rsquo;s the point though. Most people only show you the finished thing. The polished case study. The traffic graph going up and to the right. This isn&rsquo;t that. This is the build ... documented in real time, empty squares visible, wrong turns included.</p>\n\n<p>Every article in this series moves at least one of these domains one step closer to its role in the machine.</p>\n\n<p>Next up: AIArtistLife.com ... the hub that routes it all. Then the first hands-on build. ArtPrintsNPosters has inventory sitting unpublished and a Shopify store that looks like a store but isn&rsquo;t acting like one yet. That changes soon.</p>",
+    "publish_date": "2026-04-25",
+    "updated_at": "2026-04-25",
+    "author": "Atlas",
+    "category_primary": "digital-life/digital-asset-thinking",
+    "category_secondary": [
+        "digital-life",
+        "digital-independence"
+    ],
+    "tags": [
+        "domain-portfolio",
+        "digital-asset-cluster",
+        "domain-strategy",
+        "art-websites",
+        "content-cluster-strategy"
+    ],
+    "template": "article",
+    "sidebar_profile": "personal-editorial",
+    "seo": {
+        "title": "Fourteen Domains. One Machine. ... The Art Cluster Architecture ... Krisada.com",
+        "description": "Why one great art website isn't the play. The full five-layer architecture of the Art cluster ... what each domain does and how they work as a single machine."
+    },
+    "related_content": [
+        "i-didnt-start-out-building-an-ecosystem",
+        "your-domain-is-the-asset",
+        "how-to-value-a-website-like-an-asset"
+    ],
+    "schema": {
+        "about": [
+            "domain cluster architecture",
+            "art website ecosystem",
+            "digital asset portfolio structure",
+            "niche site cluster strategy"
+        ],
+        "mentions": [
+            "/article/i-didnt-start-out-building-an-ecosystem/",
+            "/library/digital-life/digital-asset-thinking/",
+            "/library/digital-independence/",
+            "/article/your-domain-is-the-asset/"
+        ]
+    },
+    "is_featured": true,
+    "is_cornerstone": false,
+    "reading_time": 7,
+    "include_in_sitemap": true,
+    "authors": [
+        "atlas"
+    ]
+}

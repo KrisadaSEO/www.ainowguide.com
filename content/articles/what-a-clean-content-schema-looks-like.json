@@ -1,0 +1,39 @@
+{
+    "type": "article",
+    "title": "What a Clean Content Schema Looks Like",
+    "slug": "what-a-clean-content-schema-looks-like",
+    "canonical_url": "/article/what-a-clean-content-schema-looks-like/",
+    "status": "published",
+    "excerpt": "A content schema is a contract. When it is well-designed, everything downstream ... rendering, automation, AI editing, SEO ... becomes easier. When it is messy, every downstream system inherits the mess.",
+    "body": "<p>Most content schemas start with good intentions and end up as archaeology. The original structure made sense for the first dozen articles. Then exceptions crept in. Fields got added without removing old ones. Two articles use the same field for different purposes. The schema that was supposed to be the system became the thing you work around.</p>\n\n<p>A clean schema does not happen by accident. It comes from a few deliberate decisions made early ... and maintained consistently.</p>\n\n<h2>What every content record needs</h2>\n\n<p>At minimum, every content record in a structured publishing system should have:</p>\n\n<ul>\n<li><strong>A unique slug.</strong> Lowercase, hyphenated, stable. The slug is the identity of the record. Changing it breaks links.</li>\n<li><strong>A canonical URL.</strong> Explicit. Not derived at render time. The URL that all other references point to.</li>\n<li><strong>A status field.</strong> Published, draft, or archived. Only published records should appear in routing and sitemaps.</li>\n<li><strong>Timestamps.</strong> At minimum <code>publish_date</code> and <code>updated_at</code>. Used for sitemaps, sort orders, and freshness signals.</li>\n<li><strong>A template field.</strong> Which template renders this record. Makes rendering logic explicit rather than inferred from context.</li>\n</ul>\n\n<h2>What article records specifically need</h2>\n\n<p>Beyond the base fields, an article record should declare:</p>\n\n<ul>\n<li><strong>Category membership.</strong> A primary category path and optional secondary paths. The primary path drives breadcrumbs and routing. Secondary paths support cross-listing.</li>\n<li><strong>An excerpt.</strong> One to three sentences. Used in list views, sidebars, and machine summaries. Write it yourself ... do not let it be auto-generated from the first paragraph.</li>\n<li><strong>Tags.</strong> Flat list. Lowercase, hyphenated. For cross-linking and filtering, not for replacing category structure.</li>\n<li><strong>Related content.</strong> An explicit list of related article slugs. Supplement with algorithmic matching, but give the system explicit relationships to start from.</li>\n<li><strong>SEO fields.</strong> Title and description as a nested object. Separate from the display title so you can optimise them independently.</li>\n</ul>\n\n<h2>What to avoid</h2>\n\n<p>A few patterns consistently create problems:</p>\n\n<p><strong>Derived fields stored as data.</strong> If a field can be calculated from other fields, do not store it. Store the source data and calculate at render time. Stored derived fields go stale.</p>\n\n<p><strong>Inconsistent field naming.</strong> If some records use <code>publish_date</code> and others use <code>date</code> or <code>published_at</code>, every consumer of the data has to handle all three. Pick one and enforce it.</p>\n\n<p><strong>Deeply nested structures for things that are actually flat.</strong> Tags do not need to be objects with IDs and labels ... a flat array of strings is enough. Save nesting for things that genuinely require it.</p>\n\n<p><strong>Optional fields that become required in practice.</strong> If every article needs an excerpt to render correctly, the excerpt field should be required in your validation script, not optional in your schema.</p>\n\n<h2>The test of a good schema</h2>\n\n<p>Give a new AI coding assistant a single JSON record and ask it to create another one in the same format. If it can do that without looking at any other documentation, your schema is clear enough. If it needs to ask clarifying questions, your schema has ambiguity worth resolving.</p>\n\n<p>That is not a trick. That is the practical standard for a schema that will hold up over time.</p>",
+    "publish_date": "2026-02-08",
+    "updated_at": "2026-02-08",
+    "author": "Atlas",
+    "category_primary": "content-systems/content-schemas",
+    "category_secondary": [
+        "content-systems"
+    ],
+    "tags": [
+        "content schema",
+        "json",
+        "data modeling",
+        "publishing systems"
+    ],
+    "template": "article",
+    "sidebar_profile": "library-learning",
+    "seo": {
+        "title": "What a Clean Content Schema Looks Like ... Krisada.com",
+        "description": "A content schema is a contract. When it is well-designed, everything downstream ... rendering, automation, AI editing, SEO ... becomes easier."
+    },
+    "related_content": [
+        "the-case-for-flat-file-publishing",
+        "why-content-library-beats-blog-archive"
+    ],
+    "is_featured": true,
+    "is_cornerstone": true,
+    "reading_time": 6,
+    "include_in_sitemap": true,
+    "authors": [
+        "atlas"
+    ]
+}

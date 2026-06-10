@@ -1,0 +1,77 @@
+{
+  "title": "Digital Marketing Consultant Bio",
+  "slug": "digital-marketing-consultant",
+  "path": "bio/digital-marketing-consultant",
+  "canonical_url": "/bio/digital-marketing-consultant/",
+  "type": "page",
+  "status": "published",
+  "sidebar_profile": "personal-editorial",
+  "seo": {
+    "title": "Digital Marketing Consultant Bio - Krisada.com",
+    "description": "A professional bio for Krisada Eaton focused on SEO, ecommerce, content strategy, website systems, and long-term digital growth."
+  },
+  "description": "A professional bio focused on digital marketing consulting, SEO, ecommerce, and practical growth systems.",
+  "hero_subtext": "A concise professional bio built around Krisada's long-term work in SEO, ecommerce, and conversion-focused digital strategy.",
+  "schema": {
+    "about": [
+      "digital marketing consulting",
+      "SEO strategy",
+      "ecommerce development",
+      "content systems",
+      "website conversion optimization"
+    ],
+    "mentions": [
+      "/bio/",
+      "/work-with-me/",
+      "https://www.linkedin.com/in/krisadamarketing/"
+    ],
+    "main_entity": {
+      "@type": "Person",
+      "name": "Krisada Eaton"
+    }
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Krisada Eaton is a freelance digital marketing consultant, senior SEO specialist, and ecommerce website developer with more than 20 years of hands-on experience helping businesses grow visibility, leads, and revenue online."
+    },
+    {
+      "type": "paragraph",
+      "text": "Since 2001, he has worked remotely with a wide mix of clients, from personal brands and local businesses to larger multi-location and enterprise organizations. His work spans SEO, ecommerce, website strategy, content structure, conversion optimization, paid search support, analytics, and the practical systems that make digital growth sustainable."
+    },
+    {
+      "type": "paragraph",
+      "text": "Before specializing in search and web strategy, Krisada built his career in traditional marketing, design, and creative leadership roles. That background still shapes his approach today: strong marketing is not just traffic generation, but the alignment of brand, message, user experience, and findability."
+    },
+    {
+      "type": "paragraph",
+      "text": "He is especially strong at translating technical concepts into plain English, making complex marketing decisions easier for clients to understand and act on. The result is strategy that feels clear, practical, and tied to real business outcomes instead of vanity metrics."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Core strengths"
+    },
+    {
+      "type": "list",
+      "items": [
+        "SEO strategy and technical search visibility",
+        "Ecommerce website development and optimization",
+        "Content structure and AI machine-readable website systems",
+        "Website conversion optimization and user flow improvements",
+        "Marketing analytics, keyword research, and campaign support",
+        "Platform and CMS work across Shopify, Joomla, WordPress, and custom stacks"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Across both legacy marketing and modern search, Krisada's work has stayed rooted in the same goal: build digital assets that help real businesses get found, earn trust, and create durable revenue."
+    },
+    {
+      "type": "callout",
+      "title": "Work with Krisada",
+      "text": "For consulting enquiries or project fit, visit the Work With Me page."
+    }
+  ],
+  "updated_at": "2026-04-23"
+}

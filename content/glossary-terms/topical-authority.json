@@ -1,0 +1,21 @@
+{
+  "type": "glossary-term",
+  "glossary": "main",
+  "term": "Topical Authority",
+  "slug": "topical-authority",
+  "canonical_url": "/glossary/topical-authority/",
+  "short_def": "A site's demonstrated depth of coverage on a subject ... measured by how comprehensively it addresses a topic relative to competing sources.",
+  "also_known_as": ["topic authority", "topical relevance"],
+  "definition": "Topical authority is the degree to which a website has established itself as a credible, comprehensive source on a specific subject. Search engines infer it by mapping the breadth and depth of a site's content against the full semantic space of a topic.\n\nA site with high topical authority covers not just the core keyword but the surrounding concepts, subtopics, and related questions that define the subject. It demonstrates that it understands the full territory ... not just the obvious entry points.",
+  "example": "A site that covers only \"best running shoes\" ranks well for that phrase but holds shallow authority. A site that also covers shoe anatomy, pronation mechanics, injury prevention, training plans, and surface types has built enough surrounding coverage that search engines trust its core running content more deeply.\n\nThis is why a tight content library compounds over time ... each new piece reinforces the signals from existing ones.",
+  "nuance": "Topical authority is not about quantity. Fifty shallow posts do not outweigh ten thorough ones. The signal comes from the relationship between pieces: how they connect, how they support each other, and how completely they address the questions someone in that topic space would reasonably ask.\n\nIt is also domain-scoped, not page-scoped. Building it on a general site is harder than building it on a focused one.",
+  "related_terms": ["content-velocity", "semantic-coverage", "site-architecture"],
+  "status": "published",
+  "created_at": "2026-05-31",
+  "updated_at": "2026-05-31",
+  "seo": {
+    "title": "Topical Authority ... SEO Glossary | Krisada.com",
+    "description": "What topical authority means in SEO: how search engines measure your site's depth of coverage and why it compounds over time.",
+    "robots": "index, follow"
+  }
+}

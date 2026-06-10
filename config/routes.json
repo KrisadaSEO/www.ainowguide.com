@@ -1,0 +1,19 @@
+{
+  "pages": {
+    "home": "/",
+    "library": "/library/",
+    "directory": "/directory/",
+    "table-of-contents": "/table-of-contents/",
+    "thai": "/thai/"
+  },
+  "template_defaults": {
+    "page": "authority-standard",
+    "article": "authority-standard",
+    "category": "library-learning",
+    "toc": "authority-standard",
+    "dir_root": "authority-standard",
+    "dir_category": "authority-standard",
+    "dir_listing": "authority-standard",
+    "error": "authority-standard"
+  }
+}

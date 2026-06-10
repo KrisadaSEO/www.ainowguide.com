@@ -1,0 +1,40 @@
+{
+  "type": "category",
+  "title": "Online Digital Life",
+  "slug": "digital-life",
+  "path": "digital-life",
+  "parent_slug": "",
+  "canonical_url": "/library/digital-life/",
+  "description": "The bigger picture of building a real digital presence ... websites, systems, and long-term independence.",
+  "intro": "Digital life is not just being online. It is building an internet presence that you own, that works for you, and that compounds over time. This section covers the foundations: why structure matters, how visibility actually works, and what it means to build for the long term.",
+  "status": "published",
+  "sort_order": 1,
+  "featured_image": "",
+  "template": "category",
+  "sidebar_profile": "library-learning",
+  "seo": {
+    "title": "Online Digital Life ... Krisada.com",
+    "description": "Learn what it means to build a real online digital life through owned websites, content systems, and AI-era visibility."
+  },
+  "schema": {
+    "about": [
+      "online digital life",
+      "owned websites",
+      "digital asset thinking",
+      "long-term digital presence"
+    ],
+    "mentions": [
+      "/library/digital-life/website-ownership/",
+      "/library/digital-life/platform-independence/",
+      "/library/digital-life/digital-asset-thinking/",
+      "/article/what-website-ownership-actually-means/"
+    ],
+    "is_part_of": [
+      "/library/"
+    ]
+  },
+  "relationships": {
+    "related_categories": ["content-systems", "visibility-search"]
+  },
+  "updated_at": "2026-04-25"
+}

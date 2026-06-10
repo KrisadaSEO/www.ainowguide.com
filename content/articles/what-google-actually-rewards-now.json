@@ -1,0 +1,40 @@
+{
+    "type": "article",
+    "title": "What Google Actually Rewards Now",
+    "slug": "what-google-actually-rewards-now",
+    "canonical_url": "/article/what-google-actually-rewards-now/",
+    "status": "published",
+    "excerpt": "The surface-level tactics changed. The deep mechanics did not. Understanding what Google has always been trying to reward ... and how it is getting better at finding it ... is more useful than chasing any specific update.",
+    "body": "<p>Every major Google update generates the same cycle. People whose traffic dropped say the update was unfair. People whose traffic rose say it rewarded quality. Neither camp is entirely right, and the argument is mostly a distraction from the more useful question: what has Google always been trying to do?</p>\n\n<p>The answer has not changed since the beginning. Google wants to show users the most relevant, trustworthy, useful result for what they searched for. Every algorithm update is an attempt to get better at identifying that result ... and to get harder to fool.</p>\n\n<h2>The moving target problem</h2>\n\n<p>For most of SEO's history, you could study what the algorithm rewarded and engineer toward it. Keyword density. Backlinks from specific domain types. Page speed scores. Each one was a proxy for quality that became gameable once people understood how it worked.</p>\n\n<p>The pattern has not stopped. But the gaps between proxy and reality are closing faster than they used to. AI-based systems are better at recognising when a page is optimised for the algorithm versus when it is genuinely useful to a reader. The window for gaming a signal before it gets devalued is shorter.</p>\n\n<h2>What the evidence actually points to</h2>\n\n<p>Looking across sites that consistently perform well through multiple major updates, a few patterns hold:</p>\n\n<p><strong>Genuine depth.</strong> Not word count ... actual information density. Pages that answer the question more completely than alternatives. Pages that a reader would voluntarily save or recommend.</p>\n\n<p><strong>Consistent authorship and identity.</strong> Sites with a clear author, a clear perspective, and a track record of accurate information in a given subject area. This is what Google calls E-E-A-T ... Experience, Expertise, Authoritativeness, Trustworthiness ... and it is less about specific technical signals and more about building a recognisable body of work.</p>\n\n<p><strong>Structural coherence.</strong> Sites where the content is organised, internally linked, and covers a topic area consistently ... rather than publishing whatever is trending with no thematic focus. Google has become much better at understanding what a site is about at a portfolio level, not just at a page level.</p>\n\n<p><strong>User behaviour signals.</strong> Pages that people engage with, return to, and do not immediately bounce from. You cannot fake this at scale.</p>\n\n<h2>The practical implication</h2>\n\n<p>The sites that are most resilient to algorithm changes are the ones that were never primarily optimised for algorithm signals in the first place. They were optimised for being genuinely useful in a specific subject area ... and the algorithm keeps getting better at finding them.</p>\n\n<p>That is the long game. Not immune to short-term volatility, but compounding in the right direction over time.</p>",
+    "publish_date": "2026-01-18",
+    "updated_at": "2026-01-18",
+    "author": "Atlas",
+    "category_primary": "visibility-search/seo-fundamentals-evolved",
+    "category_secondary": [
+        "visibility-search"
+    ],
+    "tags": [
+        "google",
+        "seo strategy",
+        "e-e-a-t",
+        "algorithm",
+        "search visibility"
+    ],
+    "template": "article",
+    "sidebar_profile": "library-learning",
+    "seo": {
+        "title": "What Google Actually Rewards Now ... Krisada.com",
+        "description": "Understanding what Google has always been trying to reward ... and how it is getting better at finding it ... is more useful than chasing any specific update."
+    },
+    "related_content": [
+        "seo-is-becoming-ai-to-ai",
+        "structured-data-is-not-optional-anymore"
+    ],
+    "is_featured": true,
+    "is_cornerstone": false,
+    "reading_time": 5,
+    "include_in_sitemap": true,
+    "authors": [
+        "atlas"
+    ]
+}

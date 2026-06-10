@@ -1,0 +1,39 @@
+{
+    "type": "article",
+    "title": "Why a Content Library Beats a Blog Archive",
+    "slug": "why-content-library-beats-blog-archive",
+    "canonical_url": "/article/why-content-library-beats-blog-archive/",
+    "status": "published",
+    "excerpt": "A blog archive is a pile of dated content. A content library is a structured system that compounds. The difference is architectural ... and it matters more now than it ever has.",
+    "body": "<p>Most websites that publish content are running a blog archive. New posts appear at the top. Old posts slide down and disappear. The homepage eventually becomes a stack of headlines, sorted by date, with no clear navigation logic and no way for a visitor ... or a machine ... to understand what the site is actually about.</p>\n\n<p>A content library works differently.</p>\n\n<h2>What makes a library different from a blog</h2>\n\n<p>A blog archive is organized by time. A content library is organized by topic. That distinction sounds simple, but the implications are significant.</p>\n\n<p>When content is organized by topic, visitors can navigate by interest rather than by when something was published. A piece written two years ago can be just as relevant and just as discoverable as something written last week. The architecture lets the content age well instead of making it feel stale.</p>\n\n<p>More importantly, a topic-based structure gives the site a coherent information architecture. Machines can understand what the site covers, which topics it treats with depth, and how different pieces of content relate to each other.</p>\n\n<h2>Why this matters for AI-era visibility</h2>\n\n<p>AI systems do not just crawl pages ... they interpret them. They are trying to understand what a site is about, which topics it covers with authority, and whether it can be trusted as a source on a given subject.</p>\n\n<p>A blog archive gives those systems a confusing signal. Topics jump around. There is no clear hierarchy. The freshest content dominates, even if older content is more authoritative.</p>\n\n<p>A content library gives AI systems a clear, navigable structure. It declares its topics explicitly. It groups related content. It uses metadata to signal what is cornerstone, what is supplementary, and how content relates across the system.</p>\n\n<h2>How to build one</h2>\n\n<p>The starting point is a category structure that reflects the actual topics you want to cover ... not just what you have written about so far. Think of it as defining the map before filling in the territory.</p>\n\n<p>From there, every piece of content gets assigned to a category, tagged appropriately, and given explicit metadata: author, date, status, relationships. The articles are not just pages ... they are structured records in a system.</p>\n\n<p>This is the approach used on this site. The library is not a blog. It is a knowledge base with an editorial logic behind it. As it grows, the structure holds the content together instead of letting it drift into irrelevance.</p>",
+    "publish_date": "2026-02-02",
+    "updated_at": "2026-02-02",
+    "author": "Atlas",
+    "category_primary": "content-systems",
+    "category_secondary": [
+        "digital-life"
+    ],
+    "tags": [
+        "content architecture",
+        "library systems",
+        "ai-era",
+        "structure"
+    ],
+    "template": "article",
+    "sidebar_profile": "library-learning",
+    "seo": {
+        "title": "Why a Content Library Beats a Blog Archive ... Krisada.com",
+        "description": "A blog archive is a pile of dated content. A content library is a structured system that compounds. The difference is architectural."
+    },
+    "related_content": [
+        "you-cant-do-this-on-wall-street",
+        "seo-is-becoming-ai-to-ai"
+    ],
+    "is_featured": true,
+    "is_cornerstone": true,
+    "reading_time": 5,
+    "include_in_sitemap": true,
+    "authors": [
+        "atlas"
+    ]
+}

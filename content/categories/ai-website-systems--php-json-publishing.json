@@ -1,0 +1,22 @@
+{
+  "type": "category",
+  "title": "PHP + JSON Publishing",
+  "slug": "php-json-publishing",
+  "path": "ai-website-systems/php-json-publishing",
+  "parent_slug": "ai-website-systems",
+  "canonical_url": "/library/ai-website-systems/php-json-publishing/",
+  "description": "Using PHP and JSON as a modern publishing stack ... why it works, how it is structured, and how AI tools fit into it cleanly.",
+  "intro": "The case for PHP plus JSON is not nostalgia. It is architecture. A flat-file system with thin templates and structured JSON content is easier to automate, easier to version, and easier for AI coding assistants to work with than a CMS with a database, plugins, and proprietary APIs. This section covers how the stack works and why it is a serious publishing choice for the current internet.",
+  "status": "published",
+  "sort_order": 1,
+  "template": "category",
+  "sidebar_profile": "library-learning",
+  "seo": {
+    "title": "PHP + JSON Publishing ... AI and Website Systems ... Krisada.com",
+    "description": "Why PHP and JSON is a modern publishing stack ... and how AI tools fit into it cleanly."
+  },
+  "relationships": {
+    "related_categories": ["machine-readable-content", "ai-prompt-systems"]
+  },
+  "updated_at": "2026-01-25"
+}

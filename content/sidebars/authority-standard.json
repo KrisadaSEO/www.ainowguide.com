@@ -1,0 +1,25 @@
+{
+  "title": "Authority Standard Sidebar",
+  "slug": "authority-standard",
+  "blocks": [
+    {
+      "type": "constellation",
+      "title": "Want the Full AI Website Picture?",
+      "body": "Find a constellation for your website in our AI Digital Karma Federation.",
+      "cta_label": "Learn More",
+      "cta_url": "/contact/"
+    },
+    {
+      "type": "featured-link",
+      "style": "strategic-highlight",
+      "title": "Website Property  Ownership",
+      "body": "If someone else can take it away, take it down, keep you from selling it, shadow ban you, or censor you in any way...YOU don't own it. You're renting.",
+      "cta_label": "What Ownership Actually Means",
+      "cta_url": "/article/what-website-ownership-actually-means/"
+    },
+    {
+      "type": "topic-articles",
+      "style": "practical-highlight"
+    }
+  ]
+}

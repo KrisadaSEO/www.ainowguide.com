@@ -1,0 +1,15 @@
+{
+    "type": "dir_category",
+    "slug": "one-mouse-marketing",
+    "path": "portfolio/one-mouse-marketing",
+    "parent_path": "portfolio",
+    "title": "One Mouse Marketing",
+    "canonical_url": "/directory/portfolio/one-mouse-marketing/",
+    "description": "SEO consulting, marketing education, and the personal brand hub. One Mouse. Maximum leverage.",
+    "directory_type": "portfolio",
+    "status": "published",
+    "template": "directory-category",
+    "sidebar_profile": "authority-standard",
+    "constellation_id": "c4",
+    "updated_at": "2026-05-31"
+}

@@ -1,0 +1,23 @@
+{
+  "type": "category",
+  "title": "Digital Asset Investing",
+  "slug": "digital-asset-investing",
+  "path": "digital-property-assets/digital-asset-investing",
+  "parent_slug": "digital-property-assets",
+  "canonical_url": "/library/digital-property-assets/digital-asset-investing/",
+  "redirect_from": [],
+  "description": "Buying, building, and exiting web properties as an investment strategy ... the mechanics of acquiring undervalued sites and growing them with purpose.",
+  "intro": "Digital assets can be acquired the same way any asset can ... buy undervalued, build up, hold for cash flow, or sell at a gain. The market for websites and domains has matured. Platforms exist. Brokers exist. Multiples are somewhat predictable. This section covers the actual mechanics: what to look for when buying, what to avoid, how to think about hold vs. exit, and what makes a digital property worth owning.",
+  "status": "published",
+  "sort_order": 3,
+  "template": "category",
+  "sidebar_profile": "library-learning",
+  "seo": {
+    "title": "Digital Asset Investing ... Krisada.com",
+    "description": "The mechanics of buying, building, and selling web properties as investable digital assets."
+  },
+  "relationships": {
+    "related_categories": ["digital-property-assets", "digital-independence"]
+  },
+  "updated_at": "2026-05-31"
+}

@@ -1,0 +1,22 @@
+{
+  "type": "category",
+  "title": "AI Prompt Systems",
+  "slug": "ai-prompt-systems",
+  "path": "ai-website-systems/ai-prompt-systems",
+  "parent_slug": "ai-website-systems",
+  "canonical_url": "/library/ai-website-systems/ai-prompt-systems/",
+  "description": "Building reusable prompt packs, structured AI workflows, and schema-aware generation pipelines for content and code.",
+  "intro": "A prompt is an instruction. A prompt system is a repeatable workflow. The difference matters at scale. Ad-hoc prompting produces inconsistent output. A structured prompt system ... with context packs, schema awareness, and clear output formats ... produces content and code that fits the architecture it is being built for. This section covers how to design AI workflows that produce results you can actually use.",
+  "status": "published",
+  "sort_order": 3,
+  "template": "category",
+  "sidebar_profile": "library-learning",
+  "seo": {
+    "title": "AI Prompt Systems ... AI and Website Systems ... Krisada.com",
+    "description": "Building reusable prompt packs, schema-aware workflows, and AI pipelines for content and code."
+  },
+  "relationships": {
+    "related_categories": ["php-json-publishing", "machine-readable-content"]
+  },
+  "updated_at": "2026-03-27"
+}

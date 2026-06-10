@@ -1,0 +1,56 @@
+{
+    "type": "article",
+    "title": "Your Domain Is the Asset ... Everything Else Is a Tool",
+    "slug": "your-domain-is-the-asset",
+    "canonical_url": "/article/your-domain-is-the-asset/",
+    "status": "published",
+    "excerpt": "Social profiles, hosting accounts, and platform pages are tools. The domain is the asset. Here is why that distinction matters and what it means for how you build.",
+    "body": "<p>When most people think about their online presence, they think about their social profiles, their follower counts, their platform pages. Those things feel real because they are visible and measurable. But they are tools, not assets.</p>\n\n<p>The domain is the asset. It is the one thing in your digital infrastructure that is both portable and permanent ... if you maintain it. Everything else is attached to it or flows through it.</p>\n\n<h2>What makes a domain an asset</h2>\n\n<p>An asset is something that holds value independently of the effort you put into it in any given week. A domain with a history of publishing, inbound links, and indexed content has accumulated value. That value does not disappear when you stop posting. It does not reset when an algorithm changes. It does not belong to a platform that could restrict your access.</p>\n\n<p>Compare that to a social media profile. The follower count is a number on someone else's platform. The reach depends on their algorithm. The account can be restricted, shadow-banned, or suspended. The content can be removed. The platform can shut down. None of those things affect your domain.</p>\n\n<h2>The infrastructure that makes a domain work</h2>\n\n<p>Owning a domain is the start, not the finish. The infrastructure underneath it determines how durable the asset actually is.</p>\n\n<p>The domain must be registered directly in your name, on an account you control, with contact details pointing to you. Not through a reseller who holds the account. Not through your web host where you lose access if you leave.</p>\n\n<p>The hosting should be on a server you can move away from without data loss. Your content should exist in files you can take with you ... not locked in a database you can only access through a platform's export tool.</p>\n\n<p>The email associated with the domain should be on your own domain, not a free provider account. If the domain is the asset, the email address is the identity credential that proves you are the operator.</p>\n\n<h2>Building on the asset vs building around it</h2>\n\n<p>Building on the asset means publishing content to your own site, growing traffic that comes to your domain, and developing an audience relationship that lives there. Every piece of content adds to the asset's value.</p>\n\n<p>Building around it means using platforms to reach new people and directing them back to your domain. Platforms are distribution tools, not destinations. They work for you when the relationship flows outward from the asset ... not when the asset is an afterthought behind your platform presence.</p>\n\n<p>The practical test: if your three largest social accounts disappeared tomorrow, how much of your audience and income would survive? If the answer is most of it, your infrastructure is healthy. If the answer is not much, you are building around the asset without building on it.</p>\n\n<h2>The maintenance requirement</h2>\n\n<p>An asset requires maintenance. A domain lapses if you forget to renew it. A site loses value if the content goes stale or the hosting breaks. A content library needs to be added to over time to stay relevant.</p>\n\n<p>That maintenance is not a burden ... it is the cost of having something that compounds. The alternative is renting reach on platforms where the maintenance is done for you but the asset never belongs to you.</p>",
+    "publish_date": "2026-01-03",
+    "updated_at": "2026-04-25",
+    "author": "Atlas",
+    "category_primary": "digital-independence/digital-property",
+    "category_secondary": [
+        "digital-independence",
+        "digital-life/website-ownership"
+    ],
+    "tags": [
+        "domain-ownership",
+        "digital-property",
+        "digital-assets",
+        "digital-independence"
+    ],
+    "template": "article",
+    "sidebar_profile": "library-learning",
+    "seo": {
+        "title": "Your Domain Is the Asset ... Everything Else Is a Tool ... Krisada.com",
+        "description": "Social profiles and platform pages are tools. The domain is the asset. Here is why that distinction matters and how to build on it properly."
+    },
+    "related_content": [
+        "what-website-ownership-actually-means",
+        "the-true-cost-of-platform-dependency",
+        "why-your-website-is-an-asset-not-an-expense"
+    ],
+    "schema": {
+        "about": [
+            "domain ownership",
+            "digital property",
+            "portable digital assets",
+            "website control"
+        ],
+        "mentions": [
+            "/library/digital-independence/digital-property/",
+            "/library/digital-independence/",
+            "/article/what-website-ownership-actually-means/",
+            "/article/the-true-cost-of-platform-dependency/",
+            "/article/why-your-website-is-an-asset-not-an-expense/"
+        ]
+    },
+    "is_featured": false,
+    "is_cornerstone": true,
+    "reading_time": 5,
+    "include_in_sitemap": true,
+    "authors": [
+        "atlas"
+    ]
+}

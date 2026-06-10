@@ -1,0 +1,20 @@
+{
+  "type": "glossary-term",
+  "glossary": "ai-digital-karma",
+  "term": "JSON-LD",
+  "slug": "json-ld",
+  "canonical_url": "/glossary/ai-digital-karma/json-ld/",
+  "short_def": "A structured data format that lets a page declare exactly what it is to machines ... one of the core layers Krisada.com uses to turn content into an AI-readable digital asset.",
+  "definition": "On Krisada.com, JSON-LD is not treated as optional SEO decoration. It is part of the site's machine-readable infrastructure. A JSON-LD block sits in the page head and uses Schema.org terms to declare what the page is, who published it, when it was updated, what topic it belongs to, and how it relates to the rest of the site.\n\nIn practical terms, JSON-LD reduces guesswork. Instead of making a search engine or AI system infer whether a page is an article, glossary term, category, person, or organization page from surrounding HTML alone, the page states its identity directly in a structured format machines already know how to parse.\n\nThat matters more in an AI-shaped web because visibility is no longer just about ranking a page. It is about being interpretable, attributable, and reusable inside systems that summarize, retrieve, and cite from the web. JSON-LD helps make that identity explicit.",
+  "example": "On Krisada.com, the content record already knows the page title, canonical URL, authorship, dates, category path, and optional schema metadata. <code>bootstrap.php</code> turns that same source record into the page output and its JSON-LD graph at render time.\n\nThat means the machine-readable layer stays synchronized with the visible page. Fix the record or the template once, and the correction carries across every page of that type. That is the advantage of treating JSON-LD as infrastructure instead of hand-entered markup.",
+  "nuance": "JSON-LD does not rescue unclear content. It amplifies clarity that already exists. If the page is vague, structurally messy, or detached from a coherent site architecture, the JSON-LD can only describe a weak asset more precisely.\n\nThe better frame is not \"add schema for rankings.\" The better frame is \"declare the identity of the asset.\" On a site built around owned digital property, clean JSON-LD is part of what turns a page from disposable content into something machines can recognize, connect, and trust at scale.",
+  "related_terms": ["ai-digital-asset", "ai-digital-karma-protocol", "site-architecture"],
+  "status": "published",
+  "created_at": "2026-06-06",
+  "updated_at": "2026-06-09",
+  "seo": {
+    "title": "JSON-LD ... AI Digital Karma Glossary | Krisada.com",
+    "description": "How Krisada.com frames JSON-LD: the structured identity layer that makes pages interpretable, attributable, and more asset-like for search and AI systems.",
+    "robots": "index, follow"
+  }
+}

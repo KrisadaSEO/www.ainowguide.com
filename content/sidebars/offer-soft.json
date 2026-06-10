@@ -1,0 +1,22 @@
+{
+  "title": "Offer Soft Sidebar",
+  "slug": "offer-soft",
+  "blocks": [
+    {
+      "type": "featured-link",
+      "style": "strategic-highlight",
+      "offer_slug": "strategy-call"
+    },
+    {
+      "type": "related-articles",
+      "style": "practical-highlight",
+      "title": "Related reading"
+    },
+    {
+      "type": "mini-bio",
+      "style": "personal-highlight",
+      "title": "About the author",
+      "body": "Krisada has spent years building niche sites, ranking pages, and now rebuilding the model for an AI-native internet."
+    }
+  ]
+}

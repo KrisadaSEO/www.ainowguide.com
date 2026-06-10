@@ -1,0 +1,19 @@
+{
+    "type": "dir_listing",
+    "slug": "aiwebsitestore-com",
+    "path": "portfolio/ai-website-systems/aiwebsitestore-com",
+    "category_path": "portfolio/ai-website-systems",
+    "title": "aiwebsitestore.com",
+    "canonical_url": "/directory/portfolio/ai-website-systems/aiwebsitestore-com/",
+    "directory_type": "portfolio",
+    "status": "published",
+    "template": "directory-listing",
+    "sidebar_profile": "authority-standard",
+    "fields": {
+        "status": "domain-only",
+        "tier": "authority",
+        "priority": "2",
+        "update": "Commerce angle \u2014 buying/selling AI websites"
+    },
+    "updated_at": "2026-05-31"
+}

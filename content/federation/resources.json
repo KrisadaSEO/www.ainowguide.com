@@ -1,0 +1,11 @@
+{
+  "federation": "v7.0",
+  "node_role": "authority",
+  "site_name": "Krisada.com",
+  "canonical_domain": "https://www.krisada.com",
+  "supported_content_types": ["article", "category", "page"],
+  "related_properties": [],
+  "machine_summary": "Krisada.com is a human-facing authority node and AI machine-readable content node.",
+  "version": "7.0",
+  "compatibility_notes": "Compatible with Federation v7.0 spec."
+}

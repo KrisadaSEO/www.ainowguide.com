@@ -1,0 +1,113 @@
+{
+    "redirects": [
+        {
+            "from": "/old-home/",
+            "to": "/",
+            "type": 301,
+            "active": true,
+            "note": "Homepage redirect",
+            "source": "manual",
+            "created_at": "2026-04-14",
+            "updated_at": "2026-04-14"
+        },
+        {
+            "from": "/components/zgshon.php/",
+            "to": "/",
+            "type": 301,
+            "created_at": "2026-05-03 09:18:15"
+        },
+        {
+            "from": "/blog/",
+            "to": "https://www.krisada.com/library/",
+            "type": 301,
+            "created_at": "2026-05-03 09:21:36"
+        },
+        {
+            "from": "/wordpress/",
+            "to": "/",
+            "type": 301,
+            "created_at": "2026-05-03 09:21:59"
+        },
+        {
+            "from": "/module/leoproductsearch/productsearch/",
+            "to": "/",
+            "type": 301,
+            "created_at": "2026-05-04 14:32:38"
+        },
+        {
+            "from": "/index.php/",
+            "to": "/",
+            "type": 301,
+            "created_at": "2026-05-04 14:32:59"
+        },
+        {
+            "from": "/52-maria-micozzi/",
+            "to": "/",
+            "type": 301,
+            "created_at": "2026-05-04 14:33:18"
+        },
+        {
+            "from": "/403.shtml/",
+            "to": "/",
+            "type": 301,
+            "created_at": "2026-05-04 14:33:28"
+        },
+        {
+            "from": "/component/easysocial/",
+            "to": "/",
+            "type": 301,
+            "created_at": "2026-05-04 14:33:43"
+        },
+        {
+            "from": "/indk%c3%b8bskurv/",
+            "to": "/",
+            "type": 301,
+            "created_at": "2026-05-14 14:34:03"
+        },
+        {
+            "from": "/wp-includes/wlwmanifest.xml/",
+            "to": "/",
+            "type": 301,
+            "created_at": "2026-05-14 14:34:13"
+        },
+        {
+            "from": "/47-fotopopierius/",
+            "to": "/",
+            "type": 301,
+            "created_at": "2026-05-14 14:34:41"
+        },
+        {
+            "from": "/blogs-articles-by-krisada/website-monetization-in-2026.html/",
+            "to": "https://www.krisada.com/article/2026-top-10-website-problems-solved/",
+            "type": 301,
+            "created_at": "2026-05-28 11:46:27"
+        },
+        {
+            "from": "/wp-login.php/",
+            "to": "/",
+            "type": 301,
+            "created_at": "2026-05-28 11:49:50"
+        },
+        {
+            "from": "/blogs-articles-by-krisada/mastering-programmatic-advertising-a-comprehensive-guide-for-online-marketing-professionals.html/",
+            "to": "https://www.krisada.com/article/2026-top-10-website-problems-solved/",
+            "type": 301,
+            "created_at": "2026-05-28 11:51:27"
+        },
+        {
+            "from": "/blogs-articles-by-krisada/digital-marketing/decoding-the-essence-of-seo-the-comprehensive-guide-to-seo-websites-and-their-invaluable-role-in-google-search-marketing.html/",
+            "to": "https://www.krisada.com/article/2026-top-10-website-problems-solved/",
+            "type": 301,
+            "created_at": "2026-05-28 11:51:41"
+        },
+        {
+            "from": "/work-with-me/",
+            "to": "/buy-seo/",
+            "type": 301,
+            "active": true,
+            "note": "Renamed service page",
+            "source": "manual",
+            "created_at": "2026-05-28"
+        }
+    ]
+}

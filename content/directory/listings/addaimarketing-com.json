@@ -1,0 +1,20 @@
+{
+    "type": "dir_listing",
+    "slug": "addaimarketing-com",
+    "path": "portfolio/ai-website-systems/addaimarketing-com",
+    "category_path": "portfolio/ai-website-systems",
+    "title": "addaimarketing.com",
+    "canonical_url": "/directory/portfolio/ai-website-systems/addaimarketing-com/",
+    "directory_type": "portfolio",
+    "status": "published",
+    "template": "directory-listing",
+    "sidebar_profile": "authority-standard",
+    "fields": {
+        "status": "domain-only",
+        "tier": "supporting",
+        "priority": "3",
+        "update": "Crossover: also serves c4 One Mouse Marketing",
+        "crossover": "One Mouse Marketing"
+    },
+    "updated_at": "2026-05-31"
+}

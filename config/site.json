@@ -1,0 +1,147 @@
+{
+  "name": "Krisada.com",
+  "domain": "https://www.krisada.com",
+  "tagline": "Digital trade skills for today's AI World. Our systems allow you to leverage AI instead of fear it.",
+  "description": "We Offer skills that power today's AI internet. Our systems allow you to leverage AI instead of fearing it. This is Digital Marketing for Quiet People.",
+  "positioning": "This is my version of online digital life in an AI World.",
+  "author": {
+    "name": "Krisada",
+    "role": "Digital Marketer, SEO systems architect, and digital assets builder",
+    "bio": "Krisada.com teaches what powers a quiet digital life.",
+    "location": "Jacksonville, Florida, USA",
+    "same_as": [
+      "https://www.linkedin.com/in/krisadamarketing/",
+      "https://www.krisada.com/about/"
+    ],
+    "occupation": "Digital Marketing Consultant",
+    "occupation_location": "United States",
+    "knows_about": [
+      "SEO",
+      "Digital Marketing",
+      "Website Architecture",
+      "AI Content Systems",
+      "Structured Data",
+      "Flat-file Publishing",
+      "Digital Independence"
+    ]
+  },
+  "navigation": [
+    { "label": "Home", "url": "/" },
+    {
+      "label": "Library",
+      "url": "/library/",
+      "children": {
+        "aria_label": "Library sections",
+        "items": [
+          { "label": "Start Here", "url": "/article/welcome-to-krisada/" },
+          { "label": "Website FAQs", "url": "/library/website-faqs/" },
+          { "label": "Online Digital Life", "url": "/library/digital-life/" },
+          { "label": "Visibility and Search", "url": "/library/visibility-search/" },
+          { "label": "Content Systems", "url": "/library/content-systems/" },
+          { "label": "AI and Website Systems", "url": "/library/ai-website-systems/" },
+          { "label": "Digital Independence", "url": "/library/digital-independence/" },
+          { "label": "The Quiet Marketer", "url": "/library/quiet-marketer/" },
+          { "label": "Krisada in Context to Thailand", "url": "/library/thai-local-context/" }
+        ]
+      }
+    },
+    {
+      "label": "Articles",
+      "url": "/library/",
+      "children": {
+        "aria_label": "Latest articles",
+        "source": "latest_articles"
+      }
+    },
+    {
+      "label": "FAQs",
+      "url": "/library/website-faqs/",
+      "children": {
+        "aria_label": "Website FAQs",
+        "source": "category_articles",
+        "category": "website-faqs",
+        "limit": 11
+      }
+    },
+    {
+      "label": "Directory",
+      "url": "/directory/",
+      "children": {
+        "aria_label": "Directory sections",
+        "source": "portfolio_featured",
+        "items": [
+          { "label": "Website Assets Portfolio", "url": "/directory/portfolio/" }
+        ]
+      }
+    },
+    {
+      "label": "Glossary",
+      "url": "/glossary/",
+      "children": {
+        "aria_label": "Glossary collections",
+        "items": [
+          { "label": "All Terms", "url": "/glossary/" },
+          { "label": "AI Digital Karma", "url": "/glossary/ai-digital-karma/" },
+          { "label": "Digital Property Glossary", "url": "/glossary/digital-property-asset-leverage/" },
+          { "label": "Krisada-isms", "url": "/glossary/krisada-isms/" }
+        ]
+      }
+    },
+    { "label": "Buy SEO", "url": "/buy-seo/", "highlight": "gold", "_toggle": "AUDIT: set hidden:true to remove from nav when not taking clients" },
+    {
+      "label": "About",
+      "url": "/about/",
+      "children": {
+        "aria_label": "About pages",
+        "items": [
+          { "label": "Bio", "url": "/bio/" },
+          { "label": "Digital Marketing Consultant Bio", "url": "/bio/digital-marketing-consultant/" }
+        ]
+      }
+    },
+    { "label": "Thai Name", "url": "/thai/" }
+  ],
+  "footer_links": [
+    { "label": "Library", "url": "/library/" },
+    { "label": "Directory", "url": "/directory/" },
+    { "label": "Thai Name", "url": "/thai/" },
+    { "label": "Contact", "url": "/contact/" }
+  ],
+  "footer_about_links": [
+    { "label": "Join the Guild", "url": "/guild/" },
+    { "label": "About", "url": "/about/" },
+    { "label": "Bio", "url": "/bio/" }
+  ],
+  "ai_contributors": {
+    "atlas": {
+      "name": "Atlas",
+      "description": "AI editorial collaborator built on Claude (Anthropic). Contributes research synthesis, structural reasoning, and first-draft generation across Krisada.com content.",
+      "url": "https://www.anthropic.com/claude",
+      "same_as": ["https://www.anthropic.com"]
+    }
+  },
+  "contributors": {
+    "krisada": {
+      "name": "Krisada",
+      "type": "human",
+      "url": "https://www.krisada.com/about/",
+      "same_as": [
+        "https://www.linkedin.com/in/krisadamarketing/",
+        "https://www.krisada.com/about/"
+      ]
+    },
+    "atlas": {
+      "name": "Atlas",
+      "type": "ai",
+      "description": "AI editorial collaborator built on Claude (Anthropic). Contributes research synthesis, structural reasoning, and first-draft generation across Krisada.com content.",
+      "url": "https://www.anthropic.com/claude",
+      "same_as": ["https://www.anthropic.com"]
+    }
+  },
+  "contact": {
+    "email": "hello@krisada.com"
+  },
+  "locale": "en",
+  "timezone": "US/Eastern",
+  "theme": "krisada-default"
+}

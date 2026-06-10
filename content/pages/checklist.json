@@ -1,0 +1,15 @@
+{
+  "title": "The Digital Independence Self-Assessment",
+  "slug": "checklist",
+  "canonical_url": "/checklist/",
+  "status": "published",
+  "template": "checklist",
+  "hide_sidebar": true,
+  "extra_css": "checklist",
+  "extra_js": "checklist",
+  "updated_at": "2026-04-22",
+  "seo": {
+    "title": "The Digital Independence Self-Assessment | Krisada.com",
+    "description": "A guided 10-question self-assessment with plain-English explainers, live scoring, and next steps for building an owned online presence."
+  }
+}

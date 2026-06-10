@@ -1,0 +1,20 @@
+{
+    "type": "dir_listing",
+    "slug": "datasetseo-com",
+    "path": "portfolio/ai-digital-karma/datasetseo-com",
+    "category_path": "portfolio/ai-digital-karma",
+    "title": "datasetseo.com",
+    "canonical_url": "/directory/portfolio/ai-digital-karma/datasetseo-com/",
+    "directory_type": "portfolio",
+    "status": "published",
+    "template": "directory-listing",
+    "sidebar_profile": "authority-standard",
+    "fields": {
+        "status": "domain-only",
+        "tier": "authority",
+        "priority": "2",
+        "update": "Crossover: also serves c3 Digital Asset Investing",
+        "crossover": "Digital Asset Investing"
+    },
+    "updated_at": "2026-05-31"
+}

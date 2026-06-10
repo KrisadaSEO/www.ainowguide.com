@@ -1,0 +1,22 @@
+{
+  "type": "category",
+  "title": "SEO Fundamentals ... Evolved",
+  "slug": "seo-fundamentals-evolved",
+  "path": "visibility-search/seo-fundamentals-evolved",
+  "parent_slug": "visibility-search",
+  "canonical_url": "/library/visibility-search/seo-fundamentals-evolved/",
+  "description": "The parts of traditional SEO that still hold ... and the parts that need to be updated for an AI-assisted search environment.",
+  "intro": "Not everything about old-school SEO is wrong. Technical hygiene, content depth, and earning genuine links still matter. What has changed is the context around them. This section separates the durable fundamentals from the outdated tactics ... and shows where the core principles need updating for the current environment.",
+  "status": "published",
+  "sort_order": 3,
+  "template": "category",
+  "sidebar_profile": "library-learning",
+  "seo": {
+    "title": "SEO Fundamentals Evolved ... Visibility and Search ... Krisada.com",
+    "description": "Which parts of traditional SEO still hold, and which need updating for an AI-assisted search environment."
+  },
+  "relationships": {
+    "related_categories": ["ai-discovery", "structured-data"]
+  },
+  "updated_at": "2026-04-04"
+}

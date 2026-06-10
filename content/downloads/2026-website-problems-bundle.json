@@ -1,0 +1,43 @@
+{
+  "type": "download",
+  "title": "2026 Website Solutions Bundle",
+  "slug": "2026-website-problems-bundle",
+  "canonical_url": "/download/2026-website-problems-bundle/",
+  "redirect_from": [],
+  "status": "published",
+  "summary": "The protected bundle behind the Top 10 Website Problems article. It packages the AI data layer, production system, content engine, audit, lead capture, monetization, and case-study pieces into one gated download.",
+  "body": "<p>This is the working bundle behind <a href=\"/article/2026-top-10-website-problems-solved/\">2026 Top 10 Website Problems - Solved</a>.</p>\n\n<p>Instead of ten disconnected ideas, you get the actual system layers in one place.</p>\n\n<h2>What is inside</h2>\n\n<ul>\n<li>AI Data Layer starter files</li>\n<li>Search Everywhere optimization framework</li>\n<li>AI Website Production System structure</li>\n<li>Digital Karma audit materials</li>\n<li>50-Site Portfolio Blueprint assets</li>\n<li>Content Engine templates and schema rails</li>\n<li>Lead Engine templates</li>\n<li>Monetization playbook notes</li>\n<li>Buy / Build / Rank / Rent system files</li>\n<li>Case study pack examples and prompts</li>\n</ul>\n\n<h2>Best order</h2>\n\n<p>Start with structure first: AI data layer, production system, content engine, then audit. After that, add lead capture and monetization.</p>\n\n<p>That order matters because otherwise you end up trying to monetize or redesign a system that still does not communicate clearly.</p>",
+  "source_kind": "repo",
+  "source_path": "downloads/2026-website-problems-bundle",
+  "storage_path": "",
+  "delivery_type": "zip_directory",
+  "download_filename": "2026-website-problems-bundle.zip",
+  "button_label": "Unlock the bundle",
+  "gate_headline": "Unlock the protected bundle",
+  "gate_description": "Enter your email and I will generate a protected access link for the full bundle right away. The real files stay off the public web and are delivered through a gated route.",
+  "success_message": "Your protected bundle is unlocked below.",
+  "email_subject": "[Krisada.com] Your 2026 Website Solutions Bundle",
+  "template": "download",
+  "sidebar_profile": "authority-standard",
+  "seo": {
+    "title": "2026 Website Solutions Bundle | Krisada.com",
+    "description": "Get the protected 2026 Website Solutions Bundle: AI data layer, content engine, production system, audit kit, lead engine, monetization pack, and more."
+  },
+  "schema": {
+    "about": [
+      "website systems",
+      "AI-ready websites",
+      "AI machine-readable publishing",
+      "digital asset infrastructure"
+    ],
+    "mentions": [
+      "/article/2026-top-10-website-problems-solved/",
+      "/library/start-here/",
+      "/library/ai-website-systems/",
+      "/library/visibility-search/"
+    ]
+  },
+  "extra_css": "download",
+  "updated_at": "2026-04-28",
+  "include_in_sitemap": true
+}

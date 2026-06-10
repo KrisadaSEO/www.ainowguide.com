@@ -1,0 +1,18 @@
+{
+    "type": "dir_listing",
+    "slug": "as400ibmsystems-com",
+    "path": "portfolio/professional-growth-markets/as400ibmsystems-com",
+    "category_path": "portfolio/professional-growth-markets",
+    "title": "as400ibmsystems.com",
+    "canonical_url": "/directory/portfolio/professional-growth-markets/as400ibmsystems-com/",
+    "directory_type": "portfolio",
+    "status": "published",
+    "template": "directory-listing",
+    "sidebar_profile": "authority-standard",
+    "fields": {
+        "status": "domain-only",
+        "tier": "supporting",
+        "priority": "3"
+    },
+    "updated_at": "2026-05-31"
+}

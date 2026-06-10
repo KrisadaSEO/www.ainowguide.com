@@ -1,0 +1,41 @@
+{
+    "type": "article",
+    "title": "Your First Owned Product: Starting Simpler Than You Think",
+    "slug": "your-first-owned-product",
+    "canonical_url": "/article/your-first-owned-product/",
+    "status": "published",
+    "excerpt": "The first product you sell directly does not need to be a course, a membership, or a SaaS tool. It needs to be useful, specific, and priced for the audience you have right now.",
+    "body": "<p>Most people who want to build owned revenue sources spend months ... sometimes years ... planning a product that is too large to ship. They want to launch a course, a membership, a software tool. These are valid products. They are not first products.</p>\n\n<p>A first product has one job: prove that people in your audience will pay you directly for something. Everything else follows from that proof.</p>\n\n<h2>What makes a good first product</h2>\n\n<p>Specific. A product that solves one well-defined problem for a clearly identified person. Not a comprehensive guide to everything ... a clear answer to a question your audience is already asking.</p>\n\n<p>Small. Something you can produce in days or a few weeks, not months. The goal is to test the market and learn what your audience will pay for before investing heavily in production.</p>\n\n<p>Priced for the value, not the format. A 20-page PDF that saves someone ten hours of research is worth more than its page count suggests. Price it on the outcome it produces, not on its physical size.</p>\n\n<h2>Product formats that work at small scale</h2>\n\n<p><strong>A focused guide or template.</strong> A document that solves a specific problem ... a checklist, a framework, a template with instructions. Low production cost, immediate delivery, clear value proposition. This is the simplest viable first product for most content operators.</p>\n\n<p><strong>A workshop or recorded session.</strong> One to three hours of focused teaching on a specific topic. Live delivery is lower production cost than polished video; a recording becomes an evergreen product. The limitation is that it requires an audience large enough to fill a live session.</p>\n\n<p><strong>Consulting or strategy calls.</strong> Direct access to your knowledge. The highest revenue per hour of any format. The limitation is that it does not scale ... your time is the product. Best used as an early revenue source while building something more scalable alongside it.</p>\n\n<h2>The infrastructure you need</h2>\n\n<p>Less than you think. A payment processor (Stripe or Gumroad handle this simply), a delivery mechanism (an email with a download link, a Gumroad product page, a simple landing page on your site), and a way to describe the product clearly enough that someone will buy it.</p>\n\n<p>Do not build a custom checkout system, a member portal, or a learning management system for your first product. Use the simplest tool that handles payment and delivery. Add complexity when volume justifies it.</p>\n\n<h2>The pricing question</h2>\n\n<p>Price it high enough that the sale feels meaningful. A $7 product generates $7. A $47 product generates $47 and also signals that the content has real value. For a focused guide or template from a credible source, $47 to $97 is a reasonable range. For consulting time, charge what an hour of your expertise is actually worth.</p>\n\n<p>The fear that a higher price will reduce sales is usually wrong for a small, engaged audience. The people who will not pay $47 would not have paid $7 either ... they were not buyers. Price for the buyers.</p>\n\n<h2>What the first product teaches you</h2>\n\n<p>The first product tells you what your audience will actually pay for, which is often different from what you expected. It tells you how to describe your work in terms that convert. It gives you a foundation to build on ... a second product to existing buyers is significantly easier to sell than a first product to cold traffic.</p>\n\n<p>Ship something small and real. Learn from it. Build from there.</p>",
+    "publish_date": "2026-03-21",
+    "updated_at": "2026-03-21",
+    "author": "Atlas",
+    "category_primary": "digital-independence/revenue-diversification",
+    "category_secondary": [
+        "digital-independence",
+        "digital-life"
+    ],
+    "tags": [
+        "owned-products",
+        "digital-products",
+        "revenue",
+        "first-product"
+    ],
+    "template": "article",
+    "sidebar_profile": "library-learning",
+    "seo": {
+        "title": "Your First Owned Product: Starting Simpler Than You Think ... Krisada.com",
+        "description": "The first product you sell directly does not need to be a course or membership. Here is what makes a good first product and the simple infrastructure to deliver it."
+    },
+    "related_content": [
+        "building-income-that-doesnt-depend-on-one-platform",
+        "how-to-reduce-platform-dependency",
+        "why-your-website-is-an-asset-not-an-expense"
+    ],
+    "is_featured": false,
+    "is_cornerstone": false,
+    "reading_time": 5,
+    "include_in_sitemap": true,
+    "authors": [
+        "atlas"
+    ]
+}

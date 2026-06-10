@@ -1,0 +1,22 @@
+{
+  "type": "category",
+  "title": "Revenue Diversification",
+  "slug": "revenue-diversification",
+  "path": "digital-independence/revenue-diversification",
+  "parent_slug": "digital-independence",
+  "canonical_url": "/library/digital-independence/revenue-diversification/",
+  "description": "Building income streams that do not depend on a single platform, algorithm, or employer ... the financial side of digital independence.",
+  "intro": "A business that earns from one source is as fragile as a site that lives on one platform. Revenue diversification is not about having many projects ... it is about structuring income so that no single decision someone else makes can take it all away. That means owned products, owned lists, and offers that convert independent of any feed or algorithm.",
+  "status": "published",
+  "sort_order": 3,
+  "template": "category",
+  "sidebar_profile": "library-learning",
+  "seo": {
+    "title": "Revenue Diversification ... Digital Independence ... Krisada.com",
+    "description": "Building income streams that do not depend on a single platform, algorithm, or employer ... the financial layer of digital independence."
+  },
+  "relationships": {
+    "related_categories": ["digital-independence/digital-property", "digital-independence/platform-exit-strategy"]
+  },
+  "updated_at": "2026-02-21"
+}

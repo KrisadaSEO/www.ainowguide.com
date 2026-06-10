@@ -1,0 +1,45 @@
+{
+  "title": "Table of Contents",
+  "slug": "table-of-contents",
+  "canonical_url": "/table-of-contents/",
+  "status": "published",
+  "template": "table-of-contents",
+  "sidebar_profile": "authority-standard",
+  "seo": {
+    "title": "Table of Contents - Krisada.com",
+    "description": "A complete map of the Krisada.com content system - topics, categories, and where to start."
+  },
+  "description": "A complete map of everything on this site. Use this to find topics, navigate the content system, or understand the structure of the library.",
+  "schema": {
+    "about": [
+      "site map",
+      "table of contents",
+      "content architecture",
+      "knowledge graph",
+      "navigation"
+    ],
+    "mentions": [
+      "/library/",
+      "/library/start-here/",
+      "/library/digital-life/",
+      "/library/visibility-search/",
+      "/library/content-systems/",
+      "/library/ai-website-systems/",
+      "/library/digital-independence/"
+    ],
+    "has_part": [
+      "/library/",
+      "/library/start-here/",
+      "/library/digital-life/",
+      "/library/visibility-search/",
+      "/library/content-systems/",
+      "/library/ai-website-systems/",
+      "/library/digital-independence/"
+    ],
+    "main_entity": {
+      "@type": "Thing",
+      "name": "Krisada.com table of contents"
+    }
+  },
+  "updated_at": "2026-05-31"
+}

@@ -1,0 +1,22 @@
+{
+  "type": "category",
+  "title": "Website Ownership",
+  "slug": "website-ownership",
+  "path": "digital-life/website-ownership",
+  "parent_slug": "digital-life",
+  "canonical_url": "/library/digital-life/website-ownership/",
+  "description": "What owning a website actually means ... hosting, domains, control, portability, and the difference between renting and owning.",
+  "intro": "Most people think they own their website because they pay for it. That is not the same thing. Real ownership means you control the server, the code, the data, and the ability to move it. This section covers the practical decisions behind genuine website ownership ... and why it matters more as platform environments become less predictable.",
+  "status": "published",
+  "sort_order": 1,
+  "template": "category",
+  "sidebar_profile": "library-learning",
+  "seo": {
+    "title": "Website Ownership ... Online Digital Life ... Krisada.com",
+    "description": "What owning a website actually means ... hosting, domains, control, and the difference between renting and owning."
+  },
+  "relationships": {
+    "related_categories": ["platform-independence", "digital-asset-thinking"]
+  },
+  "updated_at": "2026-04-11"
+}

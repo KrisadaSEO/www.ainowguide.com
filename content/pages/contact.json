@@ -1,0 +1,45 @@
+{
+  "title": "Contact",
+  "slug": "contact",
+  "canonical_url": "/contact/",
+  "status": "published",
+  "template": "contact",
+  "extra_css": "contact",
+  "sidebar_profile": "personal-editorial",
+  "updated_at": "2026-02-03",
+  "seo": {
+    "title": "Contact | Krisada.com",
+    "description": "Start a real conversation about building online, content systems, AI visibility, or digital life. I read these personally."
+  },
+  "hero": {
+    "eyebrow": "Contact",
+    "title": "Start with the real objective.",
+    "subheadline": "If you have a serious conversation about building online, AI visibility, or digital systems ... this is the right place to start.",
+    "intro": "I read these personally. Clear context gets a faster answer than a vague ask. Tell me what you are building, where things are stuck, and what a useful outcome looks like."
+  },
+  "fit": {
+    "title": "Good fit",
+    "items": [
+      "Students and builders learning how digital systems actually work.",
+      "People building websites, content libraries, or AI-visible authority sites.",
+      "Partners with a real collaboration, media, or teaching angle."
+    ]
+  },
+  "not_fit": {
+    "title": "Not for",
+    "items": [
+      "Generic service pitches sent to 50 inboxes.",
+      "Vague requests with no clear objective.",
+      "Low-context messages that expect a high-effort answer."
+    ]
+  },
+  "form": {
+    "section_title": "Send the details",
+    "transition": "Tell me what you are actually trying to do. Clear beats polished.",
+    "intro": "A few specifics help separate real conversations from inbox noise.",
+    "submit_label": "Send It",
+    "submit_note": "If this is a generic pitch, this is probably the wrong form.",
+    "success_message": "Message received. If the fit is real, you will hear back at the email you provided.",
+    "error_message": "A few things need fixing before the message can go through."
+  }
+}

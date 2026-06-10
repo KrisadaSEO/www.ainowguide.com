@@ -1,0 +1,41 @@
+{
+  "type": "category",
+  "title": "AI and Website Systems",
+  "slug": "ai-website-systems",
+  "path": "ai-website-systems",
+  "parent_slug": "",
+  "canonical_url": "/library/ai-website-systems/",
+  "description": "Using AI as a production and structuring tool ... not to replace thinking, but to extend the system.",
+  "intro": "AI tools made production faster. But most AI-generated content is shallow and strategically weak. The gap is not the tool ... it is the system behind it. This section covers how to use AI as a leverage layer within a real content architecture, not as a substitute for one.",
+  "status": "published",
+  "sort_order": 4,
+  "featured_image": "",
+  "template": "category",
+  "sidebar_profile": "library-learning",
+  "seo": {
+    "title": "AI and Website Systems ... Krisada.com",
+    "description": "Learn how to use AI as a production and structuring tool within a real content architecture."
+  },
+  "schema": {
+    "about": [
+      "AI-assisted publishing",
+      "AI machine-readable websites",
+      "prompt systems",
+      "PHP and JSON publishing"
+    ],
+    "mentions": [
+      "/library/ai-website-systems/php-json-publishing/",
+      "/library/ai-website-systems/machine-readable-content/",
+      "/library/ai-website-systems/ai-prompt-systems/",
+      "/article/setting-up-php-json-for-ai-development/",
+      "/article/building-reusable-ai-prompt-systems/"
+    ],
+    "is_part_of": [
+      "/library/"
+    ]
+  },
+  "relationships": {
+    "related_categories": ["content-systems", "visibility-search"]
+  },
+  "updated_at": "2026-04-25"
+}

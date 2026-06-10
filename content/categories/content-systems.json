@@ -1,0 +1,40 @@
+{
+  "type": "category",
+  "title": "Content Systems",
+  "slug": "content-systems",
+  "path": "content-systems",
+  "parent_slug": "",
+  "canonical_url": "/library/content-systems/",
+  "description": "How to build a content architecture that works for readers, search engines, and AI systems at the same time.",
+  "intro": "Content is not just writing. A real content system has structure, schema, and purpose. It separates different types of content by their function. It grows without collapsing into a mess. This section covers what it means to build a content library that compounds over time instead of just adding more pages.",
+  "status": "published",
+  "sort_order": 3,
+  "featured_image": "",
+  "template": "category",
+  "sidebar_profile": "library-learning",
+  "seo": {
+    "title": "Content Systems ... Krisada.com",
+    "description": "Learn how to build a content architecture that works for readers, search engines, and AI systems."
+  },
+  "schema": {
+    "about": [
+      "content architecture",
+      "content libraries",
+      "structured publishing",
+      "content schema design"
+    ],
+    "mentions": [
+      "/library/content-systems/php-json-architecture/",
+      "/library/content-systems/content-schemas/",
+      "/library/content-systems/ai-assisted-publishing/",
+      "/article/why-content-library-beats-blog-archive/"
+    ],
+    "is_part_of": [
+      "/library/"
+    ]
+  },
+  "relationships": {
+    "related_categories": ["ai-website-systems", "digital-life"]
+  },
+  "updated_at": "2026-04-25"
+}

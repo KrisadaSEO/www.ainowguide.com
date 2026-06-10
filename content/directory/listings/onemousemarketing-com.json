@@ -1,0 +1,19 @@
+{
+    "type": "dir_listing",
+    "slug": "onemousemarketing-com",
+    "path": "portfolio/one-mouse-marketing/onemousemarketing-com",
+    "category_path": "portfolio/one-mouse-marketing",
+    "title": "onemousemarketing.com",
+    "canonical_url": "/directory/portfolio/one-mouse-marketing/onemousemarketing-com/",
+    "directory_type": "portfolio",
+    "status": "published",
+    "template": "directory-listing",
+    "sidebar_profile": "authority-standard",
+    "fields": {
+        "status": "domain-only",
+        "tier": "supporting",
+        "priority": "3",
+        "update": "Variant redirect for 1mousemarketing.com"
+    },
+    "updated_at": "2026-05-31"
+}

@@ -1,0 +1,47 @@
+{
+    "title": "Buy SEO - Buy A Onetime SEO Makeover for Your Website",
+    "slug": "buy-seo",
+    "path": "buy-seo",
+    "canonical_url": "/buy-seo/",
+    "status": "published",
+    "template": "buy-seo",
+    "hide_sidebar": true,
+    "updated_at": "2026-05-29",
+    "seo": {
+        "title": "Buy SEO - Buy A Onetime SEO Makeover for Your Website",
+        "description": "Buy SEO for your website. A complete onetime SEO Makeover ...content architecture, AI visibility gaps, search signal analysis, and a prioritized fix list. $497. Onetime Cost with lasting results. No retainer."
+    },
+    "schema": {
+        "main_entity": {
+            "@type": "Service",
+            "name": "SEO Makeover",
+            "alternateName": [
+                "Buy SEO",
+                "SEO Audit Service",
+                "Website SEO Review"
+            ],
+            "description": "A written SEO Makeover covering content architecture, AI visibility gaps, search signal analysis, internal linking, topical authority, and a prioritised action list for your website.",
+            "provider": {
+                "@id": "https://www.krisada.com/#person"
+            },
+            "offers": {
+                "@type": "Offer",
+                "price": "497",
+                "priceCurrency": "USD",
+                "availability": "https://schema.org/InStock",
+                "name": "SEO Makeover",
+                "description": "Complete SEO review and prioritised action list delivered in writing within 5-7 business days."
+            },
+            "serviceType": "SEO Audit",
+            "serviceOutput": "Written SEO audit report with prioritised action list",
+            "areaServed": "Worldwide",
+            "keywords": [
+                "buy SEO",
+                "SEO makeover",
+                "SEO audit",
+                "AI visibility",
+                "buy SEO websites"
+            ]
+        }
+    }
+}

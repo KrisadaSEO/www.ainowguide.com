@@ -1,0 +1,20 @@
+{
+  "font-body": "'Manrope', 'Segoe UI', sans-serif",
+  "font-display": "'Fraunces', Georgia, serif",
+  "color-bg": "#f4efe6",
+  "color-surface": "#fffaf4",
+  "color-surface-strong": "#171513",
+  "color-panel": "#efe5d4",
+  "color-panel-soft": "#fbf5eb",
+  "color-text": "#241d17",
+  "color-text-muted": "#6d5d50",
+  "color-accent": "#b46c30",
+  "color-gold": "#CC9933",
+  "color-accent-strong": "#8f5021",
+  "color-border": "#d7c6af",
+  "shadow-card": "0 18px 45px rgba(36, 29, 23, 0.08)",
+  "radius-large": "24px",
+  "radius-medium": "16px",
+  "radius-small": "10px",
+  "content-width": "1200px"
+}

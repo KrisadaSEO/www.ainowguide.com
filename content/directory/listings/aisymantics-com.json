@@ -1,0 +1,19 @@
+{
+    "type": "dir_listing",
+    "slug": "aisymantics-com",
+    "path": "portfolio/ai-digital-karma/aisymantics-com",
+    "category_path": "portfolio/ai-digital-karma",
+    "title": "aisymantics.com",
+    "canonical_url": "/directory/portfolio/ai-digital-karma/aisymantics-com/",
+    "directory_type": "portfolio",
+    "status": "published",
+    "template": "directory-listing",
+    "sidebar_profile": "authority-standard",
+    "fields": {
+        "status": "domain-only",
+        "tier": "authority",
+        "priority": "2",
+        "update": "Semantic AI brand \u2014 strong naming"
+    },
+    "updated_at": "2026-05-31"
+}

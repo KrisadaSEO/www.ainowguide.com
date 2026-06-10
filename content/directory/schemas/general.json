@@ -1,0 +1,11 @@
+{
+  "type": "general",
+  "label": "General",
+  "fields": [
+    { "key": "website", "label": "Website", "type": "url" },
+    { "key": "phone", "label": "Phone", "type": "text" },
+    { "key": "email", "label": "Email", "type": "email" },
+    { "key": "address", "label": "Address", "type": "text" },
+    { "key": "description", "label": "Description", "type": "textarea" }
+  ]
+}

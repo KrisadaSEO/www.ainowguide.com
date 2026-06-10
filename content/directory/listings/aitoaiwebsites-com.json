@@ -1,0 +1,20 @@
+{
+    "type": "dir_listing",
+    "slug": "aitoaiwebsites-com",
+    "path": "portfolio/ai-digital-karma/aitoaiwebsites-com",
+    "category_path": "portfolio/ai-digital-karma",
+    "title": "aitoaiwebsites.com",
+    "canonical_url": "/directory/portfolio/ai-digital-karma/aitoaiwebsites-com/",
+    "directory_type": "portfolio",
+    "status": "published",
+    "template": "directory-listing",
+    "sidebar_profile": "authority-standard",
+    "fields": {
+        "status": "domain-only",
+        "tier": "supporting",
+        "priority": "3",
+        "update": "Crossover: also serves c2 AI Website Systems",
+        "crossover": "AI Website Systems"
+    },
+    "updated_at": "2026-05-31"
+}

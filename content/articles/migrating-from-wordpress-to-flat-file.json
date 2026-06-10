@@ -1,0 +1,41 @@
+{
+    "type": "article",
+    "title": "Migrating from WordPress to a Flat-File System - What to Expect",
+    "slug": "migrating-from-wordpress-to-flat-file",
+    "canonical_url": "/article/migrating-from-wordpress-to-flat-file/",
+    "status": "published",
+    "excerpt": "Moving away from WordPress is a friendly evolution with benefits. Here is what the migration actually involves, what you gain, and what you give up.",
+    "body": "<p>WordPress is the default publishing platform for a reason. \"It's easy to understand\", It works, it has a massive ecosystem, and nearly every hosting provider supports it. </p>\n\n<p>Moving away from it is not a decision to take lightly ... and the reason to make the move is not that WordPress is bad.  </p>\n\n<p>It is that for a specific kind of site, a flat-file system is a better fit.</p>\n\n<p>Here is what a migration actually involves, without the evangelism.</p>\n\n<h2>What you are actually migrating</h2>\n\n<p>A WordPress site stores content in a MySQL database and renders it dynamically on every request. A flat-file PHP + JSON site stores content in files and renders it dynamically on every request. The rendering model is similar. The storage model is completely different.</p>\n\n<p>The migration work is mostly content extraction and reshaping. You need to get your posts, pages, categories, and metadata out of the database and into JSON files that match your new schema. WordPress has an XML export tool that gets you partway there ... the rest is transformation work.</p>\n\n<h2>The content extraction step</h2>\n\n<p>Export your WordPress content via Tools → Export. The resulting XML file contains every post, page, category, and tag, with metadata. It is AI machine-readable but not in the shape you want.</p>\n\n<p>Write a script ... or use an AI tool with the script ... to parse the XML and output JSON files in your content schema. The key fields to map: title, slug, content (body HTML), excerpt, publish date, categories, and tags. Everything else can be derived or defaulted.</p>\n\n<p>Expect to do a cleanup pass. WordPress content often contains shortcodes, plugin-specific HTML, and formatting assumptions that do not carry over cleanly. This is the labour-intensive part of the migration.</p>\n\n<h2>What you give up</h2>\n\n<p>The admin interface. There is no visual editor in a flat-file system unless you build one. Content editing happens in JSON files in a code editor or via AI-assisted prompts. For a solo operator comfortable with that workflow, this is a non-issue. For anyone who needs a visual interface, it is a dealbreaker.</p>\n\n<p>The plugin ecosystem. Every WordPress plugin you currently depend on needs a manual replacement. SEO plugins become structured data in templates. Form plugins become static HTML forms pointed at a form service. Caching plugins become unnecessary because there is no database query to cache.</p>\n\n<p>Automatic updates. WordPress core, theme, and plugin updates are a maintenance overhead, but they also deliver security patches automatically. A flat-file system puts that maintenance responsibility on you.</p>\n\n<h2>What you gain</h2>\n\n<p>Full control of the content structure. Your JSON schema is exactly what you designed it to be, with no WordPress conventions to work around. Every field serves your architecture, not the platform's.</p>\n\n<p>Version control for content. Every article, category, and config change is a git commit. You can see the full history of every change, roll back anything, and branch the content the same way you branch code.</p>\n\n<p>AI development compatibility. A flat-file site is significantly easier to build on with AI coding assistants. The content is visible, the schema is consistent, the rendering path is traceable. Changes are reliable in a way that WordPress plugin interactions make difficult.</p>\n\n<h2>The right moment to migrate</h2>\n\n<p>The right moment is a rebuild, not a migration. The cleanest path is to build the new system alongside the existing site, port the content you want to keep, and cut over when the new system is ready. Trying to migrate an active WordPress site incrementally while keeping it running is technically possible but significantly more work.</p>\n\n<p>If you are rebuilding anyway ... new design, new content structure, new direction ... the flat-file architecture is worth considering from the start rather than as a migration target later.</p>",
+    "publish_date": "2026-02-16",
+    "updated_at": "2026-05-03",
+    "author": "Atlas",
+    "category_primary": "content-systems/php-json-architecture",
+    "category_secondary": [
+        "content-systems",
+        "ai-website-systems/php-json-publishing"
+    ],
+    "tags": [
+        "wordpress-migration",
+        "flat-file",
+        "php-json",
+        "content-migration"
+    ],
+    "template": "article",
+    "sidebar_profile": "library-learning",
+    "seo": {
+        "title": "Migrating from WordPress to a Flat-File System - What to Expect | Krisada.com",
+        "description": "What a WordPress to flat-file migration actually involves ... the content extraction work, what you give up, what you gain, and the right moment to do it."
+    },
+    "related_content": [
+        "the-case-for-flat-file-publishing",
+        "php-json-as-a-machine-ready-stack",
+        "setting-up-php-json-for-ai-development"
+    ],
+    "is_featured": false,
+    "is_cornerstone": false,
+    "reading_time": 6,
+    "include_in_sitemap": true,
+    "authors": [
+        "atlas"
+    ]
+}

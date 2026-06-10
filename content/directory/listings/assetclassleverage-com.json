@@ -1,0 +1,18 @@
+{
+    "type": "dir_listing",
+    "slug": "assetclassleverage-com",
+    "path": "portfolio/digital-asset-investing/assetclassleverage-com",
+    "category_path": "portfolio/digital-asset-investing",
+    "title": "assetclassleverage.com",
+    "canonical_url": "/directory/portfolio/digital-asset-investing/assetclassleverage-com/",
+    "directory_type": "portfolio",
+    "status": "published",
+    "template": "directory-listing",
+    "sidebar_profile": "authority-standard",
+    "fields": {
+        "status": "domain-only",
+        "tier": "supporting",
+        "priority": "3"
+    },
+    "updated_at": "2026-05-31"
+}

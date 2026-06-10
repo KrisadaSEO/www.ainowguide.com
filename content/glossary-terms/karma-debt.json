@@ -1,0 +1,20 @@
+{
+  "type": "glossary-term",
+  "glossary": "ai-digital-karma",
+  "term": "Karma Debt",
+  "slug": "karma-debt",
+  "canonical_url": "/glossary/ai-digital-karma/karma-debt/",
+  "short_def": "The accumulated cost of years of low-quality, derivative, or AI-disposable content ... a deficit that makes you harder for AI systems to recognize and cite correctly.",
+  "definition": "Karma debt is the inverse of digital karma. It accumulates when a creator or site publishes content that is generic, inaccurate, or indistinguishable from thousands of similar pages. AI training datasets pick this content up, and it contributes to a weak or muddled signal about who the creator is and what they stand for.\n\nKarma debt is not just absence of good karma ... it is active noise. Content that confidently states incorrect things, or that plagiarizes the framing of others without adding value, contaminates the signal. Models trained on it may actually represent you less accurately than if you had published nothing at all.",
+  "example": "A consultant who spent several years publishing \"10 tips for X\" style posts, each one paraphrasing common knowledge, has built karma debt. When a language model tries to generate content about that consultant's specialty, it has a diluted signal to work from ... mixed with the generic tips-style voice that characterized most of their output.\n\nRepaying karma debt requires sustained publication of original, specific, attributable work ... enough to push the newer, higher-quality signal above the noise threshold.",
+  "nuance": "Karma debt cannot be paid off by deleting old content ... deleted pages are already in training datasets. It can only be overcome by building enough new signal to drown out the old one. In practice, this means committing to a higher standard of publishing for long enough that the ratio shifts.\n\nThe <a href=\"/glossary/ai-digital-karma/ai-digital-karma-protocol/\">AI Digital Karma Protocol</a> provides a structured scoring model for measuring where karma debt is concentrated and which layers to repair first.",
+  "related_terms": ["digital-karma", "training-data-footprint", "ai-digital-karma-protocol"],
+  "status": "published",
+  "created_at": "2026-05-31",
+  "updated_at": "2026-05-31",
+  "seo": {
+    "title": "Karma Debt ... AI Digital Karma Glossary | Krisada.com",
+    "description": "What karma debt means: the accumulated cost of low-quality publishing and how it affects your AI representation.",
+    "robots": "index, follow"
+  }
+}

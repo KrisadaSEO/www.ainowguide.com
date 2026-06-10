@@ -1,0 +1,19 @@
+{
+    "type": "dir_listing",
+    "slug": "olivesnavocados-com",
+    "path": "portfolio/healthcare-ai-longevity/olivesnavocados-com",
+    "category_path": "portfolio/healthcare-ai-longevity",
+    "title": "olivesnavocados.com",
+    "canonical_url": "/directory/portfolio/healthcare-ai-longevity/olivesnavocados-com/",
+    "directory_type": "portfolio",
+    "status": "published",
+    "template": "directory-listing",
+    "sidebar_profile": "authority-standard",
+    "fields": {
+        "status": "domain-only",
+        "tier": "passive",
+        "priority": "4",
+        "update": "Peripheral \u2014 food/natural health adjacent"
+    },
+    "updated_at": "2026-05-31"
+}

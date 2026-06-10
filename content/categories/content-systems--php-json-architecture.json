@@ -1,0 +1,22 @@
+{
+  "type": "category",
+  "title": "PHP + JSON Architecture",
+  "slug": "php-json-architecture",
+  "path": "content-systems/php-json-architecture",
+  "parent_slug": "content-systems",
+  "canonical_url": "/library/content-systems/php-json-architecture/",
+  "description": "Building flat-file publishing systems with PHP and JSON ... no database, no CMS overhead, full control.",
+  "intro": "PHP plus JSON is a publishing stack that most developers dismiss as too simple. That is exactly why it works. No database means no dependency, no performance ceiling, no CMS lock-in. Content lives in versioned files. Templates stay thin. The whole system is portable, auditable, and easy to automate.",
+  "status": "published",
+  "sort_order": 1,
+  "template": "category",
+  "sidebar_profile": "library-learning",
+  "seo": {
+    "title": "PHP + JSON Architecture ... Content Systems ... Krisada.com",
+    "description": "Learn how to build flat-file publishing systems with PHP and JSON ... portable, fast, and easy to automate."
+  },
+  "relationships": {
+    "related_categories": ["content-schemas", "ai-assisted-publishing"]
+  },
+  "updated_at": "2026-03-06"
+}
