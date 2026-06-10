@@ -2632,6 +2632,7 @@ h6 {
 .site-header {
     position: fixed;
     inset: 0 0 auto;
+    z-index: 1000;
     min-height: var(--header-height, 68px);
     background: rgba(3, 8, 13, 0.9);
     border-bottom: 1px solid rgba(54, 197, 215, 0.16);
@@ -3261,6 +3262,7 @@ h6 {
         display: none;
         position: fixed;
         inset: var(--header-height, 68px) 0 0;
+        z-index: 1001;
         overflow-y: auto;
         padding: 1.5rem;
         background: rgba(3, 8, 13, 0.98);
