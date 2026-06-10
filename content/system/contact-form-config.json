@@ -2,9 +2,9 @@
   "_schema": "contact-form-config/v1",
   "_type": "contact-form",
   "delivery": {
-    "to_email": "hello@krisada.com",
-    "from_email": "hello@krisada.com",
-    "from_name": "Krisada.com Contact"
+    "to_email": "hello@ainowguide.com",
+    "from_email": "hello@ainowguide.com",
+    "from_name": "AI Now Guide Contact"
   },
   "spam_protection": {
     "honeypot_field": "company",

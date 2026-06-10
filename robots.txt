@@ -5,4 +5,4 @@ Allow: /
 Allow: /llm.txt
 Allow: /ai/
 
-Sitemap: https://www.krisada.com/sitemap.xml
+Sitemap: https://www.ainowguide.com/sitemap.xml

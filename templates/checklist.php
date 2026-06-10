@@ -6,7 +6,7 @@ $subscribeError = site_flash_consume('subscribe.error');
 
 <div class="checklist-page" data-checklist-app>
     <header class="checklist-hero">
-        <div class="checklist-hero__eyebrow">Krisada.com</div>
+        <div class="checklist-hero__eyebrow">AI Now Guide</div>
         <h1 class="checklist-hero__title">The Digital Independence Self-Assessment</h1>
         <p class="checklist-hero__sub">Answer 10 guided questions, open the plain-English explanations anywhere the wording feels fuzzy, and use the score to see what to fix first.</p>
 
@@ -188,6 +188,6 @@ $subscribeError = site_flash_consume('subscribe.error');
     </section>
 
     <footer class="checklist-footer">
-        <span>krisada.com</span>
+        <span>ainowguide.com</span>
     </footer>
 </div>

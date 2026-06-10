@@ -18,7 +18,7 @@
         },
         {
             "from": "/blog/",
-            "to": "https://www.krisada.com/library/",
+            "to": "/library/",
             "type": 301,
             "created_at": "2026-05-03 09:21:36"
         },
@@ -78,7 +78,7 @@
         },
         {
             "from": "/blogs-articles-by-krisada/website-monetization-in-2026.html/",
-            "to": "https://www.krisada.com/article/2026-top-10-website-problems-solved/",
+            "to": "/article/2026-top-10-website-problems-solved/",
             "type": 301,
             "created_at": "2026-05-28 11:46:27"
         },
@@ -90,13 +90,13 @@
         },
         {
             "from": "/blogs-articles-by-krisada/mastering-programmatic-advertising-a-comprehensive-guide-for-online-marketing-professionals.html/",
-            "to": "https://www.krisada.com/article/2026-top-10-website-problems-solved/",
+            "to": "/article/2026-top-10-website-problems-solved/",
             "type": 301,
             "created_at": "2026-05-28 11:51:27"
         },
         {
             "from": "/blogs-articles-by-krisada/digital-marketing/decoding-the-essence-of-seo-the-comprehensive-guide-to-seo-websites-and-their-invaluable-role-in-google-search-marketing.html/",
-            "to": "https://www.krisada.com/article/2026-top-10-website-problems-solved/",
+            "to": "/article/2026-top-10-website-problems-solved/",
             "type": 301,
             "created_at": "2026-05-28 11:51:41"
         },

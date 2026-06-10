@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Admin Login ... Krisada.com</title>
+  <title>Admin Login ... AI Now Guide</title>
   <meta name="robots" content="noindex, nofollow">
   <link rel="stylesheet" href="/assets/css/style.css">
   <link rel="stylesheet" href="/assets/css/admin.css">
@@ -20,7 +20,7 @@ $currentPath = site_normalize_path($_SERVER['REQUEST_URI'] ?? '/');
 <header class="site-header">
   <div class="site-header__inner">
     <div class="site-logo">
-      <a href="/">Krisada<span>.com</span></a>
+      <a href="/">AI Now <span>Guide</span></a>
     </div>
     <nav class="site-nav" aria-label="Primary navigation">
       <ul class="site-nav__list">
@@ -59,7 +59,7 @@ $currentPath = site_normalize_path($_SERVER['REQUEST_URI'] ?? '/');
   <div class="admin-login-card">
 
     <div class="admin-login-brand">
-      <div class="admin-login-brand__site">Krisada.com</div>
+      <div class="admin-login-brand__site">AI Now Guide</div>
       <div class="admin-login-brand__label">Admin Panel</div>
     </div>
 

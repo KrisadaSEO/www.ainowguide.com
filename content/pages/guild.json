@@ -7,7 +7,7 @@
   "hide_sidebar": true,
   "updated_at": "2026-04-21",
   "seo": {
-    "title": "The Marketing Guild for Quiet People | Krisada.com",
+    "title": "The Marketing Guild for Quiet People | AI Now Guide",
     "description": "Earn a quiet living online ... no followers, no fame, no fake hustle. 1 Mouse Marketing is a learn-and-earn apprenticeship for independent thinkers who prefer building over bragging."
   },
   "schema": {
@@ -16,7 +16,7 @@
       "name": "1 Mouse Marketing",
       "url": "https://www.1mousemarketing.com",
       "description": "A learn-and-earn apprenticeship guild for people who build digital assets quietly.",
-      "founder": { "@id": "https://www.krisada.com/#person" }
+      "founder": { "@id": "https://www.ainowguide.com/#person" }
     }
   }
 }

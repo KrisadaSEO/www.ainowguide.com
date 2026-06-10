@@ -7,7 +7,7 @@
   "hide_sidebar": true,
   "updated_at": "2026-04-21",
   "seo": {
-    "title": "Work With Me | Krisada.com",
+    "title": "Work With Me | AI Now Guide",
     "description": "A single, scoped site audit. I review your digital system and tell you exactly what's broken, what's working, and what to fix first. $497. One deliverable. No retainer."
   },
   "schema": {
@@ -15,7 +15,7 @@
       "@type": "Service",
       "name": "Site Audit",
       "description": "A written audit reviewing content architecture, AI visibility gaps, search signal analysis, internal linking, and prioritised next steps for your digital presence.",
-      "provider": { "@id": "https://www.krisada.com/#person" },
+      "provider": { "@id": "https://www.ainowguide.com/#person" },
       "offers": {
         "@type": "Offer",
         "price": "497",

@@ -255,7 +255,7 @@
     "schema": {
         "main_entity": {
             "@type": "Person",
-            "@id": "https://www.krisada.com/#person",
+            "@id": "https://www.ainowguide.com/#person",
             "name": "Krisada"
         },
         "about": [

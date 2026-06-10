@@ -25,7 +25,17 @@
             "file": "federation.json",
             "type": "json",
             "description": "Federation v7.0 node declaration"
+        },
+        {
+            "file": "karma.json",
+            "type": "json",
+            "description": "Machine-readable trust and quality signals"
+        },
+        {
+            "file": "health.json",
+            "type": "json",
+            "description": "Content and endpoint health summary"
         }
     ],
-    "generated_at": "2026-06-10T14:29:06+00:00"
+    "generated_at": "2026-06-10T15:05:08+00:00"
 }

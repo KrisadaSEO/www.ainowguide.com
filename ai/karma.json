@@ -1,19 +1,19 @@
 {
     "_generated": "Do not edit manually. Run: php scripts/build-federation.php",
     "federation_version": "7.0",
-    "site": "Krisada.com",
-    "canonical_url": "https://www.krisada.com",
+    "site": "AI Now Guide",
+    "canonical_url": "https://www.ainowguide.com",
     "digital_karma_score": 0.72,
     "badge": "Karma Certified",
     "signals": {
         "schema_coverage": 0.85,
         "content_freshness": 0.8,
-        "ai_endpoints": 1.0,
-        "federation_presence": 1.0,
+        "ai_endpoints": 1,
+        "federation_presence": 1,
         "external_links": 0.7,
         "technical_quality": 0.8,
         "dataset_quality": 0.6
     },
-    "updated_at": "2026-04-17T00:00:00+00:00",
-    "notes": "Score is calculated per v7.0 spec. Badge is 'Karma Certified'."
+    "updated_at": "2026-06-10T15:05:08+00:00",
+    "notes": "Score is calculated per Federation v7.0 specification."
 }

@@ -26,7 +26,7 @@ $heroCta2Url   = (string) ($record['hero_cta_2_url'] ?? '/');
                 <?php if ($heroHeadline !== ''): ?>
                     <span class="headline-breakable"><?= implode('<br>', array_map('htmlspecialchars', array_map('trim', explode("\n", $heroHeadline)))) ?></span>
                 <?php else: ?>
-                    Build Your <em><a href="https://www.krisada.com/library/digital-life/" style="color:inherit;text-decoration:underline;">Online Digital Life</a></em><br>With Clarity.
+                    Build Your <em><a href="/library/digital-life/" style="color:inherit;text-decoration:underline;">Online Digital Life</a></em><br>With Clarity.
                 <?php endif; ?>
             </h1>
             <p class="home-hero__sub" style="display: flex; align-items: center; gap: 5px; max-width: 650px; text-align: left;">
@@ -99,35 +99,35 @@ $heroCta2Url   = (string) ($record['hero_cta_2_url'] ?? '/');
                 In traditional markets, that's called insider trading. You're not allowed.<br/><br/>
                 But domain websites are a different asset class entirely. Here, the work you put in directly shapes the value. You acquire, you build, you monetize, you exit.<br/><br/>
                 You're not betting on the market. You <em>are</em> the market.<br/><br/>
-                Krisada.com is where we document the whole thing ... from acquisition to liquidation, live and in public.
+                AI Now Guide is where we document the whole thing ... from acquisition to liquidation, live and in public.
                 <br/><br/><a href="/article/you-cant-do-this-on-wall-street/">Learn more &rarr;</a>
             </p>
             <div class="pillars-grid">
                 <div class="pillar-card">
                     <span class="pillar-card__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="40" height="40" aria-hidden="true"><rect width="40" height="40" rx="10" fill="#CC9933"/><circle cx="20" cy="20" r="11" fill="none" stroke="#fffaf4" stroke-width="1.5"/><ellipse cx="20" cy="20" rx="5.5" ry="11" fill="none" stroke="#fffaf4" stroke-width="1.2"/><line x1="9" y1="20" x2="31" y2="20" stroke="#fffaf4" stroke-width="1.2"/><path d="M10.5 15.5 Q20 13.5 29.5 15.5" fill="none" stroke="#fffaf4" stroke-width="1"/><path d="M10.5 24.5 Q20 26.5 29.5 24.5" fill="none" stroke="#fffaf4" stroke-width="1"/></svg></span>
                     <h2 class="pillar-card__title">
-                        <a href="https://www.krisada.com/article/what-website-ownership-actually-means/" style="color:inherit;text-decoration:underline;">Website Property&nbsp;&nbsp;Ownership</a>
+                        <a href="/article/what-website-ownership-actually-means/" style="color:inherit;text-decoration:underline;">Website Property&nbsp;&nbsp;Ownership</a>
                     </h2>
                     <p class="pillar-card__body">If someone else can take it away, take it down, keep you from selling it, shadow ban you, or censor you in any way...YOU don't own it. You're renting.</p>
                 </div>
                 <div class="pillar-card">
                     <span class="pillar-card__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="40" height="40" aria-hidden="true"><rect width="40" height="40" rx="10" fill="#CC9933"/><path d="M7 20 C 10 13 30 13 33 20 C 30 27 10 27 7 20 Z" fill="none" stroke="#fffaf4" stroke-width="1.5"/><circle cx="20" cy="20" r="5" fill="none" stroke="#fffaf4" stroke-width="1.5"/><circle cx="20" cy="20" r="2" fill="#fffaf4"/></svg></span>
                     <h2 class="pillar-card__title">
-                        <a href="https://www.krisada.com/library/visibility-search/" style="color:inherit;text-decoration:underline;">AI-Era Visibility</a>
+                        <a href="/library/visibility-search/" style="color:inherit;text-decoration:underline;">AI-Era Visibility</a>
                     </h2>
                     <p class="pillar-card__body">AI discovery is reshaping how content gets found and interpreted. Structure and AI machine-readable context are becoming the new ranking signal.</p>
                 </div>
                 <div class="pillar-card">
                     <span class="pillar-card__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="40" height="40" aria-hidden="true"><rect width="40" height="40" rx="10" fill="#CC9933"/><g transform="translate(20,20)"><rect x="-2" y="-13" width="4" height="5" rx="1" fill="#fffaf4" transform="rotate(0)"/><rect x="-2" y="-13" width="4" height="5" rx="1" fill="#fffaf4" transform="rotate(60)"/><rect x="-2" y="-13" width="4" height="5" rx="1" fill="#fffaf4" transform="rotate(120)"/><rect x="-2" y="-13" width="4" height="5" rx="1" fill="#fffaf4" transform="rotate(180)"/><rect x="-2" y="-13" width="4" height="5" rx="1" fill="#fffaf4" transform="rotate(240)"/><rect x="-2" y="-13" width="4" height="5" rx="1" fill="#fffaf4" transform="rotate(300)"/><circle r="8.5" fill="#fffaf4"/><circle r="4" fill="#CC9933"/></g></svg></span>
                     <h2 class="pillar-card__title">
-                        <a href="https://www.krisada.com/library/content-systems/" style="color:inherit;text-decoration:underline;">Systems Over Hacks</a>
+                        <a href="/library/content-systems/" style="color:inherit;text-decoration:underline;">Systems Over Hacks</a>
                     </h2>
                     <p class="pillar-card__body">Most people are still being taught outdated models. Repeatable systems outlast every tactic cycle and build real digital leverage.</p>
                 </div>
                 <div class="pillar-card">
                     <span class="pillar-card__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="40" height="40" aria-hidden="true"><rect width="40" height="40" rx="10" fill="#CC9933"/><path d="M15 24 C 13.5 18 16 9 20 8.5 C 24 9 26.5 18 25 24" fill="none" stroke="#fffaf4" stroke-width="1.5" stroke-linecap="round"/><line x1="15" y1="24" x2="15" y2="28" stroke="#fffaf4" stroke-width="1.5" stroke-linecap="round"/><line x1="25" y1="24" x2="25" y2="28" stroke="#fffaf4" stroke-width="1.5" stroke-linecap="round"/><line x1="15" y1="28" x2="25" y2="28" stroke="#fffaf4" stroke-width="1.5"/><line x1="16.5" y1="30.5" x2="23.5" y2="30.5" stroke="#fffaf4" stroke-width="1.5"/><line x1="18" y1="33" x2="22" y2="33" stroke="#fffaf4" stroke-width="1.5"/></svg></span>
                     <h2 class="pillar-card__title">
-                        <a href="https://www.krisada.com/library/start-here/" style="color:inherit;text-decoration:underline;">Think, Not Just Click</a>
+                        <a href="/library/start-here/" style="color:inherit;text-decoration:underline;">Think, Not Just Click</a>
                     </h2>
                     <p class="pillar-card__body">The goal is teaching you how to think about digital strategy ... not a checklist of buttons. Long-term authority comes from understanding the machine.</p>
                 </div>
@@ -224,7 +224,7 @@ $heroCta2Url   = (string) ($record['hero_cta_2_url'] ?? '/');
 
         <!-- Tier 4 membership teaser -->
         <div class="tier4-teaser">
-            <p><strong>Something else is coming.</strong> Inside Krisada will be a low-cost monthly membership for people building owned digital assets &mdash; monthly strategy notes, a private community, and early access to new guides. No launch date yet. <a href="/contact/?intent=guild-waitlist">Join the early-interest list</a> if you want to know when it opens.</p>
+            <p><strong>The archive will keep expanding.</strong> AI Now Guide memberships will add full session access, build notes, channel subscriptions, and group workshops as the media library grows. <a href="/contact/?intent=guild-waitlist">Join the early-interest list</a> for updates.</p>
         </div>
 
         <!-- Proof / CTA banner -->

@@ -1,6 +1,6 @@
 <?php
 /**
- * bootstrap.php ... Application core for krisada.com
+ * bootstrap.php ... Application core for AINowGuide.com
  *
  * INTENTIONALLY MONOLITHIC. Do not split into lib/ or separate files.
  * All functions, routing, content loading, and sidebar resolution live here.
@@ -454,7 +454,7 @@ function site_admin_token(): string
         return $token;
     }
 
-    return '5124-krisada-admin';
+    return '5124-ainowguide-admin';
 }
 
 function site_verify_admin_token(): bool
@@ -1163,7 +1163,7 @@ function site_json_ld_base_graph(): array
             '@id' => $websiteId,
             '@type' => 'WebSite',
             'url' => site_absolute_url('/'),
-            'name' => (string) ($site['name'] ?? 'Krisada.com'),
+            'name' => (string) ($site['name'] ?? 'AI Now Guide'),
             'description' => (string) ($site['description'] ?? ''),
             'inLanguage' => (string) ($site['locale'] ?? 'en'),
             'publisher' => ['@id' => $organizationId],
@@ -1185,7 +1185,7 @@ function site_json_ld_base_graph(): array
         site_json_ld_clean([
             '@id' => $dataCatalogId,
             '@type' => 'DataCatalog',
-            'name' => ((string) ($site['name'] ?? 'Krisada.com')) . ' AI Content Catalog',
+            'name' => ((string) ($site['name'] ?? 'AI Now Guide')) . ' AI Content Catalog',
             'description' => 'Machine-readable content index and AI foundation layer for ' . ((string) ($site['name'] ?? 'AI Now Guide')) . '.',
             'url' => site_absolute_url('/ai/catalog.json'),
             'publisher' => ['@id' => $personId],
@@ -1194,7 +1194,7 @@ function site_json_ld_base_graph(): array
         site_json_ld_clean([
             '@id' => $datasetId,
             '@type' => 'Dataset',
-            'name' => ((string) ($site['name'] ?? 'Krisada.com')) . ' Content Library',
+            'name' => ((string) ($site['name'] ?? 'AI Now Guide')) . ' Content Library',
             'description' => (string) ($site['description'] ?? ''),
             'url' => site_absolute_url('/library/'),
             'creator' => ['@id' => $personId],
@@ -1749,7 +1749,7 @@ function site_build_json_ld(array $resolved, array $view): array
                     '@id'            => $audioObjectId,
                     '@type'          => 'AudioObject',
                     'name'           => 'Homepage Audio Summary',
-                    'description'    => 'AI-generated audio summary of Krisada.com',
+                    'description'    => 'AI-generated audio summary of AI Now Guide',
                     'contentUrl'     => site_absolute_url('/assets/audio/homepage.mp3'),
                     'encodingFormat' => 'audio/mpeg',
                     'transcript'     => $audioTranscript,
@@ -3662,7 +3662,7 @@ function site_prepare_view(array $resolved): array
             'type' => $socialType,
             'image' => $socialImage,
             'twitter_card' => $twitterCard,
-            'site_name' => (string) (site_app()['site']['name'] ?? 'Krisada.com'),
+            'site_name' => (string) (site_app()['site']['name'] ?? 'AI Now Guide'),
         ],
         'json_ld' => [],
     ];
@@ -4002,8 +4002,8 @@ function site_process_contact_form(): never
         exit;
     }
 
-    $siteName      = (string) (site_app()['site']['name'] ?? 'Krisada.com');
-    $toEmail       = (string) ($delivery['to_email'] ?? 'hello@krisada.com');
+    $siteName      = (string) (site_app()['site']['name'] ?? 'AI Now Guide');
+    $toEmail       = (string) ($delivery['to_email'] ?? 'hello@ainowguide.com');
     $fromEmail     = (string) ($delivery['from_email'] ?? $toEmail);
     $fromName      = (string) ($delivery['from_name'] ?? $siteName . ' Contact');
 
@@ -4069,7 +4069,7 @@ function site_process_contact_form(): never
     site_flash_set('contact.old', $values);
     site_flash_set('contact.status', [
         'type'    => 'error',
-        'message' => (string) ($copy['fallback_note'] ?? 'The form could not be sent. Please email hello@krisada.com directly.'),
+        'message' => (string) ($copy['fallback_note'] ?? 'The form could not be sent. Please email hello@ainowguide.com directly.'),
     ]);
     header('Location: ' . $redirectUrl, true, 303);
     exit;
@@ -4313,8 +4313,8 @@ function site_db_delete_download_access(string $downloadSlug): void
 function site_send_assessment_results_email(string $email, array $assessment): bool
 {
     $site       = site_app()['site'];
-    $siteName   = (string) ($site['name'] ?? 'Krisada.com');
-    $fromEmail  = (string) ($site['contact']['email'] ?? 'hello@krisada.com');
+    $siteName   = (string) ($site['name'] ?? 'AI Now Guide');
+    $fromEmail  = (string) ($site['contact']['email'] ?? 'hello@ainowguide.com');
     $summary    = is_array($assessment['summary'] ?? null) ? $assessment['summary'] : ['summary' => '', 'detail' => ''];
     $focusAreas = is_array($assessment['focus_areas'] ?? null) ? $assessment['focus_areas'] : [];
     $answers    = is_array($assessment['answers'] ?? null) ? $assessment['answers'] : [];
@@ -4380,8 +4380,8 @@ function site_send_assessment_results_email(string $email, array $assessment): b
 function site_send_subscribe_notification(string $email, bool $isNew, string $source, array $assessment = []): void
 {
     $site     = site_app()['site'];
-    $siteName = (string) ($site['name'] ?? 'Krisada.com');
-    $toEmail  = (string) ($site['contact']['email'] ?? 'hello@krisada.com');
+    $siteName = (string) ($site['name'] ?? 'AI Now Guide');
+    $toEmail  = (string) ($site['contact']['email'] ?? 'hello@ainowguide.com');
 
     $subject = '=?UTF-8?B?' . base64_encode('[' . $siteName . '] Subscriber: ' . $email) . '?=';
     $bodyLines = [
@@ -4636,8 +4636,8 @@ function site_download_source_info(array $download): array
 function site_send_download_access_email(string $email, array $download, string $accessUrl): bool
 {
     $site = site_app()['site'];
-    $siteName = (string) ($site['name'] ?? 'Krisada.com');
-    $fromEmail = (string) ($site['contact']['email'] ?? 'hello@krisada.com');
+    $siteName = (string) ($site['name'] ?? 'AI Now Guide');
+    $fromEmail = (string) ($site['contact']['email'] ?? 'hello@ainowguide.com');
     $subjectText = trim((string) ($download['email_subject'] ?? ''));
 
     if ($subjectText === '') {
@@ -5606,7 +5606,7 @@ function admin_git_push_all(string $commit_msg): array
         return ['status' => 'error', 'output' => implode("\n", array_filter($lines))];
     }
 
-    [$out, $pushCode] = $run("git -C " . escapeshellarg($repo) . " push git@github.com:KrisadaSEO/www.krisada.com main");
+    [$out, $pushCode] = $run("git -C " . escapeshellarg($repo) . " push git@github.com:KrisadaSEO/www.ainowguide.com main");
     $lines[]          = $out;
 
     $status = ($pushCode === 0) ? 'success' : 'error';
@@ -5627,7 +5627,7 @@ function admin_git_commit_and_push(string $abs_path, string $commit_msg): void
         return;
     }
 
-    $remote = 'https://' . rawurlencode($token) . '@github.com/KrisadaSEO/www.krisada.com.git';
+    $remote = 'https://' . rawurlencode($token) . '@github.com/KrisadaSEO/www.ainowguide.com.git';
 
     $cmd = '('
         . 'cd ' . escapeshellarg($root)

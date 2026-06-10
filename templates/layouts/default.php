@@ -5,16 +5,16 @@ $view       = $view ?? [];
 $record     = $view['record'] ?? [];
 $site       = $view['site'] ?? [];
 $type       = $view['type'] ?? 'page';
-$title      = site_e($view['title'] ?? 'Krisada.com');
+$title      = site_e($view['title'] ?? 'AI Now Guide');
 $description = site_e($view['description'] ?? '');
 $social     = $view['social'] ?? [];
-$socialTitle = site_e((string) ($social['title'] ?? $view['title'] ?? 'Krisada.com'));
+$socialTitle = site_e((string) ($social['title'] ?? $view['title'] ?? 'AI Now Guide'));
 $socialDescription = site_e((string) ($social['description'] ?? $view['description'] ?? ''));
 $socialUrl = site_e((string) ($social['url'] ?? $view['canonical_url'] ?? ''));
 $socialType = site_e((string) ($social['type'] ?? 'website'));
 $socialImage = trim((string) ($social['image'] ?? ''));
 $twitterCard = site_e((string) ($social['twitter_card'] ?? 'summary'));
-$siteName = site_e((string) ($social['site_name'] ?? $site['name'] ?? 'Krisada.com'));
+$siteName = site_e((string) ($social['site_name'] ?? $site['name'] ?? 'AI Now Guide'));
 $breadcrumbs = $view['breadcrumbs'] ?? [];
 $sidebarBlocks = $view['sidebar_blocks'] ?? [];
 $templatePath  = $view['template_path'] ?? '';
@@ -75,7 +75,7 @@ $hideSidebar   = (bool) ($view['hide_sidebar'] ?? false);
         <div class="site-header__inner">
             <div class="site-logo">
                 <?php
-                $siteName   = (string) ($site['name'] ?? 'Krisada.com');
+                $siteName   = (string) ($site['name'] ?? 'AI Now Guide');
                 $dotPos     = strrpos($siteName, '.');
                 $logoPrefix = $dotPos !== false ? substr($siteName, 0, $dotPos) : $siteName;
                 $logoSuffix = $dotPos !== false ? '.' . substr($siteName, $dotPos + 1) : '';
@@ -182,7 +182,7 @@ $hideSidebar   = (bool) ($view['hide_sidebar'] ?? false);
         <div class="site-footer__inner">
             <div class="site-footer__top">
                 <div>
-                    <div class="site-footer__brand-name"><?= site_e($site['name'] ?? 'Krisada.com') ?></div>
+                    <div class="site-footer__brand-name"><?= site_e($site['name'] ?? 'AI Now Guide') ?></div>
                     <p class="site-footer__tagline"><?= site_e($site['tagline'] ?? '') ?></p>
                     <?php if (!empty($site['contact']['email'])): ?>
                     <p class="site-footer__phone"><a href="mailto:<?= site_e($site['contact']['email']) ?>"><?= site_e($site['contact']['email']) ?></a></p>
@@ -232,7 +232,7 @@ $hideSidebar   = (bool) ($view['hide_sidebar'] ?? false);
                 </div>
             </div>
             <div class="site-footer__bottom">
-                <span><a href="/admin/login" style="text-decoration:none;color:inherit;" title="Admin login">&copy;</a> <?= date('Y') ?> <?= site_e($site['name'] ?? 'Krisada.com') ?>. All rights reserved.</span>
+                <span><a href="/admin/login" style="text-decoration:none;color:inherit;" title="Admin login">&copy;</a> <?= date('Y') ?> <?= site_e($site['name'] ?? 'AI Now Guide') ?>. All rights reserved.</span>
                 <?php if ($isPublicView && $pageViewsText !== ''): ?>
                 <span class="page-view-counter" aria-label="Page views for this page">
                     <strong>This page:</strong> <?= site_e($pageViewsText) ?>

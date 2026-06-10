@@ -1,11 +1,11 @@
 {
   "federation": "v7.0",
-  "node_role": "authority",
-  "site_name": "Krisada.com",
-  "canonical_domain": "https://www.krisada.com",
-  "supported_content_types": ["article", "category", "page"],
-  "related_properties": [],
-  "machine_summary": "Krisada.com is a human-facing authority node and AI machine-readable content node.",
+  "node_role": "public session archive and build-in-public media node",
+  "site_name": "AI Now Guide",
+  "canonical_domain": "https://www.ainowguide.com",
+  "supported_content_types": ["article", "category", "page", "session", "channel", "directory"],
+  "related_properties": ["www.krisada.com", "www.realseolife.com", "www.leveragebuilder.com"],
+  "machine_summary": "AI Now Guide documents the real-time construction of an AI-first digital asset portfolio.",
   "version": "7.0",
   "compatibility_notes": "Compatible with Federation v7.0 spec."
 }

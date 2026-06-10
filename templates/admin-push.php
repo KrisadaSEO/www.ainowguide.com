@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Push to GitHub ... Krisada.com Admin</title>
+  <title>Push to GitHub ... AI Now Guide Admin</title>
   <meta name="robots" content="noindex, nofollow">
   <link rel="stylesheet" href="/assets/css/style.css">
   <link rel="stylesheet" href="/assets/css/admin.css">

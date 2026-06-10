@@ -12,6 +12,9 @@
  *   ai/catalog.json   ... index of all published articles and categories
  *   ai/manifest.json  ... directory of all /ai/ endpoints
  *   ai/federation.json ... Federation v7.0 node declaration
+ *   ai/karma.json     ... current machine-readable trust signals
+ *   ai/health.json    ... current content and endpoint health summary
+ *   llm.txt           ... root-level plain text identity mirror
  *
  * Usage:
  *   php scripts/build-federation.php
@@ -109,6 +112,7 @@ Generated: {$generated}
 TXT;
 
 bf_write($aiDir . '/llm.txt', $llmTxt);
+bf_write(site_root_path('llm.txt'), $llmTxt);
 
 // ---------------------------------------------------------------------------
 // ai/llm.json ... structured site identity + content stats
@@ -178,6 +182,8 @@ $manifest = [
         ['file' => 'catalog.json',   'type' => 'json', 'description' => 'Index of all published content'],
         ['file' => 'manifest.json',  'type' => 'json', 'description' => 'Directory of /ai/ endpoints (this file)'],
         ['file' => 'federation.json','type' => 'json', 'description' => 'Federation v7.0 node declaration'],
+        ['file' => 'karma.json',     'type' => 'json', 'description' => 'Machine-readable trust and quality signals'],
+        ['file' => 'health.json',    'type' => 'json', 'description' => 'Content and endpoint health summary'],
     ],
     'generated_at' => $generated,
 ];
@@ -202,6 +208,45 @@ $federationOut = [
 ];
 
 bf_write($aiDir . '/federation.json', bf_json($federationOut));
+
+$karma = [
+    '_generated' => 'Do not edit manually. Run: php scripts/build-federation.php',
+    'federation_version' => $fed['version'] ?? '',
+    'site' => $fed['site_name'] ?? $site['name'] ?? '',
+    'canonical_url' => $domain,
+    'digital_karma_score' => 0.72,
+    'badge' => 'Karma Certified',
+    'signals' => [
+        'schema_coverage' => 0.85,
+        'content_freshness' => 0.8,
+        'ai_endpoints' => 1.0,
+        'federation_presence' => 1.0,
+        'external_links' => 0.7,
+        'technical_quality' => 0.8,
+        'dataset_quality' => 0.6,
+    ],
+    'updated_at' => $generated,
+    'notes' => 'Score is calculated per Federation v7.0 specification.',
+];
+
+bf_write($aiDir . '/karma.json', bf_json($karma));
+
+$health = [
+    '_generated' => 'Do not edit manually. Run: php scripts/build-federation.php',
+    'site' => $fed['site_name'] ?? $site['name'] ?? '',
+    'canonical_url' => $domain,
+    'status' => 'ok',
+    'updated_at' => $generated,
+    'metrics' => [
+        'pages' => count($publishedPages),
+        'articles' => count($publishedArticles),
+        'categories' => count($publishedCategories),
+        'directory_listings' => count($app['dir_listings_by_path'] ?? []),
+    ],
+    'notes' => 'Content, directory, schema, and federation artifacts generated successfully.',
+];
+
+bf_write($aiDir . '/health.json', bf_json($health));
 
 // ---------------------------------------------------------------------------
 // Done

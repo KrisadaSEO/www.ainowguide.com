@@ -8,7 +8,7 @@ if (isset($_GET['logout'])) {
 }
 
 define('SAVE_PASSWORD', 'Sumaleerk5124!');
-define('REPO', '/home/webserver005/public_html/krisada.com');
+define('REPO', '/home/webserver005/public_html/ainowguide.com');
 
 $loggedIn = isset($_SESSION['git_auth']);
 $output   = '';
@@ -51,7 +51,7 @@ if ($loggedIn && isset($_POST['message'])) {
     if ($nothingToCommit) {
         $status = 'nothing';
     } elseif ($commitCode === 0) {
-        [$out, $pushCode] = git_run("git -C $repo push git@github.com:KrisadaSEO/www.krisada.com main");
+        [$out, $pushCode] = git_run("git -C $repo push git@github.com:KrisadaSEO/www.ainowguide.com main");
         $lines[]  = $out;
         $status = ($pushCode === 0) ? 'success' : 'error';
     } else {
@@ -101,7 +101,7 @@ unset($_SESSION['flash_status'], $_SESSION['flash_output']);
 <body>
 <div class="card">
   <h1>Save to GitHub</h1>
-  <p class="sub">Krisada.com &mdash; push live edits to main</p>
+  <p class="sub">AI Now Guide ... push live edits to main</p>
 
   <?php if (!$loggedIn): ?>
 

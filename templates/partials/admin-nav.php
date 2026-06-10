@@ -5,7 +5,7 @@ $_active = $admin_section ?? '';
   <div class="admin-nav__inner">
 
     <a href="/admin/" class="admin-nav__brand" aria-label="Admin dashboard">
-      <span class="admin-nav__brand-site">Krisada.com</span>
+      <span class="admin-nav__brand-site">AI Now Guide</span>
       <span class="admin-nav__brand-label">Admin</span>
     </a>
 

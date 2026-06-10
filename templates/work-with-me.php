@@ -23,7 +23,7 @@ $record = $view['record'] ?? [];
 
 <section class="audit-section">
     <h2 class="audit-section__title">What You Get</h2>
-    <p>A written audit report delivered within 5&ndash;7 business days. Clear, prioritised, actionable. Written for operators, not beginners.</p>
+    <p>A written audit report delivered within 5 to 7 business days. Clear, prioritised, actionable. Written for professionals, not beginners.</p>
     <p>No slides. No fluff. No upsell at the end.</p>
 </section>
 
@@ -46,7 +46,7 @@ $record = $view['record'] ?? [];
         </div>
         <div class="pricing-table__row">
             <span class="pricing-table__label">Turnaround</span>
-            <span class="pricing-table__value">5&ndash;7 business days</span>
+            <span class="pricing-table__value">5 to 7 business days</span>
         </div>
         <div class="pricing-table__row">
             <span class="pricing-table__label">Delivery</span>
@@ -70,5 +70,5 @@ $record = $view['record'] ?? [];
 </div>
 
 <div class="tier4-teaser">
-    <p><strong>Something else is coming.</strong> Inside Krisada will be a low-cost monthly membership for people building owned digital assets &mdash; monthly strategy notes, a private community, and early access to new guides. No launch date yet. If you want to know when it opens, <a href="/contact/?intent=guild-waitlist">join the early-interest list</a>.</p>
+    <p><strong>The archive will keep expanding.</strong> AI Now Guide memberships will add full session access, build notes, channel subscriptions, and group workshops as the media library grows. <a href="/contact/?intent=guild-waitlist">Join the early-interest list</a> for updates.</p>
 </div>

@@ -15,7 +15,7 @@ $description = $view['description'] ?? '';
 </head>
 <body>
     <header>
-        <h1><a href="/">Krisada.com</a></h1>
+        <h1><a href="/">AI Now Guide</a></h1>
     </header>
     <main style="max-width:600px;margin:2rem auto;">
         <h2><?= htmlspecialchars($title) ?></h2>
@@ -23,7 +23,7 @@ $description = $view['description'] ?? '';
         <a href="/">Return to homepage</a>
     </main>
     <footer>
-        <small>&copy; <?= date('Y') ?> Krisada.com</small>
+        <small>&copy; <?= date('Y') ?> AI Now Guide</small>
     </footer>
 </body>
 </html>
