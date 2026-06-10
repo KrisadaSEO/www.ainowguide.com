@@ -1,0 +1,40 @@
+{
+  "type": "article",
+  "title": "Why This Site Documents Everything in Public",
+  "slug": "why-this-site-documents-everything-in-public",
+  "canonical_url": "/article/why-this-site-documents-everything-in-public/",
+  "status": "published",
+  "excerpt": "AI Now Guide is a recorded, dated, and organized account of how an AI-assisted website network actually gets built, including the parts that don't work the first time.",
+  "body": "<p>Most sites that talk about building with AI show you the result: a finished page, a clean workflow, a polished screenshot. AI Now Guide does something different. It is a recorded, dated, and organized account of the actual work, including the parts that take three attempts, the prompts that didn't produce useful output, and the moments where a plan changed halfway through.</p>\n\n<h2>What gets recorded</h2>\n\n<p>Every working session that touches one of this project's channels gets logged as a session: a title, a description, a date, and a link back to the channel it belongs to. Channels group related work, things like rebuilding a website's architecture, running AI search experiments, or converting an old site from one platform to another.</p>\n\n<p>The sessions are not edited into a tutorial. They are closer to a lab notebook with video attached. If a session shows a dead end, the dead end stays in the record, because knowing what didn't work is often more useful than only seeing what did.</p>\n\n<h2>Why this matters for AI search</h2>\n\n<p>A site built entirely from finished, generic summaries is hard for AI systems to treat as a unique source. A site built from a dated, structured record of real decisions is different: it has provenance, it has specifics, and it has a consistent voice tied to a real process.</p>\n\n<p>That is also why AI Now Guide carries its own <a href=\"/glossary/\">glossary</a> and article library alongside the video sessions. The video is the primary record, but the text layer makes the same information legible to search and AI systems that can't watch a recording.</p>\n\n<h2>What you can expect to find</h2>\n\n<p>Browse by channel if you want the full arc of one project. Browse the <a href=\"/library/\">library</a> if you want the supporting articles, glossary terms, and reference material. Either way, the goal is the same: an honest, organized record of how this gets built, that holds up as a reference later.</p>",
+  "publish_date": "2026-06-09",
+  "updated_at": "2026-06-09",
+  "author": "Krisada",
+  "category_primary": "build-in-public",
+  "category_secondary": [],
+  "tags": ["build-in-public", "ai-now-guide", "transparency"],
+  "template": "article",
+  "seo": {
+    "title": "Why This Site Documents Everything in Public | AI Now Guide",
+    "description": "AI Now Guide records the real process behind its channels and sessions, including the parts that don't work the first time, not just the finished result."
+  },
+  "related_content": [
+    "how-channels-and-sessions-are-organized",
+    "ai-now-guide-faq"
+  ],
+  "schema": {
+    "about": [
+      "build in public",
+      "transparency",
+      "AI search provenance"
+    ],
+    "mentions": [
+      "/glossary/build-in-public/",
+      "/library/",
+      "/glossary/"
+    ]
+  },
+  "is_featured": true,
+  "is_cornerstone": true,
+  "reading_time": 4,
+  "include_in_sitemap": true
+}

@@ -1,0 +1,58 @@
+{
+  "type": "article",
+  "title": "Frequently Asked Questions About AI Now Guide",
+  "slug": "ai-now-guide-faq",
+  "canonical_url": "/article/ai-now-guide-faq/",
+  "status": "published",
+  "excerpt": "Common questions about what AI Now Guide is, who it's for, and how the channels, sessions, glossary, and federation links fit together.",
+  "body": "<h2>What is AI Now Guide?</h2>\n<p>AI Now Guide is a build-in-public video library. It records real working sessions across several channels, things like website rebuilds, AI search experiments, and platform migrations, and organizes them alongside articles and a glossary so the site stands on its own as a reference.</p>\n\n<h2>Do I need to watch the videos to get value from the site?</h2>\n<p>No. The article library and <a href=\"/glossary/\">glossary</a> are written to stand alone. The videos are the primary record of the work, but the text content covers the same concepts for anyone who prefers reading or is arriving from search.</p>\n\n<h2>What's the difference between a channel and a session?</h2>\n<p>A <a href=\"/glossary/channel/\">channel</a> is an ongoing topic, like a site rebuild or a research thread. A session is a single recorded working block within that channel. See <a href=\"/article/how-channels-and-sessions-are-organized/\">How Channels and Sessions Are Organized</a> for the full breakdown.</p>\n\n<h2>What is the AI Digital Karma Federation link in the sidebar?</h2>\n<p>AI Now Guide is one of several independently owned sites linked together as a recognizable network, the <a href=\"/glossary/ai-digital-karma-federation/\">AI Digital Karma Federation</a>. Each site keeps its own ownership and identity, but the federation registry makes the relationships between them explicit.</p>",
+  "publish_date": "2026-06-09",
+  "updated_at": "2026-06-09",
+  "author": "Krisada",
+  "category_primary": "build-in-public",
+  "category_secondary": [],
+  "tags": ["faq", "ai-now-guide"],
+  "template": "article",
+  "seo": {
+    "title": "Frequently Asked Questions About AI Now Guide | AI Now Guide",
+    "description": "Answers to common questions about AI Now Guide's channels, sessions, glossary, and its place in the AI Digital Karma Federation."
+  },
+  "related_content": [
+    "why-this-site-documents-everything-in-public",
+    "how-channels-and-sessions-are-organized"
+  ],
+  "schema": {
+    "about": [
+      "AI Now Guide",
+      "build in public",
+      "video library FAQ"
+    ],
+    "mentions": [
+      "/glossary/",
+      "/channels/",
+      "/sessions/"
+    ],
+    "faq": [
+      {
+        "question": "What is AI Now Guide?",
+        "answer": "AI Now Guide is a build-in-public video library that records real working sessions across several channels and organizes them alongside articles and a glossary so the site stands on its own as a reference."
+      },
+      {
+        "question": "Do I need to watch the videos to get value from the site?",
+        "answer": "No. The article library and glossary are written to stand alone, covering the same concepts as the videos for anyone who prefers reading or is arriving from search."
+      },
+      {
+        "question": "What's the difference between a channel and a session?",
+        "answer": "A channel is an ongoing topic, such as a site rebuild or research thread. A session is a single recorded working block within that channel."
+      },
+      {
+        "question": "What is the AI Digital Karma Federation link in the sidebar?",
+        "answer": "AI Now Guide is one of several independently owned sites linked together as a recognizable network called the AI Digital Karma Federation, with a shared registry that makes the relationships between member sites explicit."
+      }
+    ]
+  },
+  "is_featured": false,
+  "is_cornerstone": false,
+  "reading_time": 3,
+  "include_in_sitemap": true
+}

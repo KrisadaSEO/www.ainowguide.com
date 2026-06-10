@@ -1,0 +1,40 @@
+{
+  "type": "article",
+  "title": "How Channels and Sessions Are Organized",
+  "slug": "how-channels-and-sessions-are-organized",
+  "canonical_url": "/article/how-channels-and-sessions-are-organized/",
+  "status": "published",
+  "excerpt": "AI Now Guide's video library is organized into channels (ongoing topics) and sessions (individual recorded working blocks). Here's how the two fit together.",
+  "body": "<p>The video library on AI Now Guide is built from two layers: <a href=\"/glossary/channel/\">channels</a> and sessions. A channel is a topic, an ongoing thread of related work. A session is one recorded working block inside that channel, dated and described on its own.</p>\n\n<h2>Channels are the topics</h2>\n\n<p>Each channel covers one area of work. Some examples already running on this site include rebuilding existing websites from the ground up, running AI search and SEO experiments, converting sites between platforms, managing a portfolio of digital assets, and documenting the tools and workflows used day to day.</p>\n\n<p>A channel doesn't end when one piece of work is finished. As long as there's related work happening, new sessions keep getting added to it.</p>\n\n<h2>Sessions are the individual recordings</h2>\n\n<p>A session is a single recorded sitting: a specific page gets built, a specific bug gets fixed, a specific experiment gets run. Each session has its own title and description, so it can stand on its own even if you haven't watched the rest of the channel.</p>\n\n<p>Three early sessions illustrate the range: one walks through building AI Now Guide itself from scratch, another is a deep dive into AI search and SEO experiments, and a third documents converting a site from Joomla to a flat-file PHP and JSON setup.</p>\n\n<h2>Why split it this way</h2>\n\n<p>Splitting channels from sessions keeps the library navigable as it grows. Someone interested only in AI search can follow that channel without sessions from unrelated rebuilds mixed in. Someone who wants the full history of one specific site rebuild can follow that channel from session one onward, in order.</p>\n\n<p>The article library and <a href=\"/glossary/\">glossary</a> sit alongside this video structure, providing the reference material and definitions that come up across multiple channels.</p>",
+  "publish_date": "2026-06-09",
+  "updated_at": "2026-06-09",
+  "author": "Krisada",
+  "category_primary": "build-in-public",
+  "category_secondary": [],
+  "tags": ["channels", "sessions", "video-library"],
+  "template": "article",
+  "seo": {
+    "title": "How Channels and Sessions Are Organized | AI Now Guide",
+    "description": "How AI Now Guide's video library splits into channels (topics) and sessions (individual recordings), and why it's organized that way."
+  },
+  "related_content": [
+    "why-this-site-documents-everything-in-public",
+    "ai-now-guide-faq"
+  ],
+  "schema": {
+    "about": [
+      "video library structure",
+      "channels",
+      "sessions"
+    ],
+    "mentions": [
+      "/glossary/channel/",
+      "/channels/",
+      "/sessions/"
+    ]
+  },
+  "is_featured": false,
+  "is_cornerstone": false,
+  "reading_time": 4,
+  "include_in_sitemap": true
+}

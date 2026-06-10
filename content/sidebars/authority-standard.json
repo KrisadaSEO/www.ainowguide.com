@@ -1,0 +1,25 @@
+{
+  "title": "Authority Standard Sidebar",
+  "slug": "authority-standard",
+  "blocks": [
+    {
+      "type": "constellation",
+      "title": "Part of the AI Digital Karma Federation",
+      "body": "AI Now Guide is one node in a federation of independently-owned websites, each documenting its own build in public.",
+      "cta_label": "Explore the Federation",
+      "cta_url": "https://www.digitalkarmaweb.com/federation-registry"
+    },
+    {
+      "type": "featured-link",
+      "style": "strategic-highlight",
+      "title": "What Is AI Now Guide?",
+      "body": "A build-in-public video library documenting how an AI-assisted website network gets planned, built, and measured - in the open.",
+      "cta_label": "Read the Story",
+      "cta_url": "/about/"
+    },
+    {
+      "type": "topic-articles",
+      "style": "practical-highlight"
+    }
+  ]
+}

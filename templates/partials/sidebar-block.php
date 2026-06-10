@@ -67,6 +67,11 @@ if ($blockType === 'constellation'):
   </div>
 </div>
 <?php return; endif; ?>
+<?php
+$hasContent = !empty($block['title']) || !empty($block['body']) || !empty($block['links'])
+    || (!empty($block['cta_label']) && !empty($block['cta_url']));
+if (!$hasContent) return;
+?>
 <div class="sidebar-block <?= site_e($styleClass) ?>">
 
     <?php if ($blockType === 'mini-bio' && $photoUrl !== ''): ?>

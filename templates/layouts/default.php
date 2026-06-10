@@ -24,7 +24,7 @@ $footerAbout   = $site['footer_about_links'] ?? [];
 $currentPath   = site_normalize_path($_SERVER['REQUEST_URI'] ?? '/');
 $pageViews     = (int) ($view['page_views'] ?? 0);
 $pageViewsText = (string) ($view['page_views_display'] ?? '');
-$hideSidebar   = (bool) ($view['hide_sidebar'] ?? true);
+$hideSidebar   = (bool) ($view['hide_sidebar'] ?? false);
 $isHomePage    = ($type === 'page' && ($record['slug'] ?? '') === 'home');
 ?>
 <!DOCTYPE html>
@@ -55,6 +55,7 @@ $isHomePage    = ($type === 'page' && ($record['slug'] ?? '') === 'home');
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/sidebar.css">
     <?php if (!empty($view['extra_css'])): ?>
     <link rel="stylesheet" href="/assets/css/<?= site_e((string) $view['extra_css']) ?>.css">
     <?php endif; ?>
@@ -134,11 +135,26 @@ $isHomePage    = ($type === 'page' && ($record['slug'] ?? '') === 'home');
             </nav>
             <?php endif; ?>
 
-            <?php if ($templatePath !== '' && is_file($templatePath)): ?>
-                <?= require $templatePath ?>
-            <?php else: ?>
-                <p class="text-muted">Template not found.</p>
-            <?php endif; ?>
+            <div class="content-layout<?= $hideSidebar ? ' content-layout--single' : '' ?>">
+                <div class="content-main">
+                    <?php if ($templatePath !== '' && is_file($templatePath)): ?>
+                        <?= require $templatePath ?>
+                    <?php else: ?>
+                        <p class="text-muted">Template not found.</p>
+                    <?php endif; ?>
+                </div>
+
+                <?php if (!$hideSidebar): ?>
+                <aside class="content-sidebar" aria-label="Sidebar">
+                    <?php foreach ($sidebarBlocks as $block):
+                        $blockType  = (string) ($block['type'] ?? 'block');
+                        $blockStyle = (string) ($block['style'] ?? '');
+                        $styleClass = $blockStyle !== '' ? 'sidebar-block--' . $blockStyle : 'sidebar-block--' . $blockType;
+                        require site_root_path('templates/partials/sidebar-block.php');
+                    endforeach; ?>
+                </aside>
+                <?php endif; ?>
+            </div>
         </div>
     <?php endif; ?>
 </main>
